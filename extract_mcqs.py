@@ -89,7 +89,8 @@ try:
                             q_obj = {
                                 "q": question,
                                 "options": options,
-                                "ans": ans_idx
+                                "ans": ans_idx,
+                                "unit": unit
                             }
                             data[module].append(q_obj)
                             total_q += 1
