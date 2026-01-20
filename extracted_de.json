@@ -3710,7 +3710,7 @@
                 "",
                 ""
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3875,7 +3875,7 @@
                 "DECODER &amp; OR gate",
                 "NAND &amp; DECODER"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "9"
         },
         {
@@ -3886,7 +3886,7 @@
                 "EEPROM",
                 "SRAM"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "9"
         },
         {
@@ -3897,7 +3897,7 @@
                 "both write &amp; read operation",
                 "erase operation"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3908,7 +3908,16 @@
                 "EPROM",
                 "PROM"
             ],
-            "ans": 0,
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "EPROM contents can be erased by exposing it to infrared rays.",
+            "options": [
+                "true",
+                "false"
+            ],
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3919,7 +3928,7 @@
                 "to realise a sequential logic",
                 "to realise a combinational logic"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "9"
         },
         {
@@ -3930,7 +3939,7 @@
                 "PLA",
                 "SPD"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3952,7 +3961,7 @@
                 "AND",
                 "FLIP FLOP"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "9"
         },
         {
@@ -4006,6 +4015,28 @@
                 "4 circuits",
                 "6 circuits",
                 "8 circuits"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "__________ is the measure of maximum number of inputs that a single gate output can drive or accept.",
+            "options": [
+                "Fan-in",
+                "Fan-out",
+                "Fan-in and fan-out",
+                "None of the above"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "__________ means the maximum number of inputs that can be fed by a single output.",
+            "options": [
+                "Fan-in",
+                "Fan-out",
+                "Fan-in and fan-out",
+                "None of the above"
             ],
             "ans": 1,
             "unit": "10"
@@ -4107,6 +4138,17 @@
                 "It can give 4 times the input"
             ],
             "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "The digital logic family which has minimum power dissipation is_________ .",
+            "options": [
+                "NMOS",
+                "PMOS",
+                "CMOS",
+                "TTL"
+            ],
+            "ans": 3,
             "unit": "10"
         }
     ]
