@@ -1,0 +1,4613 @@
+{
+    "T4": [
+        {
+            "q": "Which of the following best explains the natural fear experienced before interviews?",
+            "options": [
+                "Lack of intelligence",
+                "Human biological response",
+                "Poor academic record",
+                "Weak communication"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What do symptoms such as sweaty palms and increased heart rate indicate during interviews?",
+            "options": [
+                "Physical illness",
+                "Activation of stress response",
+                "Fatigue",
+                "Lack of preparation"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Excessive overthinking during interviews mainly affects which of the following abilities?",
+            "options": [
+                "Dressing style",
+                "Speaking speed",
+                "Concentration and decision-making ability",
+                "Body posture"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Why does fear negatively impact interview performance?",
+            "options": [
+                "Improves alertness",
+                "Increases confidence",
+                "Interrupts memory recall process",
+                "Enhances focus"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What does poor posture during an interview generally reflect?",
+            "options": [
+                "Strong leadership",
+                "High professionalism",
+                "Lack of confidence",
+                "Time management"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "The internship fear myth is commonly related to which concern?",
+            "options": [
+                "Skill development opportunities",
+                "Industrial exposure",
+                "Academic performance and placement impact",
+                "Professional networking"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What is the most significant benefit of internship experience for students?",
+            "options": [
+                "Easy academic grading",
+                "Reduced academic workload",
+                "Development of practical professional skills",
+                "Flexible working hours"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "On what basis do interviewers primarily evaluate candidates?",
+            "options": [
+                "Attendance percentage",
+                "College reputation",
+                "Overall professional competence",
+                "Social media profile"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "The ability to clearly explain technical concepts indicates which competency?",
+            "options": [
+                "Programming speed",
+                "Memorization ability",
+                "Communication competence",
+                "Writing proficiency"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "According to growth mindset theory, how are challenges viewed?",
+            "options": [
+                "Permanent failures",
+                "Career threats",
+                "Opportunities for learning and improvement",
+                "Personal limitations"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "A fear-based mindset often leads to which outcome?",
+            "options": [
+                "Faster career growth",
+                "Higher motivation",
+                "Avoidance of challenging opportunities",
+                "Skill mastery"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Why are mock interviews considered effective preparation tools?",
+            "options": [
+                "Replace technical preparation",
+                "Guarantee job selection",
+                "Simulate real interview environments",
+                "Reduce syllabus coverage"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What is the primary purpose of practicing positive self-talk?",
+            "options": [
+                "Increasing overconfidence",
+                "Ignoring weaknesses",
+                "Building mental confidence",
+                "Avoiding preparation"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Maintaining proper eye contact during interviews supports which aspect of communication?",
+            "options": [
+                "Aggressive behavior",
+                "Disrespectful attitude",
+                "Professional engagement and confidence",
+                "Nervous response"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What does the concept of normalizing fear refer to?",
+            "options": [
+                "Avoiding interview situations",
+                "Giving excuses for mistakes",
+                "Accepting nervousness as a natural reaction",
+                "Ignoring preparation"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "How does thorough preparation improve interview performance?",
+            "options": [
+                "Reducing content scope",
+                "Avoiding effort",
+                "Increasing clarity and self-confidence",
+                "Saving time"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "A strong learning attitude in candidates reflects which characteristic?",
+            "options": [
+                "Fixed knowledge base",
+                "Short-term thinking",
+                "Willingness to adapt and improve skills",
+                "Overconfidence"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Cultural fit assessment in interviews primarily focuses on which factor?",
+            "options": [
+                "Salary expectations",
+                "Fashion preferences",
+                "Alignment with organizational values",
+                "Language fluency"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What is a common consequence of communication breakdown during interviews?",
+            "options": [
+                "Higher evaluation scores",
+                "Faster interview process",
+                "Misinterpretation of candidate responses",
+                "Positive feedback"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Stress hormones mainly interfere with which cognitive function of candidates?",
+            "options": [
+                "Writing speed",
+                "Voice tone",
+                "Memory performance",
+                "Body posture"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Continuous peer comparison among students generally increases which factor?",
+            "options": [
+                "Motivation consistency",
+                "Academic performance",
+                "Psychological pressure and self-doubt",
+                "Social interaction"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "How can family expectations negatively affect student performance?",
+            "options": [
+                "Improving emotional balance",
+                "Reducing workload",
+                "Increasing internal pressure",
+                "Increasing relaxation"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Internship experience enhances a resume primarily by providing what benefit?",
+            "options": [
+                "Attendance records",
+                "Classroom knowledge",
+                "Real-world professional exposure",
+                "Examination scores"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "How does a growth mindset contribute to long-term career success?",
+            "options": [
+                "Risk avoidance",
+                "Fixed working habits",
+                "Continuous self-improvement",
+                "Minimum effort"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": " Practicing commonly asked interview questions mainly helps students in which way?",
+            "options": [
+                "Memorizing fixed answers",
+                "Avoiding preparation",
+                "Improving response clarity and confidence",
+                "Guessing responses"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Appropriate body language during interviews demonstrates which quality?",
+            "options": [
+                "Arrogance",
+                "Carelessness",
+                "Confidence and professionalism",
+                "Nervous behavior"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Technical competency in interviews refers to which ability?",
+            "options": [
+                "Memorize theoretical concepts",
+                "Type quickly",
+                "Apply knowledge to solve practical problems",
+                "Design presentations"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Effective career planning requires students to perform which action?",
+            "options": [
+                "Follow peer choices blindly",
+                "Avoid future planning",
+                "Evaluate multiple career pathways",
+                "Depend on luck"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Competitive examinations such as GATE should be considered for",
+            "options": [
+                "for escaping from work",
+                "IITs/IISC and PSU opportunities only",
+                "for doing ME/MTech from any college",
+                "All of them"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Which path gives highest 40-year total earning for average student?",
+            "options": [
+                "Do ME + teaching from Nirma/PDPU/LD",
+                "Join workforce early after Sem 4 (age ~20)",
+                "Join after BE completion",
+                "1-year break + average ME"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "For average student, joining early after Sem 4 vs ME + teaching from non- premium college shows?",
+            "options": [
+                "ME + teaching always better",
+                "Early job earns significantly more over 40 years",
+                "No major difference",
+                "Teaching pays highest long-term"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Compared to joining after BE (age 22), joining workforce early after Sem 4 advantage is?",
+            "options": [
+                "Less total income",
+                "Extra 2 years salary + compound growth",
+                "Same outcome",
+                "More fees paid"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "GATE qualified + ME from Nirma/PDPU/LD + teaching vs early workforce entry after Sem 4?",
+            "options": [
+                "Teaching far ahead",
+                "Early entry still has higher lifetime earning",
+                "Equal after 40 years",
+                "ME gives double income"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "For MTech from IIT, most graduates (90% chance) end up in?",
+            "options": [
+                "High corporate packages",
+                "Reasonably good-paying teaching jobs",
+                "No job",
+                "Only research roles"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "IIT MTech campus placement in corporates has what realistic scope?",
+            "options": [
+                "90% placement",
+                "Only 10\u201316% of total intake",
+                "50% placement",
+                "100% guaranteed"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Even for premium IIT MTech with rare corporate placement (only 10% scope), early workforce entry after Sem 4 usually?",
+            "options": [
+                "Always lower",
+                "Still leads in total 40-year earnings due to early start",
+                "Same as early job",
+                "Double the income"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Taking 1-year break for GATE + ME from average IIT/NIT vs joining early after Sem 4?",
+            "options": [
+                "Break always better",
+                "Early job has clear financial advantage over 40 years",
+                "Equal outcome",
+                "ME gives huge jump"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "GATE qualified + direct PSU job vs joining workforce early after Sem 4?",
+            "options": [
+                "PSU always highest",
+                "Early entry often accumulates more wealth long- term due to extra years",
+                "PSU better after 10 years",
+                "No comparison"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Main financial message for average engineering fresher?",
+            "options": [
+                "Always do ME first",
+                "Joining workforce early after Sem 4 usually beats ME/MTech from non-IIT/IISc colleges (even with teaching)",
+                "IIT MTech guarantees riches",
+                "Teaching pays most"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "When a candidate persues ME/MTech form institutions like Nirma Uni, LD, PDEU, &amp; other tier II/III colleges, where does it take in the 98% cases?",
+            "options": [
+                "PSU Job",
+                "Towards a job of techer/educator in a college or university",
+                "Govt Job",
+                "A job in MNCs with high salary"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "According to career development principles, what mainly determines career destination?",
+            "options": [
+                "College infrastructure",
+                "Peer influence",
+                "Personal decisions and consistent effort",
+                "Geographical location"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What is the key mindset shift needed for proactive job searching?",
+            "options": [
+                "From &quot;I solve problems&quot; to &quot;I need a job&quot;",
+                "From &quot;I need a job&quot; to &quot;I solve problems&quot;",
+                "From networking to online applications",
+                "From skill development to resume writing"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The T-shaped engineer concept emphasizes:",
+            "options": [
+                "Only deep technical knowledge",
+                "Only broad soft skills",
+                "Deep technical skills + broad complementary skills",
+                "Specialization in one tool only"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What should be your primary proof of skills as an engineering student?",
+            "options": [
+                "High GPA",
+                "Certificate collection",
+                "Project portfolio",
+                "Recommendation letters"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Growth mindset in job search means:",
+            "options": [
+                "Waiting for perfect opportunities",
+                "Viewing rejections as feedback",
+                "Applying only to guaranteed positions",
+                "Avoiding challenging roles"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The FIRST step in skill gap analysis is:",
+            "options": [
+                "Enrolling in expensive courses",
+                "Analyzing job descriptions in your field",
+                "Asking friends for advice",
+                "Waiting for college curriculum updates"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which is NOT a component of the horizontal bar in T-shaped skills?",
+            "options": [
+                "Technical programming depth",
+                "Communication skills",
+                "Collaboration abilities",
+                "Business acumen"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Proactive learning for engineers means:",
+            "options": [
+                "Waiting for college to teach everything",
+                "Learning only from textbooks",
+                "Self-initiated skill development beyond syllabus",
+                "Memorizing interview questions"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "The most valuable approach to building skills is:",
+            "options": [
+                "Collecting certificates without practice",
+                "Theoretical knowledge only",
+                "Hands-on projects with documentation",
+                "Watching tutorial videos passively"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "The ideal LinkedIn headline for a 3rd year engineering student is:",
+            "options": [
+                "&quot;Student at XYZ College&quot;",
+                "&quot;Seeking internship&quot;",
+                "&quot;Engineering Student | Python Developer | Seeking Summer Internship&quot;",
+                "&quot;Future Engineer&quot;"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which photo is appropriate for LinkedIn profile?",
+            "options": [
+                "Casual selfie",
+                "Group photo cropped",
+                "Professional headshot with plain background",
+                "Party photo"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "The About section should include:",
+            "options": [
+                "Only your college name",
+                "Your entire life story",
+                "3 paragraphs: Introduction, Skills, Goals",
+                "Just contact information"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "When describing projects in Experience section, use:",
+            "options": [
+                "Just project titles",
+                "STAR method (Situation, Task, Action, Result)",
+                "Technical jargon only",
+                "Emotional descriptions"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Your digital footprint includes:",
+            "options": [
+                "Only LinkedIn",
+                "LinkedIn, GitHub, portfolio website",
+                "All social media including personal",
+                "Only resume on job portals"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Personalized connection requests should:",
+            "options": [
+                "Be sent to everyone",
+                "Mention how you know them or why connecting",
+                "Just say &quot;Hi&quot;",
+                "Ask for job directly"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The best time to update your LinkedIn profile is:",
+            "options": [
+                "Only when looking for job",
+                "After completing each significant project/course",
+                "Once a year",
+                "Never, keep it static"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which is NOT recommended for LinkedIn profile?",
+            "options": [
+                "Professional headline",
+                "List of relevant skills",
+                "Project descriptions",
+                "Personal political views"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "The ideal length of a cold email is:",
+            "options": [
+                "500 words",
+                "Less than 200 words",
+                "One sentence",
+                "As long as needed"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Best days to send cold emails are:",
+            "options": [
+                "Monday mornings",
+                "Friday evenings",
+                "Tuesday-Thursday, 10 AM-2 PM",
+                "Weekends"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Professional email signature should include:",
+            "options": [
+                "Funny quote",
+                "Name, college, contact, LinkedIn/GitHub",
+                "All social media links",
+                "Colorful fonts"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The hook in cold email should:",
+            "options": [
+                "Be generic compliment",
+                "Show you researched them/company",
+                "Immediately ask for job",
+                "Talk only about yourself"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Value proposition in email means:",
+            "options": [
+                "Demanding high salary",
+                "Explaining what you can offer",
+                "Listing all your achievements",
+                "Criticizing their company"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Appropriate follow-up time after no response is:",
+            "options": [
+                "Next day",
+                "One Week",
+                "One month",
+                "Never follow up"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which email domain is professional?",
+            "options": [
+                "companyhr@gmail.com",
+                "hr@companyname.com",
+                "company_careers@yahoo.com",
+                "jobs.company@rediffmail.com"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The 70/30 rule in networking conversations means:",
+            "options": [
+                "You talk 70%, listen 30%",
+                "You listen 70%, talk 30%",
+                "70% technical talk, 30% personal",
+                "70% asking questions, 30% giving answers"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Best way to approach a speaker after talk:",
+            "options": [
+                "Immediately interrupt",
+                "Wait your turn, start with appreciation",
+                "Hand over resume directly",
+                "Ask for job immediately"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "What to research before attending an event?",
+            "options": [
+                "Only event location",
+                "Speakers, companies, topics",
+                "Dress code only",
+                "Food menu"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The 30-second introduction should include:",
+            "options": [
+                "Your life story",
+                "Name, college, interests, purpose",
+                "Only your name",
+                "Your GPA and marks"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "At hackathons, networking happens with:",
+            "options": [
+                "Only winning teams",
+                "Judges, sponsors, mentors, other participants",
+                "Only organizers",
+                "Nobody, it&#39;s only about coding"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "At alumni events, emphasize:",
+            "options": [
+                "Criticizing college facilities",
+                "Demanding job referrals",
+                "Common college connection",
+                "Your superiority to alumni"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What to bring to networking events?",
+            "options": [
+                "Multiple resumes",
+                "Notebook and pen",
+                "Business cards/digital card",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "When asking for LinkedIn connection after meeting:",
+            "options": [
+                "Send generic invitation",
+                "Mention where you met and conversation point",
+                "Don&#39;t connect, wait for them",
+                "Connect and immediately ask for job"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Networking is about:",
+            "options": [
+                "Getting immediate benefits",
+                "Long-term relationship building",
+                "Showing off your achievements",
+                "Finding people to do your work"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "A recruiter wants a quick 30\u2011second scan of skills for an entry\u2011level job. Which document suits best?",
+            "options": [
+                "CV",
+                "Resume",
+                "Video resume",
+                "Bio\u2011data"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "For a research fellowship application, why is a CV preferred over a resume?",
+            "options": [
+                "It is shorter",
+                "It allows detailed academic history",
+                "It supports videos",
+                "It is ATS\u2011friendly"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume element causes maximum ATS parsing errors?",
+            "options": [
+                "Bold headings",
+                "Tables and columns",
+                "Bullet points",
+                "Section titles"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "A resume mentions &#39;Improved system performance&#39;. Why is this weak?",
+            "options": [
+                "Too technical",
+                "Not quantified",
+                "Too long",
+                "Not ATS\u2011friendly"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which version shows correct quantification?",
+            "options": [
+                "Handled 5 projects",
+                "Worked on projects",
+                "Delivered 5 projects reducing errors by 20%",
+                "Projects completed"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Why should GitHub links be included for technical roles?",
+            "options": [
+                "To increase resume length",
+                "To show real code evidence",
+                "To replace projects",
+                "To bypass ATS"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume format maximizes ATS compatibility?",
+            "options": [
+                "Creative infographic",
+                "Two\u2011column layout",
+                "Single\u2011column chronological",
+                "Canva template"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "A video resume is MOST useful when applying for:",
+            "options": [
+                "Data analyst role",
+                "Customer\u2011facing roles",
+                "Research roles",
+                "Government jobs"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why do many ATS systems reject image\u2011based PDFs?",
+            "options": [
+                "Large file size",
+                "Poor resolution",
+                "Text cannot be parsed",
+                "Images look unprofessional"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which metric best demonstrates impact in a resume project?",
+            "options": [
+                "Used Python",
+                "Developed model",
+                "Improved accuracy from 70% to 92%",
+                "Worked in team"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "A resume exceeds 3 pages for a fresher. What is the likely outcome?",
+            "options": [
+                "Higher selection chance",
+                "Immediate rejection",
+                "Delayed review",
+                "ATS prioritization"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which is the best place to insert a portfolio link?",
+            "options": [
+                "Header/contact section",
+                "Footer",
+                "Hobbies section",
+                "References"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Why do generic objectives reduce shortlisting chances?",
+            "options": [
+                "Too short",
+                "Not role\u2011specific",
+                "ATS ignores them",
+                "Grammar issues"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume change improves ATS score the MOST?",
+            "options": [
+                "Adding hobbies",
+                "Matching JD keywords",
+                "Using colors",
+                "Adding photo"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "A resume uses uncommon section names like &#39;What I Know&#39;. Why is this risky?",
+            "options": [
+                "Looks informal",
+                "ATS may not recognize sections",
+                "Recruiters dislike it",
+                "Increases length"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which technical resume is better for a Java developer role?",
+            "options": [
+                "Skill\u2011heavy without projects",
+                "Project\u2011centric with GitHub links",
+                "Education\u2011only resume",
+                "Creative visual resume"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why should file name be professional (e.g., Name_Resume.pdf)?",
+            "options": [
+                "ATS ranking",
+                "Recruiter clarity",
+                "File size reduction",
+                "SEO optimization"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which action directly causes resume rejection despite strong skills?",
+            "options": [
+                "Missing hobbies",
+                "Spelling errors",
+                "No photo",
+                "Short length"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which metric best fits a cloud engineer resume?",
+            "options": [
+                "Designed UI",
+                "Reduced server cost by 30%",
+                "Created diagrams",
+                "Attended workshop"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why are paragraphs discouraged in resumes?",
+            "options": [
+                "They waste space",
+                "ATS ignores them",
+                "Hard to scan quickly",
+                "They look academic"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume best fits a data science role?",
+            "options": [
+                "Skill list only",
+                "Projects with datasets &amp; results",
+                "Long career objective",
+                "Video resume only"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why should LinkedIn and GitHub links be clickable?",
+            "options": [
+                "Design aesthetics",
+                "Recruiter convenience",
+                "ATS preference",
+                "File compression"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume error impacts both ATS and humans?",
+            "options": [
+                "No color",
+                "Inconsistent formatting",
+                "No hobbies",
+                "No references"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why do recruiters prefer quantified internships?",
+            "options": [
+                "Looks longer",
+                "Shows learning impact",
+                "ATS ranking",
+                "Certification proof"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which project description is ATS\u2011optimized?",
+            "options": [
+                "Creative wording",
+                "Keyword\u2011aligned description",
+                "Story\u2011based paragraph",
+                "Image\u2011based layout"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why is resume customization important?",
+            "options": [
+                "Design appeal",
+                "Matches job description",
+                "Increases file size",
+                "Reduces effort"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which is a strong rejection reason?",
+            "options": [
+                "No extracurriculars",
+                "Overdesigned resume",
+                "Plain layout",
+                "Short resume"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume element proves technical credibility most?",
+            "options": [
+                "Certifications",
+                "Projects",
+                "Objective",
+                "Hobbies"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why is STAR method useful in resumes?",
+            "options": [
+                "Improves grammar",
+                "Structures quantified impact",
+                "Reduces length",
+                "ATS requirement"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which domain needs portfolio MOST?",
+            "options": [
+                "HR",
+                "UI/UX",
+                "Accounts",
+                "Administration"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "A resume uses abbreviations not in JD. Risk?",
+            "options": [
+                "Confuses ATS",
+                "Increases score",
+                "Improves clarity",
+                "No effect"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Why do recruiters reject resumes with photos?",
+            "options": [
+                "Bias risk",
+                "ATS failure",
+                "File size",
+                "Unprofessional look"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume element should be removed first if space is limited?",
+            "options": [
+                "Projects",
+                "Skills",
+                "Personal details",
+                "Education"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Why is role\u2011specific resume better than generic one?",
+            "options": [
+                "Less effort",
+                "Higher relevance",
+                "More design",
+                "Shorter"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which can be the best supports campus placements?",
+            "options": [
+                "Academic CV",
+                "Role specific resume/CV",
+                "Video resume",
+                "Bio\u2011data with personal details only"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which mistake lowers ATS score silently?",
+            "options": [
+                "Wrong margins",
+                "Keyword stuffing",
+                "Keyword mismatch",
+                "Bold headings"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Why are hyperlinks better than pasted URLs?",
+            "options": [
+                "ATS ranking",
+                "Cleaner layout",
+                "Shorter resume",
+                "SEO"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume factor shows problem\u2011solving ability?",
+            "options": [
+                "Certifications",
+                "Metrics\u2011based projects",
+                "Personal summary",
+                "Hobbies"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume suits multiple job applications?",
+            "options": [
+                "Static resume",
+                "Custom resume per role",
+                "Video resume",
+                "Design resume"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why do recruiters scan resumes in 6\u201310 seconds?",
+            "options": [
+                "ATS speed",
+                "High volume",
+                "Design preference",
+                "Short attention span"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume mistake affects credibility?",
+            "options": [
+                "Missing hobbies",
+                "Fake metrics",
+                "Short objective",
+                "Plain font"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume element helps domain switching?",
+            "options": [
+                "Projects",
+                "Personal details",
+                "Hobbies",
+                "Photo"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume outcome indicates ATS success?",
+            "options": [
+                "Interview call",
+                "Manual rejection",
+                "No response",
+                "Delayed reply"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Why should certifications support, not replace projects?",
+            "options": [
+                "ATS ranking",
+                "Proof of application",
+                "Resume length",
+                "Design"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume best fits startup hiring?",
+            "options": [
+                "Academic CV",
+                "Impact\u2011driven resume",
+                "Bio\u2011data",
+                "Video resume"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why is resume rejection analysis useful?",
+            "options": [
+                "Blame ATS",
+                "Improve targeting",
+                "Increase pages",
+                "Change font"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume section is read last?",
+            "options": [
+                "Projects",
+                "Education",
+                "Personal details",
+                "Skills"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Why are buzzwords risky without proof?",
+            "options": [
+                "ATS ignores them",
+                "Recruiters verify impact",
+                "They increase length",
+                "They look fancy"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume version best passes ATS and humans?",
+            "options": [
+                "Design\u2011heavy",
+                "Keyword\u2011rich and readable",
+                "Video resume",
+                "Image\u2011based"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume detail helps international recruiters?",
+            "options": [
+                "Local address",
+                "Clear role titles",
+                "Photo",
+                "Religion"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which resume mistake causes instant manual rejection?",
+            "options": [
+                "No hobbies",
+                "Plagiarized content",
+                "Short length",
+                "Plain design"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which final check reduces rejection risk most?",
+            "options": [
+                "Spell check",
+                "Design check",
+                "ATS simulation",
+                "Color change"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which paralinguistic feature used for showing the mood or attitude of the speaker?",
+            "options": [
+                "Volume",
+                "Pitch",
+                "Tone",
+                "Pace"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Employers assess \u201cattitude\u201d mainly to understand ________ of a candidate.",
+            "options": [
+                "Academic scores",
+                "Dressing style",
+                "Age",
+                "Willingness to learn and adapt"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "How is the problem solving skill evaluated?",
+            "options": [
+                "Personal questions",
+                "Behavioral or situational questions",
+                "Dress code",
+                "Resume"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How is confidence judged during an interview?",
+            "options": [
+                "Body language and clarity",
+                "Speed of speaking",
+                "Height",
+                "Accent"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What is the major advantage of online interview?",
+            "options": [
+                "No preparation required",
+                "Lower cost and time saving",
+                "Less competition",
+                "Guaranteed selection"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How you should answer the common interview questions?",
+            "options": [
+                "Give one-word answers",
+                "Speak very fast",
+                "Be clear, honest, and relevant",
+                "Give long answers"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What should be the main focus of the question \"Tell me about yourself\"?",
+            "options": [
+                "Family history",
+                "Childhood stories",
+                "Professional and academic background",
+                "Personal problems"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What should you do if you don't know the answer to a question?",
+            "options": [
+                "Remain silent",
+                "Guess randomly",
+                "Change the topic",
+                "Admit honestly and try logically"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which gesture should be avoided during interviews?",
+            "options": [
+                "Natural hand movements",
+                "Smiling politely",
+                "Excessive hand movements",
+                "Nodding"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What does it indicate if you talk too softly in an interview?",
+            "options": [
+                "Confidence",
+                "Lack of preparation",
+                "Nervousness",
+                "Leadership"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Top evaluation parameters in interviews?",
+            "options": [
+                "Only marks",
+                "Knowledge &amp; soft skills",
+                "Only experience",
+                "Only salary expectation"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "For offline interviews, most important first step?",
+            "options": [
+                "Talk to other candidates",
+                "Reach on time with all documents",
+                "Documents not required",
+                "Be casual"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What should you do in an online interview?",
+            "options": [
+                "Video off",
+                "Video on, clean/virtual background",
+                "No background",
+                "Blur everything"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Before answering any question, freshers should?",
+            "options": [
+                "Answer instantly",
+                "Listen carefully, pause & think",
+                "Talk fast",
+                "Interrupt interviewer"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Best structure for &quot;Tell me about yourself&quot;?",
+            "options": [
+                "Only name",
+                "SEAT \u2013 Skills, Education, Achievements, Type of person",
+                "Long life story",
+                "Only hobbies"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Good strengths to mention as fresher?",
+            "options": [
+                "Arrogance",
+                "Reliable, adaptable, problem solver, collaborator",
+                "Laziness",
+                "Poor time management"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Common acceptable weaknesses for freshers?",
+            "options": [
+                "No weaknesses",
+                "Delegating, public speaking, impatience, saying no",
+                "Being perfect",
+                "Lying"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Why should we hire you? Best answer focus?",
+            "options": [
+                "High salary",
+                "Less training needed, fast learner",
+                "I am best",
+                "No skills"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Future goals in 5 years should show?",
+            "options": [
+                "No plans",
+                "Skill growth, expertise, senior role, contribution",
+                "Switch jobs often",
+                "Retire early"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "When facing difficult question, freshers should?",
+            "options": [
+                "Panic",
+                "Stay calm, ask clarification if needed",
+                "Give wrong answer",
+                "Lie"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What is the STAR method used for?",
+            "options": [
+                "Technical questions",
+                "Behavioral questions",
+                "Personal questions",
+                "Trick questions"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "For &quot;What didn\u2019t you like about last job/college&quot;?",
+            "options": [
+                "Complain a lot",
+                "Answer positively \u2013 limited practical exposure, learned self-learning",
+                "Blame everyone",
+                "Say nothing"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What makes you unique? Good answer?",
+            "options": [
+                "I am perfect",
+                "Quick learner, calm under pressure, adaptable, positive",
+                "Everyone same",
+                "I am lazy"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "One-word self-description examples?",
+            "options": [
+                "Arrogant",
+                "Resilient, determined, industrious, perfectionist",
+                "Weak",
+                "Lazy"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How to define success?",
+            "options": [
+                "Only money",
+                "Achieving goals, learning from failures, continuous growth",
+                "No failures",
+                "Being famous"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "If best friend copies/steals, what to do?",
+            "options": [
+                "Ignore",
+                "Report to authority \u2013 uphold honesty",
+                "Help them",
+                "Blame others"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Disagreeing with rule/policy \u2013 best response?",
+            "options": [
+                "Argue strongly",
+                "Respectfully share concern, accept final decision",
+                "Ignore rule",
+                "Break rule"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How to handle negative remarks?",
+            "options": [
+                "Get angry",
+                "Listen, accept constructive, ignore baseless, stay calm",
+                "Argue back",
+                "Cry"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "First impression in interview is formed mainly from which aspect?",
+            "options": [
+                "Only words",
+                "Formal attire &amp; physical appearance",
+                "Only resume",
+                "Only marks"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What does an eye contact in an interview show?",
+            "options": [
+                "Fear",
+                "Eye contact in interview shows",
+                "Arrogance",
+                "Disrespect"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Best facial expression at start?",
+            "options": [
+                "Frown",
+                "Smile, pleasant expression",
+                "No expression",
+                "Angry look"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What is the correct posture while sitting?",
+            "options": [
+                "Slouch",
+                "Sit straight, no leaning back",
+                "Lean forward too much",
+                "Cross legs high"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How should a handshake be?",
+            "options": [
+                "Too strong",
+                "Firm, with eye contact &amp; greeting",
+                "Too weak",
+                "No handshake"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Low voice volume in interview shows?",
+            "options": [
+                "High confidence",
+                "Low confidence",
+                "Anger",
+                "Excitement"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What is the best speaking pace in interview?",
+            "options": [
+                "Very slow",
+                "Moderate speed",
+                "Very fast",
+                "No speech"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Changing pitch in speech does what?",
+            "options": [
+                "Bores listener",
+                "Grabs attention",
+                "Shows fear",
+                "No effect"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What does a correct tone reflect?",
+            "options": [
+                "Lies",
+                "True emotion &amp; strengthens message",
+                "Confusion",
+                "Weakness"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "How do pauses help while speaking in interviews?",
+            "options": [
+                "Show nervousness",
+                "Listener to process information",
+                "Waste time",
+                "Speed up"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Why correct pronunciation matters?",
+            "options": [
+                "Sounds cool",
+                "Avoids ambiguity &amp; confusion",
+                "Shows slang",
+                "No importance"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Articulation in interview means?",
+            "options": [
+                "Confusing others",
+                "Expressing ideas clearly in words",
+                "Using jargon",
+                "Being silent"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "You are an engineering intern working on a data validation module. At 6:00 PM, you discover a dependency failure caused by an external API change. The internal submission deadline is 9:00 AM next day. What is the most professional first step?",
+            "options": [
+                "Stay late and try to fix it quietly",
+                "Inform your manager with the issue, impact, and a recovery plan",
+                "Wait until the deadline passes and explain later",
+                "Submit current build and mention issue only if asked"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "While preparing for a prototype test, you notice a safety interlock has been bypassed to save time. A senior technician says it is common practice. Which response best reflects professional responsibility?",
+            "options": [
+                "Ignore it since a senior approved it",
+                "Publicly stop the test and accuse the technician",
+                "Raise the concern respectfully and ask about safety approval",
+                "Report directly to HR without discussion"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "During a review meeting, another team claims your module is responsible for system delays, but you are not yet sure of the root cause. Which response best demonstrates cross-team professionalism?",
+            "options": [
+                "Defend your code strongly and reject the claim",
+                "Remain silent to avoid conflict",
+                "Suggest reviewing logs together and setting up joint debugging",
+                "Escalate immediately to senior management"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You need quick approval for a minor design change, but your manager is in continuous meetings. Which communication approach is most effective?",
+            "options": [
+                "Send a long email with full background",
+                "Send a short, clear email stating the decision needed",
+                "Send a casual chat message",
+                "Wait until the weekly meeting"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "After trying documentation and internal resources for hours, you are stuck on a configuration issue blocking progress. Which approach best reflects a professional learning mindset?",
+            "options": [
+                "Keep trying alone to avoid appearing weak",
+                "Ask someone to do the task for you",
+                "Explain what you tried and where you are stuck",
+                "Copy a solution without understanding"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are attending a senior-led design meeting and notice a possible flaw but are unsure if it was considered. Which action best reflects professional participation?",
+            "options": [
+                "Interrupt immediately to point it out",
+                "Stay silent because you are new",
+                "Raise it politely as a clarifying question",
+                "Message someone privately after the meeting"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A task assigned to your team fails, even though your individual contribution was correct. Which stance best reflects ownership?",
+            "options": [
+                "State clearly it was not your fault",
+                "Stay silent",
+                "Take shared responsibility and help resolve the issue",
+                "Blame another team member"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Management advances a deadline without reducing scope, and you believe quality may be affected. Which response reflects responsible engineering judgment?",
+            "options": [
+                "Accept silently",
+                "Push back emotionally",
+                "Communicate impact and propose trade-offs",
+                "Ignore quality checks"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A client asks for a technical metric that you have not verified yet. Which response best maintains professional credibility?",
+            "options": [
+                "Provide an approximate value confidently",
+                "Redirect the question abruptly",
+                "Say you will confirm and follow up",
+                "Give a guess and correct later"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You promised an update by end of day but realize it will be delayed. Which action best demonstrates reliability?",
+            "options": [
+                "Stay silent",
+                "Send a brief update with revised timing",
+                "Deliver incomplete work",
+                "Wait for reminders"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Your task depends on input from another team that has not responded despite follow-ups. The deadline is near. Which response best shows accountability?",
+            "options": [
+                "Escalate immediately to senior leadership",
+                "Wait silently",
+                "Loop in your manager with context and evidence",
+                "Assume the dependency is no longer needed"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are already overloaded when assigned a new task. Which response best reflects professional maturity?",
+            "options": [
+                "Accept and hope to manage",
+                "Reject the task outright",
+                "Communicate workload and ask for prioritization",
+                "Delay existing work silently"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You receive task instructions that are vague and open to interpretation. Which action best prevents rework?",
+            "options": [
+                "Assume expectations and proceed",
+                "Copy a similar past solution",
+                "Ask clarifying questions early",
+                "Deliver quickly and revise later"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A client requests earlier delivery even though it risks stability. Which approach best balances professionalism and responsibility?",
+            "options": [
+                "Agree immediately",
+                "Refuse bluntly",
+                "Explain risks and propose alternatives",
+                "Implement a workaround quietly"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are added last-minute to a decision-making meeting. Which behavior best reflects professionalism?",
+            "options": [
+                "Attend passively",
+                "Ask to postpone",
+                "Quickly review context and listen actively",
+                "Skip the meeting"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A senior asks for quick help while you are working on a high-priority task. Which response reflects mature prioritization?",
+            "options": [
+                "Drop your task immediately",
+                "Say yes to both without discussion",
+                "Clarify urgency and align priorities",
+                "Ignore the request"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You discover a hidden dependency that could delay the sprint. Which response best demonstrates ownership?",
+            "options": [
+                "Ignore it until it fails",
+                "Flag the risk early with mitigation",
+                "Work extra hours quietly",
+                "Assume it is not your responsibility"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Two seniors give you conflicting instructions. Which response best reflects professional judgment?",
+            "options": [
+                "Follow the last instruction received",
+                "Choose based on convenience",
+                "Clarify priority with them or your manager",
+                "Try to do both silently"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You find a shortcut that saves time but violates internal guidelines. Which response best reflects integrity?",
+            "options": [
+                "Use it quietly",
+                "Suggest it formally and seek approval",
+                "Ignore guidelines",
+                "Use it only for testing"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "You believe an approved approach is inefficient. Which response best reflects professionalism?",
+            "options": [
+                "Ignore instructions",
+                "Complain to peers",
+                "Present concerns respectfully with data",
+                "Stay silent and resentful"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A demo fails in front of senior leadership. Which immediate response best reflects professionalism?",
+            "options": [
+                "Panic and apologize repeatedly",
+                "Blame external factors",
+                "Acknowledge the issue and explain next steps",
+                "End the demo abruptly"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You do not understand part of a technical discussion but fear appearing inexperienced. Which behavior best supports learning?",
+            "options": [
+                "Pretend to understand",
+                "Ask a clear, concise question",
+                "Google during the meeting",
+                "Ignore the confusion"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A late requirement change impacts your task significantly. Which response best reflects professional responsibility?",
+            "options": [
+                "Implement blindly",
+                "Ignore the change",
+                "Assess impact and communicate constraints",
+                "Push back emotionally"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are unexpectedly sick and cannot complete a committed task. Which action best reflects reliability?",
+            "options": [
+                "Say nothing",
+                "Send an update and handover if possible",
+                "Work despite illness",
+                "Apologize later"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which behavior best supports long-term success for an engineering fresher?",
+            "options": [
+                "Avoid responsibility",
+                "Focus only on assigned tasks",
+                "Seek feedback and learn actively",
+                "Compare constantly with peers"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You notice a teammate repeatedly missing commitments but being well-liked by seniors. Which response best balances professionalism and teamwork?",
+            "options": [
+                "Ignore it",
+                "Complain to peers",
+                "Raise the concern privately and factually",
+                "Call it out publicly"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are asked to estimate effort with incomplete information. Which approach is most professional?",
+            "options": [
+                "Give an exact number",
+                "Refuse to estimate",
+                "Provide a range with assumptions",
+                "Avoid answering"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Another team\u00e2\u20ac\u2122s delay is blocking your task, and your manager asks for status. Which response best reflects accountability?",
+            "options": [
+                "Say waiting on them",
+                "Blame the other team",
+                "Explain dependency, impact, and next steps",
+                "Say nothing has changed"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You can deliver a rushed solution now or a stable one slightly later with approval. Which choice best aligns with engineering ethics?",
+            "options": [
+                "Deliver rushed output",
+                "Delay without informing",
+                "Communicate trade-offs and seek alignment",
+                "Cancel delivery"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You witness a colleague speaking disrespectfully to a junior member. Which response best reflects professionalism?",
+            "options": [
+                "Join in",
+                "Ignore it",
+                "Address respectfully or escalate appropriately",
+                "Post about it informally"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You must make a decision with incomplete data under time pressure. Which behavior best reflects sound judgment?",
+            "options": [
+                "Freeze",
+                "Decide and document assumptions",
+                "Guess randomly",
+                "Avoid responsibility"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "You repeatedly receive unclear instructions from the same source. Which action best improves efficiency?",
+            "options": [
+                "Keep adjusting silently",
+                "Ask for structured clarification",
+                "Ignore instructions",
+                "Complain to peers"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "You are contacted outside work hours for a non-urgent task. Which response best balances boundaries and professionalism?",
+            "options": [
+                "Ignore completely",
+                "Respond politely and schedule later",
+                "Work immediately",
+                "Respond rudely"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "You realize a small mistake could grow into a bigger issue. Which action best reflects integrity?",
+            "options": [
+                "Hope it goes unnoticed",
+                "Fix quietly",
+                "Inform early and correct it",
+                "Blame circumstances"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "You are asked to assist a junior intern while managing your own work. Which approach best shows leadership potential?",
+            "options": [
+                "Ignore them",
+                "Do their work entirely",
+                "Guide briefly and set boundaries",
+                "Escalate immediately"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which habit most strongly builds trust early in an engineering career?",
+            "options": [
+                "Saying yes to everything",
+                "Consistent communication and delivery",
+                "Working silently",
+                "Avoiding visibility"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "A request conflicts with policy but comes from an influential person. Which response best protects integrity?",
+            "options": [
+                "Comply quietly",
+                "Refuse bluntly",
+                "Explain constraints and suggest alternatives",
+                "Ignore the request"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Before marking a task complete, which mindset best reflects professionalism?",
+            "options": [
+                "It works for me",
+                "Is this clear and usable by others",
+                "Deadline is met",
+                "Someone else will check"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Under stress, your communication becomes abrupt. Which adjustment best reflects professionalism?",
+            "options": [
+                "Continue as-is",
+                "Avoid communication",
+                "Pause and respond calmly",
+                "Let frustration show"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which response best reflects a strong engineering mindset?",
+            "options": [
+                "Avoid mistakes",
+                "Learn only when forced",
+                "Reflect and improve",
+                "Focus only on instructions"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Professional effectiveness mainly focuses on improving:",
+            "options": [
+                "Only technical skills",
+                "Only communication skills",
+                "Soft skills, habits, and mindset",
+                "Entertainment skills"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Arriving early for meetings shows:",
+            "options": [
+                "Fear",
+                "Respect and reliability",
+                "Overconfidence",
+                "Laziness"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Ideal arrival time before meetings should be:",
+            "options": [
+                "Exactly on time",
+                "1\u20132 minutes early",
+                "10\u201315 minutes early",
+                "30 minutes early"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Which tool is used for task tracking and management?",
+            "options": [
+                "Photoshop",
+                "Jira",
+                "VLC Player",
+                "WhatsApp"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Breaking big projects into small tasks helps in:",
+            "options": [
+                "Confusion",
+                "Delay",
+                "Better time management",
+                "Laziness"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "If delay is expected, what should you do?",
+            "options": [
+                "Hide the problem",
+                "Inform team early",
+                "Ignore deadline",
+                "Quit work"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Morning planning helps in:",
+            "options": [
+                "Sleeping more",
+                "Aligning daily priorities",
+                "Entertainment",
+                "Avoiding work"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Asking questions during code review helps to:",
+            "options": [
+                "Waste time",
+                "Show off",
+                "Understand system design",
+                "Avoid work"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Self-learning mainly develops:",
+            "options": [
+                "Laziness",
+                "Dependency",
+                "Independence",
+                "Fear"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Official documentation is useful for:",
+            "options": [
+                "Entertainment",
+                "Learning best practices",
+                "Gaming",
+                "Time pass"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which platform provides online technical courses?",
+            "options": [
+                "Netflix",
+                "Coursera",
+                "Instagram",
+                "Spotify"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Open-source contribution helps in:",
+            "options": [
+                "Isolation",
+                "Building network",
+                "Reducing skills",
+                "Losing confidence"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Before suggesting innovation, you should first:",
+            "options": [
+                "Criticize system",
+                "Understand existing process",
+                "Reject rules",
+                "Skip training"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Credibility is built by:",
+            "options": [
+                "Talking more",
+                "Delivering work consistently",
+                "Complaining",
+                "Taking leaves"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Data-backed ideas are important because they:",
+            "options": [
+                "Look attractive",
+                "Waste time",
+                "Increase acceptance",
+                "Confuse management"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Best time to suggest ideas is during:",
+            "options": [
+                "Lunch break",
+                "High pressure deadlines",
+                "Brainstorming or meetings",
+                "Office exit time"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "SOP stands for:",
+            "options": [
+                "System Operating Plan",
+                "Standard Operating Procedures",
+                "Software Output Program",
+                "Service Order Process"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which behavior reflects a positive professional attitude?",
+            "options": [
+                "Complaining about tasks",
+                "Avoiding teamwork",
+                "Accepting feedback and improving",
+                "Ignoring mistakes"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Learning from seniors helps in:",
+            "options": [
+                "Ego building",
+                "Experience gain",
+                "Time waste",
+                "Conflict"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Jugaad mindset means:",
+            "options": [
+                "Cheating",
+                "Creative problem solving",
+                "Avoiding work",
+                "Breaking rules"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Most valuable asset for professionals is:",
+            "options": [
+                "Mobile",
+                "Laptop",
+                "Time",
+                "Money"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Technology growth requires professionals to:",
+            "options": [
+                "Stop learning",
+                "Ignore trends",
+                "Keep learning continuously",
+                "Avoid updates"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Reputation at workplace is built by:",
+            "options": [
+                "Talking more",
+                "Consistent delivery",
+                "Arguing",
+                "Showing attitude"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Professional journey is compared to:",
+            "options": [
+                "Race",
+                "Sprint",
+                "Marathon",
+                "Game"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Positive attitude helps in:",
+            "options": [
+                "Handling challenges",
+                "Creating stress",
+                "Avoiding work",
+                "Losing focus"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Persistence and dedication lead to:",
+            "options": [
+                "Failure",
+                "Confusion",
+                "Success",
+                "Delay"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Following SOP in an organization mainly helps to:",
+            "options": [
+                "Increase confusion",
+                "Maintain consistency and quality of work",
+                "Reduce teamwork",
+                "Slow down performance"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "A proactive intern will:",
+            "options": [
+                "Wait for instructions always",
+                "Avoid responsibility",
+                "Take initiative and learn new skills",
+                "Only complete assigned tasks"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "What should a fresher do when facing difficulty in a task?",
+            "options": [
+                "Quit the task",
+                "Ignore the problem",
+                "Ask for guidance and try to learn",
+                "Blame teammates"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Which quality helps in long-term career growth?",
+            "options": [
+                "Overconfidence",
+                "Laziness",
+                "Continuous learning attitude",
+                "Avoiding teamwork"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Why is a professional phone greeting important for freshers?",
+            "options": [
+                "It saves time",
+                "It creates a positive first impression",
+                "It allows casual talk",
+                "It hides nervousness"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the best way for freshers to handle a missed call from senior/HR?",
+            "options": [
+                "Ignore if not urgent",
+                "Return call within working hours + apologize",
+                "Ask &#39;Who is this?&#39;",
+                "Send missed call back"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What should freshers avoid in official WhatsApp/SMS?",
+            "options": [
+                "Polite language",
+                "Emojis, slang, memes",
+                "Short replies",
+                "Using company group"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What must be the tone of an email?",
+            "options": [
+                "One-liner",
+                "4\u20136 lines with clear purpose",
+                "10+ lines",
+                "Long stories"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Correct email tone for freshers?",
+            "options": [
+                "Write in anger",
+                "Polite, neutral, no anger or slang",
+                "Use emojis",
+                "Include personal matters"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "When should freshers use &#39;Reply All&#39; in emails?",
+            "options": [
+                "Always use it",
+                "Only when everyone needs the info",
+                "Send &#39;Thank you&#39; to all",
+                "Reply All for fun"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the most important step when using AI for email drafting?",
+            "options": [
+                "Copy-paste blindly",
+                "Always review and edit before sending",
+                "Ignore grammar",
+                "Send without checking names"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Good progress update to manager should include?",
+            "options": [
+                "Just &#39;Work going on&#39;",
+                "Specific progress, next steps, honest delays",
+                "No update unless asked",
+                "Only good news"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Why avoid last-minute surprises in work updates?",
+            "options": [
+                "It saves time",
+                "It breaks trust and causes bigger issues",
+                "Managers like surprises",
+                "It shows creativity"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What does active listening mean?",
+            "options": [
+                "Think of reply while listening",
+                "Full focus on speaker, no distractions",
+                "Multitask",
+                "Interrupt often"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the polite way for freshers to disagree with senior?",
+            "options": [
+                "You are wrong&#39;",
+                "I understand your view, however\u2026&#39;",
+                "Ignore and do your way",
+                "Argue strongly"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Valuing diverse opinions helps freshers in what way?",
+            "options": [
+                "Stick to own opinion",
+                "Improve ideas and show respect",
+                "Avoid teamwork",
+                "Blame others"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "True collaboration for freshers means?",
+            "options": [
+                "Take all credit",
+                "Team success &gt; individual credit",
+                "Avoid helping others",
+                "Compete with team"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Work hours ethics for freshers emphasize?",
+            "options": [
+                "Stay late to show hard work",
+                "Productivity during office time, not late sitting",
+                "Coming late is okay",
+                "Leave early daily"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What does continuous overtime lead to?",
+            "options": [
+                "Better performance",
+                "Burnout and reduced performance",
+                "Immediate promotion",
+                "Extra pay always"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the ethical duty of a fresher regarding company data?",
+            "options": [
+                "Share on social media",
+                "Protect confidentiality, never share passwords or post online",
+                "Save on personal devices",
+                "Discuss in public"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Best response when a fresher makes a mistake?",
+            "options": [
+                "Blame others",
+                "Own it early, apologize, focus on solutions",
+                "Hide it",
+                "Make excuses"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Why avoid slang/abbreviations in professional emails?",
+            "options": [
+                "They save time",
+                "They make email look unprofessional",
+                "Seniors like them",
+                "They show creativity"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the correct etiquette for email attachments?",
+            "options": [
+                "Send many without mention",
+                "Mention clearly, avoid too many/large files",
+                "Attach personal photos",
+                "Ignore file size"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "One email should ideally have?",
+            "options": [
+                "Multiple topics",
+                "One clear purpose",
+                "No subject",
+                "Long attachments"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Good subject line for fresher emails?",
+            "options": [
+                "Vague or funny",
+                "Clear and matches content",
+                "Missing",
+                "Too long"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Late return of missed calls without apology can cost freshers?",
+            "options": [
+                "Nothing",
+                "Internship or job opportunity",
+                "Extra respect",
+                "Praise"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Professional language in official WhatsApp groups shows?",
+            "options": [
+                "Casual attitude",
+                "Maturity and respect",
+                "No rules needed",
+                "Being cool"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Using \u201cReply All\u201d to say \u201cThank you\u201d is poor email etiquette. Why?",
+            "options": [
+                "It shows politeness",
+                "It clutters everyone&#39;s inbox",
+                "It increases internet usage",
+                "It saves time"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "How does regular honest updates to manager help freshers?",
+            "options": [
+                "Get extra work",
+                "Build trust, avoid surprises",
+                "Hide delays",
+                "Show independence"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What does poor active listening often cause?",
+            "options": [
+                "Better understanding",
+                "Misunderstandings and work errors",
+                "Faster work",
+                "More creativity"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What must the freshers avoid in polite disagreement?",
+            "options": [
+                "Using &#39;however&#39;",
+                "Sarcasm, shouting, rude tone",
+                "Listen first",
+                "Respectful words"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "How does owning mistakes early, help freshers?",
+            "options": [
+                "Lose respect",
+                "Build trust and focus on growth",
+                "Avoid responsibility",
+                "Blame team"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Why protect data confidentiality even after hours?",
+            "options": [
+                "No one checks",
+                "Leaks can cause serious career/legal issues",
+                "It&#39;s optional",
+                "Sharing is caring"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What is the final takeaway for freshers on etiquettes &amp; ethics?",
+            "options": [
+                "Only skills matter",
+                "Good behavior + skills = long-term success",
+                "Etiquette not needed",
+                "Ethics optional"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Employer tries to find",
+            "options": [
+                "Technical skills",
+                "soft skills",
+                "Desire to work",
+                "All of them"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What is True?",
+            "options": [
+                "High Marks = Job Guarantee",
+                "more study = better job",
+                "Boasting CV gets a Better Job",
+                "70% Tendency to work &amp; 30% Skills gets better opportunity"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Employers like",
+            "options": [
+                "Small Projects with core efforts",
+                "BIg names of projects",
+                "Better marks only in Marksheet",
+                "so-called efforts"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is appriciated for a freshser?",
+            "options": [
+                "soft skills only",
+                "Self learning ability",
+                "waiting for a trainer",
+                "all of them"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "which mindset is expacted?",
+            "options": [
+                "Faculty taught me this much",
+                "I studied this in college",
+                "I tried, failed, learned, fixed it",
+                "AI can work for me"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What is a realistic expactetion of a fresher?",
+            "options": [
+                "High package",
+                "First job will be a Learning job",
+                "Luxury job",
+                "Fast Promotion"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "what does not fit to employer expectations?",
+            "options": [
+                "Learn fast",
+                "Work honestly",
+                "Grow steadily",
+                "unclear emails &amp; no follow ups"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Employers don\u2019t expect you to know everything",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What dose not make you better employable as a fresher?",
+            "options": [
+                "collgege degree only",
+                "Positive attitude",
+                "long term commitment",
+                "Self Learning ability"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "what is the myth about high marks in college?",
+            "options": [
+                "High marks guarantee a job",
+                "High marks may open a few opportunities",
+                "High marks get you an interview",
+                "High marks still need skills"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Employers want to check a fresher&#39;s thinking ability by asking: &quot;Can you still try to solve the problem",
+            "options": [
+                "Google is available",
+                "ChatGPT is free",
+                "Google is OFF or senior is on leave",
+                "Sir taught it in class"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "if...?&quot; Toxic culture in workplaces is:",
+            "options": [
+                "A real issue to pay attention",
+                "Mostly exaggerated",
+                "a common workplace scenario(e.g., burnout, disrespect, fear)",
+                "Only in small companies"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Key to standing out: Show",
+            "options": [
+                "Resistance to feedback",
+                "Tardiness",
+                "Learning agility and positive attitude",
+                "Isolation"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Which of the following is a biggest red flag for employers?",
+            "options": [
+                "&quot;I already know this&quot;",
+                "&quot;I\u2019ll learn&quot;",
+                "&quot;Please guide me&quot;",
+                "&quot;I made a mistake&quot;"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "pressure doesn\u2019t break careers \u2014 what does?",
+            "options": [
+                "Tight deadlines",
+                "Sudden changes",
+                "Attitude",
+                "Self-learning"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "your college degree makes you:",
+            "options": [
+                "Employable directly",
+                "Eligible, while attitude makes you employable",
+                "Guaranteed a job",
+                "Ready for high package"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "To become indispensable early, focus on being:",
+            "options": [
+                "Unreliable with excuses",
+                "Reliable, high-quality delivery, and proactive",
+                "Invisible in team",
+                "Argumentative"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Which factor has shifted employer focus away from pure degrees?",
+            "options": [
+                "Economic slowdown",
+                "Need for outcome-focused, skills-driven hiring",
+                "Increase in government jobs",
+                "Decline in tech roles"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "As a fresher, what should be your primary focus in the first 1\u20132 years?",
+            "options": [
+                "Highest possible salary only",
+                "Learning, skill-building, mentorship, and good culture",
+                "Immediate promotions",
+                "Remote work only"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is often advised over salary alone for freshers",
+            "options": [
+                "Experience + positive cultur",
+                "Short-term high pay with no learning",
+                "Frequent job changes every 3 months",
+                "Ignoring reviews"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "For internship aspirants, a good opportunity offers:",
+            "options": [
+                "Only certificate without real work",
+                "Real projects, and skill exposure",
+                "No stipend &amp; No Agreement",
+                "Isolation from team"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Legally, bonds can be enforceable if:",
+            "options": [
+                "Extremely high penalty",
+                "Reasonable, protects genuine employer interest, and voluntary",
+                "Signed under pressure",
+                "Unlimited duration"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Employers don\u2019t expect freshers to:",
+            "options": [
+                "Be honest and adaptable",
+                "Know everything",
+                "Be reliable",
+                "Be hungry to learn"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Which is a common component in fresher offer letters in India?",
+            "options": [
+                "Probation period (3\u20136 months)",
+                "Lifetime employment guarantee",
+                "No salary details",
+                "Unlimited leaves without approval"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Why do companies use Job Agreements/Service Agreements (Employment Bonds)",
+            "options": [
+                "To give free coffee",
+                "To force high packages",
+                "To avoid interviews",
+                "To recover training, hiring costs, and losses if you leave early"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Before accepting a job offer, try to undrstand",
+            "options": [
+                "Color of letterhead",
+                "Bond clauses, notice period, and take-home pay",
+                "Company logo only",
+                "Nothing"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "resignation from a so called toxic culture is",
+            "options": [
+                "a true courage",
+                "a fake mental peace",
+                "an examplary work",
+                "a loss to the company"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "When might it be okay to stay in a challenging job short-term?",
+            "options": [
+                "Severe workload",
+                "No pay",
+                "High learning/growth potential and fixable issues",
+                "Bullying"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Frequent job hops (every 6\u201312 months) as a fresher can signal:",
+            "options": [
+                "Instability to some recruiters",
+                "Always positive",
+                "No impact",
+                "Guaranteed hire"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "In today&#39;s Indian market, how are 6-8 months shifts viewed?",
+            "options": [
+                "Acceptable (growth, better role, escaping toxicity)",
+                "Many a times red flag",
+                "Better than long tenure",
+                "Irrelevant"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Why group communication matters?",
+            "options": [
+                "Wastes time",
+                "Speed, clarity, alignment, decisions, accountability",
+                "Creates confusion",
+                "Delays projects"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What happens when communication fails?",
+            "options": [
+                "Smooth progress",
+                "Blame, confusion, delay, conflict, rework",
+                "Faster finish",
+                "No impact"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Biggest advantage of offline meetings?",
+            "options": [
+                "No need to attend",
+                "Body language + instant feedback + bonding",
+                "Only remote",
+                "Hard to schedule"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What makes good offline meeting?",
+            "options": [
+                "No agenda",
+                "Agenda, punctuality, participation, notes",
+                "Phone scrolling",
+                "Late start"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Signs of bad offline meeting?",
+            "options": [
+                "Everyone on time",
+                "No agenda, late, scrolling, no outcome",
+                "Active participation",
+                "Clear decisions"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Advantages of online groups?",
+            "options": [
+                "Slow and rigid",
+                "Fast, remote, searchable, flexible",
+                "No records",
+                "Only face-to-face"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Common online meeting mistakes?",
+            "options": [
+                "Short clear messages",
+                "Reply All misuse, emoji overload, voice notes, late replies",
+                "No emojis",
+                "Quick responses"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Being considerate means?",
+            "options": [
+                "Ignoring others",
+                "Empathy, listening, patience to others",
+                "Being rude",
+                "Self-focused"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "What shows disrespect in groups?",
+            "options": [
+                "Active listening",
+                "Interrupting, ignoring, sarcasm, not listening",
+                "Polite tone",
+                "Encouraging others"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Minutes of Meeting should include?",
+            "options": [
+                "Only jokes",
+                "Decisions, actions, deadlines, responsibility",
+                "Personal chats",
+                "No details"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Why MoM important?",
+            "options": [
+                "Wastes time",
+                "Clarity, accountability, reference record",
+                "Confuses everyone",
+                "No one reads"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Best during meetings?",
+            "options": [
+                "Scroll phone",
+                "Avoid gadgets, use pen &amp; paper",
+                "Multitask on laptop",
+                "Record secretly"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Why avoid digital distractions?",
+            "options": [
+                "Improves focus",
+                "Low attention, more mistakes",
+                "Saves time",
+                "Everyone does it"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Meeting that could be email?",
+            "options": [
+                "All useful",
+                "Choose right mode \u2013 many unnecessary",
+                "Emails useless",
+                "Meetings always better"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Punctuality in meetings shows?",
+            "options": [
+                "Laziness",
+                "Respect for time",
+                "No importance",
+                "Casual attitude"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Participation helps freshers?",
+            "options": [
+                "Stay silent",
+                "Learn faster, show engagement",
+                "Avoid responsibility",
+                "Take credit"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Taking notes helps?",
+            "options": [
+                "Wastes paper",
+                "Remember decisions and actions",
+                "No need",
+                "Only seniors note"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Late replies in groups cause?",
+            "options": [
+                "Faster progress",
+                "Team delays and frustration",
+                "No issue",
+                "Everyone waits"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Emoji overload looks?",
+            "options": [
+                "Very mature",
+                "Unprofessional, childish",
+                "Appreciated",
+                "No effect"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Voice notes in work groups?",
+            "options": [
+                "Best option",
+                "Not preferred \u2013 use text",
+                "Always allowed",
+                "Mandatory"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Reply All misuse causes?",
+            "options": [
+                "Better visibility",
+                "Cluttered inboxes, irritation",
+                "No problem",
+                "Everyone likes"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Mindful of others&#39; feelings means?",
+            "options": [
+                "Speak rudely",
+                "Avoid harsh words, value goals",
+                "Ignore emotions",
+                "Your needs only"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Active listening shows?",
+            "options": [
+                "Disinterest",
+                "Respect and learning attitude",
+                "Impatience",
+                "Distraction"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Patience in discussions helps?",
+            "options": [
+                "Finish faster",
+                "Better team relations and ideas",
+                "Argue more",
+                "Ignore others"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Why avoid phone scrolling?",
+            "options": [
+                "Helps multitasking",
+                "Shows disrespect, reduces focus",
+                "Everyone does",
+                "Saves time"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Good meeting outcome?",
+            "options": [
+                "No decisions",
+                "Clear decisions + assigned actions",
+                "Only discussion",
+                "Confusion"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Searchable online groups help?",
+            "options": [
+                "Forget everything",
+                "Find past decisions easily",
+                "Lose info",
+                "No records"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Flexibility of online groups allows?",
+            "options": [
+                "Only office",
+                "Remote work, join anywhere",
+                "No flexibility",
+                "Only offline"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Body language in offline helps?",
+            "options": [
+                "Hide feelings",
+                "Understand tone, build trust",
+                "No importance",
+                "Words only"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Instant feedback in face-to-face?",
+            "options": [
+                "Causes delay",
+                "Clarifies doubts quickly",
+                "No need",
+                "Slow process"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Team bonding in offline?",
+            "options": [
+                "Feel isolated",
+                "Feel part of team, collaborate better",
+                "Avoid people",
+                "Stay distant"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "No agenda leads to?",
+            "options": [
+                "Perfect meeting",
+                "Wasted time, unclear outcomes",
+                "Faster decisions",
+                "More focus"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Empathy in communication means?",
+            "options": [
+                "Ignore others",
+                "Understand colleagues&#39; needs/feelings",
+                "Be selfish",
+                "Your goals only"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Why pen &amp; paper over gadgets?",
+            "options": [
+                "More modern",
+                "Reduces distractions, improves focus",
+                "Looks old",
+                "Everyone uses phone"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Key for freshers in group communication?",
+            "options": [
+                "Be silent",
+                "Respectful, considerate, clear \u2013 avoid confusion",
+                "Talk more",
+                "Ignore others"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is the primary advantage of group communication at the workplace?",
+            "options": [
+                "Entertainment",
+                "Faster decision-making",
+                "Personal bonding only",
+                "Informal discussions"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following best represents an offline meeting?",
+            "options": [
+                "Email discussion",
+                "WhatsApp group chat",
+                "Face-to-face interaction",
+                "Voice note exchange"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which element plays a major role in offline meetings but not in online chats?",
+            "options": [
+                "Emojis",
+                "Body language",
+                "Internet speed",
+                "Search history"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Instant feedback is mainly associated with ________.",
+            "options": [
+                "Email communication",
+                "Offline meetings",
+                "Recorded meetings",
+                "Notices"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is a feature of a good offline meeting?",
+            "options": [
+                "No agenda",
+                "Late start",
+                "Active participation",
+                "Phone scrolling"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A meeting without a clear outcome is considered as _______.",
+            "options": [
+                "Productive",
+                "Effective",
+                "Bad meeting",
+                "Strategic meeting"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is NOT a disadvantage of poor communication?",
+            "options": [
+                "Confusion",
+                "Delay",
+                "Alignment",
+                "Conflict"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Online office communication groups allow teams to work ________.",
+            "options": [
+                "Only during meetings",
+                "Only from office",
+                "Remotely",
+                "Only during office hours"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which platform is primarily designed for professional team communication?",
+            "options": [
+                "Instagram",
+                "Slack",
+                "Snapchat",
+                "Telegram Channels"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which element is considered the primary advantage of offline meetings that facilitates a deeper understanding of team sentiment during a discussion?",
+            "options": [
+                "Searchable documentation",
+                "Interpretation of body language",
+                "Asynchronous feedback loops",
+                "Digital participation tracking"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "In a professional setting, what is the most likely consequence of conducting a meeting that lacks a predefined agenda?",
+            "options": [
+                "Increased team bonding",
+                "Instantaneous consensus",
+                "Ambiguous outcomes and lack of direction",
+                "Enhanced creative spontaneity"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Why is &quot;Alignment&quot; cited as a critical reason for engaging in group communication within a workplace?",
+            "options": [
+                "To reduce the total number of employees required for a task",
+                "To ensure all members are working toward synchronized objectives",
+                "To eliminate the need for individual accountability",
+                "To replace written documentation with verbal agreements"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which characteristic of online communication groups provides a long-term utility that offline conversations lack?",
+            "options": [
+                "Emotional resonance",
+                "Physical presence",
+                "Searchable archives of past discussions",
+                "Interpretation of non-verbal cues"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Within the context of &quot;Work From Home Atrocities,&quot; what does the term &quot;Emoji Overload&quot; signify regarding professional communication?",
+            "options": [
+                "High levels of team engagement",
+                "The dilution of professional clarity through excessive informal symbols",
+                "Advanced technical proficiency in digital tools",
+                "Efficient documentation of meeting outcomes"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Why is &quot;Flexibility&quot; considered a cornerstone advantage of utilizing platforms like Slack or MS Teams for global organizations?",
+            "options": [
+                "It mandates that all employees work at the same time",
+                "It allows collaboration across different time zones and locations",
+                "It removes the need for mutual respect among colleagues",
+                "It prevents the use of searchable data"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is the primary risk associated with &quot;Late Replies&quot; in a fast-paced online office communication group?",
+            "options": [
+                "Increased server storage space",
+                "Bottlenecks in decision-making and project stagnation",
+                "Improved accountability for remote teams",
+                "Better retention of information"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which digital communication mistake most directly causes unnecessary notification fatigue for uninvolved stakeholders?",
+            "options": [
+                "Sending voice notes",
+                "Improper use of &quot;Reply All&quot; in email or group threads",
+                "Using Zoom for video calls",
+                "Recording a virtual meeting"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What does it mean to be &quot;mindful of others&#39; needs and goals&quot; during a team interaction?",
+            "options": [
+                "Prioritizing personal deadlines above all else",
+                "Actively considering how your communication affects your colleagues&#39; workflow",
+                "Avoiding all group communication to stay focused",
+                "Using a technical tone that breaks talks"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "According to the principle that &quot;Your Tone Makes or Breaks Talks,&quot; what is the likely result of a disrespectful communication style?",
+            "options": [
+                "Increased project speed",
+                "Breakdown of collaboration and professional relationships",
+                "Higher levels of accountability",
+                "Better documentation of outcomes"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which psychological attribute is essential for practicing &quot;Professional Courtesy&quot; when resolving workplace conflicts?",
+            "options": [
+                "Aggression",
+                "Empathy",
+                "Apathy",
+                "Isolationism"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Why is &quot;Patience&quot; categorized as a form of professional respect in diverse team environments?",
+            "options": [
+                "It allows the team to miss all deadlines",
+                "It provides space for different perspectives and processing speeds",
+                "It encourages &quot;Emoji Overload&quot; in chats",
+                "It eliminates the need for Minutes of Meeting"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which behavior is explicitly cited as a form of disrespect in a modern office environment?",
+            "options": [
+                "Taking notes on paper",
+                "Managers making excessive demands at inappropriate times (e.g., late evening)",
+                "Starting a meeting with introductions",
+                "Using a searchable database for files"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is the fundamental purpose of documenting &quot;Decisions&quot; in the Minutes of Meeting?",
+            "options": [
+                "To record the exact time the meeting ended",
+                "To prevent future disputes and ensure clarity on agreed-upon paths",
+                "To provide a list of everyone who was late",
+                "To replace the need for an agenda in the next meeting"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What does the term &quot;Context Switching&quot; refer to when using digital gadgets during a meeting?",
+            "options": [
+                "Switching between different pen colors",
+                "The mental drain caused by jumping between the meeting and digital notifications",
+                "Moving from an offline meeting to an online meeting",
+                "Changing the agenda mid-discussion"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "How does &quot;Active Listening&quot; directly correlate with the use of analog note-taking?",
+            "options": [
+                "It allows the user to record every word verbatim",
+                "It forces the brain to process and synthesize information before writing",
+                "It encourages the use of voice notes on a smartphone",
+                "It prevents the need for any follow-up documentation"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which sequence correctly represents the flow of a productive meeting lifecycle?",
+            "options": [
+                "MoM \u2192 Discussion \u2192 Agenda",
+                "Agenda \u2192 Discussion \u2192 Action Items \u2192 MoM",
+                "Action Items \u2192 Agenda \u2192 Introductions",
+                "Discussion \u2192 MoM \u2192 Phone Scrolling"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What does the &quot;LJET&quot; philosophy &quot;University with a Difference&quot; imply about communication training?",
+            "options": [
+                "Technical skills are the only requirement for success",
+                "Meetings should always be conducted online",
+                "Students should not use pen and paper during lectures",
+                "Soft skills like effective communication and courtesy are vital professional pillars"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "When is it most appropriate to &quot;Just Put It In An Email&quot; instead of calling a meeting?",
+            "options": [
+                "When the information is purely for one-way dissemination and requires no discussion",
+                "When a complex, high-conflict decision is required",
+                "When team bonding is the primary goal",
+                "When body language interpretation is essential"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "&quot;Digital Distraction&quot; in a meeting is most likely to lead to which objective failure?",
+            "options": [
+                "Better retention",
+                "Critical mistakes due to low attention",
+                "Faster introductions",
+                "Increased empathy"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "What is the ultimate goal of &quot;Group Communication at Workplace&quot; as outlined in the curriculum?",
+            "options": [
+                "To increase the length of the workday",
+                "To transition all offline meetings to WhatsApp",
+                "To eliminate the use of paper in the office",
+                "To facilitate efficient decision-making and collective success"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "As a fresher, why should you think twice before quitting an internship impulsively, based on the importance of a smooth soft exit?",
+            "options": [
+                "It saves money on notice periods",
+                "It maintains positive relationships and professionalism for future opportunities",
+                "It allows you to demand higher salary immediately",
+                "It helps avoid learning new skills"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "For freshers, earnings progression from Rs. 10,000 to Rs. 3Lacs/month. implies:",
+            "options": [
+                "Quit early to get high pay elsewhere",
+                "Earnings don&#39;t increase with time",
+                "Staying and growing in a role can lead to significant salary jumps over time",
+                "Internships pay nothing"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "What mindset should freshers adopt to avoid quitting? Focus on the long-term benefits of:",
+            "options": [
+                "Building experience and networks through respectful exits if needed",
+                "Blaming the company for everything",
+                "Ignoring handover responsibilities",
+                "Leaving without notice"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Informing your reporting manager first before HR helps freshers:",
+            "options": [
+                "Get immediate approval to quit",
+                "Create conflict",
+                "Demand promotions",
+                "Demonstrate professionalism and avoid burning bridges"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Why is following the notice period important for freshers to prevent a quitting mindset?",
+            "options": [
+                "It lets you leave instantly",
+                "It shows responsibility and allows time to reflect on your decision",
+                "It reduces your salary",
+                "It makes the company angry"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The handover plan in includes documenting projects. For freshers, this encourages:",
+            "options": [
+                "Hiding knowledge to feel important",
+                "Quitting without training others",
+                "Contributing positively, which builds a good reputation and satisfaction",
+                "Delaying your exit"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Offering availability after resignation, helps freshers:",
+            "options": [
+                "Maintain supportive networks that could lead to better opportunities later",
+                "Get paid extra forever",
+                "Avoid all future jobs",
+                "Criticize the old company"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "&#39;Leaving with Dignity &amp; Gratitude&#39;. For freshers, this mindset stops quitting by:",
+            "options": [
+                "Encouraging blame games",
+                "Focusing on ego",
+                "Promoting grief",
+                "Fostering appreciation for growth opportunities learned"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "As a fresher, should grasp &#39;Zero Ego, Zero Grief&#39;. It means:",
+            "options": [
+                "Being arrogant when leaving",
+                "Exiting respectfully to preserve your professional image",
+                "Causing drama",
+                "Ignoring responsibilities"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Gratitude for opportunities, helps freshers stay longer by:",
+            "options": [
+                "Demanding more from the company",
+                "Complaining about lacks",
+                "Recognizing value in current role and focusing on positives",
+                "Planning secret exits"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Network preservation during exit is key. For freshers, quitting hastily could:",
+            "options": [
+                "Damage future references and collaborations",
+                "Increase immediate pay",
+                "Make you famous",
+                "Shorten notice periods"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "For a fresher , a smooth offboarding process referes to:",
+            "options": [
+                "Quit without planning",
+                "Ignore stakeholders",
+                "Be unprofessional",
+                "Handle transitions maturely, reducing urge to quit impulsively"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Before initiating resignation,it is adviced to take a clear decision. This stops freshers from:",
+            "options": [
+                "Thinking at all",
+                "Quitting on emotional whims without weighing pros/cons",
+                "Staying forever",
+                "Informing anyone"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Maintaining a positive tone during resignation discussions helps freshers:",
+            "options": [
+                "Argue better",
+                "Get fired faster",
+                "Build goodwill, making them reconsider if the issues are fixable",
+                "Demand hikes"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Informing well in advance, as per notice policy, allows freshers time to:",
+            "options": [
+                "Reflect and possibly resolve issues instead of quitting",
+                "Pack bags quickly",
+                "Skip work",
+                "Complain publicly"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The purpose of notice period (1-3 months) for freshers is to:",
+            "options": [
+                "Punish employees",
+                "Delay pay",
+                "Force overtime",
+                "Ensure smooth handover, teaching patience and commitment"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The handover overview includes roles and projects. Freshers should see this as:",
+            "options": [
+                "Extra burden to quit faster",
+                "Useless documentation",
+                "Opportunity to organize thoughts and value their contributions",
+                "Way to hide mistakes"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Including &#39;Lessons learned &amp; tips&#39; in handover helps freshers:",
+            "options": [
+                "Realize growth achieved, reducing desire to quit prematurely",
+                "Blame others",
+                "Forget past",
+                "Demand bonuses"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Q&amp;A &amp; handover sign-off in the process encourages freshers to:",
+            "options": [
+                "Leave loose ends",
+                "Avoid questions",
+                "Be unclear",
+                "Ensure clarity, fostering a sense of completion and pride"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Phrasing availability politely, like &#39;I will remain available&#39;, shows freshers:",
+            "options": [
+                "They must work free",
+                "Professionalism that strengthens networks and future prospects",
+                "Weakness",
+                "Indecision"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Zero Ego, Zero Grief&#39; means freshers should exit:",
+            "options": [
+                "With anger",
+                "Blaming everyone",
+                "Respectfully, focusing on growth to avoid regretful quits",
+                "Secretly"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Expressing gratitude during exit helps freshers maintain:",
+            "options": [
+                "Positive mindset, appreciating the role&#39;s value and sticking longer",
+                "Negative vibes",
+                "Ego battles",
+                "Grief"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Honoring commitments until the last day, builds in freshers:",
+            "options": [
+                "Laziness",
+                "Disrespect",
+                "Unreliability",
+                "Strong work ethic that discourages impulsive quitting"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Staying connected after exit preserves networks, which for freshers means:",
+            "options": [
+                "No future help",
+                "Potential mentorship or rehire, making staying worthwhile",
+                "Isolation",
+                "Conflicts"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The overall soft exit process teaches freshers the value of:",
+            "options": [
+                "Chaos",
+                "Rudeness",
+                "Professionalism, encouraging them to address issues before quitting",
+                "Haste"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "For internships, a smooth exit mindset prevents quitting by emphasizing:",
+            "options": [
+                "Building a strong resume through positive endings",
+                "Negative feedback",
+                "Short stints",
+                "No learning"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The earnings slides suggest freshers should focus on:",
+            "options": [
+                "Quitting for quick money",
+                "Demanding raises early",
+                "Ignoring growth",
+                "Patience and skill-building for higher future earnings"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Professional behavior during resignation helps freshers avoid:",
+            "options": [
+                "All jobs",
+                "Bad reputation that could hinder career, promoting staying",
+                "Promotions",
+                "Learning"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Writing a polite resignation message, as practiced, instills in freshers:",
+            "options": [
+                "Hostility",
+                "Carelessness",
+                "Thoughtful communication, reducing knee-jerk quits",
+                "Silence"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "What is the first step when deciding to leave an organization?",
+            "options": [
+                "Inform colleagues",
+                "Inform reporting manager and HR",
+                "Stop working immediately",
+                "Update LinkedIn profile"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Who should be informed formally about resignation?",
+            "options": [
+                "Only HR",
+                "Only manager",
+                "Manager and HR",
+                "Friends"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Why should the reporting manager be informed first?",
+            "options": [
+                "For salary discussion",
+                "For smooth transition",
+                "For office gossip",
+                "For social reasons"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What is the purpose of discussing next steps during resignation?",
+            "options": [
+                "To negotiate holidays",
+                "To ensure smooth exit",
+                "To complain",
+                "To delay resignation"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Resignation communication should be:",
+            "options": [
+                "Informal and casual",
+                "Delayed",
+                "Clear and professional",
+                "Emotional"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Notice period means:",
+            "options": [
+                "Immediate exit",
+                "Time given after resignation",
+                "Time before joining company",
+                "Time for salary hike"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Why is informing well ahead during notice period important?",
+            "options": [
+                "Creates confusion",
+                "Shows irresponsibility",
+                "Allows planning and transition",
+                "Reduces workload"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Notice period mainly helps in:",
+            "options": [
+                "Abrupt exit",
+                "Business continuity",
+                "Personal vacation",
+                "Avoiding KT"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Failing to serve notice period may affect:",
+            "options": [
+                "Personal hobbies",
+                "Professional reputation",
+                "Friends only",
+                "Salary slip"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Notice period is usually mentioned in:",
+            "options": [
+                "Offer letter",
+                "Resume",
+                "Exit email",
+                "ID card"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "What does KT stand for?",
+            "options": [
+                "Knowledge Transfer",
+                "Keep Task",
+                "Known Talent",
+                "Key Training"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Primary purpose of KT is to:",
+            "options": [
+                "Show superiority",
+                "Ensure smooth handover",
+                "Avoid work",
+                "Get appreciation"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "KT should include:",
+            "options": [
+                "Only completed tasks",
+                "Pending and ongoing tasks",
+                "Personal notes",
+                "Gossip"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Who benefits most from proper KT?",
+            "options": [
+                "Only employee",
+                "Only manager",
+                "Organization and successor",
+                "Competitors"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "KT should ideally be:",
+            "options": [
+                "Rushed",
+                "Documented and clear",
+                "Verbal only",
+                "Avoided"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which is part of good KT practice?",
+            "options": [
+                "Deleting files",
+                "Creating handover documents",
+                "Withholding information",
+                "Ignoring successor"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "KT ensures:",
+            "options": [
+                "Job insecurity",
+                "Smooth transition",
+                "Delayed exit",
+                "Conflicts"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "KT responsibility lies with:",
+            "options": [
+                "HR only",
+                "Manager only",
+                "Resigning employee",
+                "Peers"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "After resigning, availability means:",
+            "options": [
+                "Joining again",
+                "Helping if required",
+                "Ignoring calls",
+                "Blocking emails"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Post-resignation support shows:",
+            "options": [
+                "Egoism",
+                "Professionalism",
+                "Weakness",
+                "Dependency"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Availability after resignation should be:",
+            "options": [
+                "Limited and reasonable",
+                "Unlimited",
+                "Never required",
+                "Forced"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Helping after resignation helps in:",
+            "options": [
+                "Burning bridges",
+                "Network preservation",
+                "Loss of respect",
+                "Legal issues"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Leaving with dignity means:",
+            "options": [
+                "Complaining openly",
+                "Showing gratitude",
+                "Being arrogant",
+                "Refusing KT"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Zero ego during exit means:",
+            "options": [
+                "Demanding favors",
+                "Respecting organization",
+                "Showing anger",
+                "Ignoring rules"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Zero grief refers to:",
+            "options": [
+                "No emotions",
+                "No grudges",
+                "Happiness only",
+                "Sadness"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Why is gratitude important while leaving?",
+            "options": [
+                "For rejoining",
+                "For salary hike",
+                "For relationships and reputation",
+                "For formality"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Professional exit impacts:",
+            "options": [
+                "Only current job",
+                "Future opportunities",
+                "Hobbies only",
+                "Personal life only"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Network preservation means:",
+            "options": [
+                "Blocking contacts",
+                "Maintaining professional relations",
+                "Gossiping",
+                "Ignoring colleagues"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which action damages dignity during exit?",
+            "options": [
+                "Smooth KT",
+                "Public complaints",
+                "Thanking team",
+                "Serving notice"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Gracious exit helps in:",
+            "options": [
+                "Burning bridges",
+                "Long-term career growth",
+                "Immediate promotion",
+                "Avoiding notice"
+            ],
+            "ans": 1,
+            "unit": "10"
+        }
+    ]
+}
