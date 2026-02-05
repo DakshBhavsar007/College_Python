@@ -2604,7 +2604,7 @@
                 "Ask &#39;Who is this?&#39;",
                 "Send missed call back"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2670,7 +2670,7 @@
                 "No update unless asked",
                 "Only good news"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2703,7 +2703,7 @@
                 "Ignore and do your way",
                 "Argue strongly"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2725,7 +2725,7 @@
                 "Avoid helping others",
                 "Compete with team"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2736,7 +2736,7 @@
                 "Coming late is okay",
                 "Leave early daily"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2758,7 +2758,7 @@
                 "Save on personal devices",
                 "Discuss in public"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2769,7 +2769,7 @@
                 "Hide it",
                 "Make excuses"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2791,7 +2791,7 @@
                 "Attach personal photos",
                 "Ignore file size"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2846,7 +2846,7 @@
                 "It increases internet usage",
                 "It saves time"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2901,7 +2901,7 @@
                 "It&#39;s optional",
                 "Sharing is caring"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
@@ -2912,7 +2912,7 @@
                 "Etiquette not needed",
                 "Ethics optional"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "7"
         },
         {
