@@ -3154,7 +3154,7 @@
                 "Signed under pressure",
                 "Unlimited duration"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3187,7 +3187,7 @@
                 "To avoid interviews",
                 "To recover training, hiring costs, and losses if you leave early"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "8"
         },
         {
@@ -3198,7 +3198,7 @@
                 "Company logo only",
                 "Nothing"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3220,7 +3220,7 @@
                 "High learning/growth potential and fixable issues",
                 "Bullying"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "8"
         },
         {
@@ -3253,7 +3253,7 @@
                 "Creates confusion",
                 "Delays projects"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
