@@ -3037,14 +3037,14 @@
             "unit": "8"
         },
         {
-            "q": "if...?&quot; Toxic culture in workplaces is:",
+            "q": "Toxic culture in workplaces is:",
             "options": [
                 "A real issue to pay attention",
                 "Mostly exaggerated",
                 "a common workplace scenario(e.g., burnout, disrespect, fear)",
                 "Only in small companies"
             ],
-            "ans": 1,
+            "ans": 2,
             "unit": "8"
         },
         {
@@ -3275,7 +3275,7 @@
                 "Only remote",
                 "Hard to schedule"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3319,7 +3319,7 @@
                 "No emojis",
                 "Quick responses"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3341,7 +3341,7 @@
                 "Polite tone",
                 "Encouraging others"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3352,7 +3352,7 @@
                 "Personal chats",
                 "No details"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3374,7 +3374,7 @@
                 "Multitask on laptop",
                 "Record secretly"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3396,7 +3396,7 @@
                 "Emails useless",
                 "Meetings always better"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3605,7 +3605,7 @@
                 "Be selfish",
                 "Your goals only"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3627,7 +3627,7 @@
                 "Talk more",
                 "Ignore others"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3748,7 +3748,7 @@
                 "Ambiguous outcomes and lack of direction",
                 "Enhanced creative spontaneity"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "9"
         },
         {
@@ -3759,7 +3759,7 @@
                 "To eliminate the need for individual accountability",
                 "To replace written documentation with verbal agreements"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3781,7 +3781,7 @@
                 "Advanced technical proficiency in digital tools",
                 "Efficient documentation of meeting outcomes"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3792,7 +3792,7 @@
                 "It removes the need for mutual respect among colleagues",
                 "It prevents the use of searchable data"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3803,7 +3803,7 @@
                 "Improved accountability for remote teams",
                 "Better retention of information"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3814,7 +3814,7 @@
                 "Using Zoom for video calls",
                 "Recording a virtual meeting"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3825,7 +3825,7 @@
                 "Avoiding all group communication to stay focused",
                 "Using a technical tone that breaks talks"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3836,7 +3836,7 @@
                 "Higher levels of accountability",
                 "Better documentation of outcomes"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3858,7 +3858,7 @@
                 "It encourages &quot;Emoji Overload&quot; in chats",
                 "It eliminates the need for Minutes of Meeting"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3869,7 +3869,7 @@
                 "Starting a meeting with introductions",
                 "Using a searchable database for files"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3880,7 +3880,7 @@
                 "To provide a list of everyone who was late",
                 "To replace the need for an agenda in the next meeting"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3891,7 +3891,7 @@
                 "Moving from an offline meeting to an online meeting",
                 "Changing the agenda mid-discussion"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3902,7 +3902,7 @@
                 "It encourages the use of voice notes on a smartphone",
                 "It prevents the need for any follow-up documentation"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3913,7 +3913,7 @@
                 "Action Items \u2192 Agenda \u2192 Introductions",
                 "Discussion \u2192 MoM \u2192 Phone Scrolling"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "9"
         },
         {
@@ -3924,7 +3924,7 @@
                 "Students should not use pen and paper during lectures",
                 "Soft skills like effective communication and courtesy are vital professional pillars"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "9"
         },
         {
@@ -3957,7 +3957,7 @@
                 "To eliminate the use of paper in the office",
                 "To facilitate efficient decision-making and collective success"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "9"
         },
         {
@@ -3968,7 +3968,7 @@
                 "It allows you to demand higher salary immediately",
                 "It helps avoid learning new skills"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -3979,7 +3979,7 @@
                 "Staying and growing in a role can lead to significant salary jumps over time",
                 "Internships pay nothing"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4001,7 +4001,7 @@
                 "Demand promotions",
                 "Demonstrate professionalism and avoid burning bridges"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4012,7 +4012,7 @@
                 "It reduces your salary",
                 "It makes the company angry"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4023,7 +4023,7 @@
                 "Contributing positively, which builds a good reputation and satisfaction",
                 "Delaying your exit"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4045,7 +4045,7 @@
                 "Promoting grief",
                 "Fostering appreciation for growth opportunities learned"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4056,7 +4056,7 @@
                 "Causing drama",
                 "Ignoring responsibilities"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4067,7 +4067,7 @@
                 "Recognizing value in current role and focusing on positives",
                 "Planning secret exits"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4089,7 +4089,7 @@
                 "Be unprofessional",
                 "Handle transitions maturely, reducing urge to quit impulsively"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4100,7 +4100,7 @@
                 "Staying forever",
                 "Informing anyone"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4111,7 +4111,7 @@
                 "Build goodwill, making them reconsider if the issues are fixable",
                 "Demand hikes"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4133,7 +4133,7 @@
                 "Force overtime",
                 "Ensure smooth handover, teaching patience and commitment"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4144,7 +4144,7 @@
                 "Opportunity to organize thoughts and value their contributions",
                 "Way to hide mistakes"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4166,7 +4166,7 @@
                 "Be unclear",
                 "Ensure clarity, fostering a sense of completion and pride"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4177,7 +4177,7 @@
                 "Weakness",
                 "Indecision"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4188,7 +4188,7 @@
                 "Respectfully, focusing on growth to avoid regretful quits",
                 "Secretly"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4210,7 +4210,7 @@
                 "Unreliability",
                 "Strong work ethic that discourages impulsive quitting"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4221,7 +4221,7 @@
                 "Isolation",
                 "Conflicts"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4232,7 +4232,7 @@
                 "Professionalism, encouraging them to address issues before quitting",
                 "Haste"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {
@@ -4254,7 +4254,7 @@
                 "Ignoring growth",
                 "Patience and skill-building for higher future earnings"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "10"
         },
         {
@@ -4265,7 +4265,7 @@
                 "Promotions",
                 "Learning"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "10"
         },
         {
@@ -4276,7 +4276,7 @@
                 "Thoughtful communication, reducing knee-jerk quits",
                 "Silence"
             ],
-            "ans": 0,
+            "ans": 2,
             "unit": "10"
         },
         {

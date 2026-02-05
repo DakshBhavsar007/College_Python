@@ -459,13 +459,18 @@
         <section id="quiz" class="section">
             <div class="max-w-3xl mx-auto">
                 <div class="flex items-center justify-between mb-6">
-                    <button onclick="showSection('topics')"
-                        class="text-gray-600 hover:text-primary flex items-center gap-2 py-2 font-semibold">
-                        <i class="fa-solid fa-arrow-left"></i> Quit Test
+                    <button onclick="endQuiz()"
+                        class="text-gray-600 hover:text-primary flex items-center gap-2 py-2 font-semibold transition-colors">
+                        <i class="fa-solid fa-arrow-left"></i> Quit
                     </button>
-                    <div class="text-sm font-mono text-gray-600">
-                        Sr. No. <span id="q-current" class="text-gray-900 font-bold">1</span> / <span
-                            id="q-total">10</span>
+                    <div class="flex items-center gap-4">
+                        <div class="text-sm font-bold text-primary bg-primary/10 px-3 py-1 rounded-lg">
+                            <i class="fa-regular fa-clock mr-2"></i><span id="q-timer">10:00</span>
+                        </div>
+                        <div class="text-sm font-mono text-gray-600">
+                            Sr. No. <span id="q-current" class="text-gray-900 font-bold">1</span> / <span
+                                id="q-total">10</span>
+                        </div>
                     </div>
                 </div>
 
@@ -484,6 +489,67 @@
 
                         <button id="btn-next" onclick="nextQ()"
                             class="px-6 py-2 bg-gradient-to-r from-green-400 to-emerald-600 text-white font-bold rounded-lg shadow-lg hover:shadow-green-500/25 active:scale-95 transition-all">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Result Section -->
+        <section id="result" class="section">
+            <div class="max-w-md mx-auto">
+                <div class="glass p-8 rounded-3xl border border-gray-200 text-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -mr-20 -mt-20">
+                    </div>
+                    <div class="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -ml-20 -mb-20">
+                    </div>
+
+                    <div class="relative z-10">
+                        <div
+                            class="w-24 h-24 mx-auto bg-gradient-to-br from-cyan-400 to-blue-600 rounded-full flex items-center justify-center shadow-lg mb-6 text-white text-4xl font-bold">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+
+                        <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Quiz Completed!</h2>
+                        <p class="text-gray-600 mb-8" id="result-stat-msg">Great job!</p>
+
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="bg-white/50 p-4 rounded-2xl border border-gray-100">
+                                <span
+                                    class="block text-gray-500 text-xs font-bold uppercase tracking-wider mb-1">Score</span>
+                                <span class="text-3xl font-black text-gray-900" id="result-score">0/0</span>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-2xl border border-gray-100">
+                                <span
+                                    class="block text-gray-500 text-xs font-bold uppercase tracking-wider mb-1">Accuracy</span>
+                                <span class="text-3xl font-black text-primary" id="result-accuracy">0%</span>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-2xl border border-gray-100">
+                                <span class="block text-gray-500 text-xs font-bold uppercase tracking-wider mb-1">Time
+                                    Taken</span>
+                                <span class="text-xl font-black text-gray-900" id="result-time">0m 0s</span>
+                            </div>
+                            <div class="bg-white/50 p-4 rounded-2xl border border-gray-100">
+                                <span
+                                    class="block text-gray-500 text-xs font-bold uppercase tracking-wider mb-1">Speed</span>
+                                <span class="text-xl font-black text-blue-600" id="result-speed">0 Q/min</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-yellow-50 p-4 rounded-2xl border border-yellow-100 mb-8 mx-auto w-full max-w-xs">
+                            <span class="block text-yellow-600 text-xs font-bold uppercase tracking-wider mb-1">Best
+                                Accuracy</span>
+                            <div class="flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-crown text-yellow-500"></i>
+                                <span class="text-2xl font-black text-yellow-700" id="result-best">0%</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-3">
+                            <button onclick="showSection('topics')"
+                                class="w-full py-4 bg-gray-900 text-white font-bold rounded-xl shadow-lg hover:bg-gray-800 transition-all">
+                                Back to Topics
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -575,6 +641,9 @@
         let currentQIdx = 0;
         let answers = {};
         let answeredState = {};
+        let timerInterval;
+        let remainingSeconds = 600; // 10 minutes
+        const TOTAL_QUIZ_TIME = 600;
 
         // --- NAVIGATION ---
 
@@ -848,8 +917,106 @@
 
             document.getElementById('q-total').innerText = currentQuizData.length;
             showSection('quiz');
+            startTimer();
             renderQuestion();
         }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            remainingSeconds = TOTAL_QUIZ_TIME;
+            const timerDisplay = document.getElementById('q-timer');
+            timerDisplay.innerText = "10:00";
+            timerDisplay.classList.remove('text-red-600');
+
+            timerInterval = setInterval(() => {
+                remainingSeconds--;
+                if (remainingSeconds < 0) {
+                    endQuiz(true); // Auto submit
+                    return;
+                }
+
+                // Alert visual when low
+                if (remainingSeconds <= 60) {
+                    timerDisplay.classList.add('text-red-600');
+                }
+
+                const mins = Math.floor(remainingSeconds / 60);
+                const secs = remainingSeconds % 60;
+                timerDisplay.innerText =
+                    (mins < 10 ? "0" + mins : mins) + ":" +
+                    (secs < 10 ? "0" + secs : secs);
+            }, 1000);
+        }
+
+        function endQuiz(showResults = false) {
+            clearInterval(timerInterval);
+            if (!showResults) {
+                if (confirm("Are you sure you want to quit?")) showSection('topics');
+                else {
+                    // Resume timer logic
+                    timerInterval = setInterval(() => {
+                        remainingSeconds--;
+                        if (remainingSeconds < 0) { endQuiz(true); return; }
+                        const mins = Math.floor(remainingSeconds / 60);
+                        const secs = remainingSeconds % 60;
+                        document.getElementById('q-timer').innerText = (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+                    }, 1000);
+                }
+            } else {
+                calculateResults();
+            }
+        }
+
+        function calculateResults() {
+            let score = 0;
+            currentQuizData.forEach((q, i) => { if (answers[i] === q.ans) score++; });
+            const total = currentQuizData.length;
+            const accuracy = Math.round((score / total) * 100);
+
+            // Time Calculations
+            const timeTaken = TOTAL_QUIZ_TIME - remainingSeconds;
+            // Speed = Correct Answers / Time Taken (we'll do per minute for readability, or pure ratio)
+            // User requested: speed = correct answers / timeTaken. 
+            // If we strictly follow that, it's small (e.g. 5/30 = 0.16). 
+            // Normalized to Q/min is usually better: (score / timeTaken) * 60
+            const speedVal = timeTaken > 0 ? (score / timeTaken) : 0; // ans per second
+
+            // Format time taken
+            const takenMins = Math.floor(timeTaken / 60);
+            const takenSecs = timeTaken % 60;
+            const timeString = `${takenMins}m ${takenSecs}s`;
+
+            // Performance Level
+            let performance = "";
+            let msg = "";
+
+            if (accuracy >= 90) { performance = "Excellent"; msg = "Outstanding performance!"; }
+            else if (accuracy >= 75) { performance = "Good"; msg = "Great job!"; }
+            else if (accuracy >= 50) { performance = "Average"; msg = "Good effort, keep improving!"; }
+            else { performance = "Needs Practice"; msg = "Keep studying, you can do it!"; }
+
+            // Best Accuracy
+            const storageKey = `quiz_best_${currentSubject}_${pendingTopic || 'mixed'}`;
+            let bestAcc = localStorage.getItem(storageKey) || 0;
+            if (accuracy > bestAcc) {
+                bestAcc = accuracy;
+                localStorage.setItem(storageKey, bestAcc);
+            }
+
+            document.getElementById('result-score').innerText = `${score}/${total}`;
+            document.getElementById('result-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('result-time').innerText = timeString;
+            // showing speed as Ans/min for friendly UI
+            // document.getElementById('result-speed').innerText = `${(speedVal * 60).toFixed(1)} Q/min`;
+            // Actually, let's just show the raw ratio nicely or per minute
+            document.getElementById('result-speed').innerText = `${speedVal.toFixed(2)} ans/s`;
+
+            document.getElementById('result-best').innerText = `${bestAcc}%`;
+            document.getElementById('result-stat-msg').innerHTML = `<span class="block text-xl font-bold text-primary mb-1">${performance}</span>${msg}`;
+
+            showSection('result');
+        }
+
 
         function renderQuestion() {
             const qData = currentQuizData[currentQIdx];
@@ -903,10 +1070,7 @@
                 currentQIdx++;
                 renderQuestion();
             } else {
-                let score = 0;
-                currentQuizData.forEach((q, i) => { if (answers[i] === q.ans) score++; });
-                alert(`Quiz Finished! Score: ${score}/${currentQuizData.length}`);
-                showSection('topics');
+                endQuiz(true);
             }
         }
 
