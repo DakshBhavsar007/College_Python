@@ -2934,7 +2934,7 @@
                 "Boasting CV gets a Better Job",
                 "70% Tendency to work &amp; 30% Skills gets better opportunity"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "8"
         },
         {
@@ -2989,7 +2989,7 @@
                 "Grow steadily",
                 "unclear emails &amp; no follow ups"
             ],
-            "ans": 0,
+            "ans": 3,
             "unit": "8"
         },
         {
@@ -3088,7 +3088,7 @@
                 "Guaranteed a job",
                 "Ready for high package"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3099,7 +3099,7 @@
                 "Invisible in team",
                 "Argumentative"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3110,7 +3110,7 @@
                 "Increase in government jobs",
                 "Decline in tech roles"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
@@ -3121,7 +3121,7 @@
                 "Immediate promotions",
                 "Remote work only"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "8"
         },
         {
