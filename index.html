@@ -816,7 +816,13 @@
             }
 
             // Shuffle and pick 10
-            currentQuizData = [...topicData].sort(() => 0.5 - Math.random()).slice(0, 10);
+            if (currentSubject === 'etc' || currentSubject === 'ci') {
+                // For ETC/CI, show ALL questions (shuffled)
+                currentQuizData = [...topicData].sort(() => 0.5 - Math.random());
+            } else {
+                // For others, pick random 10
+                currentQuizData = [...topicData].sort(() => 0.5 - Math.random()).slice(0, 10);
+            }
             currentQIdx = 0;
             answers = {};
             answeredState = {};
