@@ -857,7 +857,7 @@
             const qText = document.getElementById('q-text');
             const container = document.getElementById('q-options');
 
-            qText.innerText = qData.q;
+            qText.innerHTML = qData.q;
             container.innerHTML = '';
 
             const hasAnswered = answeredState[currentQIdx];
@@ -874,7 +874,7 @@
                 }
 
                 btn.className = classes;
-                btn.innerText = opt;
+                btn.innerHTML = opt;
 
                 if (!hasAnswered) {
                     btn.onclick = () => {
