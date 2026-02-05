@@ -1438,7 +1438,7 @@
                 "Be clear, honest, and relevant",
                 "Give long answers"
             ],
-            "ans": 1,
+            "ans": 2,
             "unit": "4"
         },
         {
@@ -1581,7 +1581,7 @@
                 "Switch jobs often",
                 "Retire early"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "4"
         },
         {
@@ -1614,7 +1614,7 @@
                 "Blame everyone",
                 "Say nothing"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "4"
         },
         {
@@ -1698,11 +1698,11 @@
             "q": "What does an eye contact in an interview show?",
             "options": [
                 "Fear",
-                "Eye contact in interview shows",
+                "Confidence, conviction, trust",
                 "Arrogance",
                 "Disrespect"
             ],
-            "ans": 0,
+            "ans": 1,
             "unit": "4"
         },
         {
