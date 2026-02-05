@@ -465,7 +465,7 @@
                     </button>
                     <div class="flex items-center gap-4">
                         <div class="text-sm font-bold text-primary bg-primary/10 px-3 py-1 rounded-lg">
-                            <i class="fa-regular fa-clock mr-2"></i><span id="q-timer">10:00</span>
+                            <i class="fa-regular fa-clock mr-2"></i><span id="q-timer">20:00</span>
                         </div>
                         <div class="text-sm font-mono text-gray-600">
                             Sr. No. <span id="q-current" class="text-gray-900 font-bold">1</span> / <span
@@ -644,8 +644,8 @@
         let answers = {};
         let answeredState = {};
         let timerInterval;
-        let remainingSeconds = 600; // 10 minutes
-        const TOTAL_QUIZ_TIME = 600;
+        let remainingSeconds = 1200; // 20 minutes
+        const TOTAL_QUIZ_TIME = 1200;
 
         // --- NAVIGATION ---
 
@@ -927,7 +927,7 @@
             clearInterval(timerInterval);
             remainingSeconds = TOTAL_QUIZ_TIME;
             const timerDisplay = document.getElementById('q-timer');
-            timerDisplay.innerText = "10:00";
+            timerDisplay.innerText = "20:00";
             timerDisplay.classList.remove('text-red-600');
 
             timerInterval = setInterval(() => {
