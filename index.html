@@ -815,14 +815,33 @@
                 return;
             }
 
-            // Shuffle and pick 10
+            // 1. Select Questions (Shuffle & Limit)
+            let selectedData = [];
             if (currentSubject === 'etc' || currentSubject === 'ci') {
-                // For ETC/CI, show ALL questions (shuffled)
-                currentQuizData = [...topicData].sort(() => 0.5 - Math.random());
+                selectedData = [...topicData].sort(() => 0.5 - Math.random());
             } else {
-                // For others, pick random 10
-                currentQuizData = [...topicData].sort(() => 0.5 - Math.random()).slice(0, 10);
+                selectedData = [...topicData].sort(() => 0.5 - Math.random()).slice(0, 10);
             }
+
+            // 2. Shuffle Options for each question
+            currentQuizData = selectedData.map(q => {
+                // Deep copy to avoid modifying original QUESTION_BANK
+                const newQ = JSON.parse(JSON.stringify(q));
+
+                // Create an array of indices [0, 1, 2, 3...]
+                const indices = newQ.options.map((_, i) => i);
+
+                // Shuffle the indices
+                indices.sort(() => Math.random() - 0.5);
+
+                // Reorder options based on shuffled indices
+                newQ.options = indices.map(i => q.options[i]);
+
+                // Update the correct answer index to track where the original answer went
+                newQ.ans = indices.indexOf(q.ans);
+
+                return newQ;
+            });
             currentQIdx = 0;
             answers = {};
             answeredState = {};
