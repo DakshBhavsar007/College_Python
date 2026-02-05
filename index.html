@@ -200,7 +200,11 @@
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight text-gray-900">
                     <span class="text-blue-600">Full Stack Development</span>
                 </h1>
-                <p class="text-gray-600">Select FSD modules below to view topics.</p>
+                <p class="text-gray-600 mb-6">Select FSD modules below to view topics.</p>
+                <button onclick="showLeaderboard()"
+                    class="inline-flex items-center gap-2 px-6 py-2 bg-white text-yellow-600 font-bold rounded-full shadow-md hover:shadow-lg border border-yellow-100 transition-all hover:-translate-y-0.5">
+                    <i class="fa-solid fa-trophy"></i> View Leaderboard
+                </button>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12 max-w-5xl mx-auto">
@@ -555,6 +559,35 @@
             </div>
         </section>
 
+        <!-- Leaderboard Section -->
+        <section id="leaderboard" class="section">
+            <div class="max-w-2xl mx-auto">
+                <div class="flex items-center justify-between mb-8">
+                    <button onclick="showSection('home')"
+                        class="text-gray-600 hover:text-primary flex items-center gap-2 font-semibold">
+                        <i class="fa-solid fa-arrow-left"></i> Home
+                    </button>
+                    <h2 class="text-2xl font-bold text-gray-900">Your Rankings</h2>
+                </div>
+
+                <div class="glass rounded-3xl p-6 md:p-8 border border-gray-200 min-h-[50vh]">
+                    <div class="flex justify-between items-center mb-8">
+                        <h3 class="text-xl font-bold text-gray-800 flex items-center">
+                            <i class="fa-solid fa-trophy text-yellow-500 mr-3 text-2xl"></i> Top Performances
+                        </h3>
+                        <button onclick="clearLeaderboard()"
+                            class="text-xs text-red-500 hover:text-red-700 bg-red-50 hover:bg-red-100 px-3 py-1 rounded-lg font-semibold transition-colors">
+                            Clear History
+                        </button>
+                    </div>
+
+                    <div id="leaderboard-list" class="space-y-4">
+                        <!-- Content injected by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Chapter Selection Modal (Modified for Dynamic Content) -->
         <div id="chapter-modal" class="fixed inset-0 z-[100] hidden">
             <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeChapterModal()"></div>
@@ -577,7 +610,7 @@
             </div>
         </div>
 
-        <div class="fixed bottom-2 right-4 text-xs text-gray-400 z-50 pointer-events-none">v1.1</div>
+        <div class="fixed bottom-2 right-4 text-xs text-gray-400 z-50 pointer-events-none">v1.2</div>
     </main>
 
     <script>
@@ -1016,7 +1049,92 @@
             document.getElementById('result-best').innerText = `${bestAcc}%`;
             document.getElementById('result-stat-msg').innerHTML = `<span class="block text-xl font-bold text-primary mb-1">${performance}</span>${msg}`;
 
+            // Save to Leaderboard
+            saveToLeaderboard({
+                subject: currentSubject,
+                topic: pendingTopic || 'Mixed',
+                score: score,
+                total: total,
+                accuracy: accuracy,
+                time: timeString,
+                date: new Date().toLocaleDateString()
+            });
+
             showSection('result');
+        }
+
+        // --- LEADERBOARD ---
+        function saveToLeaderboard(entry) {
+            let lb = JSON.parse(localStorage.getItem('ws_leaderboard') || '[]');
+            lb.push(entry);
+            // Sort by accuracy desc, then score desc
+            lb.sort((a, b) => b.accuracy - a.accuracy || b.score - a.score);
+            // Keep top 50
+            if (lb.length > 50) lb = lb.slice(0, 50);
+            localStorage.setItem('ws_leaderboard', JSON.stringify(lb));
+        }
+
+        function showLeaderboard() {
+            const lb = JSON.parse(localStorage.getItem('ws_leaderboard') || '[]');
+            const list = document.getElementById('leaderboard-list');
+
+            if (lb.length === 0) {
+                list.innerHTML = `<div class="text-center py-12">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 text-gray-400">
+                        <i class="fa-solid fa-clipboard-list text-2xl"></i>
+                    </div>
+                    <p class="text-gray-500 font-medium">No results yet.</p>
+                    <p class="text-gray-400 text-sm mt-1">Complete a quiz to see your ranking!</p>
+                </div>`;
+            } else {
+                let html = '';
+                lb.forEach((item, idx) => {
+                    let medal = '';
+                    if (idx === 0) medal = '<i class="fa-solid fa-medal text-yellow-400 text-xl"></i>';
+                    else if (idx === 1) medal = '<i class="fa-solid fa-medal text-gray-400 text-xl"></i>';
+                    else if (idx === 2) medal = '<i class="fa-solid fa-medal text-amber-600 text-xl"></i>';
+                    else medal = `<span class="text-gray-400 font-bold w-6 text-center">#${idx + 1}</span>`;
+
+                    const subjectColors = {
+                        'python': 'text-yellow-600 bg-yellow-50 border-yellow-100',
+                        'de': 'text-purple-600 bg-purple-50 border-purple-100',
+                        'etc': 'text-green-600 bg-green-50 border-green-100',
+                        'ci': 'text-orange-600 bg-orange-50 border-orange-100'
+                    };
+                    const badgeClass = subjectColors[item.subject] || 'text-blue-600 bg-blue-50 border-blue-100';
+
+                    html += `
+                        <div class="flex items-center p-4 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all gap-4">
+                            <div class="flex-shrink-0 w-10 flex justify-center">
+                                ${medal}
+                            </div>
+                            <div class="flex-grow">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="text-xs font-bold uppercase px-2 py-0.5 rounded border ${badgeClass}">${item.subject.toUpperCase()}</span>
+                                    <span class="text-sm font-semibold text-gray-600">${item.topic}</span>
+                                </div>
+                                <div class="text-xs text-gray-400 flex gap-3">
+                                    <span><i class="fa-regular fa-calendar mr-1"></i>${item.date}</span>
+                                    <span><i class="fa-regular fa-clock mr-1"></i>${item.time}</span>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <span class="block text-xl font-black text-gray-900">${item.accuracy}%</span>
+                                <span class="text-xs font-semibold text-gray-500">${item.score}/${item.total}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+                list.innerHTML = html;
+            }
+            showSection('leaderboard');
+        }
+
+        function clearLeaderboard() {
+            if (confirm("Are you sure you want to clear your history?")) {
+                localStorage.removeItem('ws_leaderboard');
+                showLeaderboard();
+            }
         }
 
 
