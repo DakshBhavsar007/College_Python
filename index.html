@@ -577,6 +577,7 @@
             </div>
         </div>
 
+        <div class="fixed bottom-2 right-4 text-xs text-gray-400 z-50 pointer-events-none">v1.1</div>
     </main>
 
     <script>
@@ -588,12 +589,13 @@
 
         async function loadQuestionBank() {
             try {
-                // Load all JSON files in parallel
+                // Load all JSON files in parallel with cache busting
+                const v = Date.now(); // Cache buster
                 const [pythonRes, deRes, etcRes, ciRes] = await Promise.all([
-                    fetch('questions/python.json'),
-                    fetch('questions/de.json'),
-                    fetch('questions/etc.json'),
-                    fetch('questions/ci.json')
+                    fetch(`questions/python.json?v=${v}`),
+                    fetch(`questions/de.json?v=${v}`),
+                    fetch(`questions/etc.json?v=${v}`),
+                    fetch(`questions/ci.json?v=${v}`)
                 ]);
 
                 const pythonData = await pythonRes.json();
