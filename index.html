@@ -348,98 +348,8 @@
                     <p id="topic-subtitle" class="text-gray-600">Practice or View Answers</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div id="card-T1"
-                        class="glass p-6 rounded-2xl border border-gray-200 hover:border-primary/50 transition-all shadow-sm">
-                        <div class="flex justify-between items-start mb-6">
-                            <div>
-                                <span class="text-xs font-bold text-gray-500 block mb-1 tracking-widest">MODULE</span>
-                                <span class="text-4xl font-extrabold text-gray-900">T1</span>
-                            </div>
-                            <div class="p-3 bg-primary/10 rounded-lg text-primary">
-                                <i class="fa-solid fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button onclick="viewAnswers('T1')"
-                                class="py-3 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary font-semibold transition-colors flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-eye"></i> View
-                            </button>
-                            <button onclick="initQuiz('T1')"
-                                class="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-md hover:shadow-lg transition-all flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-play"></i> Test
-                            </button>
-                        </div>
-                    </div>
-
-                    <div id="card-T2"
-                        class="glass p-6 rounded-2xl border border-gray-200 hover:border-primary/50 transition-all shadow-sm">
-                        <div class="flex justify-between items-start mb-6">
-                            <div>
-                                <span class="text-xs font-bold text-gray-500 block mb-1 tracking-widest">MODULE</span>
-                                <span class="text-4xl font-extrabold text-gray-900">T2</span>
-                            </div>
-                            <div class="p-3 bg-primary/10 rounded-lg text-primary">
-                                <i class="fa-solid fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button onclick="viewAnswers('T2')"
-                                class="py-3 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary font-semibold transition-colors flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-eye"></i> View
-                            </button>
-                            <button onclick="initQuiz('T2')"
-                                class="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-md hover:shadow-lg transition-all flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-play"></i> Test
-                            </button>
-                        </div>
-                    </div>
-
-                    <div id="card-T3"
-                        class="glass p-6 rounded-2xl border border-gray-200 hover:border-primary/50 transition-all shadow-sm">
-                        <div class="flex justify-between items-start mb-6">
-                            <div>
-                                <span class="text-xs font-bold text-gray-500 block mb-1 tracking-widest">MODULE</span>
-                                <span class="text-4xl font-extrabold text-gray-900">T3</span>
-                            </div>
-                            <div class="p-3 bg-primary/10 rounded-lg text-primary">
-                                <i class="fa-solid fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button onclick="viewAnswers('T3')"
-                                class="py-3 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary font-semibold transition-colors flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-eye"></i> View
-                            </button>
-                            <button onclick="initQuiz('T3')"
-                                class="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-md hover:shadow-lg transition-all flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-play"></i> Test
-                            </button>
-                        </div>
-                    </div>
-
-                    <div id="card-T4"
-                        class="glass p-6 rounded-2xl border border-gray-200 hover:border-primary/50 transition-all shadow-sm">
-                        <div class="flex justify-between items-start mb-6">
-                            <div>
-                                <span class="text-xs font-bold text-gray-500 block mb-1 tracking-widest">MODULE</span>
-                                <span class="text-4xl font-extrabold text-gray-900">T4</span>
-                            </div>
-                            <div class="p-3 bg-primary/10 rounded-lg text-primary">
-                                <i class="fa-solid fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button onclick="viewAnswers('T4')"
-                                class="py-3 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary font-semibold transition-colors flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-eye"></i> View
-                            </button>
-                            <button onclick="initQuiz('T4')"
-                                class="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-md hover:shadow-lg transition-all flex justify-center items-center gap-2">
-                                <i class="fa-solid fa-play"></i> Test
-                            </button>
-                        </div>
-                    </div>
+                <div id="topic-cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Topic cards will be dynamically injected here -->
                 </div>
             </div>
         </section>
@@ -747,8 +657,10 @@
         let pendingTopic = '';
 
         function viewAnswers(topic) {
-            // Check if T4 for Python or DE or etc or ci -> Open Chapter Modal
-            if (topic === 'T4' && (currentSubject === 'python' || currentSubject === 'de' || currentSubject === 'etc' || currentSubject === 'ci')) {
+            // Only show chapter modal for T4 in CI, Python, and DE
+            // This excludes the newly added sections in CI (which are not named 'T4')
+            const subjectsWithChapters = ['python', 'de', 'ci'];
+            if (topic === 'T4' && subjectsWithChapters.includes(currentSubject)) {
                 selectionMode = 'view';
                 pendingTopic = topic;
                 openChapterModal();
@@ -820,17 +732,44 @@
             document.getElementById('topic-subtitle').innerHTML =
                 `Select a <span class="text-${color}-600 font-bold uppercase">${subject}</span> module`;
 
-            // Toggle visibility of modules based on subject
-            const modules = ['T1', 'T2', 'T3', 'T4'];
-            modules.forEach(mod => {
-                const card = document.getElementById(`card-${mod}`);
-                if (card) {
-                    if ((subject === 'ci' || subject === 'etc') && mod !== 'T4') {
-                        card.style.display = 'none';
-                    } else {
-                        card.style.display = 'block';
-                    }
-                }
+            const container = document.getElementById('topic-cards-container');
+            container.innerHTML = '';
+
+            const subjectData = QUESTION_BANK[subject] || {};
+            Object.keys(subjectData).forEach(topic => {
+                // If it's etc or ci, previously we only showed T4.
+                // But now we want to show all including act_questions etc.
+                // Optionally filter out empty modules
+                if (subjectData[topic].length === 0) return;
+
+                const card = document.createElement('div');
+                card.className = "glass p-6 rounded-2xl border border-gray-200 hover:border-primary/50 transition-all shadow-sm";
+
+                // Format topic name for display: replace underscores with spaces and capitalize
+                const displayName = topic.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="flex-1 pr-2">
+                            <span class="text-xs font-bold text-gray-500 block mb-1 tracking-widest">MODULE</span>
+                            <span class="text-2xl font-extrabold text-gray-900 break-words">${displayName}</span>
+                        </div>
+                        <div class="p-3 bg-primary/10 rounded-lg text-primary">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3">
+                        <button onclick="viewAnswers('${topic}')"
+                            class="py-3 rounded-lg bg-primary/10 hover:bg-primary/20 text-primary font-semibold transition-colors flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-eye"></i> View
+                        </button>
+                        <button onclick="initQuiz('${topic}')"
+                            class="py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold shadow-md hover:shadow-lg transition-all flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-play"></i> Test
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
             });
 
             showSection('topics');
@@ -842,15 +781,17 @@
             list.innerHTML = ''; // Clear previous
 
             let chapters = [];
-            if (currentSubject === 'python') {
-                chapters = ['9', '10'];
-            } else if (currentSubject === 'de') {
-                chapters = ['8', '9', '10'];
-            } else if (currentSubject === 'etc' || currentSubject === 'ci') {
-                const data = QUESTION_BANK[currentSubject]['T4'] || [];
-                const uniqueUnits = [...new Set(data.map(q => q.unit))];
-                chapters = uniqueUnits.sort((a, b) => parseInt(a) - parseInt(b));
-            }
+
+            const data = QUESTION_BANK[currentSubject][pendingTopic] || [];
+            const uniqueUnits = [...new Set(data.map(q => q.unit))];
+
+            // If they are numbered strings, sort numerically. Otherwise just sort.
+            chapters = uniqueUnits.sort((a, b) => {
+                const numA = parseInt(a);
+                const numB = parseInt(b);
+                if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+                return a.localeCompare(b);
+            });
 
             // Container
             const container = document.createElement('div');
@@ -910,7 +851,8 @@
         }
 
         function initQuiz(topic) {
-            if (topic === 'T4' && (currentSubject === 'python' || currentSubject === 'de' || currentSubject === 'etc' || currentSubject === 'ci')) {
+            const subjectsWithChapters = ['python', 'de', 'ci'];
+            if (topic === 'T4' && subjectsWithChapters.includes(currentSubject)) {
                 selectionMode = 'quiz';
                 pendingTopic = topic;
                 openChapterModal();
