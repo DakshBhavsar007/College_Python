@@ -1,0 +1,2309 @@
+{
+    "T1": [
+        {
+            "q": "RR*can be expressed in which of the forms:",
+            "options": [
+                "R+",
+                "R-",
+                "R+U R-",
+                "R"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "If ∑={0,1}, then Ф* will result to:",
+            "options": [
+                "ε",
+                "Ф",
+                "∑",
+                "None of the mention"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which among the following is not an associative operation?",
+            "options": [
+                "Union",
+                "Concatenation",
+                "Dot",
+                "None of the mentioned"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following statements about Regular Expression Is/are incorrect?",
+            "options": [
+                "The union of two regular expressions is also a regular expression",
+                "The concatenation of two regular expressions is also a regular expression",
+                "The iteration of a regular expression is also regular expression",
+                "All"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Dot operator in regular expression resembles which of the following?",
+            "options": [
+                "Expressions are juxtaposed",
+                "Expressions are multiplied",
+                "Cross operation",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following regular expressions represents the set of strings which do not contain a substring ‘rt’ if ∑={r,t}",
+            "options": [
+                "(rt)*",
+                "(tr)*",
+                "r*t*",
+                "t*r*"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Finite Automata can recognize",
+            "options": [
+                "any grammar",
+                "regular grammar",
+                "context free grammar",
+                "recursive grammar"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Finite automata requires minimum ____number of stacks.",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "FSM with output capability can be used to add two given integer in binary representation.",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "The appropriate precedence order of operations over a Regular Language is",
+            "options": [
+                "Kleene, Union, Concatenate",
+                "Kleene, Star, Union",
+                "Kleene, Dot, Union",
+                "star, Union, Dot"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Which statement is false about the following definition of terms: 1) Alphabet is a finite non-empty set of symbols 2) String is a finite sequence of symbols chosen from some alphabet . 3) Language is a set of strings all of which symbols chosen from alphabet",
+            "options": [
+                "Only 1",
+                "Both 1 &amp; 2",
+                "Both 1&amp;3",
+                "None of Above"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "________ is a finite collection of symbols from the alphabet.",
+            "options": [
+                "string",
+                "state",
+                "symbols",
+                "alphabet"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "W is any string whose length is n in {0, 1}* and L is the set of all sub-strings of W. The minimum number of states in a non-deterministic finite automaton that accepts L is _____________.",
+            "options": [
+                "n",
+                "n+1",
+                "2n",
+                "2n"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "The basic limitation of finite automata is that.",
+            "options": [
+                "It can’t remember arbitrary large amount of information.",
+                "It sometimes recognize grammar that are not regular",
+                "It sometimes fails to recognize regular grammar",
+                "All of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is not a regular expression?",
+            "options": [
+                "[(a+b)* (aa+ bb)",
+                "[(0+1)- (0b+a1)*(a+b)]*",
+                "(01+11+10)*",
+                "(1+2+0)* (1+2)*"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The language described by the regular expression (0+1)*0(0+1)*0(0+1)* over the alphabet {0,1} is the set of",
+            "options": [
+                "All strings containing atleast two 1’s",
+                "All strings that begin and end with either 0’s or 1’s",
+                "All strings containing atleast two 0’s",
+                "All strings containing the substring 00"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is not a regular expression?",
+            "options": [
+                "",
+                "0+1",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Generate a regular expression for the following problem statement:P(x): String of length 5 or less but not containing epsilon for",
+            "options": [
+                "(1+0)(1+0)(1+0)(1+0)(1+0)",
+                "",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "For which of the following applications regular expressions can be used?",
+            "options": [
+                "Designing compiler s",
+                "Developing text editors",
+                "Simulating sequential circuits",
+                "All of these"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Regular Expression R and the language described by it can be represented as:",
+            "options": [
+                "R, R(L)",
+                "L( R) , R(L)",
+                "R,L( R)",
+                "All of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "If R is a regular expression, then which of the followings is FALSE?",
+            "options": [
+                "R*= (R)*",
+                "R*R*= R*",
+                "RR*= R+",
+                "(R*)*= R+"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Regular expression for strings of length 7 or less is?",
+            "options": [
+                "",
+                "",
+                "",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following statements is/are TRUE? 1. If L1 U L2 is regular, then both L1 and L2 must be regular. 2. The class of regular languages is closed under infinite union.",
+            "options": [
+                "1 only",
+                "2 only",
+                "Both 1 and 2",
+                "Neither 1 and 2"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "The language of all words with at least 2 a&#39;s can be described by the regular expression: (1) (ab)* a a (ba)* (2) (a + b) * a b* a (a + b) * (3) b* a b* a (a + b) *",
+            "options": [
+                "1 Only",
+                "2 Only",
+                "All 1,2,3",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is not a regular expression? 1) [(a+ b) * + (aa+ bb) *] 2) [(0+ 1) + (0b+ a1) * - (a+b)]* 3) (01 +11 +10) * 4) (1+01 +0) * (1+0) *",
+            "options": [
+                "Only 1",
+                "Only 2",
+                "All 1,2,3",
+                "None of These"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Generate a regular expression for the following problem statement:P(x): string of length 6 or less but not containing epsilon for {0,1} *",
+            "options": [
+                "",
+                "(1+0) (1+0) (1+0) (1+0)",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is/are correct? Statement 1: ε represents a single string in the set Statement 2: Ф represents the language that consist of no string Statement 3: (0+ε) (1+ε) represents {0, 1, 01, 11, 00, 10, ε}.",
+            "options": [
+                "All Statements are correct",
+                "Statement 1 is false but 2 and 3 both are correct",
+                "Statement 1 and 2 both are false and 3 is correct",
+                "Statement 1 &amp; 2 are correct but 3 is false."
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following regular expressions describes the language over {0, 1} consisting of strings that contain exactly two 1&#39;s?",
+            "options": [
+                "0 *10 *10 *",
+                "0*1*0*1*",
+                "(0+1)*11(0+1)*",
+                "1(0+1)*1"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "The total number of state required to automate the given regular expression (bb | aa)*",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "6"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "The total number of states required to automate the given regular expression: BAAA, consider ∑= {A,B}",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Finite automata requires minimum ________number of stacks.",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "The total number of states required to automate the given regular expression (a+b)^* abb",
+            "options": [
+                "4",
+                "5",
+                "2",
+                "3"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "FSM with output capability can be used to add given integer in binary representation.",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "5"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "We can represent one language in more one FSMs, true or false?",
+            "options": [
+                "May be true",
+                "TRUE",
+                "Cannot be said",
+                "FALSE"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "&quot;The basic limitations of Finite Automata is",
+            "options": [
+                "It sometime recognizes grammar that are not regular",
+                "It can’t remember arbitrary large amount of information.",
+                "It some time fails to recognize the Regular grammar.",
+                "All of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "A language is regular if and only if",
+            "options": [
+                "Accepted by PDA",
+                "Accepted by LBA",
+                "Accepted by Turing Machine",
+                "Accepted by DFA"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "There are _______tuples in finite state machine.",
+            "options": [
+                "4",
+                "3",
+                "5",
+                "0"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Number of states require to accept string ends with 10.",
+            "options": [
+                "4",
+                "3",
+                "5",
+                "0"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The DFA shown represents all strings which has 1 at second last position.",
+            "options": [
+                "Wrong position",
+                "Correct",
+                "May be correct",
+                "Incorrect,Incomplete DFA"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Number of final state require to accept Φ in minimal finite automata.",
+            "options": [
+                "1",
+                "2",
+                "No Final State Required",
+                "4"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The non- Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1",
+            "options": [
+                "ε,0011,11001100",
+                "10,011,010,101",
+                "1,111,001,100",
+                "111,100,110,010,101"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "To get a string of n terminals, the number of productions to be used is:",
+            "options": [
+                "n2",
+                "2n+1",
+                "2n-1",
+                "n+2"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The minimum Possible No. of states of a FA that accepts the Regular Language L= {w1 a w2 | w1, w2 ϵ {a, b} *, |w1|= 2, |w2| ≥3} is:",
+            "options": [
+                "5",
+                "6",
+                "8",
+                "9"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which among the following states would be notated as the final state/acceptance state? L= {x ϵ ∑= {a, b} | length of x is atmost 2}",
+            "options": [
+                "q0",
+                "q1",
+                "q2",
+                "q3"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following option is correct?",
+            "options": [
+                "NFA is slower to process and its representation uses more memory than DFA",
+                "DFA is faster to process and its representation uses less memory than NFA",
+                "NFA is slower to process and its representation uses less memory than DFA",
+                "DFA is slower to process and its representation uses less mem ory than NFA"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What is wrong in the given definition? Def:({q0,q1,q2},{0,1},δ,q3,{q3})",
+            "options": [
+                "Initial and final states can’t be same",
+                "The defi nition does not satisfy 5 Tuple definition of NFA",
+                "Initialand Final states do not belong to the Graph",
+                "There are no transition definition"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What is the relation between DFA and NFA on the basis of computational power?",
+            "options": [
+                "DFA&gt;NFA",
+                "NFA&gt;DFA",
+                "Equal",
+                "Can’ t be said"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Given:∑={a,b} L={xϵ∑*|x is a string combination} ∑4 represents which among the following?",
+            "options": [
+                "{aa, ab,ba,bb}",
+                "{aaaa, abab , ε, abaa aabb}",
+                "{aaa,aab, aba, bbb}",
+                "All of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following pairs of regular expression are not equivalent?",
+            "options": [
+                "(a+b)* and (a*+ b)*",
+                "(a*+ b)* and (a+b)*",
+                "(ab)* aand a(ba)",
+                "none of the above"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "We have two statements S1 and S2 whose definition are as follows: S1 - {0^ 2n | n ≥ 1|} is regular language. S2 - {0^m 1^n 0^(m + n) | m ≥ 1 and n ≥ 1|} is a regular language",
+            "options": [
+                "Both S1 and S2 are correct",
+                "Only S1 is correct",
+                "Neither S1 nor S2 is correct",
+                "Only S2 is correct"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "The minimum number of states in any DFA accepting the regular language L=(111+11111)* is",
+            "options": [
+                "7",
+                "5",
+                "9",
+                "11"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "How many states are present in the smallest finite automaton which accepts the language {x | length of x is divisible by 3}?",
+            "options": [
+                "4",
+                "5",
+                "3",
+                "2"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following regular expression identities are true?",
+            "options": [
+                "(r+s)*=r*s*",
+                "(r+ s)*= (r*s*)*",
+                "(r+ s)*= r* + s*",
+                "r*s*=r*+s*"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following is same as the given DFA? (Initial State is q0)",
+            "options": [
+                "(0+1)*010(0+1)*",
+                "1*001(0+1)*",
+                "(01)*(0+0+1)(01)*",
+                "(0+1)*001(0+1)*"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following does the given FA represent?",
+            "options": [
+                "b*aaba",
+                "baaba. (b)*",
+                "(aaba)+",
+                "(a+b)*baaba"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following does the given NFA represent?",
+            "options": [
+                "(110)*0",
+                "(11)(110)0",
+                "(00+11)*",
+                "(11+110)*0"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following will not be accepted by the following FA?",
+            "options": [
+                "aaa",
+                "ababaaba",
+                "babababa",
+                "abbaabbaa"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following will the given DFA won’t accept?",
+            "options": [
+                "010101",
+                "10011",
+                "string of 11",
+                "11011"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Identify language from the given DFA.",
+            "options": [
+                "L= {x ϵ (0,1)* | x end with 00}",
+                "L= {x ϵ (0,1)* | x end with 000}",
+                "L= {x ϵ (0,1)* | x does not end with 11}",
+                "L= {x ϵ (0,1)* | x does not end with 00}"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Identify RE for the given DFA",
+            "options": [
+                "abb",
+                "aba*",
+                "(aba)*",
+                "abab"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "&quot;The DFA shown below accepts the set of all strings over {0,1} that",
+            "options": [
+                "End with 0",
+                "End with 00",
+                "Begin either with 0 or 1",
+                "All of above"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which one of the following is true for the automata",
+            "options": [
+                "b*ab*ab* ab*",
+                "b*ab*ab*",
+                "b*a(a+b)*",
+                "(a+b)*"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Which one of the following is true for the automata",
+            "options": [
+                "(ab)*ab+(ba)*ab",
+                "b*ab*ab*",
+                "b*a(a+b)*",
+                "(ab+ba)*"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What the following DFA accepts?",
+            "options": [
+                "x is a string such that it ends with ‘101’",
+                "x is a string such that it ends with ‘01’",
+                "x is a string such that it ends with ‘10’",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Which R.E. is true for this automata?",
+            "options": [
+                "a+",
+                "ε",
+                "a",
+                "a*"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "NFA,in its name has’ non- deterministic’ because of:",
+            "options": [
+                "The result is undetermined",
+                "The state to be transited next is non- deterministic",
+                "None of the mentioned",
+                "The choice of path is non- deterministic"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "If you consider a regular expression r, in which r = (11 + 111)* over Ʃ = {0, 1}, then the number of states in minimal DFA and NFA respectively are:",
+            "options": [
+                "DFA – 3, NFA – 5",
+                "DFA – 3, NFA – 3",
+                "DFA – 3, NFA – 4",
+                "DFA – 4, NFA – 3"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the Regular expression for following DFA?",
+            "options": [
+                "a(a+b)b",
+                "(a(a+b)*b)*",
+                "a*bab*",
+                "a(a+b)*b"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the Regular expression for following NFA?",
+            "options": [
+                "(aab)*(a|aba)*",
+                "a*bab*",
+                "aab(a|b)*a",
+                "(aab)*a(aba)*"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Write an RE from the Given NFA.",
+            "options": [
+                "(b*.a*).(bab)*.a",
+                "(bab)*.(a.b)*.a",
+                "(a.b)*.(bab)*.a",
+                "(b.a)*.(bab)*.a"
+            ],
+            "ans": 3,
+            "unit": "4"
+        }
+    ],
+    "T2": [
+        {
+            "q": "Which of the following belongs to the epsilon closure set of a?",
+            "options": [
+                "{a, f1,f2,f3}",
+                "{a, f1,f2}",
+                "{f1,f2, f3}",
+                "{a, f2,f3}"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "ε-closure of q0 in the given transition graph:",
+            "options": [
+                "{q1}",
+                "{q1,q2}",
+                "{q0,q1,q2}",
+                "{q0,q1}"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following belongs to the epsilon closure set of 1?",
+            "options": [
+                "{1,2,3}",
+                "{1,4}",
+                "{1,2}",
+                "{1}"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "According to the given transitions, which among the following are the epsilon closures of q1 for the given NFA? Δ(q1,ε)={q2,q3,q4} Δ (q4, 1) = q1 Δ(q1,ε)=q1",
+            "options": [
+                "{q4}",
+                "{q1,q2,q3,q4}",
+                "{q1,q3}",
+                "{q1,q3,q4}"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following belongs to the epsilon closure set of S?",
+            "options": [
+                "{S, T}",
+                "{S, T,A,E}",
+                "{S}",
+                "{S, P,T}"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In the given NFA-null, how many elements will be there in epsilon closure of state q0",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Null closure of state is combination of self-state and ____________.",
+            "options": [
+                "Null reachable state",
+                "Initial state",
+                "Initial and final state",
+                "Final state"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "From the given table, What will be extended transition function δ*(q0, 011)?",
+            "options": [
+                "{q0, q1}",
+                "{q0, q1, q2}",
+                "{q0}",
+                "{q1}"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "δ*(q,ya) is equivalent to _________.",
+            "options": [
+                "δ((q,y),a)",
+                "δ(δ*(q,y),a)",
+                "δ(δ*(q,ya),a)",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Complement of a DFA can be obtained by",
+            "options": [
+                "making final states non-final and non-final to final",
+                "no trival method",
+                "remains all states as it is",
+                "making starting state as final state"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Remove all the epsilon transitions in the given diagram and compute the number of a-transitions in the result?",
+            "options": [
+                "7",
+                "3",
+                "5",
+                "6"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "While converting NFA with null to DFA, what will be δ&#39;(A, 0) for the following NFA?",
+            "options": [
+                "{q0,q1,q2}",
+                "{q1,q2}",
+                "{q3}",
+                "{q0,q1}"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which new state is generated while converting NFA to DFA and finding δ&#39;([q1],0)?",
+            "options": [
+                "[q0,q1,q2]",
+                "[q1,q2]",
+                "[q2]",
+                "[q1]"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Conversion of a DFA to an NFA?",
+            "options": [
+                "Is impossible",
+                "Requires the subset construction",
+                "Is chancy",
+                "Is non deterministic"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "If we consider an arbitrary NFA (non-deterministicfinite automaton) with N states in total, the maximum number of states that are there in an equivalent DFA (minimized) is at least:",
+            "options": [
+                "N!",
+                "2N",
+                "2^N",
+                "N^2"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "The total time needed to run any input string in DFA is ……. than time required in NFA.",
+            "options": [
+                "more",
+                "less",
+                "equal",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following cannot use Empty String transition?",
+            "options": [
+                "FA",
+                "NFA",
+                "DFA",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following can use Empty String transition?",
+            "options": [
+                "FA",
+                "NFA",
+                "DFA",
+                "All of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the complement of the language accepted by DFA?",
+            "options": [
+                "ɸ",
+                "{ε}",
+                "a",
+                "a*"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "John is asked to make an automaton which accepts a given string for all the occurrence of ‘1001’ in it. How many numbers of transitions would John use such that, the string processing application works?",
+            "options": [
+                "9",
+                "15",
+                "12",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "The automaton which allows transformation to a new state without consuming any input symbols:",
+            "options": [
+                "NFA",
+                "DFA",
+                "NFA-ᴧ",
+                "All of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following options is correct for NFA to DFA conversion: Statement 1: Initial State of NFA is Initial State of DFA. Statement 2: The final state of DFA will be every combination of final state of NFA.",
+            "options": [
+                "Statement 1 is True",
+                "Statement 2 is True",
+                "Statement 1 is True and Statement 2 is True",
+                "Statement 1 is True and Statement 2 is False"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "A language for which no DFA exist is a _________",
+            "options": [
+                "Empty set",
+                "Regular",
+                "Non - Regular",
+                "Decidable"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "An NFA may be converted to a DFA using __________",
+            "options": [
+                "Inversion",
+                "Subset construction",
+                "Contradiction",
+                "Concatenation"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What is the relation between NFA-accepted languages and DFA accepted languages?",
+            "options": [
+                "&gt;",
+                "&lt;",
+                "=",
+                "None of these"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "If L is DFA-regular, L’ is",
+            "options": [
+                "Non-regular",
+                "finite",
+                "DFA-regular",
+                "Non-finite"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following belongs to the epsilon closure set of A?",
+            "options": [
+                "{A,B,D}",
+                "{A,B,C,D}",
+                "{A,B}",
+                "{A}"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "ε- closure of q2 in the given transition graph:",
+            "options": [
+                "{q0,q1,q2}",
+                "{q0, q1}",
+                "{q2}",
+                "{q0}"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is true?",
+            "options": [
+                "Every subset of a regular set is regular",
+                "The union of two non-regular set is not regular",
+                "Every finite subset of non-regular set is regular",
+                "Infinite union of finite set is regular"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which new state is generated while converting NFA to DFA and finding δ&#39;([q2], 1)?",
+            "options": [
+                "[q1, q2]",
+                "[q0 q1 q2]",
+                "[q1]",
+                "[q0]"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "According to the given transitions, which among the following are the epsilon closures of q2 for the given NFA? Δ(q2, ε)={q3,q4} &amp; Δ(q4, 1) = {q1,q2} &amp; Δ(q2,ε) = {q2}",
+            "options": [
+                "{q1, q2, q3, q4}",
+                "{q2, q3, q4}",
+                "{q1, q3, q4}",
+                "{q1, q2, q4}"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Calculate δ*(q0,10) for the following diagram",
+            "options": [
+                "{S, V}",
+                "{S, U}",
+                "{V, W, P, T}",
+                "{S, W, q0, P, T, U}"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "If L1 and L2 are regular sets then intersection of these two will be:",
+            "options": [
+                "Recursive",
+                "Non-recursive",
+                "Regular",
+                "Reflexive"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "If n(A)=110, n(B)=300, n(A-B)=50. then n(A U B) =_____",
+            "options": [
+                "340",
+                "350",
+                "60",
+                "100"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "If n(A)= 300, n(A U B)= 500, n(A ∩ B)=50 and n(B&#39; )=350 then n(B)=_________",
+            "options": [
+                "340",
+                "250",
+                "657",
+                "350"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "If X and Y are two sets, such that X U Y has 40 elements, X has 28 elements, Y has 22 elements, How many elements does X ∩ Y has?",
+            "options": [
+                "30",
+                "20",
+                "10",
+                "28"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Complement of a DFA can be obtained by _________",
+            "options": [
+                "making starting state as final state",
+                "making final states to non-final and non- final to final",
+                "make final as a starting state",
+                "Remove Unreachable states"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "L1= accepting all string that ends with a.L2= accepting all string that ends with b. The number of state/s in minimal DFA that accept the Language L1 ∩ L2 is _______ and Number of final state/s is_____",
+            "options": [
+                "4,1",
+                "3,1",
+                "2,1",
+                "1,1"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "S1: Regular sets are closed under union, concatenation and Kleene closure.S2: Complement of regular sets are Regular. S3: If L1 and L2 are regular sets then intersection of these two will be Non-Regular.",
+            "options": [
+                "All are true",
+                "S1, S2 true and S3 false",
+                "S1, S3 true and S2 false",
+                "All are false"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which among the following cannot be accepted by a regular grammar?",
+            "options": [
+                "L is a set of numbers divisible by 2",
+                "L is a set of ;0^n 1^n n&gt;=0",
+                "L is a set of numbers starting with 0",
+                "L is a set of string with even number of 0"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "If L1 is regular L2 is unknown but L1-L2 is regular, then L2 must be _______",
+            "options": [
+                "Empty set",
+                "CFG",
+                "Regular",
+                "Non-regular"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the technique can be used to prove that a language is non-regular?",
+            "options": [
+                "Arden’s theorem",
+                "Pumping Lemma",
+                "Ogden’s Lemma",
+                "None of Above"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "The logic of pumping lemma is a good example of ________",
+            "options": [
+                "Divide-and-conquer technique",
+                "Recursion",
+                "Arden’s theorem",
+                "Pigeon-hole principle"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "While applying Pumping lemma over a language, we consider a string w that belong to L and fragment it into ______parts.",
+            "options": [
+                "3",
+                "5",
+                "2",
+                "None of these"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "If we select a string w such that w Є L, and w=xyz.Which of the following portions cannot be an empty string?",
+            "options": [
+                "x",
+                "y",
+                "z",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Let w=xyz and y refers to the middle portion and |y|&gt;0.What do we call the process of repeating y 0 or more times before checking that they still belong to the language L or not?",
+            "options": [
+                "Generating",
+                "Pumping",
+                "Producing",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "There exists a language L.We define a string w such that w Є L and w=xyz and |w|&gt;=n for some constant integer n.What can be the maximum length of the substring xy i.e.|xy|&lt;=_____",
+            "options": [
+                "n",
+                "|y|",
+                "|x|",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Fill in the blank in terms of p, where p is the maximum string length in L.Statement: Finite languages trivially satisfy the pumping Lemma by having n=",
+            "options": [
+                "p*1",
+                "p+1",
+                "p-1",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "For Σ = {a , b} ,consider L={ x/x= a2+3k or x= b10+2k ,k&gt;=0} Which one of the following be pumping length for L?",
+            "options": [
+                "3",
+                "5",
+                "9",
+                "24"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Answer in accordance to the third and last statement in pumping lemma:",
+            "options": [
+                "i&gt;0",
+                "i&lt;0",
+                "i&lt;=0",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "If d is a final state,which of the following is correct according to the given diagram?",
+            "options": [
+                "x=p, y=qr ,z=s",
+                "x=p, z=qrs",
+                "x=pr ,y=r, z=s",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following is not an application of Pumping Lemma?",
+            "options": [
+                "{0i1i|i&gt;=0}",
+                "{0ix|i&gt;=0, x∈{0, 1}* and |x|&lt;=i}",
+                "{0n| n is prime}",
+                "None of Above"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Regular sets are closed under union,concatenation and kleene closure.",
+            "options": [
+                "Union",
+                "Concatenation",
+                "Kleene closure",
+                "All of above"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Complement of (a + b)* will be",
+            "options": [
+                "Ø",
+                "a",
+                "a or b",
+                "a and b"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Consider the DFAs M and N given above. The number of Final states in a minimal FA that accepts the language L(M) ꓵ L(N) is _______",
+            "options": [
+                "1",
+                "3",
+                "5",
+                "9"
+            ],
+            "ans": 0,
+            "unit": "6"
+        }
+    ],
+    "T3": [
+        {
+            "q": "The minimum number of productions required to produce a language consisting of even length palindrome strings over ∑={a,b} is _________",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What the does the given CFG defines? S→aa | bb | aSa | aSb | bSb | bSa",
+            "options": [
+                "Strings that begin and end with the same symbol",
+                "All even length palindromes",
+                "Number of a’s greater than number of b’s",
+                "Even length strings with two middle symbols are same."
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following regular expression generated by the given grammar? S→ SS | XaXaX | ε, X →bX | ε",
+            "options": [
+                "b* ab* ab*",
+                "(b* ab* ab*)*",
+                "(babab)+",
+                "(abababa)*"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "The minimum number of productions required to produce a language consisting of palindrome strings over ∑={a,b} is",
+            "options": [
+                "5",
+                "7",
+                "3",
+                "8"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Consider the following statements about the context free grammar G = {S à SS, S -&gt; ab, S à ba, S à Λ} I. G is ambiguous II. G produces all strings with equal number of a’s and b’s III. G can be accepted by a deterministic PDA Which combination below expresses all the true statements about G?",
+            "options": [
+                "I only",
+                "I and III only",
+                "II and III only",
+                "I,II and III"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following statement is correct?",
+            "options": [
+                "All context free grammar are regular grammar but not vice versa",
+                "All Regular grammar are context free but not vice versa",
+                "Regular grammar and context free grammar are the same entity",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is Type 3 language or Type 3 grammar?",
+            "options": [
+                "Regular grammar/ Regular language",
+                "Context Free Grammar / Context Free language",
+                "Context Sensitive Grammar / Context Sensitive language",
+                "Recursively Enumerable"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is Type 2 language or Type 2 grammar?",
+            "options": [
+                "Regular grammar/ Regular language",
+                "Context Free Grammar / Context free language",
+                "Context Sensitive Grammar / Context Sensitive language",
+                "Recursively Enumerable"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the use of pumping lemma ?",
+            "options": [
+                "Prove languages are not regular",
+                "Prove languages are not context free language",
+                "Both of above",
+                "None of them"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "While applying Pumping lemma over a context free language, we consider a string Z that belong to L and fragment it into ________ parts.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "The context free grammar S → SS | 0S1 | 1S0 | ɛ generates _________",
+            "options": [
+                "Equal number of 0’s and 1’s",
+                "Number of 10’s only",
+                "Unequal number of 0’s and 1’s",
+                "Number of 11’s only"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following statement is false?",
+            "options": [
+                "CFG are closed under union.",
+                "CFG are closed under kleen’s closure.",
+                "CFG are closed under complement.",
+                "None of the above"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "The context free languages are closed under",
+            "options": [
+                "concatenation",
+                "union",
+                "closure",
+                "All of these"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "The language A → tB | t generated by which of the following grammar?",
+            "options": [
+                "Type 3",
+                "Type 2",
+                "Type 1",
+                "Type 0"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is correct for Chomsky hierarchy?",
+            "options": [
+                "CSL&lt; Unrestricted&lt; CFL&lt; Regular",
+                "Regular &lt; CFL &lt; CSL &lt; Unrestricted",
+                "CFL &lt; CS L &lt; Unrestricted &lt; Regular",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "There exists a Context free grammar such that: X→Xa is",
+            "options": [
+                "Left Recursive Grammar",
+                "Non Recursive Grammar",
+                "Right Recursive grammar",
+                "none of these"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "S → aSa|bSb|a|b; The language generated by the above grammar over the alphabet {a,b} is the set of",
+            "options": [
+                "All length palindrome",
+                "Even length palindrome",
+                "Odd length palindrome",
+                "String starts and end with different character"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "To derive the string length 4, How many minimum production are required for Chomsky Normal Form?",
+            "options": [
+                "2",
+                "7",
+                "8",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Given grammar: S-&gt;aA , A-&gt;a , A-&gt;B , B-&gt; A , B-&gt;bb Which of the following is the production of B after simplification by removal of unit productions?",
+            "options": [
+                "a | bb",
+                "bb",
+                "B | A",
+                "S"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "If CFG is S →aa|bb|cc|dd|(a|b|c|d)S(a|b|c|d) that accepts language:",
+            "options": [
+                "A string of all symbols same",
+                "An even length string will start symbol same",
+                "palindrome string",
+                "string with two middle symbols same"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Give CFG that contains at least three 1’s",
+            "options": [
+                "S→A1A1A1 A→0A|1A",
+                "S→A1A1A1 A→0A|1A|^",
+                "S→A1A1A1A A→0A|1A|^",
+                "S→1A1A1A A→0A|1A|^"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Give CFG for following language L={a^(n+2) b^n / n&gt;=0}",
+            "options": [
+                "S→a Sb|aa",
+                "S→aSb",
+                "S→aSb|aaSbb",
+                "S→aab|aaS"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Consider S→ aS, S→^, after elimination of null production what will be the grammar?",
+            "options": [
+                "aS",
+                "S",
+                "SS",
+                "aS|a"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What is the RE equivalent to given CFG: S→X1X, X→ 0X| ^ ?",
+            "options": [
+                "101",
+                "1+ 0 1+",
+                "0* 1 0*",
+                "(0 +1+0)*"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Consider the following Two Grammars: G1: S-&gt;SbS|a G2: S-&gt;aB|ab, A-&gt;AB|a, B&gt;ABb|b Which of the Following Option is correct?",
+            "options": [
+                "Only G1 is ambiguous",
+                "Only G2 is ambiguous",
+                "B o t h G 1 a n d G 2 are ambiguous",
+                "Both G1 and G2 are not ambiguous"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following strings can be generated by S →aS ∣ bA A →d ∣ cA",
+            "options": [
+                "bccdd",
+                "abbccad",
+                "abcd",
+                "abcabcdd"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "If Σ = {a,b} and given productions are S→XaaX X→aX| bX|Λ Then the above grammar defines the language expressed by___________ regular expression",
+            "options": [
+                "(a+b)*a(a+b)*",
+                "(a+b)*aa(a+b)*",
+                "(a+b)*a(a+b)*a",
+                "(a+b)*aa"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Consider the following grammar , , , Which of the following statement is/are true?",
+            "options": [
+                "The length of every string produced by this grammar is even",
+                "No string produced by this grammar has three consecutive",
+                "The length of substing produced by B is always odd",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Consider the language on .Which one of the following grammar generates the language L?",
+            "options": [
+                ",",
+                ",",
+                ",",
+                ","
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following satisfies given language",
+            "options": [
+                "11100",
+                "1100",
+                "101010",
+                "None of these"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What the does the given CFG defines?",
+            "options": [
+                "Strings that begin and end with the same symbol",
+                "Equal number of a’s and b’s",
+                "All odd and even length palindrome",
+                "All even length palindromes"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which among the following is the root of the parse tree?",
+            "options": [
+                "Production P",
+                "Non terminal V",
+                "Terminal T",
+                "Starting symbol S"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Every grammar in Chomsky Normal Form is:",
+            "options": [
+                "Regular",
+                "Context free",
+                "Context sensitive",
+                "Unrestricted"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "While converting the context free grammar into chomsky normal form, which of the following is necessary?",
+            "options": [
+                "Elimination of null production",
+                "Elimination of unit production",
+                "Converting given grammar in Chomsky normal form",
+                "All of these"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "In conversion from CFG to CNF, the number of non terminals to be introduced for the terminals are: S → aAB | abb|cBA",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Consider G=({S,A,B,E}, {a,b,c},P,S), where P consists of S →AB, A →a, B →b and E →c. Number of productions in P after removal of useless symbols:",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "There are ______ tuples in Push down Automata.",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "The Language of the following PDA Transitions would be : 1.δ(q0 ,a ,z0)→(q0 ,az0) 2.δ(q0 ,a ,a)→(q0 ,aa) 3.δ(q0 ,b ,z_0)→(q0 ,bz0) 4.δ(q0 ,b ,b)→(q0 ,bb) 5.δ(q0 ,b ,a)→(q0 ,ϵ) 6.δ(q0 ,a ,b)→(q0 ,ϵ) 7.δ(q0 ,ϵ ,a)→(q1 ,a) Where Q = {q0,q1 }, F = {q1}",
+            "options": [
+                "L= {an bm | n,m ≥ 1}",
+                "",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "The language accepted by a Pushdown Automation in which the stack is limited to 10 items is best described as _______.",
+            "options": [
+                "Context Free",
+                "Regular",
+                "Deterministic Context Free",
+                "Recursive"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "What is used to model a context free language?",
+            "options": [
+                "FA",
+                "DFA",
+                "NFA",
+                "PDA"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "The components of PDA are/is",
+            "options": [
+                "FSM",
+                "state",
+                "input tape",
+                "All of these"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Which of the following is not possible algorithmically ?",
+            "options": [
+                "Regular grammar to context free grammar",
+                "Non- deterministic FSA to determinis tic FSA",
+                "Non- determinis tic PDA to deterministic PDA",
+                "determinis tic PDA to determinis tic PDA"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "The transition a Push down automaton makes is additionally dependent upon the:",
+            "options": [
+                "stack",
+                "input tape",
+                "terminals",
+                "none of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "A PDA machine configuration (p, w, y) can be correctly represented as:",
+            "options": [
+                "(current state, unprocessed input, stack content)",
+                "(unprocessed input, stack content, current state)",
+                "(current state, stack content, unprocessed input)",
+                "none of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "With reference of a DPDA, which among the following do we perform from the start state with an empty stack?",
+            "options": [
+                "process the whole string",
+                "end in final state",
+                "end with an empty stack",
+                "all of the mentioned"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "A DPDA is a PDA in which:",
+            "options": [
+                "No state p has two outgoing transitions",
+                "More than one state can have two or more outgoing transitions",
+                "Atleast one state has more than one transitions",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Pushdown Automata are equivalent to Context-Free ____________.",
+            "options": [
+                "Spelling",
+                "Grammar",
+                "Answer",
+                "Choice"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "PDA is a __________ automata with push down stack.",
+            "options": [
+                "Finite",
+                "Infinite",
+                "Long",
+                "Short"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is acceptance by the final state? If a machine at the end of the string enters one of the final states, then the string is .",
+            "options": [
+                "Rejected",
+                "Extended",
+                "Deleted",
+                "Accepted"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Which of the given operations are eligible in PDA?",
+            "options": [
+                "Insert",
+                "Add",
+                "Push",
+                "Delete"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "A push down automata is different than finite automata by:",
+            "options": [
+                "Its memory",
+                "Number of states",
+                "both",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "PDA is more powerful than",
+            "options": [
+                "Turing machine",
+                "Multi tape Turing machine",
+                "Finite automata",
+                "All of these"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "If the PDA does not stop on an accepting state and the stack is not empty, the string is:",
+            "options": [
+                "rejected",
+                "goes into loop forever",
+                "both (a) and (b)",
+                "none of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "A language accepted by Deterministic Push down automata is closed under which of the following?",
+            "options": [
+                "Complement",
+                "Union",
+                "Both (a) and (b)",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "A push down automata can represented using:",
+            "options": [
+                "Transition graph",
+                "Transition table",
+                "ID",
+                "All of the mentioned"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Which of the following are the actions that operates on stack top?",
+            "options": [
+                "Pushing",
+                "Popping",
+                "Replacing",
+                "All of the mentioned"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Consider the following PDA Transitions 1.d(q0 , a ,z0) ---&gt; (q0 , Xz0) 2.d(q0 , a ,X) ---&gt; (q0 , X) 3.d(q0 , b ,X) ---&gt; (q1 ,ε ) 4.d(q1 , b ,z0) ---&gt; (q1 , z0) 5.d(q0 , ε ,z0) ---&gt; (q1 ,ε ) Where Q = {q0,q1}, S = {a,b},r = {z0,X},d,q0,z0,F = {ø}",
+            "options": [
+                "L= {anbn | n≥1}",
+                "L= {anbm | n,m ≥ 1}",
+                "L= {anbm | n1,m}",
+                "L= {anbm | 2m}"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "What is the language L for the given PDA?",
+            "options": [
+                "{0n1n|n&gt;=0}",
+                "{0n12n|n&gt;=0}",
+                "{02n1n|n&gt;=0}",
+                "{1n|n&gt;=0}"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Consider following PDA machine, where δ is given by δ(q, a, z) = (q, aaaz) δ(q, a, a) = (q, aaaa)",
+            "options": [
+                "{anb3n|n&gt;0}",
+                "{an|n&gt;0}",
+                "{a2nbn|n&gt;0}",
+                "{an bn|n&gt;0}"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Which automata takes stack as storage?",
+            "options": [
+                "PDA",
+                "CFG",
+                "CNF",
+                "DFA"
+            ],
+            "ans": 0,
+            "unit": "8"
+        }
+    ],
+    "T4": [
+        {
+            "q": "If Turing Machine accepts all the words of language L and Rejects or loops for other words which are not in L then L is said to be___________",
+            "options": [
+                "Recursive Language",
+                "Regular language",
+                "REL",
+                "CFL"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "__________ are the ways of representing Turing Machine.",
+            "options": [
+                "Transition Table",
+                "Transition Diagram",
+                "Instantaneous Description",
+                "All of above"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following regular expression resembles the given diagram?",
+            "options": [
+                "{a}*{b}*{a,b}",
+                "{a,b}*{aba}",
+                "{a,b}*{bab}",
+                "{a,b}*{a}*{b}*"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following can accept even palindrome over {a,b}",
+            "options": [
+                "Push down Automata",
+                "NDFA",
+                "Turing machine",
+                "All of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the functions can a turing machine not perform?",
+            "options": [
+                "Accepting a pal",
+                "Copying a string",
+                "Deleting a symbol",
+                "Inserting a symbol"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "If T1 and T2 are two turing machines. The composite can be represented using the expression:",
+            "options": [
+                "T1 U T2",
+                "T1T2",
+                "T1 X T2",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The value of n if Turing machine is defined using n-tuples:",
+            "options": [
+                "3",
+                "5",
+                "7",
+                "4"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "The following turing machine acts like:",
+            "options": [
+                "Copies a string",
+                "Insert a symbol",
+                "Delete a symbol",
+                "None of the mentioned"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "What does the following transition graph shows:",
+            "options": [
+                "Copies a symbol",
+                "Reverses a string",
+                "Accepts a pal",
+                "None of the mentioned"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A turing machine has ____________number of states in a CPU.",
+            "options": [
+                "",
+                "",
+                "",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In one move a turing machine will:",
+            "options": [
+                "Change a state",
+                "Write a tape symbol in the cell scanned",
+                "Move the tape head left or right",
+                "All of the mentioned"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Statement 1: Multitrack Turing machine.Statement 2: Gamma is Cartesian product of a finite number of finite sets. Which among the following is the correct option?",
+            "options": [
+                "Statement 1 is the assertion and Statement 2 is the reason",
+                "Statement 1 is the reason and Statement 2 is the assertion",
+                "Statement 1 and Statement 2 are independent from each other",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following statements are false?",
+            "options": [
+                "A multi trackturing machine is a special kind of multi tape turing machine",
+                "4-heads move independently along 4- tracks in standard 4-tape turing machine",
+                "In a n-track turing machine, n head reads and writes on all the tracks simultaneously.",
+                "All of the mentioned"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A turing machine with several tapes in known as:",
+            "options": [
+                "Multi-tape turing machine",
+                "Poly-tape turing machine",
+                "Universal turing machine",
+                "All of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "A multi tape turing machine is ________ powerful than a single tape turing machine.",
+            "options": [
+                "more",
+                "less",
+                "equal",
+                "none of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In what ratio, more computation time is needed to simulate multi tape turing machines using single tape turing machines?",
+            "options": [
+                "doubly",
+                "triple",
+                "quadratically",
+                "none of the mentioned"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is not a Non deterministic turing machine?",
+            "options": [
+                "Probabalistic Turing machine",
+                "Read-only turing machine",
+                "Alternating Turing machine",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the turing machines have existential and universal states?",
+            "options": [
+                "Alternating Turing machine",
+                "Probalistic Turing machine",
+                "Read-only turing machine",
+                "None of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is an extension to the basic model of Turing machine:",
+            "options": [
+                "Multi tape Turing machine",
+                "Multi head Turing machine",
+                "Nondeterministic Turing machine",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Why Turing machine is more powerful than Finite automata?",
+            "options": [
+                "Turing machine head movement is continued to one direction.",
+                "Turing machine head moment is in both directions",
+                "Turing machine has capability to remember arbitrary long",
+                "All are correct"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A universal Turing machine is a",
+            "options": [
+                "Single tape Turing machine",
+                "Two-tape Turing machine",
+                "Reprogrammable Truing machine",
+                "None of them"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A Turing machine that is able to simulate other Turing machines:",
+            "options": [
+                "Nested Turing machines",
+                "Universal Turing machines",
+                "Multi tape Turing machine",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The language L= {0^(2^k ) | k≥1} is ______.",
+            "options": [
+                "Type-0 Grammar",
+                "Type-1 Grammar",
+                "Type-2 Grammar",
+                "Type-3 Grammar"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Alan Turing introduced Turing machine in:",
+            "options": [
+                "1938",
+                "1963",
+                "1943",
+                "1936"
+            ],
+            "ans": 3,
+            "unit": "10"
+        }
+    ]
+}

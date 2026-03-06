@@ -1,0 +1,5213 @@
+{
+    "T1": [
+        {
+            "q": "What is computer architecture?",
+            "options": [
+                "set of categories and methods that specify the functioning, organisation, and implementation of computer systems",
+                "set of principles and methods that specify the functioning, organisation, and implementation of computer systems",
+                "set of functions and methods that specify the functioning, organisation, and implementation of computer systems",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What is computer organization?",
+            "options": [
+                "structure and behaviour of a computer system as observed by the user",
+                "structure of a computer system as observed by the developer",
+                "structure and behaviour of a computer system as observed by the developer",
+                "All of the mentioned"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "8-Bit representation of (-120) in Signed magnitude and signed 2’s Complement",
+            "options": [
+                "1 1111000 and 1 0001000",
+                "1 1111001 and 1 0000111",
+                "1 0011001 and 1 1100110",
+                "1 1110000 and 0 0001111"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Using 11 bit 2’s complement representation, what is the minimum and maximum integer that can be represented in decimal?",
+            "options": [
+                "-1024,1023",
+                "-1023,1023",
+                "-1023,1024",
+                "-1024,1024"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Using 12-bit 2’s complement representation, what is the minimum and maximum integer that can be represented in decimal?",
+            "options": [
+                "- 2048 , 2047",
+                "-4096, 4096",
+                "-2047, 2048",
+                "-2047, 2047"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following statements is/are correct? 1) 10’s complement of a number is its 9’s complement -1 2) The 1’s complement of a number can be obtain by subtracting each bit of the number from 1. 3) MSB of mantissa is non-zero in a normalized floating-point number.",
+            "options": [
+                "Both 1 and 2",
+                "Both 2 and 3",
+                "Only 1",
+                "All of the above"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Let R1 and R2 be two 4-bit registers that store numbers in 2’s complement form. For the operation R1+R2, which one of the following values of R1 and R2 gives an arithmetic overflow?",
+            "options": [
+                "R1 = 1011 and R2 = 1110",
+                "R1 = 1100 and R2 = 1010",
+                "R1 = 0011 and R2 = 0100",
+                "R1 = 1001 and R2 = 1111"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following 4-bit pattern is 2’s complement of sign magnitude number 1010?",
+            "options": [
+                "1010",
+                "0010",
+                "1110",
+                "0110"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "The addition of 4-bit, two&#39;s complement, binary numbers 1101 and 0100 results in____",
+            "options": [
+                "1001 and no overflow",
+                "1 000 and an overflow",
+                "0001 and no overflow",
+                "1001 and an overflow"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What is minimum integer in 14 bit 2’s complement representation in decimal",
+            "options": [
+                "8191",
+                "-8192",
+                "-8191",
+                "16384"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What is the result of evaluating following 2 expression using 3 decimal digit floting point arithmetic with rounding a)(113.+-111.)+7.51 b)113.+(-111.+7.51)",
+            "options": [
+                "9.51 and 10.0 respectively",
+                "10.0 and 9.51 respectively",
+                "9.51 and 9.51 respectively",
+                "10.0 and 10.0 respectively"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "If the decimal point is placed to the right of the first significant digit, then the number is called ________",
+            "options": [
+                "Orthogonal",
+                "Normalized",
+                "Determinate",
+                "None of the mentioned"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "The floating-point representation 1 0000110 1000000 00000000 00000000 corresponds to",
+            "options": [
+                "+32",
+                "-32",
+                "-16",
+                "+16"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "01101100000000100 given number in floating point having MSB sign bit followed by 10 bit mantissa and then 6 bits exponents. (options in decimal numbers)",
+            "options": [
+                "(13.5)10",
+                "(12.5)10",
+                "(46.5)10",
+                "(3.75)10"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following statement/s is/are incorrect? 1. A floating point number is said to be normalized if LSB of mantissa is non- zero. 2. An 8-bits binary numbers 10010001, 11101110 and 11101111 are different possible representations of (-17)10 3. 10’s complement of a number is its 9’s complement – 1 4. The 1’s complement of a number can be obtained by adding each bit of the number with 1",
+            "options": [
+                "1,2,4",
+                "2,3,4",
+                "1,2,3",
+                "1,3,4"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "The decimal number (-17)10 would be expressed in 8-bit signed 2’s complement representation as -",
+            "options": [
+                "11101110",
+                "10010001",
+                "11011111",
+                "11101111"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Using 8-bit 2’s complement representation, what is the minimum and maximum integer that can be represented in decimal?",
+            "options": [
+                "- 2048 , 2047",
+                "-4096, 4096",
+                "-127, 128",
+                "-128, 127"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "The operation executed on data stored in registers is called?",
+            "options": [
+                "Data",
+                "Micro-operations",
+                "Transfer",
+                "Control"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which micro-operations carry information from one register to another:",
+            "options": [
+                "Register transfer",
+                "Arithmetic",
+                "Logical",
+                "Program Control"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which are the operation that a computer performs on data that put in register ?",
+            "options": [
+                "Register transfer",
+                "Arithmetic",
+                "Logical",
+                "All of mentioned"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which micro operations carry information from one register to another?",
+            "options": [
+                "Register transfer",
+                "Arithmetic",
+                "Logical",
+                "All of mentioned"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Micro operation is shown as:",
+            "options": [
+                "R1-&gt;R2",
+                "R1&lt;-R2",
+                "Both",
+                "None"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In which shift is used to divide a signed number by two:",
+            "options": [
+                "Logical right-shift",
+                "Arithmetic right shift",
+                "Logical left shift",
+                "Arithmetic left shift"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "The third state of Tri-state buffer mainly known as ________",
+            "options": [
+                "High impedance",
+                "Low impedance",
+                "High capacitive",
+                "Low Resistance"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "A collection of lines that connects several devices is called________",
+            "options": [
+                "Bus",
+                "Wires",
+                "Buffer",
+                "Gates"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "An 8-bit register contains the binary value: 1001 1111. What is the register value after applying an arithmetic right operation twice?",
+            "options": [
+                "11001111",
+                "11101110",
+                "11100111",
+                "10011111"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the result of 8-bit register A having value 1010 0101 after performing given operation? ashl (cil ((A XNOR A’)",
+            "options": [
+                "11001111",
+                "0 0 0 0 0 0 0 0 0",
+                "11100111",
+                "10011111"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "RTL stands for",
+            "options": [
+                "Random transfer language",
+                "Register transfer language",
+                "Arithmetic transfer language",
+                "Read Trasnfer Language"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In which transfer the computer register are indicated in capital letters for depicting its function:",
+            "options": [
+                "Register Transfer",
+                "Memory Transfer",
+                "Bus Transfer",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Every bit of register has:",
+            "options": [
+                "2 common line",
+                "4 common line",
+                "1 common line",
+                "8 common line"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "A digital computer has a common bus system for 16 registers of 32 bits each. The bus is constructed with multiplexers. The number of multiplexers in the bus and size of multiplexers is respectively __________",
+            "options": [
+                "32,32:1",
+                "16,16:1",
+                "32,16:1",
+                "16,32:1"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "A memory system of size 16 K bytes is required to be designed using memory chips which have 12 address lines with 4 data lines each. Then the number of such chips required to design the memory is ___________.",
+            "options": [
+                "2",
+                "16",
+                "11",
+                "8"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "In memory transfer location address is supplied by ____________ that puts this on address bus:",
+            "options": [
+                "ALU",
+                "CPU",
+                "MAR",
+                "MDR"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Operation of memory transfer are:",
+            "options": [
+                "Read",
+                "Write",
+                "Both",
+                "None"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "In memory read the operation puts memory address on to a register known as:",
+            "options": [
+                "PC",
+                "ALU",
+                "MAR",
+                "All of these"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "By the help which operation we put memory address in memory address register and data in data register?",
+            "options": [
+                "Memory Write",
+                "Memory Read",
+                "I/o Read",
+                "I/o Write"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "A digital computer has a common bus system for k registers of n bits each. The bus is constructed with multiplexers. The number of multiplexers in the bus and size of multiplexers is respectively",
+            "options": [
+                "k, n:1",
+                "k, k:1",
+                "n, n:1",
+                "n, k:1"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "A digital computer has a common bus system for 16 registers of 32 bits each using multiplexers. The numbers of selection inputs in each multiplexer required to design is ____.",
+            "options": [
+                "3",
+                "4",
+                "16",
+                "32"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the maximum number of addressable locations in memory using 13 address lines?",
+            "options": [
+                "2048",
+                "1024",
+                "4096",
+                "8192"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "A memory system of size 128K bytes is required to be designed using memory chips which have logbase2(2048) address lines with 4 data lines each. Then the number of such chips required to design the memory is ____________",
+            "options": [
+                "64",
+                "32",
+                "128",
+                "16"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "If computer has 15 bit of address line then the memory unit has ________ memory location.",
+            "options": [
+                "32768",
+                "32727",
+                "1024",
+                "24235"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 1010 &amp; Register B holds the value 1100. What will be the output of selective-set operation?",
+            "options": [
+                "1111",
+                "1000",
+                "1110",
+                "0 0 1 1"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 1010 &amp; Register B holds the value 1100. What will be the output of selective-complement operation?",
+            "options": [
+                "0 1 1 0",
+                "1110",
+                "1111",
+                "1000"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 1010 &amp; Register B holds the value 1100. What will be the output of Selective-clear operation?",
+            "options": [
+                "1000",
+                "1110",
+                "0 1 0 1",
+                "0 0 1 0"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 1010 &amp; Register B holds the value 1100. What will be the output of Mask operation?",
+            "options": [
+                "0 0 1 0",
+                "1000",
+                "0 1 0 1",
+                "1100"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the value of other logic operand for selective clear operation to be performed on 101001 such that its LSB bit only will be converted to 0?",
+            "options": [
+                "101001",
+                "101000",
+                "100001",
+                "0 0 0 0 0 1"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the value of the other logic operand for the masking operation to be performed on the 1011 operand such that its MSB bit only will be converted to 0?",
+            "options": [
+                "1100",
+                "0 1 1 1",
+                "0 0 1 1",
+                "1010"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following shift operation is known as rotate operation?",
+            "options": [
+                "Arithmetic",
+                "Circular",
+                "Logical",
+                "All of Mentioned"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "How many types of shift micro operation",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "6"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 1001 0110 &amp; Register B holds the value 0001 1000, the output of selective-complement operation?",
+            "options": [
+                "1000 1110",
+                "1001 0110",
+                "0001 1000",
+                "1000 0110"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the value 0101 &amp; Register B holds the value 0011. What will be the output of Selective-clear operation?",
+            "options": [
+                "1000",
+                "0101",
+                "0010",
+                "0100"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "The register A and B are 4 bit register. Register A holds 1101 and B holds 1110. What will be the output, if selective set operation is performed between A and B?",
+            "options": [
+                "1100",
+                "1111",
+                "0011",
+                "1101"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Register A holds the 8-bit binary number 11011001. After applying selective complement logic micro-operation, updated content of register A is 01101101, then what will be the value of logic operand B?",
+            "options": [
+                "10100100",
+                "10110101",
+                "10110000",
+                "10110100"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Let R1 and R2 be two 4-bit registers that store numbers in 2’s complement form. For the operation R1+R2, which one of the following values of R1 and R2 gives an arithmetic overflow?",
+            "options": [
+                "R1 = 1100 and R2 = 1010",
+                "R1 = 1101 and R2 = 1001",
+                "R1 = 1011 and R2 = 1110",
+                "both a and b"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "An 8-bit register contains the binary value 1100 1011. What is the register value after arithmetic shift right?",
+            "options": [
+                "1100 1011",
+                "1110 0101",
+                "0110 0101",
+                "0100 1011"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which shift is a shift micro operation which is used to shift a signed binary number to the left or right:",
+            "options": [
+                "Arithmetic",
+                "Circular",
+                "Logical",
+                "All of Mentioned"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Arithmetic left shift is used to multiply a signed number by____",
+            "options": [
+                "2",
+                "4",
+                "8",
+                "0"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "The ALS represents _____________",
+            "options": [
+                "Arithmetic Logic Shift Unit.",
+                "Auto Logic Shift Unit.",
+                "Arithmetic Logic Simple Unit.",
+                "Auto Logic Shift Unit."
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "4- Bit Binary Adder can be designed using ____ Full Adder",
+            "options": [
+                "4",
+                "8",
+                "16",
+                "2"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which statement represent output X (in hex) for the given value Y= D7 (in hex)? X = ashr[shl(Y)]",
+            "options": [
+                "X = X^Y",
+                "X = Y",
+                "X = complement(Y)",
+                "both a) &amp; b)"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which statement represent output X (in hex) for given value Y= F8 (in hex) ? X = ashr[shl(Y)]",
+            "options": [
+                "X = X^Y",
+                "X = Y",
+                "X = complement(Y)",
+                "both a) &amp; b)"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which statement represent output X (in hex) for given value Y= E4(in hex)? X=ashr[shl(Y)]",
+            "options": [
+                "X=X^Y",
+                "X=Y",
+                "X=complement(Y)",
+                "both a and b"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which statement represent output X (in hex) for given value Y = C1 (in hex)? X = ashr[shl(Y)]",
+            "options": [
+                "X = X ^ Y",
+                "X = X ˅ Y",
+                "Both a and b",
+                "X = Y XOR X"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "A hexadecimal number FA is stored in 1-byte register R1. Calculate minimum number of times ‘ashr’ operation need to perform on R1 to set all the bits to 1.",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "6"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "A hexadecimal number 7A is stored in 1-byte register R1. Calculate minimum number of times ‘ashr’ operation need to perform on R1 to set all the bits to 1.",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "None"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "An 8-bit register contains the binary value 1011 1011, the register value after two arithmetic shift right?",
+            "options": [
+                "0101 1101",
+                "1011 1011",
+                "1101 1101",
+                "1110 1110"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which cycle refers to the time period during which one instruction is fetched and executed by the CPU ?",
+            "options": [
+                "fetch cycle",
+                "instruction cycle",
+                "decode cycle",
+                "execute cycle"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "How many stages of instruction cycle ?",
+            "options": [
+                "5",
+                "6",
+                "4",
+                "7"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "CPU has built-in ability to execute a particular set of machine instructions, called as __________",
+            "options": [
+                "a) Instruction Set",
+                "b) Registers",
+                "c) Sequence Set",
+                "d) User instructions"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following is group of bits that instruct the computer to perform a specific operation ?",
+            "options": [
+                "address",
+                "memory",
+                "program counter",
+                "instruction code"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following register holds the address of instruction ?",
+            "options": [
+                "DR",
+                "PC",
+                "IR",
+                "AC"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which register holds memory operand ?",
+            "options": [
+                "DR",
+                "AR",
+                "AC",
+                "IR"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which register holds address of memory ?",
+            "options": [
+                "DR",
+                "AR",
+                "PC",
+                "TR"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which register holds instruction code ?",
+            "options": [
+                "DR",
+                "AR",
+                "IR",
+                "PC"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "_________ Register is also known as Processor register?",
+            "options": [
+                "IR",
+                "TR",
+                "AC",
+                "PC"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following registers have only a LD control input in common bus system?",
+            "options": [
+                "IR and OUTR",
+                "INPR and OUTR",
+                "IR and INPR",
+                "AR and OUTR"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following register has 12 bits 1. DR 2. AR 3. AC 4. PC 5. TR 6. IR 7. INPR 8. OUTR",
+            "options": [
+                "A) 1 &amp; 2",
+                "B) 2&amp;4",
+                "C) 3 &amp; 5",
+                "D) 7 &amp; 8"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "The basic computer has 16-bit common bus system in which 16 bits output of register A are placed on bus lines when S2S1S0 = 100. The LD pin of 16- bit register B is enabled to load the data available on bus. The output of register B is selected for the bus line when S2S1S0 = 110. Identify the correct transfer micro-operation based on the given description.",
+            "options": [
+                "AC ←DR",
+                "DR ←IR",
+                "TR ←AC",
+                "DR ←PC"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of following pair match correct ? 1. 2^n micro operations p. 16 bits 2. PC q. E=0 3. CLE r. 12 Bits 4. CMA s. n bits opcode 5. AC t. 2n bit op code 6. DR u. complement processor register",
+            "options": [
+                "(1,s), (2,r), (3,r), (4,q) , (5,p), (6,p)",
+                "(1,t), (2,r), (3,r), (4,q) , (5,p), (6,p)",
+                "(1,s), (2,r), (3,q), (4,u) , (5,p), (6,p)",
+                "(1,t), (2,r), (3,r), (4,u) , (5,p), (6,p)"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following pair match correct?",
+            "options": [
+                "(1,u), (2,v), (3,p), (4, r), (5, s), (6,q)",
+                "(1,r), (2,s), (3,t), (4, p), (5, q), (6,u)",
+                "(1,p), (2,v), (3,t), (4, u), (5, w), (6,q)",
+                "(1,q), (2,v), (3,t), (4, p), (5, r), (6,w)"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the content of processor register and Extended bit after execution of following sequence of instructions if the initial content of AC is 0FFF and Extended bit is 0 and memory locations [415] are 515 and [515] are 615 respectively? (All the numbers given are in hexadecimal) 1 AND 415 0 AND 515 CLA CME",
+            "options": [
+                "0415, 1",
+                "0000, 0",
+                "0515, 0",
+                "0000, 1"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following pair match correct? 1. Hex-code for ION p. Input-output Instruction 2. OUTR q. MRI 3. AC r. F080 4. PC s. DXXX 5. opcode = 0 to 6 (in decimal) t. Processor Register 6. Indirect BSA u. 1 byte v. 12-bit register w. 7004",
+            "options": [
+                "(1,r), (2,u), (3,t), (4, v), (5, q), (6,s)",
+                "(1,r), (2,u), (3,t), (4, w), (5, q), (6,s)",
+                "(1,v), (2,u), (3,t), (4, w), (5, q), (6,s)",
+                "(1,r), (2,u), (3,t), (4, w), (5, v), (6,s)"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which type of instruction is going to perform for the given 16-bit instruction format? 1011 0101 0011 1011",
+            "options": [
+                "1 LDA 53B",
+                "0 LDA 53B",
+                "1 STA 53B",
+                "0 STA 53B"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following pair match correct? 1. 2^n microoperations p. 16 bits 2. PC q. AC = 0 3. CLA r. 12 bits 4. CMA s. n bit opcode 5. AC t. 2n bit opcode 6. TR u. complement processor register",
+            "options": [
+                "(1,s), (2,r), (3,r), (4,q) , (5,p), (6,p)",
+                "(1,t), (2,r), (3,r), (4,q) , (5,p), (6,p)",
+                "(1,s), (2,r), (3,q), (4,u) , (5,p), (6,p)",
+                "(1,t), (2,r), (3,r), (4,u) , (5,p), (6,p)"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following is used to stores address of memory from which data is collected &amp; sent to CPU ?",
+            "options": [
+                "program counter",
+                "cache memory",
+                "memory address register",
+                "memory data register"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The register which keeps tracks of execution of program &amp; which contains the memory address of instruction currently being executed is called ________.",
+            "options": [
+                "index register",
+                "memory address register",
+                "program counter",
+                "instruction register"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "program counter contents indicates ____.",
+            "options": [
+                "the time elapsed since execution begins",
+                "the count of programs being executed after switching the power ON",
+                "the adress where next instruction is stored",
+                "the time needed to execute a program"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "what will be the contents of processor register and extended bit after execution of following instruction code if the initial content of AC is F000 and memory locations [300] are 567 and [567] are 200 respectively ? 1 AND 300 0 ADD 567 CME",
+            "options": [
+                "200,1",
+                "F200,1",
+                "200,0",
+                "FDFF, 1"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following represent the size of processor register and hex code for a register reference instruction ?",
+            "options": [
+                "16 , F080",
+                "16, 7080",
+                "8, F080",
+                "8, 7080"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the content of processor register and Extended bit after execution of following sequence of instructions if the initial content of AC is 089F and Extended bit is 0 and memory locations [312] are 544 and [544] are 600 respectively?",
+            "options": [
+                "F9FF, 1",
+                "0E9F, 0",
+                "0600, 0",
+                "F9FF , 0"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the content of processor register and Extended bit after execution of following sequence of instructions if the initial content of AC is F097 (in hex) and Extended bit is 0 and memory locations [300] are 510 and [510] are 600 respectively?",
+            "options": [
+                "0600, 1",
+                "0000, 0",
+                "0000, 1",
+                "F097, 0"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The register reference instruction having hex code 7100 is __________",
+            "options": [
+                "CME",
+                "CMA",
+                "INC",
+                "SPA"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What will be content of processor register &amp; extended bit (E) after execution of following instruction code if initial content of AC is ABCD &amp; memory location [300] are 567 &amp; [567] are 200 respectively ? 1 AND 300 0 ADD 567 CMA CME",
+            "options": [
+                "a) 0400,0",
+                "b) 0400,1",
+                "c) FBFF,1",
+                "d)0200,0"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "The timing signal of Register reference instruction and Input-Output instruction are __________ and _________________.",
+            "options": [
+                "D7’I’T3 and D7IT3&#39;",
+                "D7I’T3 and D7’I’T3",
+                "D7’I’T3 and D7IT3",
+                "D7I’T3 and D7IT3"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the contents of processor register and extended bit after execution of following instruction code if the initial content of AC is F000 and memory locations [300] are 567 and [567] are 200 respectively? 1 AND 300 0 ADD 567 CMA",
+            "options": [
+                "FDFF, 0",
+                "FDFF, 1",
+                "F200,1",
+                "F200,0"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Register A holds the 8-bit binary 11011001. Determine the B operand and the logic microoperation to be performed in order to change the value of A to 11111001.",
+            "options": [
+                "00100000 , OR",
+                "00100000, AND",
+                "0 0 100000, XOR",
+                "BOTH A) AND C)"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following pair match correct?",
+            "options": [
+                "(1,u), (2,v), (3,p), (4, r), (5, s), (6,q)",
+                "(1,r), (2,s), (3,t), (4, p), (5, q), (6,u)",
+                "(1,r), (2,s), (3,t), (4, u), (5, p), (6,q)",
+                "(1,q), (2,v), (3,t), (4, p), (5, r), (6,w)"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following stores operand during execution and result of operation after execution ?",
+            "options": [
+                "general purpose register",
+                "stack register",
+                "flag register",
+                "accumulator"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "D2T4: DR← M [AR] D2T5: AC← DR , SC ← 0 this indicate which computer instructions ?",
+            "options": [
+                "LDA",
+                "STA",
+                "ADD",
+                "AND"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "An addressing of memory having 16-bit format, out of this its 15th bit is 0 , 14th 13th &amp; 12th bit is having 0, 1, 1 value respectively &amp; rest of the bits value is unknown then find what type of address, which memory reference instruction with its hexcode notation.",
+            "options": [
+                "a) Indirect, BUN, CXXX",
+                "b) direct , STA, 3XXX",
+                "c) Indirect, BSA, DXXX",
+                "d) Indirect, ISZ, EXXX"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Identify the computer instruction, This instruction stores the content of AC into the memory word specified by the effective address. Since the output of AC is applied to the bus and the data input of memory is connected to the bus, we can execute this instruction with one microoperation:",
+            "options": [
+                "LDA",
+                "STA",
+                "ADD",
+                "BUN"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "An addressing of memory having 16-bit format, out of this its 15th bit is 0, 14th 13th &amp; 12th bit is having 0 1 0 value respectively &amp; rest of the bits value is unkonwn then find what type of address, which memory referance instruction with its HEXCODE notation",
+            "options": [
+                "direct, LDA, 2XXX",
+                "Indirect, AND, 8XXX",
+                "indirect, ADD, 9XXX",
+                "direct, ADD, 1XXX"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "An addressing of memory having 16-bit format, out of this its 15th bit is 1, 14th 13th &amp; 12th bit is having 0 1 1 value respectively &amp; rest of the bits value is unkonwn then find what type of address, which memory referance instruction with its HEXCODE notation",
+            "options": [
+                "INDIRECT, BUN, CXXX",
+                "INDIRECT, STA, BXXX",
+                "INDIRECT, BSA, DXXX",
+                "INDIRECT, ISZ, EXXX"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Which register referance instruction is used for skip next instruction if Accumulator is positive",
+            "options": [
+                "SPA",
+                "STA",
+                "SNA",
+                "SZE"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "The register referance instruction having hex code of 7004 is.....",
+            "options": [
+                "SZE",
+                "SPA",
+                "SZA",
+                "SNA"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "MAtch the followings HEX code / symbol Description / hex code 1) CLA p) 7800 2) HLT q) 7040 3) SZE r) 7200 4) SNA s) 7002 5) CME t) 7010 u) 7008 v) 7004 w) 7100 x) 7001",
+            "options": [
+                "1- P, 2- X, 3- S, 4 -U, 5 - W",
+                "1- Q, 2- S, 3- X, 4 - P, 5 -T",
+                "1- R, 2- T, 3- V, 4 - W, 5 - X",
+                "1- T, 2- U, 3- V, 4 - W, 5 - X"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following represents the size of the input-output register and hex code for an I/O instruction?",
+            "options": [
+                "a) 16, F080",
+                "b) 8, 70FF",
+                "c) 8, 7080",
+                "d ) 8, F080"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Choose one of the correct 16-bit instruction format for the instruction: 1 STA 256",
+            "options": [
+                "0010 001001010110",
+                "1001 001001010110",
+                "0011 001001010110",
+                "1011 0010 0101 0110"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "An addressing of memory having 16-bit format, out of this its 15th bit is 1, 12th 13th &amp; 14th bit is having 0 1 0 value respectively &amp; rest of the bits value is unknown then find what type of address, which memory reference instruction with its HEXCODE notation.",
+            "options": [
+                "direct, LDA, 9XXX",
+                "direct, ADD, 1XXX",
+                "Indirect, LDA, AXXX",
+                "Indirect, STA, AXXX"
+            ],
+            "ans": 2,
+            "unit": "3"
+        }
+    ],
+    "T2": [
+        {
+            "q": "Which of the following instruction is used to skip next instruction if (A-B) &lt; 0 ?",
+            "options": [
+                "SNA",
+                "SPA",
+                "SZE",
+                "SZA"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following instruction is used to skip next instruction if (A-B) &gt; 0 ?",
+            "options": [
+                "SNA",
+                "SPA",
+                "SZE",
+                "SZA"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following instruction is used to skip next instruction if (A-B) = 0 ?",
+            "options": [
+                "SNA",
+                "SPA",
+                "SZE",
+                "SZA"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following machine instructions are used by the computer to represent the negative number in signed 2’s complement form?",
+            "options": [
+                "CMA",
+                "CLA",
+                "INC",
+                "Both a) and c)"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following machine instructions are used by the computer to represent the number in signed 1’s complement form?",
+            "options": [
+                "CMA",
+                "CLA",
+                "INC",
+                "ADD"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Identify the instruction based on the given micro-operation: If (AC(15)=1) then PC ← PC + 1",
+            "options": [
+                "SNA",
+                "SZA",
+                "SPA",
+                "SKI"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What can be interpreted about instruction type if 15th bit (I) of instruction format is 1?",
+            "options": [
+                "direct address memory instruction",
+                "indirect address memory instruction",
+                "register reference instruction",
+                "I/O reference instruction"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What can be interpreted about instruction type if 15th bit (I) of instruction format is 0?",
+            "options": [
+                "direct address memory instruction",
+                "indirect address memory instruction",
+                "register reference instruction",
+                "I/O reference instruction"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "The ___ Instruction checks the input flag to see if character is available to transfer.",
+            "options": [
+                "SKI",
+                "SKO",
+                "ION",
+                "IOF"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What can be interpreted about the instruction type if the control statement is D7IT3 ?",
+            "options": [
+                "direct address memory instruction",
+                "indirect address memory instruction",
+                "register reference instruction",
+                "I/O reference instruction"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What can be interpreted about instruction type if control statement is D7’I’T3?",
+            "options": [
+                "direct address memory instruction",
+                "indirect address memory instruction",
+                "register reference instruction",
+                "I/O reference instruction"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What can be interpreted about instruction type if control statement is D7I’T3?",
+            "options": [
+                "direct address memory instruction",
+                "indirect address memory instruction",
+                "register reference instruction",
+                "I/O reference instruction"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Consider the following table in which all the numbers are in HEX and the final content of AC is (4B4B)16 before the HLT instruction is executed. Find out the missing instruction at location 025 to get AC = (4B4B)16. Location Instruction 021 CLA 022 ADD 027 023 CLE 024 CIL 025 ? 026 HLT 027 A5A5",
+            "options": [
+                "CIL",
+                "INC",
+                "SNZ",
+                "SNA"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the contents of processor register after execution of following code? Location Instruction 200 CLA 201 AND 208 202 BUN 204 203 HLT 204 INC 205 CMA 206 BUN 203 207 8184 208 ABCD",
+            "options": [
+                "FFFE",
+                "FFFF",
+                "ABCD",
+                "1"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the contents of processor register after execution of following code? Location Instruction 051 LDA 058 052 AND 057 053 BUN 055 054 HLT 055 CMA 056 BUN 054 057 ED19 058 12E4",
+            "options": [
+                "FFFF,0",
+                "FFF0,1",
+                "FFFF,1",
+                "0000,0"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What will be status of FGI flag bit if input device is ready to send data to accumulator?",
+            "options": [
+                "1",
+                "0",
+                "x",
+                "z"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What will be status of FGO flag bit if output device is ready to accept data from accumulator?",
+            "options": [
+                "0",
+                "1",
+                "x",
+                "z"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "If R is interrupt flip flop then what is the register transfer statement of RT2 from instruction cycle ?",
+            "options": [
+                "a) AR &lt;-- 0, TR &lt;-- PC",
+                "b) M[AR &lt;-- TR, PC &lt;-- 0",
+                "c) PC &lt;-- PC +1, IEN &lt;-- 0, R &lt;-- 0, SC &lt;-- 0",
+                "d) both a &amp; c"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Which instruction is a hardware implementation of the interrupt cycle?",
+            "options": [
+                "SKI",
+                "BSA",
+                "STA",
+                "OUTR"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following control bit is used for checking occurrence of interrupt?",
+            "options": [
+                "IEN",
+                "ION",
+                "INT",
+                "SKI"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "The first machine cycle of an instruction is always __",
+            "options": [
+                "instruction fetch",
+                "decode",
+                "read effective address",
+                "execute"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "The IEN flip flop can be set using ______ instruction and can be cleared using _____ instruction.",
+            "options": [
+                "ION, IOFF",
+                "IOF, ION",
+                "FGI, FGO",
+                "ION, IOF"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which of following pair match correct? 1. 5 9 2 4 + - * p. 6 2. ISZ q. D5T5 3. BSA r. D6T6 4. CMA s. 15 5. postfix t. reverse polish 6. SP bit size u. rB9",
+            "options": [
+                "(1,p), (2,r), (3,t), (4,q), (5,s), (6,s)",
+                "(1,s), (2,r), (3,q), (4,u), (5,p), (6,r)",
+                "(1,t), (2,r), (3,q), ( 4 , q ) , ( 5 , p ) , (6,p)",
+                "(1,s), (2,r), (3,q), ( 4 , u ), (5,t), (6,p)"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Find out the symbolic Description that belongs to BSA Instruction",
+            "options": [
+                "PC ← AR",
+                "M[AR] ← PC,PC ← AR+1",
+                "M[AR] ← M[AR]+1,IF M[AR]+1=0 then PC ← PC+1",
+                "AC ← M[AR]"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Identify the instruction based on the given micro-operation: AC← M[AR]",
+            "options": [
+                "LDA(cid:9)",
+                "CIR(cid:9)",
+                "SPA",
+                "SNA (cid:9)"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the contents of processor register after execution of following code? Location Instruction 010 CLA 011 ADD 016 012 BUN 014 013 HLT 014 AND 017 015 BUN 013 016 C1A5 017 93C5",
+            "options": [
+                "8184",
+                "8185",
+                "C1A5",
+                "93C5"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the contents of processor register after execution of following code? Location Instruction 010 CLA 011 AND 016 012 BUN 014 013 HLT 014 CMA 015 BUN 013 016 C1A5 017 93C5",
+            "options": [
+                "8184",
+                "8185",
+                "FFFF",
+                "93C6"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the contents of processor register after execution of following code? Location Instruction 010 CLA 011 AND 016 012 BUN 014 013 HLT 014 ADD 017 015 BUN 013 016 C1A5 017 93C5",
+            "options": [
+                "8184",
+                "8185",
+                "C1A5",
+                "93C5"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Identify Correct sequence of Program to perform logical OR Operation from given sequence. P) CMA Q) ORG 100 R) STA TMP S) LDA B T) AND TMP U) LDA A V) HLT W) BUN TMP X) ADD TMP",
+            "options": [
+                "Q,U,P,R,S,P,T,P,V",
+                "Q,U,P,R,S,P,T,V",
+                "Q,U,P,R,S,T,P,V",
+                "Q,U,P,R,S,P,T,V"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "If (AC(15)=0 then (PC ← PC+1) belongs to which instruction.",
+            "options": [
+                "SNA",
+                "SZA",
+                "SPA",
+                "SKI"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following instruction is used for enabling interrupt?",
+            "options": [
+                "IEN",
+                "ION",
+                "IOF",
+                "SKI"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following instruction is used for disabling interrupt?",
+            "options": [
+                "IEN",
+                "ION",
+                "IOF",
+                "SKI"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "The following instruction when executed, E and AC results to ______ operation. CLE SPA CME CIR",
+            "options": [
+                "Circular Right",
+                "Logical shift right",
+                "Arithmetic Shift Right",
+                "Circular Left"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Identify the computer instruction which having following micro operation is D6T4: DR &lt;-- M [AR] D6T5: DR &lt;-- DR + 1 D6T6: M [AR] &lt;-- DR, if (DR = 0) then (PC ← PC + 1), SC ← 0",
+            "options": [
+                "BUN",
+                "SKI",
+                "ISZ",
+                "SPA"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the content of processor register AC &amp; E after execution of following code (assume initial E &amp; AC is clear ) Location Instruction 210 CLA 211 ADD 217 212 INC 213 STA 217 214 LDA 218 215 CME 216 AND 217 217 2324 218 8EC4",
+            "options": [
+                "a)0204, 0",
+                "b)0204, 1",
+                "c)0202, 0",
+                "d)0215, 1"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What are the two instruction needed in basic computer in order to set E flip flop is 1 ?",
+            "options": [
+                "a) CLA, CME",
+                "b) CME",
+                "c) CLE, CMA",
+                "d)CLE, CME"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Initially E=0, AC = 9000, M[0020] = A2C4 , PC = 0404 After Execution of following two line content of PC ? ADD 0020 SZE",
+            "options": [
+                "a) 405",
+                "b) 404",
+                "c) 403",
+                "d) 406"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "The following program is stored in memory unit of the basic computer. What is the content of the accumulator after the execution of program? (all location number listed below are in hexadecimal). Location Instruction 210 CLA 211 ADD 217 212 INC 213 STA 217 214 LDA 218 215 CMA 216 AND 217 217 1234H 218 9CE2",
+            "options": [
+                "1002",
+                "2100",
+                "2011",
+                "0215"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Choose the correct statement/s regarding Input-output instructions: (1) I/O instructions are needed for transferring information to and from AC register. (2) I/O instructions are needed for checking the flag bits. (3) I/O instructions are needed for controlling the interrupt facility. (4) I/O instructions are recognized by computer when control function is D7’I’T3",
+            "options": [
+                "Only 1 and 4",
+                "Only 2 and 3",
+                "Only 1 and 2",
+                "Only 1,2 and 3"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "The number of non-MRI instructions in basic computer are ________.",
+            "options": [
+                "6",
+                "18",
+                "7",
+                "10"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "The program that translates a assembly language into machine language is called ____",
+            "options": [
+                "Compiler",
+                "Assembler",
+                "Translator",
+                "Coder"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "The program that translates a high level language language into machine language is called ____",
+            "options": [
+                "Compiler",
+                "Assembler",
+                "Translator",
+                "Coder"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "The program that converts a high-level language program to binary is called ______.",
+            "options": [
+                "Translator",
+                "Complementer",
+                "Compiler",
+                "Assembler"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is not a pseudoinstructions?",
+            "options": [
+                "ORG",
+                "DEC",
+                "HLT",
+                "HEX"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is a pseudo instruction?",
+            "options": [
+                "ORG",
+                "END",
+                "INC",
+                "both 1 and 2"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Match the following. 1) INC p) pB8 2) SNA q) 01110 3) SKO r) rB5 4) COMA s) rB9 5) SHLA t) 10000 u) rB3 v) 11000",
+            "options": [
+                "1-q, 2-r, 3-t, 4-v, 5-s",
+                "1-r, 2-u, 3-p, 4-q, 5- v",
+                "1-v, 2-u, 3-p, 4-r, 5-t",
+                "1-p, 2-v, 3-t, 4-u ,5- q"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Identify the correct statement/s: 1. The value of the program counter is incremented by 1 once its value has been read to the memory address register. 2. Machine instructions are not translated during second pass of assembler. 3. A label symbol contains maximum three characters and is terminated by comma. 4. To perform logic operations, CMA and AND both are useful machine instructions.",
+            "options": [
+                "Only 1, 3, 4",
+                "Only 2,3,4",
+                "Only 1, 2, 4",
+                "Only 1, 2, 3"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "In which of the following cases, the assembler prints an error message to inform the programmer that his symbolic program has an error at a specific line of code? Case - 1: Invalid machine code symbol is detected. Case - 2: The symbolic code which is not a pseudo instruction and absent in MRI and non-MRI table is detected. Case - 3: Program has such a symbolic code, for which assembler does not know its binary equivalent value. Case - 4: Error message is printed if the program has a label, which is found in address symbol table.",
+            "options": [
+                "Case 1, 3, 4",
+                "Case 1, 2, 3",
+                "Case 1, 2, 4",
+                "Case 2, 3, 4"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Identify an invalid line of code:",
+            "options": [
+                "PLA, ADD Y I",
+                "P_L, AND 058",
+                "PAL, LDA SB",
+                "Both B and C"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "A ____ is defined as an instruction that does not have an address part.",
+            "options": [
+                "MRI",
+                "Pseudoinstruction",
+                "Non-MRI",
+                "None of these"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "_____ Instructions are translated during second pass by means of table look up procedures",
+            "options": [
+                "High level program",
+                "Machine",
+                "MRI",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which is /are not correct statements for Pass-1 Assembler from the following. a) it define symbols and remember them in symbol table b) it does actual assembly by translating operations in to machine codes c) Process pseudo- instructions d) Generate object code and data for literals and look for values of symbols e) Keep track of location Counter(LC)",
+            "options": [
+                "both (a) and (d)",
+                "both (b) and (d)",
+                "both (b) and (c)",
+                "Only a"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is true for symbolic address? 1. It consists of one, two, or three but not more than three alphanumeric characters. 2. It is terminated with comma in the label field. 3. The first letter must be a letter and next two may be letters or numerals.",
+            "options": [
+                "all",
+                "only 1",
+                "only 2",
+                "only 3"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "The symbols ORG, DEC, and END called_______ and it gives command to ______",
+            "options": [
+                "pseudo instruction, Assembler",
+                "Pseudo instruction, CPU",
+                "Machine instruction, Assembler",
+                "Machine instruction, CPU"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following statements is/are correct? 1. Second pass assembler is followed by first pass assembler to convert binary equivalent of all instructions. 2. First pass assembler do not generate error in line code if instruction is invalid. 3. Pseudo instructions are translated by first pass assembler.",
+            "options": [
+                "only 1",
+                "only 2",
+                "only 3",
+                "all"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is true for second pass assembler?. 1.Machine instructions are translated by means of table lookup procedures. 2. Error in line of code cannot be detected. 3. It generates address symbol table for all user defined symbols with equivalent binary value. 4. All the MRI and Non-MRI instructions are decoded with their binary equivalent value.",
+            "options": [
+                "BOTH 1) AND 2)",
+                "BOTH 2) AND 3)",
+                "BOTH 1) AND 4)",
+                "All are true"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which one of following in invalid pseudo instruction ?",
+            "options": [
+                "ORG",
+                "HLT",
+                "DEC",
+                "END"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which operation will be performed by following instructions sequence CLE CIR",
+            "options": [
+                "logical right shifting of accumulator",
+                "logical left shifting of accumulator",
+                "circular left shifting of accumulato",
+                "circular right shifting of accumulator"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "The content of accumulator after execution of following program is .. ORG 100 LDA X CMA INC ADD X HLT",
+            "options": [
+                "a) X",
+                "b) 2X",
+                "c) 1",
+                "d) 0"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "What is the content of the accumulator after the execution of program? Location Instruction 508 CLA 509 CMA 50A AND 52F 50B STA 52F 50C LDA 53F 50D CMA 50E CMA 50F AND 52F 51F HLT 52F 1234H 53F 9CE2",
+            "options": [
+                "1020",
+                "2020",
+                "FFFF",
+                "F1FF"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "To implement logical NOR operation using assembly level program, how many times CMA instruction is used?",
+            "options": [
+                "4",
+                "5",
+                "2",
+                "3"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "A set of common instructions that can be used in program many times is called____",
+            "options": [
+                "CALL",
+                "JUMP",
+                "Subroutine",
+                "Loop"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of Following instruction used to link between main program and a subroutine?",
+            "options": [
+                "BUN",
+                "BSA",
+                "SKI",
+                "SKO"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "In Register Stack, the PUSH instruction is used to ____ the current stack pointer and____ data to the stack. The POP instruction is used to ____the data from the stack and ____ the current stack pointer",
+            "options": [
+                "increment,read,store, decrement",
+                "increment,write,re ad,decrement",
+                "decrement,write, read,increment",
+                "decrement,read,w rite,increment"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Specify the control word that must be applied to processor to implement the following microoperations. R6 &lt;-- R4 XOR R5",
+            "options": [
+                "10010111001100",
+                "11010010111000",
+                "11010010110000",
+                "10010111010000"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Find Out the RPN of following expression: [(P * Q) + (M * N)] - (X * Y)",
+            "options": [
+                "P Q * M N * + X Y * -",
+                ") P Q + * M N *X Y * -",
+                "P Q M * + N *X * - Y",
+                "P Q + M N * - X Y * *"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Control word for operation R7&lt;-- R1+R2",
+            "options": [
+                "101011100010",
+                "101010100010",
+                "101011100110",
+                "101011100111"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What will be answer for 53*23*41*++",
+            "options": [
+                "5",
+                "25",
+                "10",
+                "40"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "If control word for micro operation is 01011011100101",
+            "options": [
+                "R7--&gt; R3-R6",
+                "R7--&gt;R2-R5",
+                "R7--&gt; R1-R6",
+                "none of above"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following represent the top of the stack value of k bit stack register ?",
+            "options": [
+                "2k",
+                "logk base 2",
+                "2^k",
+                "(2^k) - 1"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "The result evaluating the postfix expression 10 5 + 60 6 / * 8 – is____.",
+            "options": [
+                "284",
+                "142",
+                "182",
+                "130"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following microoperation is true for the given control word: 11100011100110?",
+            "options": [
+                "R7--&gt; R7 ⊕ R7",
+                "R7 --&gt;R7 ^ Input",
+                "R7--&gt; Input v R7",
+                "R7 --&gt; R7 -1"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which instruction is used to stored data on stack?",
+            "options": [
+                "LDA",
+                "STA",
+                "POP",
+                "PUSH"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "What is the content of Stack Pointer in memory stack?",
+            "options": [
+                "address of next instruction",
+                "address of top element of stack",
+                "address of current instruction",
+                "address of origin"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Evaluate &amp; write result of for following reverse polish expression abc*+de*f+g*+ where a=1, b=2, c=3, d=4, e=5, f=6, g=2",
+            "options": [
+                "a) 61",
+                "b) 59",
+                "c) 49",
+                "d) 56"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In memory stack, PUSH instruction is used to_____ the current stack pointer &amp; _____ data to stack, the POP instruction is used to ____ the data from stack &amp; _____ current stack pointer.",
+            "options": [
+                "a) increment, read, store, decrement",
+                "b) decrement, read, store, increment",
+                "c) increment, store, read, decrement",
+                "d) decrement, store, read, increment"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Result of evaluating RPN expression 5 4 6 + * 4 9 3 / + * is ….?",
+            "options": [
+                "a) 600",
+                "b) 350",
+                "c) 650",
+                "d) 588"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What is the control word for micro operation R4 &lt;-- R4 V R5",
+            "options": [
+                "a)01001100100101",
+                "b)1001011000101 0",
+                "c)101100101010 10",
+                "d)1001011000101 1"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In memory stack, the initial value of SP is 4000. When new item is inserted using ____ operation the value of SP is _______",
+            "options": [
+                "PUSH, 3999",
+                "POP, 4000",
+                "PUSH 4002",
+                "POP, 4001"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What will be the control word to implement the micro-operation: R5 ← R4 ^ R3 ?",
+            "options": [
+                "10001110101010",
+                "10001110101100",
+                "111001010100",
+                "10001110101000"
+            ],
+            "ans": 3,
+            "unit": "5"
+        }
+    ],
+    "T3": [
+        {
+            "q": "A processor has 300 distinct instructions and 70 general-purpose registers. A 32-bit instruction word has an opcode, two register operands, and an immediate operand. The number of bits available for the immediate operand field is_____",
+            "options": [
+                "8",
+                "9",
+                "6",
+                "7"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Only instructions with zero, one, and two addresses are supported by some CPUs. The size of an op-code is 16 bits, whereas the size of an address is 4 bits.What is the Maximum number of two address instructions?",
+            "options": [
+                "128",
+                "512",
+                "256",
+                "64"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "A computer has an instruction size of 16 bits and has 16 programmer visible registers. Each instruction has two source and one destination operands and uses only register direct addressing. The maximum number of opcodes that this processor can have is",
+            "options": [
+                "16",
+                "8",
+                "32",
+                "64"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Consider a 32-bit processor which supports 30 instructions. Each instruction is 32 bit long and has 4 fields namely opcode, two register identifiers and an immediate operand of unsigned integer type. Maximum value of the immediate operand that can be supported by the processor is 8191. How many registers the processor has?",
+            "options": [
+                "64",
+                "128",
+                "256",
+                "512"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Consider the following :1) Operation code 2) Source operand reference 3) Result operand reference 4) Next instruction reference, Which of the above are typical elements of machine instructions?",
+            "options": [
+                "1,2,3 ONLY",
+                "1 AND 2 ONLY",
+                "2 ,3,4 ONLY",
+                "1,2,3,4"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Match the followings. (cid:9) 1) ST@ ADR p) DIRECT 2) ST ADR q) INDIRECT 3) ST $ ADR r) AUTO INCREMENT 4) ST R1 s) REGISTER INDIRECT 5) ST (R1) t) RELATIVE 6) ST(R1)+ u) REGISTER v) IMMEDIATE",
+            "options": [
+                "1-r, 2-t, 3-s, 4-u, 5-p,6- q",
+                "1-q, 2-p, 3-t,4-u, 5- s, 6-r",
+                "1-p, 2-q, 3-r, 4-s, 5-t,6-u",
+                "1-u, 2-p, 3-u, 4-q,5- r,6-s"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "A processor has 40 distinct instructions and 24 general purpose registers. A 32-bit instruction word has an opcode, two register operands and am immediate operand. The number of bits available for the immediate operand field is ______.",
+            "options": [
+                "8",
+                "32",
+                "16",
+                "64"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "A Computer uses a memory unit with 256K word of 32 bits each. A binary instruction code is stored in one word of memory. The instruction has four parts: an indirect bit, an operation code and a register code part to specify one of 64 registers and an address part. How many bits are there in operation code, the register code part and the address part?",
+            "options": [
+                "7,7,18",
+                "7,6,18",
+                "6,7,18",
+                "6,6,18"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "A processor has 400 distinct instruction &amp; 74 general purpose register, a 32bit instruction word has opcode, two register operands &amp; an immediate operand field. The number of bits available for immediate operand field is ______",
+            "options": [
+                "7",
+                "32",
+                "9",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "A stack-based CPU organization uses_______ address instructions",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "0"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Match the pairs in the following questions: (A) Base addressing (p) Reentranecy (B) Indexed addressing (q) Accumulator (C) Stack addressing (r) Array (D) Implied addressing (s) Position independent",
+            "options": [
+                "A-R,B-S,C-P,D-Q",
+                "A-S, B-R,C-Q,D-P",
+                "A-S, B-R,C-P,D-Q",
+                "A-Q, B-R,C-S,D-P"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "When we use auto increment or auto decrements, which of the following is/are true? 1) In both, the address is used to retrieve the operand and then the address gets altered 2) In auto increment the operand is retrieved first and then the address altered 3) Both of them can be used on general purpose registers as well as memory locations",
+            "options": [
+                "2&amp; 3",
+                "2",
+                "1&amp; 2",
+                "All are true"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "State whether the following statements are true or false. I. With one-address instructions, the programmer generally has available only one general-purpose register the accumulator. II. Zero-address instruction are applicable to a special memory organization called a stack.",
+            "options": [
+                "Only I is true",
+                "only II is true",
+                "both are false",
+                "both are true"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "To evaluate arithmetic expressions of data stored in memory, which two instruction formats use LOAD as their first instruction?",
+            "options": [
+                "One address, Zero address",
+                "RISC, Zero address",
+                "RISC, Two address",
+                "One address, RISC"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "A Program Counter Contains a number 825 and Address part of instruction contains the number 24. The Effective Address in the Relative Address Mode, when an Instruction is read from the Memory is?",
+            "options": [
+                "24(cid:9)",
+                "850(cid:9)",
+                "801",
+                "849(cid:9)"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Which is used to store critical pieces of data during subroutines and interrupts:",
+            "options": [
+                "QUEUE",
+                "STACK",
+                "ACCUMULATOR",
+                "DATA REGISTER"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Match following 1. Immediate A.LD ADR 2. Indirect B.LD @ADR 3. Relative C.LD $ADR 4. Direct D.LD #ADR",
+            "options": [
+                "1-D,2-B,3-C,4-A",
+                "1-A,2-B,3-C,4-D",
+                "1-D,2-B,3-A,4-A",
+                "1-A,2-B,3-C,4-A"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Match the pairs in the following questions: 1. LD ADR P. Register mode 2. LD @ADR Q. Relative address mode 3. LD $ADR R. Auto increment mode 4. LD #NBR S. Register indirect mode 5. LD ADR(X) T. Direct address 6. LD R1 U. Index addressing mode 7. LD (R1) V. Immediate mode 8. LD (R1)+ W. Indirect address mode",
+            "options": [
+                "(1-T), (2-W), (3-V), (4-U), (5-P), (6-P), (7- Q), (8-R)",
+                "(1-T), (2-W), (3- Q), (4-R), (5-V), (6- P), (7-U), (8-S)",
+                "(1-T), (2-W), (3- S), (4-S), (5-V), (6- Q), (7-U), (8-R)",
+                "(1-T), (2-W), (3- Q), (4-V), (5-U), (6- P), (7-S), (8-R)"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Match the following pair: 1.Indirect mode x. constants 2.Autodecrement mode y. pointers 3.Immediate mode z. loops",
+            "options": [
+                "1-x, 2-y, 3-z",
+                "1 -y, 2-z, 3-x",
+                "1-z, 2-y, 3-x",
+                "1-y, 2-x, 3-z"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following statement/s are false? 1. index addressing mode is used for branch instruction. 2. in auto increment the operand is retrieved first and then the address altered. 3. zero-address instruction are applicable to a special memory organization called a stack.",
+            "options": [
+                "1 &amp; 2",
+                "2 &amp; 3",
+                "1 &amp; 3",
+                "None of above"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "An addressing mode in which the address field of instruction specifies a register in CPU, whose content given the address of operand in memory is called _____",
+            "options": [
+                "indirect addressing mode",
+                "relative addressing mode",
+                "register addressing mode",
+                "register indirect addressing modes"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "An address field of the instruction LDA refers to a CPU register in which effective address of operand is stored. Identify the addressing mode based on the given description.",
+            "options": [
+                "Register mode",
+                "Register indirect mode",
+                "Immediate addressing mode",
+                "Implied Mode"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Zero-address instructions in a stack-organized computer are ____________ instructions.",
+            "options": [
+                "Register mode",
+                "Register indirect mode",
+                "Immediate addressing mode",
+                "Implied Mode"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Match the pairs in the following questions: 1. BGT A)A&gt; B 2. BLT B)A&lt; B 3. BLE C)A=B D)A&lt;=B E)A/= B F)A &gt;= B",
+            "options": [
+                "(cid:9)1-A,2-B,3-D",
+                "1-A,2-C,3-D",
+                "1-A,2-A,3-D",
+                "(cid:9)1-A,2-B,3-C"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "consider an 8-bit ALU with a 4-bit status register. The four status bits are symbolized by C, S, Z &amp; V which stands for carry, sign, zero and overflow, respectively. Let A = 1111 0000 &amp; B = 0001 0100 and ALU perform A - B. Which of the following represents the state of 4-bit status register?",
+            "options": [
+                "0011",
+                "1100",
+                "1111",
+                "0000"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which one of the following is a special characteristic of RISC processor?",
+            "options": [
+                "Provide direct manipulation of operands residing in memory",
+                "A large variety of addressing modes",
+                "Variable length instruction formats",
+                "Overlapped register window"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "RISC stands for:",
+            "options": [
+                "Remaining Instruction Set of Compiler",
+                "Remaining Intermediate Storage of Computer",
+                "Reduced Instruction Set Computer",
+                "Reduced Instruction Set Complier"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "RISC processor contains 10 global registers,10 local registers,6 in registers and 6 out registers.it contains 3 register windows,what is the size of window and register file of the processor?",
+            "options": [
+                "30 and 74",
+                "32 and 58",
+                "22 and 64",
+                "26 and 58"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Pipelining is a ------------technique?",
+            "options": [
+                "serial",
+                "parallel",
+                "Scalar operation",
+                "Superscalar operation"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "The initial stage for an instruction executing in pipelining is -----?",
+            "options": [
+                "Decode",
+                "Execute",
+                "Fetch",
+                "Address generation."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "The stages of 3 stage pipelining are----?",
+            "options": [
+                "Fetch, Decode, Execute",
+                "Decode, Fetch, Execute",
+                "Execute, Fetch, Decode",
+                "none of the above"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Throughput is calculated as----",
+            "options": [
+                "The number of instructions/ Total time to complete the instructions",
+                "Total time to complete the instructions/numb er of instructions",
+                "Speed of the processor/ Number of instructions",
+                "The number of instructions/speed of the processor"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "By using pipelining, the throughput of the processor----?",
+            "options": [
+                "decreases",
+                "becomes unity",
+                "Increases",
+                "Remains the same."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the below is not a pipeline conflicts?",
+            "options": [
+                "resource conflicts",
+                "data dependency",
+                "branch difficulties",
+                "Balancing of load"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is an advantage of pipelining?",
+            "options": [
+                "Instruction throughput increases.",
+                "Faster ALU can be designed when pipelining is used.",
+                "Pipelining increases the overall performance of the CPU.",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "which of the following is not a part of flynn&#39;s classification?",
+            "options": [
+                "SIDD",
+                "SISD",
+                "MISD",
+                "SIMD"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "which of the following stage is not a part of instruction pipeline?",
+            "options": [
+                "DI",
+                "FO",
+                "EX",
+                "FI"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "for large number of task in a pipeline structure,speed-up ratio is nearly equivalent to?",
+            "options": [
+                "no of tasks",
+                "no of registers",
+                "no of operands",
+                "no of segments"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "In arithmetic pipeline sub operation performed in ------ segments.",
+            "options": [
+                "4",
+                "2",
+                "1",
+                "5"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "_____ represents an organization that includes many processing units under the supervision of a common control unit",
+            "options": [
+                "SSMD",
+                "MISD",
+                "SIMD",
+                "SISD"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which processor requires more number of registers?",
+            "options": [
+                "SIMD",
+                "8085",
+                "CISC",
+                "RISC"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Each stage in pipelining should be completed within ___________ cycle.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "The RISC processor has a more complicated design than CISC.",
+            "options": [
+                "FALSE",
+                "TRUE",
+                "",
+                ""
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following sentences is/are correct for RISC&#39;s pipeline? a) Small no of sub-operations b) Variable-length instruction formats c) Single-cycle instruction execution d) It supports register to memory operation",
+            "options": [
+                "Both a) and b)",
+                "Both b) and d)",
+                "Both c) and d)",
+                "Both a) and c)"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "In pipelining the task which requires the least time is performed first.",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "",
+                ""
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "To increase the speed of memory access in pipelining, we make use of _______",
+            "options": [
+                "Special memory locations",
+                "Special purpose registers",
+                "Buffers",
+                "Cache"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "The computer architecture aimed at reducing the time of execution of instructions is ________",
+            "options": [
+                "RISC",
+                "CISC",
+                "ISA",
+                "SIMD"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Arithmetic pipeline performed in____ segments.",
+            "options": [
+                "3",
+                "6",
+                "4",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which is the correct pipeline pattern for RISC pipeline structure?",
+            "options": [
+                "I,A,E",
+                "DA,FO,FI,EX",
+                "I,E,A",
+                "FI,DA,FO,EX"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Inanarithmeticpipeline,thetimedelaysof4segmentsare6,7,10and8ns respectively.the delay of tr=1ns.the clock cycle time(tp)is------",
+            "options": [
+                "6",
+                "7",
+                "11",
+                "9"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which is the correct pipeline pattern for the Instruction pipeline structure?",
+            "options": [
+                "FI, DA, FO, EX",
+                "A, I, E",
+                "E, A, I",
+                "I, E, A"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following sequence is correct for the RISC pipeline? 1.ALU Operation 2.Execute Instruction 3.Instruction Fetch",
+            "options": [
+                "1,2,3",
+                "2,1,3",
+                "1,3,2",
+                "3,1,2"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following statements is/are correct for major difficulties in instruction pipeline? 1. Data dependency conflicts occurred, when an instruction depends on result of previous instruction, which is available. 2. Resource conflicts caused by access to memory by two segments at different time. 3. It arises from branch and other instruction that change the value of PC.",
+            "options": [
+                "only 1",
+                "only 2(cid:9)",
+                "only 3",
+                "Both 1and 2"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "In Arithmetic Pipeline, the floating- point addition andsubtraction isdone in _______",
+            "options": [
+                "4 parts, Compare the exponents, Align the mantissas, Add or subtract mantissas, Normalize result.",
+                "4 parts, Compare the exponents, Add or subtract mantissas, Normalize result, Align the mantissas",
+                ") 4 parts, Align the mantissas, Compare the exponents, Add or subtract mantissas, Normalize result.",
+                "2 parts, Align the mantissas, Add or subtract mantissas"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "How many clock cycle will be needed to execute Ai + Bi * Ci statement in non-pipeline architecture for i = 1, 2, 3 ?",
+            "options": [
+                "8",
+                "5",
+                "9",
+                "12"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "How many clock cycles will be needed to execute Ai+Bi*Ci statement in pipeline architecture for i = 1,2,3 ?",
+            "options": [
+                "8",
+                "5",
+                "9",
+                "6"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "How many clock cycles will be needed to execute Ai+Bi*Ci statement in pipeline architecture for i=1 TO 5?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following sequence is correct for arithmetic pipeline? 1. Align the mantissas. 2. Compare the exponent. 3. Normalize the result. 4. Add or subtract the mantissas.",
+            "options": [
+                "1-2-4-3",
+                "4-3-2-1",
+                "2-1-4-3",
+                "1-2-3-4"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "_______ structure is only of theoretical interest since no practical system has been constructed using it.",
+            "options": [
+                "SIMD",
+                "SISM",
+                "MISD",
+                "MIMD"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following statement/s is/are incorrect about RISC pipeline? 1. RISC instruction implement on instruction pipeline using small number of sub-operations with each being executed in one clock. 2. Because of Fixed length instruction format the decoding can occur at same time at register selection. 3. All data manipulation have Memory to Memory operation.",
+            "options": [
+                "only 2",
+                "only 3",
+                "Both 1and 2",
+                "Both 2 and 3"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "The number of clock cycles it takes to process 200 tasks in six segment pipeline is ___.",
+            "options": [
+                "203",
+                "205",
+                "199",
+                "206"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is correct sequence for instruction pipeline? 1.Decode the instruction. 2. Fetch operands from the memory 3. Fetch instruction from memory. 4. Execute the instruction. 5. Calculate effective address. 6. store the result in proper place.",
+            "options": [
+                "3,1,5,2,4,6",
+                "3,5,1,2,4,6",
+                "3,2,5,1,4,6",
+                "1,3,2,5,4,6"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "For large number of task &amp; Tn = K Tp (where Tn is non-pipeline time &amp; Tp is pipeline time , K is segment) in a pipeline structure, the Speedup ratio is equivalent to_____",
+            "options": [
+                "(n Tn) / (K + n - 1) Tp",
+                "n Tn",
+                "(K+ n -1)Tp",
+                "K"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "We have 2 designs D1 and D2 for a synchronous pipeline processor. D1 has 5 stage pipeline with execution time of 3 ns, 2 ns, 4 ns, 2 ns and 3 ns. While the design D2 has 8 pipeline stages each with 2 ns execution time. How much time can be saved using design D2 over design D1 for executing 100 instructions? (Assume that there is no register delay in pipeline system)",
+            "options": [
+                "214ns",
+                "210ns",
+                "202ns",
+                "416ns"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following statement/s is/are correct? 1. Pipelining improves CPU performance due to the introduction of parallelism. 2. Data conflict can overcome by use of pipeline with delayed load operation. 3. In space-time diagram, horizontal axis displays the time in clock cycles. 4. There is no practical system has been constructed using MIMD organization.",
+            "options": [
+                "Only 1, 2, 4",
+                "Only 4",
+                "Only 3 and 4",
+                "Only 1, 2 and 3"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "consider the following 4 instruction 1. LOAD : R1 ← M[address1] 2. LOAD : R2 ← M[address2] 3. ADD : R3 ← R1 + R2 4. STORE : M[address 3] ←R3 how many clock cycle is used for implement this instruction program using RISC pipeline ?",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "4"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "1’s complement of 1011101 is ____________",
+            "options": [
+                "101110",
+                "1001101",
+                "100010",
+                "1100101"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "2’s complement of 11001011 is ____________",
+            "options": [
+                "1010111",
+                "11010100",
+                "110101",
+                "11100010"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "On subtracting (01010)2 from (11110)2 using 1’s complement, we get ____________",
+            "options": [
+                "1001",
+                "11010",
+                "10101",
+                "10100"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "On subtracting (001100)2 from (101001)2 using 2’s complement, we get ____________",
+            "options": [
+                "1101100",
+                "11101",
+                "11010101",
+                "11010111"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "On addition of 28 and 18 using 2’s complement, we get ____________",
+            "options": [
+                "101110",
+                "101110",
+                "101111",
+                "1001111"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "On addition of +38 and -20 using 2’s complement, we get ____________",
+            "options": [
+                "11110001",
+                "100001110",
+                "10010",
+                "110101011"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "On addition of -46 and +28 using 2’s complement, we get ____________",
+            "options": [
+                "-10010",
+                "-101",
+                "1011",
+                "100101"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "On addition of -33 and -40 using 2’s complement, we get ____________",
+            "options": [
+                "1001110",
+                "-110101",
+                "110001",
+                "-1001001"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "On subtracting +28 from +29 using 2’s complement, we get ____________",
+            "options": [
+                "11111010",
+                "111111001",
+                "100001",
+                "1"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "__________________ is a straightforward method of representing positive and negative numbers.",
+            "options": [
+                "Radix",
+                "Complement",
+                "Sign Magnitude",
+                "Encode"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "The 1’s complement of 1 in 4 bits is __________",
+            "options": [
+                "1",
+                "0",
+                "1001",
+                "1110"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "The sign magnitude representation of -9 is ___________",
+            "options": [
+                "1001",
+                "11111001",
+                "10001001",
+                "11001"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "if you are given a word of size n-bits, the range of 2’s complement of binary number is __",
+            "options": [
+                "– (2n +1) to +(2n +1)",
+                "–(2n+1) to +(2n)",
+                "- 2 n-1 to +2n-1-1",
+                "0 to +(2n-1+1)"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "In both signed magnitude and 2’s complement , positive and negative numbers are separated using ______________",
+            "options": [
+                "LSB",
+                "MSB",
+                "0",
+                "1"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "If m is the 2’s complement and n is the binary number, then ______________",
+            "options": [
+                "m=n’",
+                "m=n’+1",
+                "m=n’-1",
+                "m=n"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "The bitwise complement of 0 is ___________",
+            "options": [
+                "1",
+                "10000000",
+                "11111111",
+                "11111110"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Subtraction in computers is carried out by ______",
+            "options": [
+                "1&#39;s complement",
+                "2&#39;s complement",
+                "3&#39;s complement",
+                "9&#39;s complement"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Subtract X from Y Where X= (+32) and Y= (-19). Use 8-bit subtraction method and give answer in binary.",
+            "options": [
+                "1010101",
+                "11001101",
+                "110011001",
+                "110110101"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "on subtracting (01010)2 from (11110)2 using 1’s complement, we get ______",
+            "options": [
+                "1001",
+                "11010",
+                "10101",
+                "10100"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "The addition of +19 and +43 results as _________ in 2’s complement system.",
+            "options": [
+                "11001010",
+                "101011010",
+                "101010",
+                "111110"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "The advantage of 2’s complement system is that _________",
+            "options": [
+                "Only one arithmetic operation is required",
+                "Two arithmetic operations are required",
+                "No arithmetic operations are required",
+                "Different Arithmetic operations are required"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "For arithmetic operations only _________",
+            "options": [
+                "1’s complement is used",
+                "2’s complement",
+                "10’s complement",
+                "9’s complement"
+            ],
+            "ans": 1,
+            "unit": "8"
+        }
+    ],
+    "T4": [
+        {
+            "q": "Which of the following is used for binary multiplication ?",
+            "options": [
+                "Restoring Multiplication",
+                "Booth&#39;s Algorithm",
+                "Pascal&#39;s Algorithm",
+                "Digit by Digit Multiplication"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Booth’s Algorithm is applied on",
+            "options": [
+                "decimal numbers",
+                "binary numbers",
+                "hexadecimal numbers",
+                "octal Numbers"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "If Booth’s Multiplication is performed on the numbers 22*3, then what is 3 referred to as",
+            "options": [
+                "accumulator",
+                "multiplicand",
+                "quotient",
+                "multiplier"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "What is the value of n in multiplication of 110* 1000?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "0"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "What will be the value obtained after multiplication of (-2)10 * (-3)10 using Booth’s Algorithm?",
+            "options": [
+                "6",
+                "-6",
+                "-2",
+                "-3"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm initially value for Q -1 ?",
+            "options": [
+                "0",
+                "1",
+                "11",
+                "10"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm initially value for AC ?",
+            "options": [
+                "0",
+                "1",
+                "11",
+                "10"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm if value of Q0 is 0 and value of Q -1 is 0 so what will be next step ?",
+            "options": [
+                "ASR",
+                "A= A+M",
+                "N = N-1",
+                "A = A-M"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm if value of Q0 is 0 and value of Q-1 is 1 so what will be next step ?",
+            "options": [
+                "A= A+M",
+                "ASR",
+                "A = A-M",
+                "N = N-1"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm if value of Q0 is 1 and value of Q-1 is 0 so what will be next step ?",
+            "options": [
+                "N = N-1",
+                "A = A-M",
+                "ASR",
+                "A= A+M"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth multiplication algorithm if value of Q0 is 1 and value of Q-1 is 1 so what will be next step ?",
+            "options": [
+                "A = A-M",
+                "N = N-1",
+                "A= A+M",
+                "ASR"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth Division algorithm if AC &lt; 0 what will be next operation ?",
+            "options": [
+                "Q0←1",
+                "Q0←0, A←A+M",
+                "COUNT ← COUNT- 1",
+                "A←A+M"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "In Booth Division algorithm if AC &gt; 0 what will be next step ?",
+            "options": [
+                "COUNT ← COUNT-1",
+                "A←A+M",
+                "Q0←1 , A←A+M",
+                "Q0←1"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "for (7)10 × (3)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 4?",
+            "options": [
+                "1111",
+                "1001",
+                "1100",
+                "1010"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "for (-9)10 × (-13)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 4?",
+            "options": [
+                "1011",
+                "1111",
+                "10",
+                "1010"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "for (-5)10 × (4)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 2?",
+            "options": [
+                "1011",
+                "1111",
+                "10",
+                "10"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "for (13)10 × (9)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 4?",
+            "options": [
+                "11011",
+                "1111",
+                "1011",
+                "1010"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "for (23)10 × (-7)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 6?",
+            "options": [
+                "101110",
+                "111100",
+                "111",
+                "111001"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "for (-7)10 × (-3)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 4?",
+            "options": [
+                "1100",
+                "1110",
+                "110",
+                "1010"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "for (7)10 / (3)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 4 ?",
+            "options": [
+                "10",
+                "0",
+                "1101",
+                "1011"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "for (11)10 / (3)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 3 ?",
+            "options": [
+                "101",
+                "1101",
+                "10",
+                "1100"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "For (23)10 /(5)10 using booths restoring algorithm what will be the final value in (binary terms) Q register for sequence count 5?",
+            "options": [
+                "1110",
+                "10110",
+                "11100",
+                "11001"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "for (23)10 / (5)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 3 ?",
+            "options": [
+                "111",
+                "1101",
+                "0",
+                "1"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "for (23)10 / (5)10 using booth&#39;s algorithm, what will be final data in binary in accumlator for sequence count 5 ?",
+            "options": [
+                "1",
+                "10101",
+                "110",
+                "11111"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "for (7)10 / (3)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 4 ?",
+            "options": [
+                "1110",
+                "101",
+                "1010",
+                "11"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "for (11)10 / (3)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 3 ?",
+            "options": [
+                "101",
+                "1101",
+                "1100",
+                "1111"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "For (10)10 /(3)10 using booths restoring algorithm what will be the final value in (binary terms) accumulator for sequence count 3?",
+            "options": [
+                "10",
+                "1001",
+                "1110",
+                "1101"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "for (10)10 / (3)10 using booth&#39;s algorithm, what will be final value in binary in Q for sequence count 4 ?",
+            "options": [
+                "1101",
+                "11",
+                "1010",
+                "100"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "The memory unit that communicates directly with CPU is called the .",
+            "options": [
+                "a) Main mamory",
+                "b) secondary memory",
+                "c) cache memory",
+                "d) auxilary memory"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "The typical access time ratio between cache and main memory is about ?",
+            "options": [
+                "a) 1 to 9",
+                "b)1 to 10",
+                "c ) 1 to 7",
+                "d) 10 to 15"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following statements is/are correct ? 1. The CPU has direct access to main memory. 2. The CPU has direct access to cache memory. 3. The CPU has direct access to auxillary memory.",
+            "options": [
+                "a) only 1 and 3",
+                "b) only 2 and 3",
+                "c) only 1",
+                "d) only 1 and 2"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Block size in auxillary memory typically ranges from ?",
+            "options": [
+                "a) 248 to 256 words",
+                "b) 256 to 2048 words",
+                "c) 148 to 248 words",
+                "d) 256 to 278 words"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Block size in cache memory typically ranges from ?",
+            "options": [
+                "a) 1 to 16 words",
+                "b) 8 to 16 words",
+                "c) 16 to 24 words",
+                "d) 7 to 15 words"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following represent ending address for a 64KB size RAM having starting address 1FFFF?",
+            "options": [
+                "a) 2FFFE",
+                "b) 2FFFF",
+                "c) 1FFFE",
+                "d) 20000"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Device that provide back-up storage are called _______ ?",
+            "options": [
+                "a) Main mamory",
+                "b) secondary memory",
+                "c) cache memory",
+                "d) auxilary memory"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "A very special high speed memory called a _________ ?",
+            "options": [
+                "a) Main mamory",
+                "b) secondary memory",
+                "c) cache memory",
+                "d) auxilary memory"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "In which memory design highest memory capacity and access time ?",
+            "options": [
+                "a) Magnatics tapes",
+                "b) auxilary memory",
+                "c) secondary memory",
+                "d) cache memory"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In which memory design lowest memory capacity and access time ?",
+            "options": [
+                "a) Magnatics tapes",
+                "b) CPU Register",
+                "c) secondary memory",
+                "d) cache memory"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Average access time of auxillary memory is usually___ than of main memory.",
+            "options": [
+                "a) 10 times",
+                "b) 100 times",
+                "c) 1000 times",
+                "d) 10000 times"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which RAM is designed with flip-flop ?",
+            "options": [
+                "a) Dynamic RAM",
+                "b) Static RAM",
+                "c) ROM",
+                "d) None of above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which type of memory have a highest storage capacity in single memory chip?",
+            "options": [
+                "a) Dynamic RAM",
+                "b) Static RAM",
+                "c) ROM",
+                "d) None of above"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "_______ is shortest read and write time.",
+            "options": [
+                "a) Dynamic RAM",
+                "b) Static RAM",
+                "c) ROM",
+                "d) None of above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which program is use to start computer software operating when power turn on ?",
+            "options": [
+                "a) bootstrap loader",
+                "b) Static RAM",
+                "c) ROM",
+                "d) Dynamic RAM"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "_____ is non-volatile memory.",
+            "options": [
+                "a) RAM",
+                "b) ROM",
+                "c) CPU",
+                "d) None of above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "_________ is volatile memory.",
+            "options": [
+                "a) RAM",
+                "b) ROM",
+                "c) CPU",
+                "d) None of above"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which device is used to provide backup storage ?",
+            "options": [
+                "a) Virtual memory",
+                "b) Auxillary memory",
+                "c) Cache memory",
+                "d) Associative memory"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The tracks are divided into sections is called _________",
+            "options": [
+                "a) Seek time",
+                "b) latency time",
+                "c) Sectors",
+                "d) Sub-operation"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "bitas are stored in megnatize surface is called ?",
+            "options": [
+                "a) Seek time",
+                "b) Read write head",
+                "c) ROM",
+                "d) cache memory"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which memory search time is short and critical ?",
+            "options": [
+                "a) Associate memory",
+                "b) Auxillary memory",
+                "c) Cache memory",
+                "d) Virtual memory"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Cache memory access time is times lesser than main memory.",
+            "options": [
+                "a) 15 to 20",
+                "b) 22 to 27",
+                "c) 5 to 10",
+                "d) 20 to 28"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Fast and small memory is referred as ?",
+            "options": [
+                "a) Virtual memory",
+                "b) Auxillary memory",
+                "c) Cache memory",
+                "d) Associative memory"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "is placed between memory and CPU.",
+            "options": [
+                "a) Virtual memory",
+                "b) Auxillary memory",
+                "c) Cache memory",
+                "d) Associative memory"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "performance of cache memory is measured in terms of quantity callled ?",
+            "options": [
+                "a) Hit ratio",
+                "b) Miss ratio",
+                "c) Seek ratio",
+                "d) None of above"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "CPU refers memory, if the word is in cache, it will produce a_____ if word not found in cache and it is in main memory then it counts as a ________ .",
+            "options": [
+                "a) Hit, Hit",
+                "b) hit,miss",
+                "c) Miss, Hit",
+                "d) Miss, Miss"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The time taken to move the read write head to the desired track is known as .",
+            "options": [
+                "a) latency time",
+                "b) seek time",
+                "c) data transfer rate",
+                "d) access time"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The rate at which data is written to disk or read from disk is known as ?",
+            "options": [
+                "a) latency time",
+                "b) seek time",
+                "c) data transfer rate",
+                "d) access time"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Memory Access time is given by ?",
+            "options": [
+                "a) seek time * latency time",
+                "b) seek time + latency time",
+                "c) seek time - latency time",
+                "d) seek time / latency time"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Every word stored in cache there is duplicate copy in ?",
+            "options": [
+                "a) Main mamory",
+                "b) secondary memory",
+                "c) cache memory",
+                "d) auxilary memory"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In associative mapping pair replace is determine from which algorithm?",
+            "options": [
+                "a) Replacement",
+                "b) displacement",
+                "c) location",
+                "d) None of above"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the given procedure is used to replace cell of cache ?",
+            "options": [
+                "a) Round-robin",
+                "b) Robin-round",
+                "c) Robin-Robin",
+                "d) Round-Round"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Word is requested from main memory it constitutes a ________ replacement policy.",
+            "options": [
+                "a) LIFO",
+                "b) PIFO",
+                "c) SIFO",
+                "d) FIFO"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "In direct mapping, n-bit memory address is divided into _____ part.",
+            "options": [
+                "a) 1",
+                "b) 2",
+                "c) 3",
+                "d) 4"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "The n-bits divided into 2 fields k bits for ____ and n-k bits for______ .",
+            "options": [
+                "a) index field , index field",
+                "b) Tag field , Tag field",
+                "c) index field , Tag field",
+                "d) None of above"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Direct mapping 2k words in________ and 2n words in ______ .",
+            "options": [
+                "a) cache memory, Main memory",
+                "b) main Memory, Cache memory",
+                "c) SRAM",
+                "d) DRAM"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In Direct mapping, ___ words in cache memory and ____ words in main memory.",
+            "options": [
+                "a) 2x, 2y",
+                "b) 2n, 2k",
+                "c) 2k, 2n",
+                "d) 2s, 2kt"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Direct Mapping the CPU address of____ bits is divided in ____ parts.",
+            "options": [
+                "a) 15, 2",
+                "b) 14, 2",
+                "c) 20, 3",
+                "d) 15, 1"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "If CPU address of 15-bits, then in case of Direct mapping___ bits constitute the index field and remaining_______ bits from the tag field.",
+            "options": [
+                "a) nine, four",
+                "b) nine, six",
+                "c) six, nine",
+                "d) nine,six"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Direct mapping nine bits constitute the and remaining six bits from the ______ in case of 15-bits CPU address.",
+            "options": [
+                "a) index field , index field",
+                "b) Tag field , Tag field",
+                "c) index field , Tag field",
+                "d) None of above"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following techniques are used in associative mapping? 1) random replacement 2) first in frist out 3) last in first out 4) least recently used 5) last in last out",
+            "options": [
+                "a) Only 3),4) and 5)",
+                "b) Only 1),2)",
+                "c) Only 1),2) and 5)",
+                "d) Only 1),2) and 4)"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Main memory always contains same data as .",
+            "options": [
+                "a) Associative Memory",
+                "b) Magnatic disc",
+                "c) Auxillary Memory",
+                "d) Cache Memory"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "______ location is updated during write operation in write back.",
+            "options": [
+                "a) Auxillary",
+                "b) Cache",
+                "c) Main",
+                "d) None of above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "To overcome the slow operating speeds of the secondary memory we make use of faster flash drives.",
+            "options": [
+                "TRUE",
+                "FALSE",
+                "-",
+                "-"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is true about memory unit?",
+            "options": [
+                "A memory unit is the collection of storage units or devices together.",
+                "The memory unit stores the binary information in the form of bits.",
+                "Both A and B",
+                "None of the above"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "When when power is switched off which memory loses its data?",
+            "options": [
+                "Non-Volatile Memory",
+                "Volatile Memory",
+                "Both A and B",
+                "None of the above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is correct example for Auxiliary Memory?",
+            "options": [
+                "Magnetic disks",
+                "Tapes",
+                "Flash memory.",
+                "Both A and B"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is correct refreshed rate for DRAM?",
+            "options": [
+                "10-1000 ms",
+                "10-50 ms",
+                "10-100 ms",
+                "10-500 ms"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is true?",
+            "options": [
+                "To overcome the slow operating speeds of the secondary memory we make use of faster flash drives.",
+                "If we use the flash drives instead of the harddisks, then the secondary storage can go above primary memory in the hierarchy.",
+                "In the memory hierarchy, as the speed of operation increases the memory size also increases.",
+                "Both A and C"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "_______ number of lines are required to select _________memory locations.",
+            "options": [
+                "10, 1024",
+                "2, 2",
+                "5, 1024",
+                "5, 5K"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Calculate the address lines required for 8 Kilobyte memory chip?",
+            "options": [
+                "8",
+                "13",
+                "16",
+                "24"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "1 gigabyte is equal to ?",
+            "options": [
+                "1391 megabytes",
+                "1024 kilobytes",
+                "1024 megabytes",
+                "1150 megabytes"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "______ is the fastest to read from and write to than the other kinds of storage in a computer.",
+            "options": [
+                "Floppy disk",
+                "Hard disk",
+                "CD-ROM",
+                "RAM"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is a volatile memory?",
+            "options": [
+                "Cache memory",
+                "Hard Disk",
+                "DVD",
+                "CD"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "The CPU clock speed refers to the number of:",
+            "options": [
+                "CPUs it can have",
+                "RAMs it can have",
+                "Clocks it can have",
+                "Number of cycles CPU executes per second"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "A 24-bit address bus has maximum accessible memory capacity of ______.",
+            "options": [
+                "a) 64 MB",
+                "B) 16 MB",
+                "c) 1 GB",
+                "d) 4 GB"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "A 26-bit address bus has maximum accessible memory capacity of ____.",
+            "options": [
+                "64 MB",
+                "16 MB",
+                "1 GB",
+                "4 GB"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following memory improves the speed of execution of a program?",
+            "options": [
+                "Primary memory",
+                "Cache memory",
+                "Secondary memory",
+                "Virtual memory"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is not a valid category of Read Only Memory (ROM)?",
+            "options": [
+                "PROM",
+                "EPROM",
+                "EEPROM",
+                "EEEPROM"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "A byte is a group of ?",
+            "options": [
+                "2 bits",
+                "4 bits",
+                "8 bits",
+                "16 bits"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "What will be the size of tag field (bits) for direct mapping of cache memory of 512*12 for main memory of 32K*12 size?",
+            "options": [
+                "1",
+                "0",
+                "9",
+                "6"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "What will be size if index field (in bits) for direct mapping of cache memory of 64xN and main memory of 32kx12?",
+            "options": [
+                "9",
+                "3",
+                "12",
+                "6"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "What will be the size of tag field (bits) for direct mapping of cache memory of 64x12 for main memory of 32Kx12 size?",
+            "options": [
+                "9",
+                "6",
+                "15",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following represent starting address for a 64KB size RAM having ending address 2FFFE?",
+            "options": [
+                "0",
+                "1FFFF",
+                "FFFFE",
+                "1FFFE"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Given argument register A= 11000101 and key register K= 10100000, what will be the matching pattern generated by match register (M) for following 5 words? Word 1: 11100001 Word 2: 11000001 Word 3: 11010001 Word 4: 01100111 Word 5: 01000001",
+            "options": [
+                "0,0,1,1,1",
+                "1,0,0,0,1",
+                "1,0,0,1,0",
+                "0,1,1,0,0"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Given argument register A=10100101 and key register K= 11000000, what will be the matching pattern generated by matching register (M) for following 5 words? Word 1 00111111 Word 2 10000000 Word 3 11000101 Word 4 10100101 Word 5 10011010",
+            "options": [
+                "a) 10110",
+                "b) 01011",
+                "c) 11001",
+                "d) 11100"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Given argument register A = 10101011 and key register K = 10001101, what will be the matching pattern generated by match register (M) for following 5 words ? Word 1 : 10010110 Word 2 : 10100010 Word 3 : 10011011 Word 4 : 10011001 Word 5 : 11001001",
+            "options": [
+                "a) 0,1,1,1,0",
+                "b) 1,0,0,1,1",
+                "c) 1,0,0,0,1",
+                "d) 0,0,1,1,1"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which type of memory avoids address based search?",
+            "options": [
+                "RAM",
+                "DRAM",
+                "CAM",
+                "ROM"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "In Auxiliary Memory; the average time required to reach a storage location in memory and obtain its contents is called_________ time and it consists of a ______ time required to position the read-write head to a location and a ______ time required to transfer data to or from the device.",
+            "options": [
+                "Access, Seek, Transfer",
+                "Access, Seek, Storage",
+                "Rising, Seek, Transfer",
+                "Storage, Access, Transfer"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "If starting address of ROM is 8000 H and ending address is FFFF H then size of ROM is ___________",
+            "options": [
+                "32 k",
+                "4 k",
+                "16 k",
+                "24 k"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "The main memory is 8K x 9 and cache memory is 256 x 9 in associative mapping. What is the size of argument register?",
+            "options": [
+                "13",
+                "8",
+                "12",
+                "512"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following refers to the associative memory?",
+            "options": [
+                "the address of the data is generated by the CPU",
+                "the address of the data is supplied by the users",
+                "there is no need for an address i.e. the data is used as an address",
+                "the data are accessed sequentially"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "A microprocessor based system uses 4K x 8 bit RAM whose starting address (AA00) H. The ending address will be ___________",
+            "options": [
+                "a) B00F",
+                "b) A0001",
+                "c) B9FF",
+                "d) C9FF"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Choose the correct statement/s from following . 1. Disadvantage of direct mapping is that 2 word with same index in their address but different tag value can not reside in cache memory at same time. 2. Set associative mapping in which each word of cache can store two or more word of memory under same index address. 3. The number of bits in index field is equal to number of address bit required to accessed the cache memory.",
+            "options": [
+                "1, 3 only",
+                "1 only",
+                "2 only",
+                "1, 2, 3"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "_________ memory is also known as content addressable memory (CAM)",
+            "options": [
+                "dynamic RAMs",
+                "static RAMs",
+                "associative memory",
+                "cache memory"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A microprocessor-based system uses 64kB RAM whose starting address is 0120H. The ending address will be -",
+            "options": [
+                "FFFF",
+                "1FFFF",
+                "101FF",
+                "1011F"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Static RAM (SRAM) is faster than Dynamic RAM (DRAM) because .",
+            "options": [
+                "SRAM uses capacitors",
+                "SRAM is costlier",
+                "SRAM does not require refreshing",
+                "SRAM is cheaper"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "refers to the amount of time required to position the read - white head of a hard disk on appropriate sector.",
+            "options": [
+                "Seek time",
+                "Rotational latency",
+                "Access time",
+                "Load time"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "A hard disk is divided into tracks which are further subdivided into ?",
+            "options": [
+                "clusters",
+                "sectors",
+                "vectors",
+                "heads"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How many 128 × 8 RAM chips are needed to provide a memory capacity of 2048 bytes?",
+            "options": [
+                "2",
+                "8",
+                "4",
+                "16"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following sets of words best describes the characteristics of a primary storage device, like RAM.",
+            "options": [
+                "Cheap, non-volatile, fast access",
+                "Volatile, expensive, slow access",
+                "Expensive, volatile, fast access",
+                "Fast access, non-volatile, cheap"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following memories must be refreshed many times per second?",
+            "options": [
+                "Static RAM",
+                "Dynamic RAM",
+                "EPROM",
+                "ROM"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "A computer uses RAM chips of 1024 × 1 capacity. How many chips are needed to provide memorycapacity of 16K bytes?",
+            "options": [
+                "8",
+                "16",
+                "1024",
+                "128"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "How many 16 K × 1 RAM chips are needed to provide a memory capacity of 256 K-bytes?",
+            "options": [
+                "8",
+                "32",
+                "64",
+                "128"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "How many 32 K × 1 RAM chips are needed to provide a memory capacity of 256 K-bytes ?",
+            "options": [
+                "8",
+                "32",
+                "64",
+                "128"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Among the following the volatile memory is",
+            "options": [
+                "Bubble memory",
+                "RAM",
+                "ROM",
+                "Magnetic disc"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How many 128 × 8 RAM chips are needed to provide a memory capacity of 2048 bytes?",
+            "options": [
+                "2",
+                "8",
+                "4",
+                "16"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following technology can give high speed RAM?",
+            "options": [
+                "TTL",
+                "CMOS",
+                "ECL",
+                "NMOS"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Consider the following statements regarding memory: 1. Integrated circuit RAM chips are available in both static and dynamic modes. 2. The dynamic RAM stores the binary information in the form of electric charges that are applied to capacitors. 3. The static RAM is easier to use and has shorter read and write cycles. 4. RAM and ROM chips are not available in a variety of physical sizes. Which of the above statements are correct ?",
+            "options": [
+                "1 and 2 only",
+                "1, 3 and 4 only",
+                "2, 3 and 4 only",
+                "1, 2, 3 and 4"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is the formula for Hit Ratio?",
+            "options": [
+                "Hit/(Hit + Miss)",
+                "Miss/(Hit + Miss)",
+                "(Hit + Miss)/Miss",
+                "(Hit + Miss)/Hit"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 51 hits and 3 misses over a period of time. What will be hit and miss ratio of cache ?",
+            "options": [
+                "a) 10%, 90%",
+                "b) 6%, 94%",
+                "c) 94%, 6%",
+                "d) 90%, 10%"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 55 hits and 45 misses over a period of time. What will be hit and miss ratio of cache ?",
+            "options": [
+                "a) 55%, 65%",
+                "b) 45%, 55%",
+                "c) 55%, 45%",
+                "d) 55%, 55%"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 89 hits and 71 misses over a period of time. What will be hit and miss ratio of cache ?",
+            "options": [
+                "a) 55%, 65%",
+                "b) 45%, 55%",
+                "c) 55%, 45%",
+                "d) 55%, 55%"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 25 hits and 75 misses over a period of time. What will be miss and hit ratio of cache?",
+            "options": [
+                "a) 25%, 75%",
+                "b) 75%, 25%",
+                "c) 55%, 45%",
+                "d) 55%, 55%"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 76 hits and 34 misses over a period of time. What will be hit and miss ratio of cache?",
+            "options": [
+                "69 %, 31%",
+                "76 %, 34%",
+                "31 %, 69%",
+                "50 %, 50%"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "A cache is accessed by Mark 89 times. From which Mark is only not able to found data 49 times. What is the Hit and Miss Ratio (%) of mark accessing the cache memory?",
+            "options": [
+                "45%, 55%",
+                "55%, 55%",
+                "55%, 50%",
+                "49%, 40%"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following statements are not correct about cache memory?",
+            "options": [
+                "Cache memory is used to store data temporarily.",
+                "It holds that data and program which has to be executed within a short period of time.",
+                "It consumes less access time as compared to the RAM.",
+                "All are true"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "If cache has 69 hits and 44 misses over a period of time. What will be hit and miss ratio of cache?",
+            "options": [
+                "39 %, 61 %",
+                "61%, 39%",
+                "69%, 44%",
+                "44%, 69%"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "A cache is accessed accessed by mark 73 times, from which mark is only able to found data 49 times. What is the hit and miss ratio (%) of mark accessing the cache memory ?",
+            "options": [
+                "a) 77%, 33%",
+                "b) 33%, 77%",
+                "c) 67%, 33%",
+                "d) 33%, 67%"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Input or output devices that are connected to computer are called",
+            "options": [
+                "Input/Output Subsystem",
+                "Peripheral Devices",
+                "Interfaces",
+                "Interrupt"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "The main functions of input-output interface circuits is / are -",
+            "options": [
+                "Data conversion",
+                "synchronization",
+                "device selection",
+                "all a,b and c"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "The process of matching of operating speeds of CPU and other peripherals is known as -",
+            "options": [
+                "Data conversion",
+                "synchronization",
+                "device selection",
+                "cycle stealing"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "A special synchronization hardware which is required between CPU and peripherals called",
+            "options": [
+                "Interface Unit",
+                "Memory Unit",
+                "Processor",
+                "Accumulator"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "I/O bus consists of -",
+            "options": [
+                "data lines",
+                "address lines",
+                "control lines",
+                "all a,b and c"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following is/are correct regarding I/O bus? (a) The I/O bus from the processor is attached to all peripheral interfaces. (b) I/O bus consists of data lines and control lines only (c) I/O bus is used for the selection of I/O devices by CPU",
+            "options": [
+                "only 1 and 2",
+                "only 2",
+                "only 1",
+                "All 1, 2 and 3"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "How many types of commands that an interface may receive?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the given command is not a valid command for I/O interface?",
+            "options": [
+                "Status command",
+                "control command",
+                "Data output command",
+                "Interrupt command"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which I/O command is issued to rewind the magnetic tape or to start the tape moving in the forward direction?",
+            "options": [
+                "Status command",
+                "control command",
+                "Data output command",
+                "Data input command"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In which case the interface receives an item of data from the peripheral and places it in its buffer register?",
+            "options": [
+                "Status command",
+                "control command",
+                "Data output command",
+                "Data input command"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "The control lines which are enabled during a memory transfer are -",
+            "options": [
+                "memory read and memory write",
+                "I/O read and I/O write",
+                "Interrupt enable and disable",
+                "both a and b"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "In which configuration only one set of read and write signals employed ?",
+            "options": [
+                "Memory mapped I/O",
+                "Isolated I/O",
+                "Interrupt Initiated I/O",
+                "both a and b"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Match the following: 1. Skip next instruction if flag is set. P - Data input command 2. Read interface status register. Q - Control command 3. Move printer paper to beginning of next page. R - Status command",
+            "options": [
+                "1-P, 2-Q, 3-R",
+                "1-Q, 2-P, 3-R",
+                "1-R, 2-P, 3-Q",
+                "1-P, 2-R, 3-Q"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Indicate whether following constitute control, status or data transfer command 1. skip the next instruction if flag is set 2. seek a given record on magnetic disk",
+            "options": [
+                "control, status",
+                "status, control",
+                "control, control",
+                "status, status"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In memory-mapped I/O",
+            "options": [
+                "The I/O devices and the memory share the same address space",
+                "The I/O devices have a separate address space",
+                "The memory and I/O devices have an associated address space",
+                "A part of the memory is specifically set aside for the I/O operation"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which type of instructions are used by Computers with memory-mapped l/0 to access l/0 data?",
+            "options": [
+                "Register type",
+                "Memory type",
+                "I/O type",
+                "none of the above"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the given mapping technique will provide simpler hardware, simple instruction set and provides all addressing modes? (i) Memory mapped I/O (ii) Isolated I/O",
+            "options": [
+                "Both (i) and (ii)",
+                "Only (ii)",
+                "only (i)",
+                "Neither (i) nor (ii)"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following is not an advantage of memory mapped technique? (i) Simple hardware (ii) Simple Instruction Size (iii) All address modes available (iv) More memory address space",
+            "options": [
+                "(i), (iv) only",
+                "(iv) only",
+                "(i), (ii), (iii) only",
+                "(iii), (iv) only"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In which mode of transfer, each data transfer is initiated by an instruction in the program?",
+            "options": [
+                "Programmed I/O",
+                "DMA",
+                "Interrupt initiated I/O",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Choose the correct option/s from the following regarding programmed I/O mode of transfer. (i) CPU stays in a program loop until the I/O unit indicates that it is ready for data transfer. (ii) Processor keeps busy needlessly in programmed I/O mode (iii) An interrupt facility is used to issue an interrupt request when data is available from the device.",
+            "options": [
+                "All 1, 2 and 3",
+                "only 1 and 2",
+                "only 2",
+                "only 1 and 3"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The advantage of I/O mapped devices to memory mapped is",
+            "options": [
+                "The former offers faster transfer of data.",
+                "The devices connected using I/O mapping have a bigger buffer space.",
+                "The devices have to deal with fewer address lines.",
+                "None"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following I/O transfer mode uses polling method ?",
+            "options": [
+                "programmed I/O",
+                "intruppt initiative I/O",
+                "DMA initiated",
+                "Priority Interrupt"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "If the register in the interface share a common clock with the CPU register, the transfer between the two units is said to be…",
+            "options": [
+                "DMA transfer",
+                "synchronous transfer",
+                "asynchronous transfer",
+                "write back"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What is/are the drawback/s of programmed I/O type data transfer method?",
+            "options": [
+                "CPU involvement",
+                "Wasted CPU cycles",
+                "No parallelism",
+                "All a, b and c"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Priority is provided by _____ for access to memory by various I/O channels and processors.",
+            "options": [
+                "a register",
+                "a counter",
+                "a controller",
+                "the processor scheduler"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following statement/s is/are correct? (a) Keyboard and Mouse Comes under output periferal devices. (b) The method which offers higher speeds of I/O transfers is DMA (c) The data transfer rate of peripherals is usually slower than the transfer rate of the CPU",
+            "options": [
+                "Only a and b",
+                "only b and c",
+                "only a",
+                "only c"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which mode of tranfer has time consuming transfer process as CPU monitors peripheral devices constantly?",
+            "options": [
+                "Programmed I/O",
+                "Interrupt I/O",
+                "DMA",
+                "Both a and b"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following statement is / are incorrect ? 1. memory mapped I/O shares common instruction set for both memory and I/O 2. control command test various flag conditions of I/O peripherals. 3. Handshaking is used for synchronous data transfer 4. I/O mapped I/O uses separate memory or I/O R/W lines",
+            "options": [
+                "all 1,2,3,4",
+                "Only 1 and 4",
+                "only 2 &amp; 3",
+                "only 3"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following is true about DMA? 1.DMA is an approach of performing data transfers in bulk between memory and the external device without the intervention of the processor 2. The DMA controller acts as a processor for DMA transfers and overlooks the entire process 3.The DMA controller has 3 registers.",
+            "options": [
+                "All 1, 2 and 3",
+                "only 1 and 2",
+                "only 2",
+                "only 1 and 3"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The CPU activities the_____output to inform the external DMA that the buses are in the high-impedance state.",
+            "options": [
+                "Bus request",
+                "bus grant",
+                "cycle stealing",
+                "none of these"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In which mode, the I/O module and main memory exchange data directly, without processor involvement ?",
+            "options": [
+                "DMA",
+                "Programmed I/O",
+                "Interrupt I/O",
+                "both b and c"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "During DMA transfer, the DMA controller takes over the buses to manage the transfer -",
+            "options": [
+                "Directly from CPU to memory",
+                "Directly from memory to CPU",
+                "Directly between the memory and registers",
+                "Directly between the I/O device and memory"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "The term “cycle stealing” refers to:",
+            "options": [
+                "Interrupt-based data transfer",
+                "Polling mode data transfer",
+                "DMA-based data transfer",
+                "Clock cycle overriding"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which type of register specifies the mode of transfer in DMA controller?",
+            "options": [
+                "Address register",
+                "control register",
+                "word count register",
+                "Status register"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In which type of data transfer method , the CPU is in idle &amp; has no control of memory bus",
+            "options": [
+                "programmed I/O",
+                "intruppt initiative I/O",
+                "DMA transfer",
+                "Priority Interrupt"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "The DMA transfer is initiated by ____.",
+            "options": [
+                "Processor",
+                "Processor",
+                "OS",
+                "I/O devices"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "How many types of modes of I/O Data Transfer?",
+            "options": [
+                "2",
+                "4",
+                "5",
+                "3"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "In which mode of transfer, interrupt request is initiated when the data is available from the device?",
+            "options": [
+                "Programmed I/O",
+                "Interrupt I/O",
+                "DMA",
+                "Both a and b"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In case of Data transfer between two independent units, where internal timing in each unit is independent from the other is known as ________ data transfer.",
+            "options": [
+                "Synchronous",
+                "Asynchronous",
+                "Control",
+                "None"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Choose the correct statement/s: 1. The strobe may be activated by either the source or the destination unit 2. The source removes the data from the bus before that it disables its strobe pulse. 3. One of the Disadvantages of the strobe method is Source unit that initiates the transfer has no way of knowing whether the destination unit has actually received the data item that was placed in the bus.",
+            "options": [
+                "Only 1",
+                "Only 3",
+                "All 1, 2, 3",
+                "Both 1 and 3"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "By the help of________ method we can solve the problem of strobe method.",
+            "options": [
+                "IOP",
+                "Direct",
+                "handshaking",
+                "Indirect"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "In the programmed I/O method, the I/O device does not have direct access to",
+            "options": [
+                "CPU",
+                "Memory",
+                "register",
+                "none"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "The method which offers higher speeds of I/O transfers is",
+            "options": [
+                "Interrupt",
+                "Memory mapping",
+                "Programmed Control I/O",
+                "DMA"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "The DMA transfers are performed by a control circuit called as",
+            "options": [
+                "DMA Controller",
+                "Memory unit",
+                "Control unit",
+                "CPU"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which register is not a part of DMA controller?",
+            "options": [
+                "Address register",
+                "control register",
+                "word count register",
+                "Status register"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following value will be passed to (PI, PO) of each device in sequence if interrupt request is generated by third device in a daisy chain priority arrangement?",
+            "options": [
+                "(1,0),(0,0),(0,0)...",
+                "(1,1),(1,1),(0,1),...",
+                "(1,1),(1,1),(1,0),…",
+                "(0,0),(0,0),(0,1),..."
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Removing the CPU from the path and letting the peripheral device manage the memory buses directly would improve the speed of transfer. This technique is known as",
+            "options": [
+                "Programmed I/O",
+                "Interrupt I/O",
+                "priority interrupt",
+                "DMA"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the register of DMA controller is incremented after transferring each word to memory?",
+            "options": [
+                "Address register",
+                "control register",
+                "word count register",
+                "Status register"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the register of DMA controller is decremented after transferring each word to memory?",
+            "options": [
+                "Address register",
+                "control register",
+                "word count register",
+                "Status register"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "In which mode of transfer CPU is idle and has no control of the memory buses?",
+            "options": [
+                "Programmed I/O",
+                "Interrupt I/O",
+                "DMA transfer",
+                "priority interrupt"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "The method of accessing the I/O devices by repeatedly checking the status flags is",
+            "options": [
+                "Programmed I/O",
+                "Memory mapped I/O",
+                "I/O Mapped",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The process wherein the processor constantly checks the status flags is called as",
+            "options": [
+                "Polling",
+                "Inspection",
+                "Reviewing",
+                "Echoing"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Match the columns:",
+            "options": [
+                "(a,ii), (b,iv), (c,iii), (d,i)",
+                "(a,ii), (b,iii), (c,i), (d,iv)",
+                "(a,iii), (b,ii), (c,iv), (d,i)",
+                "(a,ii), (b,iii), (c,iv), (d,i)"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Choose the correct statement/s: 1. The strobe may be activated by either the source or the destination unit 2. The source removes the data from the bus before that it disables its strobe pulse. 3. One of the Disadvantages of the strobe method is Source unit that initiates the transfer has no way of knowing whether the destination unit has actually received the data item that was placed in the bus.",
+            "options": [
+                "Only 1",
+                "Only 3",
+                "All 1, 2, 3",
+                "Both 1 and 3"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "On receiving an interrupt from an I/O device, the CPU",
+            "options": [
+                "halts for predetermined time",
+                "branches off to the interrupt service routine after completion of the current instruction",
+                "branches off to the interrupt service routine immediately.",
+                "hands over control of address bus and data bus to the interrupting device"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following is not considered as a peripheral device?",
+            "options": [
+                "CPU",
+                "Key board",
+                "Mouse",
+                "all of the given"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "The method of synchronizing the processor with the I/O device in which the device sends a signal when it is ready is_____",
+            "options": [
+                "Exceptions",
+                "Signal Handling",
+                "DMA",
+                "Interrupts"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following value will be passed to (PI, PO) of each device in sequence if interrupt request is generated by fourth device in a daisy chain priority arrangement?",
+            "options": [
+                "(1,1),(1,1),(0,1),(0,1).. .",
+                "B) (1,1),(1,1),(1,0),(0, 1)…",
+                "(1,1),(1,1),(1,1),(1, 0)…",
+                "(1,1),(1,1),(1,1),(0, 1)…"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which type of I/O command is used for moving printer paper to beginning of next page?",
+            "options": [
+                "Control command",
+                "status command",
+                "Data input command",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "If the registers in the interface share a common clock with the CPU registers, the transfer between the two units is said to be -",
+            "options": [
+                "Synchronous data transfer",
+                "Asynchronous data transfer",
+                "Common data transfer",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the given methods are asynchronous data transfer method?",
+            "options": [
+                "Handshaking Method",
+                "Strobe Pulse Method",
+                "cycle stealing",
+                "both a and b"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Identify the type of command if user starts moving a magnetic tape in forward direction",
+            "options": [
+                "status command",
+                "control command",
+                "data output command",
+                "data input command"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "In which method there is no acknowlegement received for placing the data on bus by source?",
+            "options": [
+                "Strobe method",
+                "Asynchronous data transferring",
+                "Handshaking",
+                "synchronous data transferring"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "In case of Data transfer between two independent units, where internal timing in each unit is independent from the other is known as _______ data transfer.",
+            "options": [
+                "Synchronous",
+                "Asynchronous",
+                "Control",
+                "None"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What is the correct sequence for destination initiated handshaking data transfer? 1. Place data on data bus &amp; Enable data valid. 2. Data valid disable and invalidate the data. 3. Ready for data. Enable ready for data. 4. Accept data from bus. Disable data ready for bus.",
+            "options": [
+                "3,1,4,2",
+                "3,1,2,4",
+                "3,2,4,1",
+                "4,3,2,1"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following sequence is correct for source-initiated transfer using handshaking? 1.Accept data from bus.Enable data accepted 2. Disable data accepted.ready to accept data(initial state) 3. Place data on bus.Enable data valid. 4. Disable data valid.invalidate data on bus.",
+            "options": [
+                "1-2-3-4",
+                "4-3-2-1",
+                "3-4-2-1",
+                "3-1-4-2"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following value will be passed to (PI, PO) of each device in sequence if interrupt request is generated by first device in a daisy chain priority arrangement?",
+            "options": [
+                "(1,0), (0,0), (0,0) ...",
+                "(1,1), (0,0), (0,0) ...",
+                "(1,1), (1,1), (1,0), …",
+                "(0,1), (0,0), (0,1), ..."
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "_________ method is used to establish priority by serially connecting all devices that request an interrupt in which 0 will pass the signal only if it has___________",
+            "options": [
+                "Daisy chain, No interrupt request",
+                "Daisy chain, interrupt request",
+                "Polling, No interrupt request",
+                "Polling, interrupt request"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following value will be passed to (PI,PO) of each device in sequence if interrupt request generated by second device in a daisy chain priority arrangement ?",
+            "options": [
+                "(1,1),(1,0),(0,0)...",
+                "(1,1),(1,0),(0,1)...",
+                "(1,1),(0,0),(0,1)...",
+                "(0,0),(1,0),(0,0)..."
+            ],
+            "ans": 0,
+            "unit": "10"
+        }
+    ]
+}

@@ -1,0 +1,2232 @@
+{
+    "T1": [
+        {
+            "q": "which of the following is incorrect about JSON: 1.(cid:9)JSON stands for JavaScript Object Notation 2.(cid:9)JSON is a lightweight format for storing and transporting data 3.(cid:9)In JSON Curly braces hold Arrays 4.(cid:9)JSON is often used when data is sent from a server to a web page 5.JSON is &quot;self-describing&quot; and easy to understand",
+            "options": [
+                "2,3",
+                "3,4",
+                "3 only",
+                "5 only"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "How do you represent a JSON array of strings?",
+            "options": [
+                "[ &quot;days&quot; : { &quot;SUN&quot; , &quot;MON&quot; , &quot;TUE&quot; , &quot;WED&quot; , &quot;THU&quot; , &quot;FRI&quot; , &quot;SAT&quot; } ]",
+                "[ &quot;days&quot; : { SUN , MON , TUE , WED , THU , FRI , SAT } ]",
+                "{ &quot;days&quot; : { &quot;SUN&quot; , &quot;MON&quot; , &quot;TUE&quot; , &quot;WED&quot; , &quot;THU&quot; , &quot;FRI&quot; , &quot;SAT&quot; } }",
+                "{ &quot;days&quot; : [ &quot;SUN&quot; , &quot;MON&quot; , &quot;TUE&quot; , &quot;WED&quot; , &quot;THU&quot; , &quot;FRI&quot; , &quot;SAT&quot; ] }"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following code will throw an error?",
+            "options": [
+                "JSON.parse(false);",
+                "JSON.parse(null);",
+                "JSON.parse(undefined);",
+                "JSON.parse(&quot;0&quot;);"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code var obj= { &quot;employee&quot; : { &quot;name&quot; : &quot;John&quot;, &quot;age&quot; : 30, &quot;city&quot; : &quot;New York&quot; } } console.log(employee)",
+            "options": [
+                "{ &quot;name&quot; : &quot;John&quot;, &quot;age&quot; : 30, &quot;city&quot; : &quot;New York&quot; }",
+                "&quot;employee&quot; : { &quot;name&quot; : &quot;John&quot;, &quot;age&quot; : 30, &quot;city&quot; : &quot;New York&quot; }",
+                "Error",
+                "Undefined"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code var obj= { &quot;employee&quot; : { &quot;name&quot; : &quot;John&quot;, &quot;age&quot; : 30, &quot;city&quot; : &quot;New York&quot; } } console.log(obj.name);",
+            "options": [
+                "{ &quot;name&quot; : &quot;John&quot;, &quot;age&quot; : 30, &quot;city&quot; : &quot;New York&quot; }",
+                "undefined",
+                "Syntax error",
+                "John"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "const person= { name:&quot;xyz&quot;, age:28, employee: [{ emp_name:&quot;pqr&quot;, designation:&quot;prof&quot;, weekly_lec:[&quot;Tuesday&quot;] }, { emp_name:&quot;jkl&quot;, designation:&quot;Asst prof&quot;, weekly_lec:[&quot;Friday&quot;,&quot;Saturday&quot;] }] } Identify the correct statement to print no. of weekly lectures of “pqr” employee.",
+            "options": [
+                "console.log(person.employee[0].w eekly_lec.length());",
+                "console.log(person.employee[0].w eekly_lec[0].length);",
+                "console.log(person.employee[1].w eekly_lec.length);",
+                "console.log(person.employee[0].w eekly_lec.length);"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What is the correct way to convert a JavaScript object into a JSON string?",
+            "options": [
+                "const obj = { name: &quot;John&quot;, age: 30 }; const jsonString = JSON.stringify(obj); console.log(jsonString);",
+                "const obj = { name: &quot;John&quot;, age: 30 }; const jsonString = obj.toJSON(); console.log(jsonString);",
+                "const obj = { name: &quot;John&quot;, age: 30 }; const jsonString = obj.toString(); console.log(jsonString);",
+                "const obj = { name: &quot;John&quot;, age: 30 }; const jsonString = JSON.stringify(obj, null, 2); console.log(jsonStringify);"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Consider the following JSON object: const jsonObject= { &quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 25, &quot;city&quot;: &quot;New York&quot;, &quot;hobbies&quot;: [&quot;reading&quot;, &quot;running&quot;, &quot;painting&quot;] } Which of the following options correctly accesses the second hobby &quot;running&quot; from the above JSON object?",
+            "options": [
+                "jsonObject.hobbies[0]",
+                "jsonObject.hobbies[1]",
+                "jsonObject.hobbies[2]",
+                "jsonObject.hobbies{&quot;running&quot;}"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "How do you represent a JSON array of objects?",
+            "options": [
+                "{&quot;students&quot;: {{&quot;name&quot;:&quot;Alvin&quot;, &quot;age&quot;:21, &quot;city&quot;:&quot;Mumbai&quot;}, {&quot;name&quot;:&quot;Alex&quot;, &quot;age&quot;:24, &quot;city&quot;:&quot;Delhi&quot;}}}",
+                "{&quot;students&quot;= [{&quot;name&quot;:&quot;Alvin&quot;, &quot;age&quot;:21, &quot;city&quot;:&quot;Mumbai&quot;}, {&quot;name&quot;:&quot;Alex&quot;, &quot;age&quot;:24, &quot;city&quot;:&quot;Delhi&quot;}]}",
+                "{&quot;students&quot;= {{&quot;name&quot;:&quot;Alvin&quot;, &quot;age&quot;:21, &quot;city&quot;:&quot;Mumbai&quot;}, {&quot;name&quot;:&quot;Alex&quot;, &quot;age&quot;:24, &quot;city&quot;:&quot;Delhi&quot;}}}",
+                "{&quot;students&quot;: [{&quot;name&quot;:&quot;Alvin&quot;, &quot;age&quot;:21, &quot;city&quot;:&quot;Mumbai&quot;}, {&quot;name&quot;:&quot;Alex&quot;, &quot;age&quot;:24, &quot;city&quot;:&quot;Delhi&quot;}]}"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Consider the following JSON object: const jsonObject= { &quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 25, &quot;city&quot;: &quot;New York&quot; } Which of the following options correctly accesses the value of the &quot;age&quot; property from the above JSON object?",
+            "options": [
+                "jsonObject.set{age}",
+                "jsonObject.getValue(&quot;age&quot;)",
+                "jsonObject[&quot;age&quot;]",
+                "jsonObject.value(&quot;age&quot;)"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Identify Output const user={ &quot;name&quot;:&quot;XYZ&quot;, &quot;course&quot;:[&quot;MATHS&quot;,&quot;COA&quot;,&quot;FSD-2&quot;], &quot;division&quot;:{ &quot;A1&quot;:25, &quot;B1&quot;:30, &quot;C1&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;] } } console.log(user.name) console.log(user.course) console.log(user.division.B1) console.log(user.division.C1[1])",
+            "options": [
+                "XYZ [&quot;MATHS&quot;, &quot;COA&quot;, &quot;FSD-2&quot;] 30 B",
+                "XYZ MATHS, COA, FSD-2 30 C",
+                "XYZ MATHS 30 B",
+                "XYZ MATHS, COA, FSD-2 B1 B"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Identify the output: var myJson = {&#39;key&#39;:&#39;value&#39;, &#39;key2&#39;:&#39;value2&#39;}; for(var myKey in myJson) { console.log(&quot;key:&quot;+myKey+&quot;, value:&quot;+myJson[myKey]);}",
+            "options": [
+                "key:key, value:value key:key2, value:value",
+                "key:key, value:value key:key2, value:value2",
+                "key:key, value:value2 key:key2, value:value",
+                "key:key2, value:value key:key, value:value2"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What is the value of obj in the following code? var obj = JSON.parse(&#39;{&quot;fruit&quot;:&quot;apple&quot;}&#39;, function(a,b) {if(b==&quot;apple&quot;) return &quot;orange&quot;; else return b;}) console.log(obj)",
+            "options": [
+                "{ fruit: &#39;apple&#39; }",
+                "{ fruit: &#39;apple,orange&#39; }",
+                "{ fruit: [&#39;orange&#39;, &#39;apple&#39; ]}",
+                "{ fruit: &#39;orange&#39; }"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Identify the correct output from the following code: profiledata=&#39;{&quot;name&quot;:&quot;yen&quot;,&quot;age&quot;:30,&quot;intrest&quot;:[&quot;travel&quot;,&quot;science&quot;,{&quot;m ovie&quot;:true}],&quot;myobj&quot;:{&quot;name&quot;:&quot;nested&quot;,&quot;age&quot;:20}}&#39;; obj=JSON.parse(profiledata); console.log(obj.myobj.age);",
+            "options": [
+                "20",
+                "30",
+                "null",
+                "undefined"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Identify the correct output from the following code: profiledata=&#39;{&quot;name&quot;:&quot;yen&quot;,&quot;age&quot;:30,&quot;intrest&quot;:[&quot;travel&quot;,&quot;science&quot;,{&quot;m ovie&quot;:true}],&quot;myobj&quot;:{&quot;name&quot;:&quot;nested&quot;,&quot;age&quot;:20}}&#39;; obj=JSON.parse(profiledata); console.log(profiledata.age);",
+            "options": [
+                "20",
+                "undefined",
+                "30",
+                "null"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Identify the correct output from the following code: profiledata=&#39;{&quot;name&quot;:&quot;yen&quot;,&quot;age&quot;:30,&quot;intrest&quot;:[&quot;travel&quot;,&quot;science&quot;,{&quot;m ovie&quot;:true}],&quot;myobj&quot;:{&quot;name&quot;:&quot;nested&quot;,&quot;age&quot;:20}}&#39;; obj=JSON.parse(profiledata); console.log(obj.intrest[2].movie);",
+            "options": [
+                "false",
+                "undefined",
+                "true",
+                "Error"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Identify the correct output from the following code: profiledata=&#39;{&quot;name&quot;:&quot;yen&quot;,&quot;age&quot;:30,&quot;intrest&quot;:[&quot;travel&quot;,&quot;science&quot;,{&quot;m ovie&quot;:true}],&quot;myobj&quot;:{&quot;name&quot;:&quot;nested&quot;,&quot;age&quot;:20}}&#39;; obj=JSON.parse(profiledata); console.log(obj.intrest[0]);",
+            "options": [
+                "science",
+                "movie",
+                "null",
+                "travel"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "let person = { name: &quot;John&quot;, age: 25 }; Which line of code correctly updates the age to 30?",
+            "options": [
+                "person.age == 30;",
+                "person[&quot;age&quot;] = 30",
+                "person(age) = 30",
+                "update person.age = 30"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Idntify output of following statement. console.log(pm.basename(&quot;D:/hello/abc/1.doc&quot;)); Where pm is an object of path module.",
+            "options": [
+                "D:/hello/abc",
+                "D:/hello/abc/1.doc",
+                "1.doc",
+                "doc"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following options correctly demonstrates the usage of the Path module in Node.js to render only the filename including its extension?",
+            "options": [
+                "path.fullname(&quot;E:/abc/file.txt&quot;)",
+                "path.filename(&quot;E:/abc/file.txt &quot;)",
+                "path.name(&quot;E:/abc/file.txt &quot;)",
+                "path.basename(&quot;E:/abc/file.txt &quot;)"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which method is used to delete a file using the ‘fs’ module?",
+            "options": [
+                "fs.removeFile()",
+                "fs.unlink()",
+                "fs.delete()",
+                "fs.unlinkFile()"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is an advantage of using Node.js?",
+            "options": [
+                "It is a statically typed language",
+                "It is a compiled language",
+                "It has a large standard library",
+                "It has a non-blocking I/O model"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Identify the correct code which produces following output. D:/ABC/DEMO .txt abc.txt",
+            "options": [
+                "var pm=require(&quot;path&quot;); path1=pm.dir(&quot;D:/ABC/DEMO/ab c.txt&quot;); console.log(path1); path2=pm.extension(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path2); path3=pm.base(&quot;D:/ABC/DEMO/ abc.txt&quot;); console.log(path3);",
+                "var pm=require(&quot;path&quot;); path1=pm.dirname(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path1); path2=pm.extname(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path2); path3=pm.basename(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path3);",
+                "var pm=require(&quot;path&quot;); path1=pm.dir(&quot;D:/ABC/DEMO/ab c.txt&quot;); console.log(path1); path2=pm.ext(&quot;D:/ABC/DEMO/a bc.txt&quot;); console.log(path2); path3=pm.base(&quot;D:/ABC/DEMO/ abc.txt&quot;); console.log(path3);",
+                "var pm=require(&quot;path&quot;); path1=pm.directory(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path1); path2=pm.extension(&quot;D:/ABC/DE MO/abc.txt&quot;); console.log(path2); path3=pm.file(&quot;D:/ABC/DEMO/a bc.txt&quot;); console.log(path3);"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Identify the equivalent code of given code snippet which produces same Output. var pm=require(&quot;path&quot;); var path=&quot;D:/abc/def/jkl/some.txt&quot;; var ans=pm.basename(path); var sep=ans.split(&quot;.&quot;); console.log(&quot;Filename=&quot;+sep[0]); console.log(&quot;Extension=&quot;+&quot;.&quot;+sep[1]);",
+            "options": [
+                "var pm=require(&quot;path&quot;); var path=&quot;D:/abc/def/jkl/some.txt&quot;; var ans=pm.parse(path); console.log(&quot;Filename=&quot; +ans.filename); console.log(&quot;Extension=&quot; +ans.ext);",
+                "var pm=require(&quot;path&quot;); var path=&quot;D:/abc/def/jkl/some.txt&quot;; var ans=pm.parse(path); console.log(&quot;Filename=&quot; +ans.filename); console.log(&quot;Extension=&quot; +ans.extension);",
+                "var pm=require(&quot;path&quot;); var path=&quot;D:/abc/def/jkl/some.txt&quot;; var ans=pm.parse(path); console.log(&quot;Filename=&quot; +ans.filename); console.log(&quot;Extension=&quot; +pm.extname(path));",
+                "var pm=require(&quot;path&quot;); var path=&quot;D:/abc/def/jkl/some.txt&quot;; var ans=pm.parse(path); console.log(&quot;Filename=&quot; +ans.name); console.log(&quot;Extension=&quot; +ans.ext);"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following code deletes only contents of a “example.txt” file and keeps file as it is, if something is already written in it. Deletion should result without any error.",
+            "options": [
+                "var fs=require(&quot;fs&quot;); fs.writeFile(&quot;&quot;,&quot;example.txt&quot;,(err) =&gt; {console.log(err); });",
+                "var fs=require(&quot;fs&quot;); fs.writeFile(&quot;example.txt&quot;,&quot;&quot; , (err)=&gt; {console.log(err); });",
+                "var fs=require(&quot;fs&quot;); fs.writeFile(&quot;&quot;,&quot;example.txt&quot;,(data , err)=&gt; { console.log(err); console.log(data); });",
+                "var fs=require(&quot;fs&quot;); fs.writeFile(&quot;&quot;,&quot;example.txt&quot;,(data )=&gt; { console.log(data.err); });"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the output of the following code ? var pm=require(&quot;path&quot;); ext = pm.extname(&quot;D:/LJ/abc.text&quot;) if(ext == &quot;.txt&quot;){ console.log(&quot;Text Document&quot;); }else { console.log(&quot;Not a text Document&quot;); }",
+            "options": [
+                "Text Document",
+                "Not a text Document",
+                "Error:No such method named extname() exists",
+                "Error : No such method named require exists"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the output of the following code in console? var ps=require(&quot;fs&quot;); ps.writeFileSync(&quot;Hello.txt&quot;,&quot;Hello ! How are you !&quot;) console.log(ps.readFileSync(&quot;Hello.txt&quot;))",
+            "options": [
+                "Hello ! How are you",
+                "Error”Hello.txt” doesn’t exist",
+                "null",
+                "&lt;Buffer 48 65 6c 6c 6f 20 21 20 48 6f 77 20 61 72 65 20 79 6f 75 20 21&gt;"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following options demonstrates the correct usage of the fs.readFile method in Node.js to read a file asynchronously?",
+            "options": [
+                "fs.readFile(&#39;file.txt&#39;, (data) =&gt; { console.log(file); });",
+                "fs.readFile(&#39;file.txt&#39;, &#39;utf-8&#39;, (err, data) =&gt; { console.log(data) });",
+                "fs.readFile(&#39;file.txt&#39;, &#39;utf-8&#39;); console.log(read);",
+                "fs.readFile(&#39;file.txt&#39;, ‘this’,{ console.log(file.txt[data]) });"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? In &quot;Hello.txt&quot; file &quot;hello students&quot; is written. var ps=require(&quot;fs&quot;); var data=ps.readFileSync(&quot;Hello.txt&quot;); console.log(data); ps.readFile(&quot;Hello.txt&quot;,function(err,data){ if(err){return console.error(err); } console.log(data.toString());}); console.log(&quot;Program ended&quot;);",
+            "options": [
+                "&lt;Buffer 68 65 6c 6c 6f 20 73 74 75 64 65 6e 74 73&gt; Program ended hello students",
+                "&lt;Buffer 68 65 6c 6c 6f 20 73 74 75 64 65 6e 74 73&gt; hello students Program ended",
+                "hello students &lt;Buffer 68 65 6c 6c 6f 20 73 74 75 64 65 6e 74 73&gt; Program ended",
+                "hello students Program ended hello students(cid:9)"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "How do we get the filename portion of a path to the file in Node.js ?",
+            "options": [
+                "path.ext()",
+                "path.basename()",
+                "path.dirname()",
+                "path.extname()"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the output of the following code? var ps=require(&quot;fs&quot;); ps.writeFileSync(&quot;source.txt&quot;,&quot;Hello&quot;); ps.writeFileSync(&quot;source1.txt&quot;,&quot;World&quot;); data=ps.readFileSync(&quot;source.txt&quot;,&quot;utf-8&quot;); data2=JSON.stringify(data); ps.appendFileSync(&quot;source1.txt&quot;,data2);",
+            "options": [
+                "Hello World",
+                "Hello",
+                "World",
+                "World&quot;Hello&quot;"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Identify the output of last statement: var path=require(&quot;path&quot;); let result = path.basename(&#39;/public_html/home/index.html&#39;,&#39;.html&#39;); console.log(result);",
+            "options": [
+                "index",
+                "index.html",
+                ".html",
+                "home"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Identify the output: var events = require(&#39;events&#39;); var eventEmitter = new events.EventEmitter(); var myEventHandler = function (msg) { console.log(&#39;I hear a scream!&#39;); } eventEmitter.on(&#39;scream&#39;, myEventHandler); eventEmitter.emit(&#39;scream&#39;);",
+            "options": [
+                "I hear a scream!!!",
+                "I hear a scream!",
+                "I didn&#39;t hear a scream!",
+                "I hear a scream!I hear a scream!"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Identify error/output. const h=require(&quot;events&quot;); const ee=new h.EventEmitter(); const listener=()=&gt; { console.log(&quot;Thanks&quot;) } const listener2=()=&gt; { console.log(&quot;Bye&quot;) } ee.on(&quot;hii&quot;,listener); ee.on(&quot;hii&quot;,listener2); console.log(ee.listenerCount(&quot;hii&quot;));",
+            "options": [
+                "1",
+                "2",
+                "Thanks Bye",
+                "Thanks Bye 2"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "How can you check the number of listeners for a specific event in Node.js?",
+            "options": [
+                "getListenersCount()",
+                "countListener()",
+                "CountListen()",
+                "listenerCount()"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "What will be the output of following code? const EventEmitter = require(&#39;events&#39;); var eventEmitter = new EventEmitter(); var fun1 = (msg) =&gt; { console.log(&quot;Message from fun1: &quot; + msg); }; var fun2 = (msg) =&gt; { console.log(&quot;Message from fun2: &quot; + msg); }; eventEmitter.on(&#39;myEvent&#39;, fun1); eventEmitter.on(&#39;myEvent&#39;, fun2); eventEmitter.removeListener(&#39;myEvent&#39;, fun2); eventEmitter.emit(&#39;myEvent&#39;, &quot;LJU&quot;); eventEmitter.removeAllListeners(&#39;myEvent&#39;);",
+            "options": [
+                "Message from fun1: LJU",
+                "Message from fun2: LJU",
+                "Message from fun1: LJU Message from fun2: LJU",
+                "Generates an Error"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following best describes the Node.js event loop?",
+            "options": [
+                "It is a blocking, synchronous model",
+                "It allows Node.js to perform non- blocking I/O operations",
+                "It is used only for HTTP requests",
+                "It runs multiple threads simultaneously"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which core module in Node.js is used for handling file operations?",
+            "options": [
+                "path",
+                "http",
+                "fs",
+                "events"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What command is used to install packages locally in a Node.js project using npm?",
+            "options": [
+                "npm start",
+                "npm install package-name",
+                "npm update",
+                "npm run"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is true about callbacks in Node.js?",
+            "options": [
+                "They always block the execution flow",
+                "They are synchronous functions",
+                "They enable non-blocking asynchronous operations",
+                "They are only used for error handling"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which method of the path module returns the directory name of a file path?",
+            "options": [
+                "path.basename()",
+                "path.dirname()",
+                "path.extname()",
+                "path.parse()"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following is used to create a new HTTP server in Node.js?",
+            "options": [
+                "http.createServer()",
+                "http.createServer",
+                "http.newServer()",
+                "http.newServer"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "const h=require(&quot;http&quot;); const obj= { name:&quot;Demo&quot;, age:33 } h.createServer( (req,res)=&gt; { res.end(_______________________); }).listen(3000); Fill in the blank in res.end() method, so that it would not generate an error.",
+            "options": [
+                "JSON.stringify(obj)",
+                "obj.toString()",
+                "&quot;&quot;+obj",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the output of the following code? var u=require(&quot;url&quot;); var ps=require(&quot;fs&quot;); var adr1=&quot; http://localhost:8080/default.html?year=2025&amp;month=feb&quot;; var q1=u.parse(adr1,true); var qdata=q1.query; ps.writeFile(&quot;fsd2.txt&quot;,qdata,(err)=&gt; { console.log(&quot;completed&quot;); }); (cid:9)",
+            "options": [
+                "fsd2.txt file will be created and in console “completed” messaged will be displayed.",
+                "fsd2.txt file will be created and in console “completed” messaged will not be displayed.",
+                "fsd2.txt file will not be created and in console “completed” messaged will be displayed",
+                "It will generate an error as data must be type of string"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Identify the output: var http = require(&#39;http&#39;); http.createServer(function (req, res) { res.writeHead(200, {&#39;Content-Type&#39;: &#39;text/plain&#39;}); res.write(&#39;&lt;b&gt;Hello World!&lt;/b&gt;&#39;); res.end(); }).listen(3120);",
+            "options": [
+                "Hello World!",
+                "will print Hello World! in bold",
+                "&lt;b&gt;Hello World!&lt;/b&gt;",
+                "&lt;B&gt;Hello World!&lt;/B&gt;"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What will be the exact output of following code var u=require(&quot;url&quot;); var addr=&quot;http://localhost:8080/sdg.htm?year=2023&amp;month=december&quot;; var q1=u.parse(addr,true); console.log(q1.search);",
+            "options": [
+                "/sdg.htm?year=2023&amp;month=dece mber&#39;,",
+                "year=2023&amp;month=december",
+                "?year=2023&amp;month=december",
+                "{ year: &#39;2023&#39;, month: &#39;december&#39; }"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Identify the output: var u=require(&quot;url&quot;); var addr=&quot;http://localhost:8080/xyz.html?name=karan&amp;age=21&quot;; var q=u.parse(addr,false); query=q.query console.log(query.name);",
+            "options": [
+                "karan",
+                "null",
+                "undefined",
+                "false"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Which method of the url module parses a URL string without parsing the query string?",
+            "options": [
+                "url.parse(url, false)",
+                "url.parse(url, true)",
+                "url.format(url)",
+                "url.resolve(base, relative)"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which conditional structure is commonly used to implement basic routing in a Node.js HTTP server?",
+            "options": [
+                "if...else statement",
+                "for loop",
+                "try...catch block",
+                "setInterval() function"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Identify the valid signature of app.get() method. req,res and next are the objects of request, response and middleware respectively.",
+            "options": [
+                "app.get(&quot;/&quot;,function(req){});",
+                "app.get(&quot;/&quot;,function(res){});",
+                "app.get(&quot;/&quot;,function(req,res){});",
+                "app.get(&quot;/&quot;,function(req,res,next){ });"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "How can you set a cookie with an expiration based on maxAge using express.js?",
+            "options": [
+                "res.setCookie(name, value, {maxAge: milliseconds})",
+                "res.cookie(name, value, {maxAge: milliseconds})",
+                "res.sendCookie(name, value, {maxAge: milliseconds})",
+                "res.cookie(name, value, {expires: date})"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Identify error/output in following code of App.js file. const arr=[10,20,30,40,50]; let sum=0; return(&lt;div&gt;{ arr.map((v) =&gt; { sum=sum+v; return &lt;h1&gt;sum = {sum}&lt;/h1&gt; }) } &lt;/div&gt; );",
+            "options": [
+                "error, since sum=sum+v statement must be specified using JSX",
+                "Sum is printed correctly for each iteration in &lt;h1&gt; tag",
+                "error, since let sum=0 statement is specified at wrong place",
+                "sum is printed as &quot;NaN&quot; for each iteration in&lt;h1&gt; tag"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Convert this SQL query to MongoDB: “ALTER TABLE data ADD join_date DATETIME”",
+            "options": [
+                "db.updateMany({ $set: {join_date: new Date()}})",
+                "db.data.updateMany({ },{ $set: {join_date: new Date()}})",
+                "db.data.updateMany({joindate;{$set: new Date()}})",
+                "db.data.updateOne({join_date;{$set: new Date()}})"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "You are working with a MongoDB collection named &quot;sales&quot; containing millions of documents. To optimize a specific query, you need to create a compound index on the &quot;product_id&quot; and &quot;sale_date&quot; fields. The &quot;product_id&quot; should be sorted in ascending order, and the &quot;sale_date&quot; should be sorted in descending order. Which of the following MongoDB commands correctly creates a compound index with the specified sorting order?",
+            "options": [
+                "db.sales.createIndex({product_id: 1, sale_date: -1})",
+                "db.sales.createIndex({product_id: - 1, sale_date: 1})",
+                "db.sales.createIndex({product_id: 1}, {sale_date: -1})",
+                "(cid:9)db.sales.createIndex({product_i d: 1, sale_date: -1})"
+            ],
+            "ans": 3,
+            "unit": "1"
+        }
+    ],
+    "T2": [
+        {
+            "q": "Which of the following are the core features of the Express framework?",
+            "options": [
+                "It allows us to set up middleware to respond to HTTP Requests.",
+                "It defines a routing table that can work as per HTTP Method and URL.",
+                "It is used to render the HTML pages dynamically.",
+                "All of the above."
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Where are the captured values populated regarding the route parameters?",
+            "options": [
+                "req.data",
+                "app.locals",
+                "req.params",
+                "All of the above"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following function arguments are available to Express.js Route handlers?",
+            "options": [
+                "req - the request object",
+                "res - the response object",
+                "next",
+                "All of the above"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following is a middleware in Express.js?",
+            "options": [
+                "function(req){ }",
+                "method(req){ }",
+                "function(req,res,next){ }",
+                "method(req,res,next){ }"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following function is used to specify what to do when a get request at the given route is called?",
+            "options": [
+                "app.get(route, callback)",
+                "get(route, callback)",
+                "js.get(route, callback)",
+                "fun.get(route, callback)"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Which of the following HTTP method, are used to transmit a limited amount of data, as the data is included in the header?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "____ requests are used to transmit a large amount of data, as the data is included in the body of the request?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "____ functions are those that interact with the request and response objects (req, res) during the request-response cycle?",
+            "options": [
+                "Data binding",
+                "Routing",
+                "Middleware",
+                "Forms"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the Express.js app.listen() function?",
+            "options": [
+                "To start the application server",
+                "To stop the application server",
+                "To restart the application server",
+                "To connect to a database"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the req object in Express.js?",
+            "options": [
+                "To represent the HTTP request",
+                "To represent the HTTP response",
+                "To store session data",
+                "To store user authentication data"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the res object in Express.js?",
+            "options": [
+                "To represent the HTTP request",
+                "To represent the HTTP response",
+                "To store session data",
+                "To store user authentication data"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "_____ method is used to set content type in express JS. Consider res, app and expr as objects of response, express alias and express respectively.",
+            "options": [
+                "app.set()",
+                "expr.set()",
+                "res.set()",
+                "app.use()"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Identify output/error from following code. uname is a name of textfield having content “xyz”. response.set(&quot;content-type&quot;,&quot;application/json&quot;) response.send(`&lt;h1&gt;${request.body.uname}&lt;/h1&gt;`)",
+            "options": [
+                "xyz with &lt;h1&gt; effect",
+                "Error as content inside send() is not a JSON object",
+                "{ uname: &quot;xyz&quot;}",
+                "&lt;h1&gt;xyz&lt;/h1&gt;"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the output on /html page if following code is there. app.get(&#39;/html&#39;, (req, res) =&gt; { const html = ` &lt;html&gt; &lt;head&gt; &lt;title&gt;HTML Response&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;This is an HTML response&lt;/h1&gt; &lt;p&gt;You can send HTML content using Express.js&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; `; res.send(html); });",
+            "options": [
+                "Error : html can not be defined as variable",
+                "Error : html can not be passed directly to res.send()",
+                "Will give html output",
+                "Error : html tags should be written in one line"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What is the output of the following code? app.get(“/”,(req,res)=&gt; { res.set(“content-type”, “text/html”) res.send(“&lt;p style=’color:red;’&gt;welcome everyone&lt;/p&gt;”); });",
+            "options": [
+                "red-colored saying “welcome everyone”;",
+                "red-colored big font saying “welcome everyone”;",
+                "saying “welcome everyone”",
+                "plain text saying “welcome everyone”"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Give output of following code on web browser: const expr=require(&quot;express&quot;); const app=expr(); app.get(&quot;/&quot;,(req,res)=&gt; { res.set(&quot;content-type&quot;,&quot;text/html&quot;); res.write(&quot;Hello world!&quot;); res.send(&quot;&lt;h1&gt; Hello from LJ&lt;/h1&gt;&quot;); }); app.listen(5004);",
+            "options": [
+                "&lt;h1&gt; Hello from LJ&lt;/h1&gt;",
+                "Hii &lt;h1&gt; Hello from LJ&lt;/h1&gt;",
+                "Hello world!",
+                "Nothing gets print (Blank page) with error in console Cannot set headers after they are sent to the client"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Give output of following code on web browser: const express = require(&#39;express&#39;); const app = express(); var st = { user: 2} app.get(&#39;/&#39;, function (req, res) { res.write(&quot;Hello&quot;); res.json(st.user); }); app.listen(5004);",
+            "options": [
+                "Hello",
+                "Hello world!",
+                "Nothing gets print (Blank page)",
+                "Hello 2"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "const expr=require(&quot;express&quot;); const app=expr(); const student=[{name:&quot;ABC&quot;,age:28},{name:&quot;PQR&quot;,age:31} ,{name:&quot;XYZ&quot;,age:20}]; app.get(&quot;/&quot;,(req,res)=&gt; { res.set(&quot;content-type&quot;,&quot;text/html&quot;); for (x=0;x&lt;student.length;x++) { for(j=x+1;j&lt;student.length;j++) {if(student[x].age &gt; student[j].age) { temp=student[x].age; student[x].age=student[j].age; student[j].age=temp; } }} for(i=0;i&lt;student.length;i++) { res.write(student[i].name+&quot;\\t&quot;+student[i].age+&quot;&lt;br&gt;&quot;) } res.send() }); app.listen(6001);",
+            "options": [
+                "ABC 20 PQR 28 XYZ 31",
+                "XYZ 20 ABC 28 PQR 31",
+                "ABC 31 PQR 28 XYZ 20",
+                "XYZ 31 ABC 28 PQR 20"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the output of the following code of middleware? const cb=(req,res,next)=&gt; { res.write(&quot;&lt;p&gt;First&lt;/p&gt;&quot;); next(); } const cb1=(req,res,next)=&gt; { res.write(&quot;&lt;p&gt;Second&lt;/p&gt;&quot;); next(); } app.use(&quot;/test&quot;,cb); app.get(&quot;/test&quot;,(req,res)=&gt; { res.write(&quot;&lt;p&gt;Third&lt;/p&gt;&quot;); res.send(); });",
+            "options": [
+                "&lt;p&gt;First&lt;/p&gt;&lt;p&gt;Third&lt;/p&gt;",
+                "First Third",
+                "First Second Third",
+                "Second Third"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Which HTTP method is typically used for retrieving data from a RESTful API in Express.js?",
+            "options": [
+                "GET",
+                "PUT",
+                "POST",
+                "DELETE"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is a middleware that parses cookies attached to the client request object?",
+            "options": [
+                "cookie",
+                "cookies",
+                "cookie-parser",
+                "None of the above"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Identify the correct code snippet to store passed “name” parameter to cookie, which expires after closing browser and terminate by printing “Done”.",
+            "options": [
+                "const uername=req.query[&quot;name&quot;]; res.cookie(&quot;uname&quot;,username); res.send(&quot;Done&quot;);",
+                "const username=req.query.name; res.cookie(&quot;uname&quot;,username); res.send(&quot;Done&quot;);",
+                "const username=req.query[&quot;name&quot;]; res.cookie(&quot;uname&quot;,username,{ex pires:new Date(Date.now()+1000)}); res.send(&quot;Done&quot;);",
+                "const username=req.query.name; res.cookie(&quot;uname&quot;,username, {expires:new Date(Date.now()+1000)}); res.send(&quot;Done&quot;);"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Consider following HTML file with 4 choices using checkboxes. Identify the correct option to retrieve values of all selected checkboxes after clicking submit button. &lt;form action=&quot;http://localhost:6001/process_post&quot; method=&quot;post&quot;&gt; &lt;input type=&quot;checkbox&quot; name=&quot;sports&quot; value=&quot;Hockey&quot;/&gt;Hockey &lt;input type=&quot;checkbox&quot; name=&quot;sports&quot; value=&quot;Cricket&quot;/&gt;Cricket &lt;input type=&quot;checkbox&quot; name=&quot;sports&quot; value=&quot;Foootball&quot;/&gt;Football &lt;input type=&quot;checkbox&quot; name=&quot;sports&quot; value=&quot;Volleyball&quot;/&gt;Volleyball&lt;/form&gt;",
+            "options": [
+                "sports=req.body.sports; res.write(`Sports=${sports[0]}`);",
+                "sports=req.body.sports; res.write(`Sports=${sports}`);",
+                "sports=req.query.sports; res.write(`Sports=${sports}`);",
+                "sports=req.query.sports[0]; res.write(`Sports=${sports}`);"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is the correct syntax for setting a cookie in Express.js?",
+            "options": [
+                "res.cookies(&#39;cookieName&#39;, &#39;cookieValue&#39;)",
+                "req.cookies(&#39;cookieName&#39;, &#39;cookieValue&#39;)",
+                "res.cookie(&#39;cookieName&#39;, &#39;cookieValue&#39;)",
+                "app.cookies(&#39;cookieName&#39;, &#39;cookieValue&#39;)"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Identify the correct syntax for setting a cookie with expiry time in Express JS ?",
+            "options": [
+                "res.cookie(&#39;Name&#39;, &#39;Value&#39;, { expires: new Date(Date.now() + 86400000) });",
+                "res.cookie(&#39;Value&#39;, &#39;Value&#39;, { maxAge: 86400000 });",
+                "res.cookie(&#39;Name&#39;, &#39;Value&#39;, { expires: 86400000 sec });",
+                "res.cookie(&#39;Name&#39;, &#39;Value&#39;, { maxAge:(Date.new() + 86400000) });"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Select correct output/error option of below code. app.get(&#39;/cookie&#39;, function(req, res){ res.cookie(&#39;name&#39;, &#39;express&#39;); //Sets name = express //req.cookie(&#39;ID&#39;,&#39;2&#39;,{ maxAge: 2000}); res.cookie(&#39;email&#39;, &#39;express@gmail.com&#39;); res.clearCookies(&#39;email&#39;); res.send(req.cookies); });",
+            "options": [
+                "It will display json object of name, id and email in browser.",
+                "It will give an error regarding clearcookies function.",
+                "It will display json object of name and id in browser. And Id will not be expired in 2 seconds.",
+                "It will give an error regarding req.cookie function."
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is the correct syntax for setting up a session in Express.js using the express-session middleware?",
+            "options": [
+                "const session = require(&#39;express- session&#39;); app.use(session({secret: &#39;mySecret&#39;}));",
+                "const session = require(&#39;express- session&#39;); app.session({secret: &#39;mySecret&#39;});",
+                "const session = require(&#39;express- session&#39;); app.session(session({secret: &#39;mySecret&#39;}));",
+                "const session = require(&#39;express- session&#39;); app.use(session({session: {secret: &#39;mySecret&#39;}}));"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "How do you retrieve the value of a cookie in Express.js?",
+            "options": [
+                "Using the req.value() method",
+                "U s ing the req.cookie() method",
+                "Using the req.cookies object",
+                "U sing the req.body object"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is an example of a route parameter in Express.js?",
+            "options": [
+                "/users",
+                "/users/:id",
+                "/users/send",
+                "/users/delete"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which method of request.cookies attribute is used to read a cookie?",
+            "options": [
+                "set()",
+                "get()",
+                "read()",
+                "cp()"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which middleware is used in Express to serve static files like CSS, images, and JS?",
+            "options": [
+                "express.static()",
+                "express.json()",
+                "express.router()",
+                "app.listen()"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Cookies in Express are used to:",
+            "options": [
+                "Store large files",
+                "Store data permanently in database",
+                "Store small pieces of data on client side",
+                "Compile middleware"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which module is commonly used in Express to manage sessions?",
+            "options": [
+                "fs",
+                "express-session",
+                "path",
+                "url"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which is correct syntax for HTML form using POST method?",
+            "options": [
+                "&lt;form type=&quot;POST&quot;&gt;",
+                "&lt;form method=&quot;POST&quot;&gt;",
+                "&lt;form action=&quot;POST&quot;&gt;",
+                "&lt;form send=&quot;POST&quot;&gt;"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax defines a GET route in Express (REST API)?",
+            "options": [
+                "app.GET(&quot;/users&quot;, function(req,res){});",
+                "app.get(&quot;/users&quot;, (req,res)=&gt;{});",
+                "app.route.GET(&quot;/users&quot;);",
+                "express.get(&quot;/users&quot;);"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax enables CORS in Express?",
+            "options": [
+                "app.cors();",
+                "express.cors();",
+                "app.enable(cors);",
+                "app.use(cors());"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax correctly defines a RESTful DELETE route with parameter id?",
+            "options": [
+                "app.delete(&quot;/users/id&quot;, ()=&gt;{});",
+                "app.remove(&quot;/users/id&quot;, ()=&gt;{});",
+                "app.delete(&quot;/users/:id&quot;, (req,res)=&gt;{});",
+                "app.destroy(&quot;/users/:id&quot;);"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax correctly initializes express-session?",
+            "options": [
+                "app.use(session({ secret: &quot;mySecret&quot;, resave: false, saveUninitialized: true }));",
+                "app.session(&quot;mySecret&quot;);",
+                "express.session({ key: &quot;mySecret&quot; });",
+                "session.start(&quot;mySecret&quot;);"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax correctly redirects after successful form submission?",
+            "options": [
+                "req.redirect(&quot;/dashboard&quot;);",
+                "redirect(&quot;/dashboard&quot;);",
+                "res.redirect(&quot;/dashboard&quot;);",
+                "res.move(&quot;/dashboard&quot;);"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What does CORS stand for?",
+            "options": [
+                "Cross Origin Resource Sharing",
+                "Common Origin Resource Sharing",
+                "Cross Order Request Sharing",
+                "Client Origin Response System"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which syntax correctly sets and reads cookie?",
+            "options": [
+                "res.cookie(&quot;role&quot;,&quot;admin&quot;); console.log(req.cookies.role);",
+                "req.cookie(&quot;role&quot;,&quot;admin&quot;);",
+                "app.cookie(&quot;role&quot;,&quot;admin&quot;);",
+                "res.set(&quot;role&quot;,&quot;admin&quot;);"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the purpose of the Express.js res.redirect() method?",
+            "options": [
+                "To render a view template in the application",
+                "To send data back to the client",
+                "To redirect the client to a different URL",
+                "To handle errors that occur in the application"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "In an ExpressJS application, where can you retrieve the dynamic parameter id from the route /user/:id?",
+            "options": [
+                "req.body.id",
+                "req.query.id",
+                "req.params.id",
+                "req.header.id"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Identify correct syntax to handle route parameter and query parameter together: URL → /users/10?active=true",
+            "options": [
+                "app.get(&quot;/users/:id&quot;, (req,res)=&gt;{ const id = req.params.id; const active = req.query.active; });",
+                "app.get(&quot;/users/id&quot;, (req,res)=&gt;{ const id = req.query.id; const active = req.params.active; });",
+                "app.get(&quot;/users&quot;, (req,res)=&gt;{ const id = req.body.id; });",
+                "app.get(&quot;/users/:id?active=true&quot;, ()=&gt;{});"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Identify correct statement/statements to set constraint of file size up to 1 KB during file upload.consider JSON code inside multer callback.",
+            "options": [
+                "const maxsize = 1*1024; limits:maxsize",
+                "const maxsize=1*1024; limits:{fileSize:maxsize}",
+                "const maxsize=1*1024*1024;limits:{fil eSize:maxsize}",
+                "const maxsize=1*1024*1024; limits:maxsize;"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following is the correct syntax to upload specific size file for defined variable as: Var maxSize=1*1024*1024",
+            "options": [
+                "limits:{size:maxSize}",
+                "limit:maxSize",
+                "limit:{file:maxSize}",
+                "limits:{fileSize:maxSize}"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "What is the correct syntax for configuring disk storage for file upload using Multer in Express.js?",
+            "options": [
+                "multer.diskStorage({ destination: &#39;uploads/&#39;, filename: (req, file, cb) =&gt; { cb(null, file.originalname); }, })",
+                "multer.diskStorage({ path: &#39;uploads/&#39;, filename: (req, file, cb) =&gt; { cb(null, file.originalname); }, })",
+                "multer.diskStorage({ folder: &#39;uploads/&#39;, filename: (req, file, cb) =&gt; { cb(null, file.originalname); }, })",
+                "multer.diskStorage({ dest: &#39;uploads/&#39;, filename: (req, file, cb) =&gt; { cb(null, file.originalname); }, })"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Which module is required to send an email in Express.js?",
+            "options": [
+                "Nodemailer",
+                "Express-mailer",
+                "NodeMail",
+                "Express-sendmail"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following is the correct way to handle errors that occur during the email sending process in Express.js?",
+            "options": [
+                "Using a try-catch block",
+                "Using the .catch() method on the nodemailer promise",
+                "Using the .then() method on the nodemailer promise",
+                "Using the .finally() method on the nodemailer promise"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "What is the correct syntax to send HTML formatted text in your email?",
+            "options": [
+                "var mailOption= { from:&quot;abc@gmail.com&quot;, to:&quot;xyz@gmail.com&quot;, subject:&quot;test mail&quot;, text:&quot;&lt;h1&gt;its easy&lt;/h1&gt;&quot; }",
+                "var mailOption= { from:&quot;abc@gmail.com&quot;, to:&quot;xyz@gmail.com&quot;, subject:&quot;test mail&quot;, html:&quot;&lt;h1&gt;its easy&lt;/h1&gt;&quot; }",
+                "var mailOption= { from:&quot;abc@gmail.com&quot;, to:&quot;xyz@gmail.com&quot;, subject:&quot;test mail&quot;, text:&quot;its easy&quot; }",
+                "var mailOption= { from:&quot;abc@gmail.com&quot;, to:&quot;xyz@gmail.com&quot;, subject:&quot;test mail&quot;, content_type:&quot;text/html&quot;, content:&quot;&lt;h1&gt;its easy&lt;/h1&gt;&quot; }"
+            ],
+            "ans": 1,
+            "unit": "6"
+        }
+    ],
+    "T3": [
+        {
+            "q": "Correct the following code : function App() { const abc=&quot;Hello&quot;; return ( &lt;div className=&quot;App&quot;&gt; &lt;h1 style={{backgroundColor:&quot;red&quot;}}&gt; Friends {2+2} &lt;/h1&gt; &lt;Example fname=abc age=&quot;30&quot;/&gt; &lt;/div&gt; ); } export default App;",
+            "options": [
+                "Quotes missing at : &lt;Example &quot;fname&quot;= abc &quot;age&quot;=&quot;30&quot;/&gt;",
+                "$ missing at : &lt;h1 style={{backgroundColor:&quot;red&quot;}}&gt; Friends ${2+2} &lt;/h1&gt;",
+                "Quotes missing at : &lt;h1 style={{&quot;backgroundColor&quot;:&quot;red&quot;}}&gt; Friends {2+2} &lt;/h1&gt;",
+                "{} missing at : &lt;Example fname={abc} age=&quot;30&quot;/&gt;"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What output will be generated by following program. Example.js import React from &#39;react&#39; const Example = (Props)=&gt;{ return( &lt;div&gt; &lt;h1&gt;{Props.Name} : {Prop.Price}&lt;/h1&gt; &lt;/div&gt; ); } export default Example; App.js import Example from &quot;./Example&quot;; function App() { return ( &lt;div&gt; &lt;Example Name=&quot;Mobile&quot; Price=&quot;20000&quot; /&gt; &lt;/div&gt; );}export default App;",
+            "options": [
+                "Mobile : 20000",
+                "Mobile 20000",
+                "It will give an error regarding prop",
+                "Nothing will be printed."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What will will be the output of following program? import React from &#39;react&#39;; function App() { const handleclick = () =&gt; { alert (&#39;Welcome to LJU&#39;); } return ( &lt;div&gt; &lt;center&gt; &lt;button onClick={handleclick()}&gt;Click me&lt;/button&gt; &lt;/center&gt; &lt;/div&gt; ); } export default App;",
+            "options": [
+                "By clicking on click me button it will show an alert box",
+                "It will show an alert box once page will be loaded for first time, and it will perform nothing while clicking on button",
+                "It will perform nothing",
+                "It will show an error."
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the correct syntaxt to perform any fuction on double click in REACT?",
+            "options": [
+                "&lt;button ondoubleClick = {doubleClickHandler()}&gt;Double Click here&lt;/button&gt;",
+                "&lt;button ondoubleClick = {doubleClickHandler}&gt;Double Click here&lt;/button&gt;",
+                "&lt;button onDoubleClick = {{doubleClickHandler}}&gt;Double Click here&lt;/button&gt;",
+                "&lt;button onDoubleClick = {doubleClickHandler}&gt;Double Click here&lt;/button&gt;"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Select correct syntax to render output with &quot;LJU&quot; heading and textfield.",
+            "options": [
+                "&lt;div&gt;&lt;/div&gt; &lt;h1&gt;LJU&lt;/h1&gt; &lt;input type=&quot;text&quot; className=&quot;demo&quot;/&gt; &lt;div&gt;&lt;/div&gt;",
+                "&lt;&gt; &lt;div&gt;&lt;/div&gt; &lt;h1&gt;LJU&lt;/h1&gt; &lt;input type=&quot;text&quot; className=&quot;demo&quot;/&gt; &lt;/&gt;",
+                "&lt;&gt; &lt;div&gt;&lt;/div&gt; &lt;h1&gt;LJU&lt;/h1&gt; &lt;input type=&quot;text&quot; className=&quot;demo&quot;&gt; &lt;/&gt;",
+                "&lt;h1&gt;LJU&lt;/h1&gt; &lt;input type=&quot;text&quot; className=&quot;demo&quot;/&gt;"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following program? const x = 9; let text = &quot;Welcome&quot;; x = 10; if (x &lt;= 10) { text = &quot;Welcome To LJU&quot;; } return ( &lt;h1&gt;{text}&lt;/h1&gt; )",
+            "options": [
+                "Welcome To LJU",
+                "Error will be generated",
+                "Welcome",
+                "x=10"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which is the correct syntaxt to get output of expression between HTML tags",
+            "options": [
+                "const a=1; const b=1; return( &lt;p&gt;{{a+b}}&lt;/p&gt;)",
+                "const a=1; const b=1; return( &lt;p&gt;{a+b}&lt;/p&gt;)",
+                "const a=1; const b=1; return( &lt;p&gt;{{(a+b)}}&lt;/p&gt;)",
+                "const a=1; const b=1; return( &lt;p&gt;[a+b]&lt;/p&gt;)"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following program? App.js import Example from &quot;./Example&quot;; function App() { const Info = { name: &quot;ABC&quot; }; return ( &lt;div&gt;&lt;h1&gt;What is your name?&lt;/h1&gt;&lt;Example name={ Info }/&gt;&lt;/div&gt; ); } export default App; ------------------- Example.js import React from &#39;react&#39; function Example(props) { return( &lt;h2&gt;My name is { props.name.name }!&lt;/h2&gt; );}export default Example;",
+            "options": [
+                "What is your name?",
+                "What is your name? My name is ABC!",
+                "My name is ABC!",
+                "Error will be generated"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of below program? App.js import {BrowserRouter,Route,Routes} from &quot;react-router-dom&quot;; import contact from &#39;./Contact&#39; function App() { return ( &lt;div&gt; &lt;Navbar/&gt; &lt;BrowserRouter&gt; &lt;Routes&gt; &lt;Route exact path=&quot;/Contact&quot; element={&lt;contact &gt;} /&gt; &lt;/Routes&gt; &lt;/BrowserRouter&gt; &lt;/div&gt; ); } export default App",
+            "options": [
+                "It will give an error as &lt;BrowserRouter&gt; tag is used in place of &lt;Router&gt; tag.",
+                "SyntaxError",
+                "It will run properly",
+                "It will not throw an error but wont display anything."
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following code? App.js import Example from &quot;./Example&quot;; function App() { return ( &lt;div className=&quot;App&quot;&gt; &lt;Example fname=&quot;A&quot; + &quot; B&quot; + &quot; C&quot;/&gt; &lt;/div&gt; ); }export default App; --------------------------- Example.js import React from &#39;react&#39; const Example = (props) =&gt; { return ( &lt;div&gt; &lt;h1&gt;Friends:{props.fname}&lt;/h1&gt; &lt;/div&gt; ) }export default Example",
+            "options": [
+                "Error will be generated",
+                "Friends : A B C",
+                "Friends:ABC",
+                "Friends:A+B+C"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of following code? App.js import Example from &quot;./Example&quot;; function App() { const abc=&quot;LJU&quot;; return ( &lt;div className=&quot;App&quot;&gt; &lt;Example fname={abc} age=&quot;30&quot;/&gt; &lt;/div&gt; );}export default App; Example.js import React from &#39;react&#39; const Example = (p) =&gt; { return ( &lt;div&gt; &lt;h1&gt;{p.fname}&lt;/h1&gt; &lt;h1 style={{backgroundcolor:&quot;blue&quot;}}&gt;age&lt;/h1&gt; &lt;/div&gt; )}export default Example",
+            "options": [
+                "LJU Display &quot;age&quot; with blue background color",
+                "LJU Display &quot;30&quot; with blue background",
+                "LJU 30",
+                "LJU age"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of following code. New.js import React from &#39;react&#39;; import img1 from &quot;./P.jpg&quot;; import img2 from &quot;./R.jpg&quot;; const New = () =&gt; { const images=[{ id:1,pic:img1 },{id:1,pic:img2}]; return ( &lt;div&gt; {images.map((val) =&gt; { return ( &lt;div&gt;&lt;img src={val.pic} heigth=&quot;200px&quot; width=&quot;200px&quot; alt=&quot;logo&quot; /&gt;&lt;/div&gt; ) })} &lt;/div&gt; )}export default New App.js import New from &#39;./New&#39;; function App() { return ( &lt;div&gt;&lt;New /&gt;&lt;/div&gt; );}export default App;",
+            "options": [
+                "It will display 2 images side by side on browser",
+                "It will only display first image on browser",
+                "2 Images will be displayed vertically on browser.",
+                "It will only display last image on browser."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Consider following code for App.js file. Identify error/output. function App(){ return( &lt;div&gt; This is Demo1 &lt;/div&gt; &lt;div&gt; This id Demo2 &lt;/div&gt; ); }export default App;",
+            "options": [
+                "This is Demo1 This is Demo2",
+                "This is Demo1",
+                "This id Demo2",
+                "Error as JSX fragment tag must required"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Consider following code in App.js file and Example.js file. Identify error/output import Example from &quot;./Example&quot;; function App() {const obj= { type:&quot;car&quot;,models:[&quot;i10&quot;,&quot;i20&quot;,&quot;Grandi10&quot;] } const string=JSON.stringify(obj); return( &lt;div&gt; &lt;Example name={obj}/&gt; &lt;/div&gt; )} export default App; Example.js const Example = (props)=&gt;{ return( &lt;div&gt;&lt;h1&gt;{props.name.type}&lt;/h1&gt;&lt;/div&gt; ) }export default Example",
+            "options": [
+                "”car” is printed successfully by referring props.name.type",
+                "Error as props.name.type is invalid use of props to refer type",
+                "Error since type must be fetched by passing “string” rather than “obj”",
+                "Error as JSON object can not be passed to other component.i.e. “Example”"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What will following code do? const arr=[&#39;A&#39;,&#39;B&#39;,&#39;C&#39;,&#39;a&#39;,&#39;b&#39;] const newarr=arr.filter((value)=&gt; { if(value===value.toUpperCase()) return false; else return true; })",
+            "options": [
+                "Returns array having only capital letters",
+                "Returns empty array",
+                "Returns array having only small letters",
+                "Error as not proper use of ‘ toUpperCase()’"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Fill the blanks in following code to generate proper output. New.js import React from &#39;react&#39;; import img1 from &quot;./P.jpg&quot;; import img2 from &quot;./R.jpg&quot;; const New = () =&gt; { const images=[{ id:1,pic:img1 },{id:2,pic:img2}]; return ( &lt;div&gt; {______.map((val) =&gt; { return ( &lt;div&gt; &lt;img _________ heigth=&quot;200px&quot; width=&quot;200px&quot; alt=&quot;logo&quot; /&gt; &lt;/div&gt; )} )} &lt;/div&gt; )} export default New;",
+            "options": [
+                "images, src={{val.pic}}",
+                "img,src={val}",
+                "images,src={val.pic}",
+                "img,src=”val.pic”"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following code : const arr=[&quot;a&quot;,&quot;java&quot;,&quot;Full Stack&quot;,&quot;567&quot;,&quot;Python&quot;]; return (&lt;div&gt;&lt;h1&gt;map function&lt;/h1&gt; { arr.map((value)=&gt; {return &lt;p&gt;array values= {value.toUpperCase()}&lt;/p&gt; })}&lt;/div&gt;) }",
+            "options": [
+                "map function array values= A array values= JAVA array values= FULL STACK array values= 567 array values= PYTHON",
+                "A JAVA FULL STACK 567 PYTHON",
+                "Error:567 can’t be added in list",
+                "Error:all inputs should be of type in array"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Identify correct code to change CSS,attributes of a paragraph &amp; text on double click.",
+            "options": [
+                "function changeCssAttr(e) { e.target.value=&quot;Thanks buddy&quot;; e.target.style.fontFamily=&quot;times new roman&quot;; e.target.align=&quot;center&quot;; } return ( &lt;&gt; &lt;p onDoubleClick={changeCssAttr}&gt;This is my para&lt;/p&gt; &lt;/&gt;)",
+                "function changeCssAttr(e) { e.target.value=&quot;Thanks buddy&quot;; e.target.style.font-family=&quot;times new roman&quot;; e.target.align=&quot;center&quot;; } return ( &lt;&gt; &lt;p onDoubleClick={changeCssAttr}&gt;This is my para&lt;/p&gt; &lt;/&gt;)",
+                "function changeCssAttr(e) { e.target.innerHTML=&quot;Thanks buddy&quot;; e.target.style.font-family=&quot;times new roman&quot;; e.target.align=&quot;center&quot;; } return ( &lt;&gt; &lt;p onDoubleClick={changeCssAttr}&gt;This is my para&lt;/p&gt; &lt;/&gt;)",
+                "function changeCssAttr(e) { e.target.innerHTML=&quot;Thanks buddy&quot;; e.target.style.fontFamily=&quot;times new roman&quot;; e.target.align=&quot;center&quot;; } return ( &lt;&gt; &lt;p onDoubleClick={changeCssAttr}&gt;This is my para&lt;/p&gt; &lt;/&gt;)"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of below program? App.js import {Router,Route,Routes,Link} from &quot;react&quot;; import CA from &#39;./CA&#39; function App() { return ( &lt;Router&gt; &lt;Routes&gt; &lt;Route path=&quot;/CA&quot; element={&lt;CA/&gt;}/&gt; &lt;/Routes&gt; &lt;/Router&gt;); }export default App",
+            "options": [
+                "It will give an error as &lt;BrowserRouter&gt; tag is not used",
+                "Reached at the end- no executable code",
+                "It will run properly",
+                "Cause of error is Router/Route/Routes/Link is imported from react"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "In ReactJS, to filter an array of objects named &quot;dataArr&quot; based on a specific condition, which of the following options shows the correct syntax?",
+            "options": [
+                "dataArr.filter(item =&gt; item.id === 1)",
+                "this.filterData(dataArr, item =&gt; item.id === 1)",
+                "filterData(dataArr, item =&gt; item.id === 1)",
+                "this.state.dataArr.filter(item =&gt; item.id === 1)"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "In a React application, a parent component ParentComponent is passing a prop called username to its child component ChildComponent. Which of the following options correctly accesses and displays the username prop in the ChildComponent?",
+            "options": [
+                "&lt;p&gt;{this.props.uname}&lt;/p&gt;",
+                "&lt;p&gt;{props.username}&lt;/p&gt;",
+                "&lt;p&gt;{username}&lt;/p&gt;",
+                "&lt;p&gt;{props}&lt;/p&gt;"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Identify error/output in following code of App.js file. const arr=[&quot;apple&quot;, &quot;banana&quot;, &quot;kiwi&quot;, &quot;orange&quot;]; const result = arr.filter((fruit) =&gt; { if(fruit.length &gt; 5) { return true;} else { return false; } } ); var arr1=result.join(&quot;,&quot;) return (&lt;div&gt; {arr1} &lt;/div&gt; )",
+            "options": [
+                "Output: apple,kiwi",
+                "Error: The filter function should have a closing parenthesis.",
+                "Output:banana,orange",
+                "Error: JSX elements should be returned within a single parent element."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which syntax is commonly used for defining a route in React using react-router-dom?",
+            "options": [
+                "&lt;Route path=&quot;/about&quot; element=About /&gt;",
+                "&lt;Route url=&quot;/about&quot; element={About} /&gt;",
+                "&lt;Route path=&quot;/about&quot; element= {&lt;About /&gt;} /&gt;",
+                "&lt;Route path=&quot;/about&quot;&gt;&lt;About /&gt;&lt;/Route&gt;"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Give the correct output. import React from &#39;react&#39;; const App = () =&gt; { const name = &quot;John&quot;; const age = 30; return ( &lt;div&gt; &lt;h1&gt;Hello, {name}!&lt;/h1&gt; &lt;p&gt;You are {age} years old.&lt;/p&gt; &lt;ul&gt;{age &gt; 18 ? &lt;li&gt;You are an adult&lt;/li&gt; : &lt;li&gt;You are a minor&lt;/li&gt;}&lt;/ul&gt; &lt;/div&gt; );}; export default App;",
+            "options": [
+                "Hello, John! and &quot;You are 30 years old.&quot; with an unordered list item &quot;You are an adult&quot;",
+                "Hello, John! and &quot;You are 30 years old.&quot; with an unordered list item &quot;You are a minor&quot;",
+                "An error will occur due to incorrect syntax in the JSX",
+                "Nothing will be displayed on the screen"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Consider following code in App.js file and Program.js file. Identify error/output. App.js const obj1={Name:&quot;Hiyan&quot;,Age:32,Branch:[&quot;CSE&quot;,&quot;CE&quot;,&quot;IT&quot;]} const str = JSON.stringify(obj1); return(&lt;div&gt;&lt;Program Name={obj1} /&gt;&lt;/div&gt;); Program.js const Program=(props)=&gt;{ return(&lt;div&gt;&lt;h1&gt;{props.Name.Branch[0]}&lt;/h1&gt;&lt;/div&gt;);",
+            "options": [
+                "CSE will be printed on browser in &lt;h1&gt; tag",
+                "Prints entire JSON object including all members",
+                "Error: Value not initialized",
+                "CE will be printed on browser in &lt;h1&gt; tag"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Identify error/output in following code of App.js file. function App() { const a=&quot;Hello&quot;; const b=8; return ( &lt;div className=&quot;App&quot;&gt; &lt;h1 style={{backgroundColor:&quot;green&quot;}}&gt; The addition is: {a+2+b} &lt;/h1&gt; &lt;/div&gt; ); } export default App;",
+            "options": [
+                "Output:”The addition is: Hello10” with green background color in &lt;h1&gt; tag.",
+                "Output:”The addition is: Hello28” with green background color in &lt;h1&gt; tag",
+                "Output:”The addition is: 28Hello” with green background color in &lt;h1&gt; tag",
+                "Error: “value not initialized”"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of following code? ________________________________________ function map1() { let arr = [2, 4, 6, 3, 7, 5] const val = arr.sort(); return ( &lt;div&gt; &lt;h1&gt;Output: &lt;/h1&gt; { arr.map((value)=&gt;{ const val = value + 3 + &quot;2&quot; return ( &lt;h2&gt;{val}&lt;/h2&gt; ) })} &lt;/div&gt; )}export default map1",
+            "options": [
+                "102 92 82 72 62 52",
+                "7 9 11 8 12 10",
+                "Output: 52 62 72 82 92 102",
+                "232 432 632 332 732 532"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Random numbers stored as an array named “arr”, how can you use the `filter` method to get only even numbers in output?",
+            "options": [
+                "arr.filter(num =&gt; num % 2 === 0)",
+                "arr.filter(num =&gt; num % 2 !== 0)",
+                "arr.filter(num =&gt; num.isEven())",
+                "arr.filter(num =&gt; num % 2 === 1)"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Identify Correct CSS syntax in below code for mystyle to get proper output. function App(){ const mystyle= ?? return ( &lt;div&gt; &lt;h1 style={mystyle}&gt;Demo1&lt;/h1&gt; &lt;/div&gt; )} export default App;",
+            "options": [
+                "font-Size:&quot;40px&quot;, color:&quot;green&quot;, text- Transform:&quot;uppercase&quot;",
+                "{font-Size:&quot;40px&quot;, color:&quot;green&quot;, text- Transform:&quot;uppercase&quot;}",
+                "{fontSize:&quot;40px&quot;, color:&quot;green&quot;, textTransform:&quot;uppercase&quot;}",
+                "fontSize:&quot;40px&quot;, color:&quot;green&quot;, textTransform:&quot;uppercase&quot;"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following is not an incorrect statement/s regarding react. 1.(cid:9)React components are composed to create a user interface with only webpack. 2.(cid:9)All React components must act like recursive functions with respect to their props. 3.(cid:9).map() function is a callback function that is called once for each element in the array. 4.(cid:9)First file loaded by the browser in a basic React project is index.js 5.(cid:9)React&#39;s virtual DOM is A library that handles asynchronous operations in React applications.",
+            "options": [
+                "1,2,3",
+                "3,5",
+                "3,4,5",
+                "Only 3"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following JSX code? &lt;button onClick={() =&gt; alert(&quot;Button clicked!&quot;)}&gt;Click me&lt;/button&gt;",
+            "options": [
+                "A warning about the missing onClick handler.",
+                "A syntax error due to the arrow function syntax.",
+                "A button with the text &quot;Click me&quot; that triggers an alert when clicked.",
+                "A button is not clickable."
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the output of the following code: import React from &#39;react&#39;; export function App() { const arr = [10, 20, 30, 40, 50]; return (&lt;&gt; {arr.map((v, index) =&gt; { let s = index * 5; return &lt;h3 key={index}&gt;s = {s}&lt;/h3&gt;; })} &lt;/&gt;); }",
+            "options": [
+                "s = 0 s = 1 s = 2 s = 3 s = 4",
+                "s = 0 s = 5 s = 1 0 s = 1 5 s = 20",
+                "s = 1 0 s = 2 0 s = 3 0 s = 4 0 s = 50",
+                "s = 5 0 s = 1 0 0 s = 1 5 0 s = 2 0 0 s = 250"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "In a React form, which event is typically used to handle changes in an input field?",
+            "options": [
+                "onChange",
+                "onSubmit",
+                "onClick",
+                "onInputhere"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What will be the error in the following program : import React, { useState } from &#39;react&#39; const Hook3 = () =&gt; { const[firstName,setFirstName]=useState(&quot;&quot;); function handleChange(){ setFirstName(e.target.value); } return ( &lt;div&gt; &lt;input name=&quot;firstName&quot; value={firstName} onChange={handleChange}/&gt; &lt;h1&gt;{firstName}&lt;/h1&gt; &lt;/div&gt; )} export default Hook3",
+            "options": [
+                "Unexpected use of Input type",
+                "handleChange is undefined",
+                "e is not defined",
+                "firstname is undefined"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Identify the correct result of following code snippet const[cb,setCb] = useState(&quot;&quot;); const handleChange=(e)=&gt;{setCb(e.target.value);} const handleChange1=(e)=&gt;{setCb(e.target.value);} return( &lt;div&gt; &lt;input type=&quot;radio&quot; value=&quot;Male&quot; onChange=&quot;{handleChange} name=&quot;gender&quot; /&gt;Male &lt;input type=&quot;radio&quot; value=&quot;Female&quot; onChange=&quot;{handleChange1} name=&quot;gender&quot; /&gt;Female &lt;p&gt;{cb}&lt;/p&gt; &lt;/div&gt; );",
+            "options": [
+                "Error, since onChange event can&#39;t be applied on radio button",
+                "Error, since we have to take two separate useStates to store 2 radio button values",
+                "radio buttons are shown correctly, but events are not performed on both radio buttons, no error is shown",
+                "Both &quot;Male&quot; and &quot;Female&quot; will be printed by selecting respective radio buttons"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "How do you initialize a state variable named count with an initial value of 0 using the useState hook in a React component",
+            "options": [
+                "const [count, setCount] = useState(0);",
+                "const [count, setCount] = useState($count:0);",
+                "const {count, setCount} = useState(count: 0);",
+                "const [count, setCount] = useState(count: 0);"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Consider you have a context named ThemeContext that provides a theme value. How would you consume this context value using the useContext hook inside a functional component",
+            "options": [
+                "const { ThemeContext } = useContext();",
+                "const { theme } = {useContext(ThemeContext)};",
+                "const theme = useContext(ThemeContext);",
+                "const { [theme ]} = ThemeContext;"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What will be the output? import React, { useReducer } from &#39;react&#39; const Hook = () =&gt; { const [sum,dispatch]=useReducer((state,action)=&gt;{ return state+action; } ,20); return ( &lt;div align=&quot;center&quot;&gt; &lt;h1 align=&quot;center&quot;&gt;{sum}&lt;/h1&gt; &lt;button onDoubleClick={()=&gt;dispatch(5)}&gt;Add&lt;/button&gt; &lt;/div&gt; ) } export default Hook",
+            "options": [
+                "It displays number 20 and increase the number by 5 only once",
+                "It displays number 5 and increase the number by 20 only once",
+                "It displays number 20 and increase the number by 5 each time when button clicked",
+                "It displays number 5 and increase the number by 20 each time when button clicked"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "How do you invoke setTxt only when component mounts, using hooks? function MyComponent(props) { const [txt, setTxt] = useState(false); return &lt;h1&gt;Done: {txt}&lt;/h1&gt;; }",
+            "options": [
+                "useEffect(() =&gt; { setTxt(true); });",
+                "useEffect(() =&gt; { setTxt(true); }, [setTxt]);",
+                "useEffect(() =&gt; { setTxt(true); }, [txt, setTxt]);",
+                "useEffect(() =&gt; { setTxt(true); }, []);"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What will be the output? import React, { useState, useEffect } from &#39;react&#39;; const Ex = () =&gt; { const [seconds, setSeconds] = useState(0); useEffect(() =&gt; { setInterval(() =&gt; { setSeconds(prevSeconds =&gt; prevSeconds + 1); }, 1000); },[]) return ( &lt;div&gt; &lt;p&gt;Seconds: {seconds}&lt;/p&gt; &lt;/div&gt; ) } export default Ex",
+            "options": [
+                "It updates the scroll position whenever the component renders",
+                "It increments the seconds state every second",
+                "It handles clicks on a button to increment seconds",
+                "It renders the component every 2 seconds"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What will be the output of below code? import { useState } from &quot;react&quot;; function Example () { const [buttonText,setbuttontext]=useState(&quot;Hide&quot;); const [text,setText]=useState(&#39;Hello&#39;); function clickButton() { if( buttonText === &#39;Hide&#39;) { setbuttontext(&quot;Show&quot;) setText(&quot;&quot;) } else { setbuttontext(&quot;Hide&quot;) setText(&quot;Hello&quot;) } } return (",
+            "options": [
+                "Initially the button text “Hide” and the text “Hello” will be hidden in the browser. Clicking that button will change button text to &quot;Show&quot; and the text will be displayed.",
+                "Initially the button text “Show” and the text “Hello” will be hidden in the browser. Clicking that button will change button text to &quot;Hide&quot; and the text will be displayed",
+                "Initially the button text “Hide” and the text “Hello” will be hidden in the browser. Clicking that button will not change button text and the text will be displayed.",
+                "Initially the button text “Hide” and the text “Hello” will be displayed in the browser. Clicking that button will change button text to &quot;Show&quot; and the text will be hidden."
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "&lt;div&gt; &lt;button onClick={clickButton}&gt;Hide/show&lt;/button&gt; Find the correct syntax for Axios?",
+            "options": [
+                "function fetchactivity(){ axios .get(siteURL) axios.then((data) =&gt; console.log(data.data)) .catch((error)=&gt;console.log(error)) }",
+                "function fetchactivity(){ axios .get(siteURL) axios .than(data =&gt; console.log(data.data)) axios .catch(error=&gt;console.log(error)) }",
+                "function fetchactivity(){ axios .get(siteURL) .then((data) =&gt; console.log(data.data)) .catch((error)=&gt;console.log(error)) }",
+                "function fetchactivity(){ axios .get(siteURL) .then({data} =&gt; console.log(data.data)) axios.catch({error}=&gt;console.log(err or)) }"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What will happen when the button is clicked? const [count,setCount] = useState(0); &lt;button onClick={()=&gt;setCount(count+1)}&gt;Click&lt;/button&gt; &lt;h1&gt;{count}&lt;/h1&gt;",
+            "options": [
+                "It decrements the count value",
+                "It increments the count value by 1 on each click",
+                "It resets the count to 0",
+                "It shows an error"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "How do you correctly initialize a state variable &#39;name&#39; with value &#39;John&#39; using useState?",
+            "options": [
+                "const name = useState(&#39;John&#39;);",
+                "const [name, setName] = useState(&#39;John&#39;);",
+                "const {name, setName} = useState(&#39;John&#39;);",
+                "useState name = &#39;John&#39;;"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "What will be displayed initially? const [text,setText] = useState(&#39;Hello&#39;); &lt;h2&gt;{text}&lt;/h2&gt;",
+            "options": [
+                "undefined",
+                "null",
+                "Hello",
+                "Nothing will be displayed"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "If the initial state is false: const [show,setShow] = useState(false); What is correct way to toggle it?",
+            "options": [
+                "setShow(show++);",
+                "setShow(!show);",
+                "show = true;",
+                "setShow = true;"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "You created UserContext in Parent component and wrapped &lt;Child/&gt; inside &lt;UserContext.Provider value=&#39;abc&#39;&gt;. How will Child component access this value?",
+            "options": [
+                "const user = useContext(UserContext);",
+                "const user = UserContext();",
+                "const user = this.useContext(UserContext);",
+                "useContext = UserContext;"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "In a Theme application, ThemeContext provides value &#39;dark&#39;. If value changes to &#39;light&#39;, what happens to components using useContext(ThemeContext)?",
+            "options": [
+                "They automatically re-render with new theme value",
+                "They need manual refresh",
+                "Application crashes",
+                "Nothing changes"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "You want to pass &#39;blue&#39; color from Parent to deeply nested Child without passing props manually at each level. Which is correct approach?",
+            "options": [
+                "Use useState in Child only",
+                "Create Context in Parent and consume it using useContext in Child",
+                "Use useEffect to send props",
+                "Store value in local variable"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Consider: const value = useContext(MyContext); If MyContext has no Provider above this component, what will value be?",
+            "options": [
+                "undefined always",
+                "The default value passed while creating MyContext",
+                "Application error immediately",
+                "Null pointer exception"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "You want to increase count by 1 using useReducer. Which dispatch call is correct if reducer handles action type &#39;increment&#39;?",
+            "options": [
+                "dispatch({type:&#39;increment&#39;});",
+                "dispatch(&#39;increment&#39;);",
+                "setCount(count+1);",
+                "useReducer(&#39;increment&#39;);"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Initial state is 0. Reducer returns state + action.payload. What will dispatch({payload:5}) do?",
+            "options": [
+                "Reset state to 5",
+                "Increase state by 5",
+                "Multiply state by 5",
+                "Throw error always"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "When is useReducer preferred over useState in practical applications?",
+            "options": [
+                "When state logic is complex with multiple actions",
+                "When only one variable is used",
+                "When API call is required",
+                "When styling components"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What does useReducer return?",
+            "options": [
+                "Only dispatch function",
+                "Only state value",
+                "Current state and dispatch function",
+                "Reducer function itself"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "If reducer does not match any action type, what should it return to avoid errors?",
+            "options": [
+                "Return null",
+                "Return current state",
+                "Return undefined",
+                "Return new object always"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "How do you run useEffect only once when component mounts?",
+            "options": [
+                "useEffect(()=&gt;{});",
+                "useEffect(()=&gt;{}, [state]);",
+                "useEffect(()=&gt;{}, []);",
+                "useEffect(state);"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "You want to fetch API data when component loads. Where should API call be written?",
+            "options": [
+                "Inside useState",
+                "Inside useEffect with empty dependency array",
+                "Inside return statement",
+                "Inside reducer"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "If dependency array contains [count], when will useEffect execute?",
+            "options": [
+                "Only once",
+                "Whenever count value changes",
+                "On every render regardless",
+                "Never executes"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "If no dependency array is provided in useEffect, what happens?",
+            "options": [
+                "It runs only once",
+                "It runs after every render",
+                "It never runs",
+                "It throws error"
+            ],
+            "ans": 1,
+            "unit": "8"
+        }
+    ],
+    "T4": [
+        {
+            "q": "Identify the equialent NoSQL command of following SQL command: create table student",
+            "options": [
+                "db.create(&quot;student&quot;)",
+                "db.createTable(&quot;student&quot;)",
+                "db.createDatabase(&quot;student&quot;)",
+                "db.createCollection(&quot;student&quot;)"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Identify the equivalent NoSQL command of following SQL command: drop table student",
+            "options": [
+                "db.student.drop()",
+                "db.student.delete()",
+                "db.student.truncate()",
+                "db.student.cancel()"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "drop() command returns ______.",
+            "options": [
+                "JSON specifying {OK:1}",
+                "integer value",
+                "null value",
+                "Boolean value"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "you have a MongoDB collection named &quot;students&quot; containing information about various students. You want to retrieve a list of students whose names match any of the following: &quot;CCC,&quot; &quot;PPP,&quot; or &quot;BBB.&quot; Additionally, you want to display the results in descending order based on their names. How would you write a MongoDB query to accomplish this task?",
+            "options": [
+                "db.students.find({ name: { $in: [&quot;CCC&quot;, &quot;PPP&quot;, &quot;BBB&quot;] } }).sort({ _id: -1 })",
+                "db.students.find({ name: &quot;CCC&quot; || &quot;PPP&quot; || &quot;BBB&quot; }).sort({ name: -1 })",
+                "db.students.find({ name: { $in: [&quot;CCC&quot;, &quot;PPP&quot;, &quot;BBB&quot;] } }).sort({ name: 1 })",
+                "db.students.find({ name: { $in: [&quot;CCC&quot;, &quot;PPP&quot;, &quot;BBB&quot;] } }).sort({ name: -1 })"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Identify the equivalent NoSQL command of following SQL command: UPDATE lju SET status = &quot;Active&quot; WHERE age = 25 and name “ABC”",
+            "options": [
+                "db.lju.updateMany( { age: 25,name:’AB’ }, { $set: { status: &quot;Active&quot; } } )",
+                "db.lju.updateMany( { age: 25,name:’ABC’ }, { $set: { status: &quot;Active&quot; } } )",
+                "db.lj.updateMany( { age: 25,name:’ABC’ }, { $set: { status: &quot;Active&quot; } } )",
+                "db.lju.updateMany( { age: 25,uname:’ABC’ }, { $set: { status: &quot;Active&quot; } } )"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Identify the equivalent NoSQL command of following SQL command: SELECT COUNT(*) FROM lju WHERE age &gt; 30",
+            "options": [
+                "db.lju.count( { age: { $lt: 30 } } )",
+                "db.lju.find( { age: { $gt: 30 } } ).count()",
+                "db.lju.find( { age: { $gte: 30 } } ).count()",
+                "db.lju.findcount( { age: { $gte: 30 } } )"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Identify correct command to list name and age of all students excluding _id field.",
+            "options": [
+                "db.student.find({name:1,age:1})",
+                "db.student.find({name:1,age:1,_id:0} )",
+                "db.student.find({},{name:1,age:1,_id :0})",
+                "db.student.find({},{name:1,age:1,_id :1})"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "1st and 2nd argument in find() command generally refers ____ &amp; ____ respectively.",
+            "options": [
+                "Projection &amp; Condition",
+                "Condition &amp; Projection",
+                "Condition &amp; Selection",
+                "Condition &amp; Join"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Identify correct query to increment age of all documents by 10.",
+            "options": [
+                "db.test.updateMany({},{$set:{age:ag e+10}})",
+                "db.test.updateMany({},{$inc:{age:10 }})",
+                "db.test.updateMany({$inc:{age:10}} )",
+                "All of the above"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Identify correct query to count no. of documents excluding age=2 and 21.",
+            "options": [
+                "db.student.find({age:{$nin:[2,21]}}). count()}",
+                "db.student.find({$and:[{age:{$ne:2} },{age:{$ne:21}}]})",
+                "db.student.find({$or:[{age:{$ne:2}}, {age:{$ne:21}}]}).count()",
+                "db.student.find({$and:[{age:{$eq:2} },{age:{$eq:21}}]}).count()"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Identify correct command to update name field of all documents of a &quot;test&quot; collection.",
+            "options": [
+                "db.test.updateAll({name:{$set:&quot;QQQ &quot;}})",
+                "db.test.updateMany({name:{$set:&quot;Q QQ&quot;}})",
+                "db.test.updateMany({$set:{name:&quot;Q QQ&quot;}})",
+                "db.test.updateMany({}, {$set:{name:&quot;QQQ&quot;}})"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Consider a collection &quot;emp&quot; having documents like this: [ {_id:123433,name: &quot;DDD&quot;,age:32}, {_id:123434,name: &quot;BBB&quot;,age:20}, {_id:123435,name: &quot;AAA&quot;,age:10}, ] Identify result of following query in cmd: db.emp.find({},{name:1,_id:0}).skip(1)",
+            "options": [
+                "[{name:&quot;DDD&quot;},{name:&quot;BBB&quot;}]",
+                "[{name:&quot;BBB&quot;},{name:&quot;AAA&quot;}]",
+                "[{name:&quot;BBB&quot;},{name:&quot;DDD&quot;}]",
+                "[{name:&quot;AAA&quot;},{name:&quot;DDD&quot;}]"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Consider a collection &quot;emp&quot; having documents like this: [ {_id:123433,name: &quot;DDD&quot;,age:32}, {_id:123434,name: &quot;BBB&quot;,age:20}, {_id:123435,name: &quot;AAA&quot;,age:10}, ] Identify the equivalent query, which will produce same result of following query. db.emp.find({},{name:1,_id:0}).skip(1).limit(2)",
+            "options": [
+                "db.emp.find({}, {name:1,_id:0}).skip(2).limit(1)",
+                "db.emp.find({}, {name:1,_id:0}).limit(2)",
+                "db.emp.find({}, {name:1,_id:0}).skip(2)",
+                "db.emp.find({}, {name:1,_id:0}).skip(1)"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Consider following student collection: [ (cid:9){_id:123433,name: &quot;SSS&quot;,age:22}, (cid:9){_id:123434,name: &quot;ppp&quot;,age:2}, (cid:9){_id:123435,name: &quot;PPP&quot;,age:32}, ] Identify result of following query: db.student.find({name:{$in:[&quot;ppp&quot;,&quot;SSS&quot;]}})",
+            "options": [
+                "Returns all 3 records",
+                "Error in query as $in operator takes JSON, not array",
+                "Error in query as $in operator compares by $eq operator only",
+                "Returns only 2 records having names “ppp” &amp; “SSS”"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Given a MongoDB collection named products, you need to find documents where the &quot;price&quot; field is greater than or equal to 50. Which of the following queries should you use?",
+            "options": [
+                "db.products.find({ price: { $gt: 50 } })",
+                "db.products.find({ price: { $gte: 50 } })",
+                "db.products.find({ price: { $lt: 50 } })",
+                "db.products.find({ price: { $lte: 50 } })"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Consider the following query using $inc operator. Identify error/output. db.student.updateMany({$inc:{age:-8}})",
+            "options": [
+                "Increments age value of all documents and returns modified count.",
+                "Increments age value of all, but modified count is not returned.",
+                "Increments age value of 1st document only.",
+                "Error, as filter condition must be specified in update() function."
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Which is/are the correct query/ies to find eldest person from emp collection?",
+            "options": [
+                "db.emp.findOne({age:50})",
+                "db.emp.find().sort({age:1})",
+                "db.emp.find().sort({age:-1}).limit(1)",
+                "db.emp.findOne().sort({age:1})"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "The MongoDB Aggregation Framework is mainly used to:",
+            "options": [
+                "Insert multiple documents",
+                "Perform complex data processing and transformation",
+                "Create indexes",
+                "Delete collections"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which stage is used to filter documents in an aggregation pipeline?",
+            "options": [
+                "$group",
+                "$project",
+                "$match",
+                ""
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "The $match stage is similar to which MongoDB operation?",
+            "options": [
+                "insertOne()",
+                "find()",
+                "updateOne()",
+                ""
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which stage is used to group documents based on a specified field?",
+            "options": [
+                "$group",
+                "$match",
+                "$sort",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In the $group stage, which field is mandatory?",
+            "options": [
+                "groupBy",
+                "key",
+                "value",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "To arrange documents in ascending or descending order, which stage is used?",
+            "options": [
+                "$sort",
+                "$project",
+                "$group",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "In the $sort stage, what does value 1 represent?",
+            "options": [
+                "Random order",
+                "Descending order",
+                "Ascending order",
+                ""
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "What does value -1 represent in $sort?",
+            "options": [
+                "Ascending order",
+                "Descending order",
+                "Remove duplicates",
+                ""
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which stage is used to reshape documents by including, excluding, or creating new fields?",
+            "options": [
+                "$sort",
+                "$project",
+                "$match",
+                ""
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "To include a field in $project, you assign it the value:",
+            "options": [
+                "0",
+                "1",
+                "-1",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "To exclude a field in $project, you assign it the value:",
+            "options": [
+                "1",
+                "-1",
+                "0",
+                ""
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which of the following is a correct aggregation pipeline structure?",
+            "options": [
+                "db.collection.aggregate([ {stage1}, {stage2} ])",
+                "db.collection.group({})",
+                "db.aggregate.collection({})",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "db.students.aggregate([ { $match: { marks: { $gt: 80 } } }, { $sort: { marks: 1 } } ]) What does this pipeline do?",
+            "options": [
+                "Sorts all students and then filters",
+                "Groups students above 80",
+                "Filters students with marks &gt; 80 and sorts ascending",
+                ""
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "db.students.aggregate([ { $project: { name: 1, marks: 1, _id: 0 } } ]) What will be the result?",
+            "options": [
+                "Displays only name and marks fields",
+                "Displays all fields except name",
+                "Deletes _id field permanently",
+                ""
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "db.students.aggregate([ { $group: { _id: &quot;$department&quot; } } ]) What will be the output?",
+            "options": [
+                "Students ordered by department",
+                "Unique departments",
+                "Total students count",
+                ""
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Identify a correct query returning documents having a field surname occurring 6-10 letters only.",
+            "options": [
+                "db.student.find({surname:{$regex :/[A-z]{6,10}/}})",
+                "db.student.find({surname:{$regex :/^[A-Za-z]{6,10}$/}})",
+                "db.student.find({surname:{$regex :/^\\d{6,10}$/}})",
+                "db.student.find({surname:{$regex :/[A-Za-z]{6,10}/}})"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Consider a collection student having documents like this: [ {_id:123433,name: &quot;SSS&quot;,age:22}, {_id:123434,name: &quot;YYY&quot;,age:2}, {_id:123435,name: &quot;PPP&quot;,age:22}, ] Let say simple indexing is applied on a student collection on age field and we fire following query. db.student.find({age:22}).explain(“executionStats”) Identify values of stage, docExamined and nReturned properties of JSON.",
+            "options": [
+                "stage:IXSCAN, docExamined:2, nReturned:2",
+                "stage:IXSCAN, docExamined:3, nReturned:2",
+                "stage:COLLSCAN, docExamined:1, nReturned:1",
+                "stage:COLLSCAN, docExamined:1, nReturned:2"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Consider a collection student having documents like this: [ {_id:123433,name: &quot;SSS&quot;,age:22}, {_id:123434,name: &quot;YYY&quot;,age:2}, {_id:123435,name: &quot;PPP&quot;,age:22}, ] Let say compound indexing is applied on a student collection on {age,name} field and we fire following query. db.student.find({name:&quot;YYY&quot;}).explain(“executionStats”) Identify values of stage, docExamined and nReturned properties of JSON.",
+            "options": [
+                "stage:COLLSCAN, docExamined:3, nReturned:1",
+                "stage:COLLSCAN, docExamined:1, nReturned:1",
+                "stage:IXSCAN, docExamined:1, nReturned:1",
+                "stage:IXSCAN, docExamined:3, nReturned:1"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "By default indexing is always applied on ____ field.",
+            "options": [
+                "1st field of table",
+                "Last field of table",
+                "_id field maintained by default",
+                "All of the above"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Consider a collection people having documents like this: [ {_id:1, name:”Test1”,age:22}, {_id:2, name:”Test2”,age:21}, {_id:3 ,name:”Test3”,age:20}, ] Let say simple indexing is applied on a student collection on age field and we fire following query: db.people.find({age:20}).explain(“executionStats”) Identify values of stage, docExamined and nReturned properties of JSON.",
+            "options": [
+                "stage:IXSCAN, docExamined:2, nReturned:2",
+                "stage:IXSCAN, docExamined:3, nReturned:2",
+                "stage:IXSCAN, docExamined:1,nReturned:1",
+                "stage:COLLSCAN, docExamined:2,nReturned:1"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "What should be correct code to match a string beginning with “Bharat” only.",
+            "options": [
+                "db.state.find({name:{$regex:/Bhar at+/i}})",
+                "db.state.find({name:{$regex:/Bhar at/i}})",
+                "db.state.find({$regex:{name:/^Bh arat/}})",
+                "db.state.find({name:{$regex:/^Bh arat/}})"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Which of the following statements is true about the insertMany method in MongoDB?",
+            "options": [
+                "It inserts multiple documents into a collection in a single operation.",
+                "It is used to delete documents from a collection.",
+                "It upsert a single document into a collection.",
+                "insertMany is only available in MongoDB Atlas, not in the open- source version."
+            ],
+            "ans": 0,
+            "unit": "10"
+        }
+    ]
+}

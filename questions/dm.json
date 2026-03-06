@@ -1,0 +1,2243 @@
+{
+    "T1": [
+        {
+            "q": "If 𝐴 = {1,2,3,4,6}𝑎𝑚𝑑 𝐵 = {2,3,4} then which one of the following is correct?",
+            "options": [
+                "A is a universal set",
+                "B is a subset of A",
+                "B is a superse t of A",
+                "A is a null set"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Wh at is value of (𝐴−𝐵)∪(𝐵−𝐴)∪(𝐴∩𝐵)?",
+            "options": [
+                "𝐴∪𝐵",
+                "𝐴∩𝐵",
+                "A",
+                "B"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Wh3 at is the cardinality of the set of odd positive integers less than 10?",
+            "options": [
+                "10",
+                "5",
+                "3",
+                "20"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Th4e set O of odd positive integers less than 10 can be expressed by _____________",
+            "options": [
+                "A {1, 2, 3}",
+                "B {1, 3, 5, 7, 9}",
+                "C {1, 2, 5, 9}",
+                "D {1, 5, 7, 9, 11}"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "If X5 and Y are two sets, such that 𝑋∪𝑌 has 40 elements, X has 28 elements and Y has 22 elements. How many elements does 𝑋∩𝑌 have?",
+            "options": [
+                "30",
+                "20",
+                "10",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "If s6e t A contains 3 elements and another set B contains 6 elements then what is minimum number of elements that(𝐴∪𝐵) can have?",
+            "options": [
+                "3",
+                "6",
+                "8",
+                "9"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Th7e cardinality of the set of even positive integers less than 20 is__________?",
+            "options": [
+                "8",
+                "10",
+                "9",
+                "12"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Le8t the players who play cricket be 12, the ones who play football 10, those who play only cricket are 6, then the number of players who play only football are ___________, assuming there is a total of 16 players.",
+            "options": [
+                "16",
+                "8",
+                "4",
+                "10"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "In 9th e given figure the if n(A)=20,n(U)=50,n(C)=10 and n(A∩B)=5 then n(B)=?",
+            "options": [
+                "35",
+                "20",
+                "30",
+                "10"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Le1t the students who likes table tennis be 12, the ones who like lawn tennis 100, those who like only table tennis are 6, then number of students who likes only lawn tennis are, assuming there are total of 16 students.",
+            "options": [
+                "16",
+                "8",
+                "4",
+                "10"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Th1e shaded area of figure is best described by? 1",
+            "options": [
+                "A‘ (Comple ment of A)",
+                "A U B – (A ∩ B)",
+                "A-B",
+                "B"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "If 𝐴1 𝑖𝑠 {{𝛷},{𝛷,{𝛷}}}, then the power set of A has how many element? 2",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "If t1he number of subsets of a set are 4 then the number of elements in that set3s are ___",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "If a1 set A={x: x is a prime number less than 4} then n[P(P(A))] is __5_ ___________",
+            "options": [
+                "8",
+                "16",
+                "32",
+                "64"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "If 𝐴1 = {𝑥:𝑥 𝑖𝑠 𝑠𝑞𝑢𝑎𝑟𝑒 𝑜𝑓 𝑛𝑎𝑡𝑢𝑟𝑎𝑙 𝑛𝑢𝑚𝑏𝑒𝑟𝑠 ≤ 8} 𝑎𝑛𝑑 𝐵 = {2𝑥6 +1:𝑥 ∈ 𝑁}, What is 𝐴∩𝐵?",
+            "options": [
+                "{0,1,4,9, 25,49,12 1}",
+                "{1,4,16 ,36,64}",
+                "{9,25,4 9}",
+                "{1,9,25, 49}"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "If M1 and B are two sets such that 𝑀∩𝐵 has 15%, M has 35%, B has 25%, ho7w many percentages does 𝑀∪𝐵?",
+            "options": [
+                "30%",
+                "50%",
+                "45%",
+                "40%"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "If 𝐴1 = {𝑥:𝑥 ∈ 𝑁;𝑥 ≤ 5}, 8 𝐵 = {𝑥:𝑥 𝑖𝑠 𝑝𝑟𝑖𝑚𝑒,𝑥 &lt; 6} 𝑎𝑛𝑑 𝐶 = {𝑥:𝑥 ∈ 𝑁,𝑥 𝑖𝑠 𝑜𝑑𝑑 𝑎𝑛𝑑 𝑥 &lt; 9}. Find (𝐴∪𝐵)∩(𝐴∪𝐶)?",
+            "options": [
+                "{1,3,5,7, 9}",
+                "{1,2,3, 4,5}",
+                "{2,3,4, 5,7}",
+                "{1,2,3,4, 5,6,7,8}"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "In 1a survey of 60 people it was found that 259 p eople read newspapers H, 26 read newspaper I, 26 read newspapers T, 9 read both H and I, 11 read both H and T, 8 read both T and I, 3 read all three newspapers. Find the numbers of students who read exactly one newspaper?",
+            "options": [
+                "22",
+                "30",
+                "25",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Le2t A denote the set of quadrilaterals having two diagonals equal and bis1e cting each other. Let B denotes the set of quadrilaterals having diagonals bisecting each other at 90°. The 𝐴 ⋂𝐵 is",
+            "options": [
+                "The set of Parallelo grams",
+                "The set of Rhomb uses",
+                "The set of Squares",
+                "The set of Rectang les"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Wh2ich of the following is/are not partitions of a set 𝑆 = {𝑒,𝑞,𝑢,𝑎,𝑡,𝑖,𝑜,𝑛} 2 (i) {{𝑒,𝑞,𝑎},{𝑜,𝑢},{𝑡,𝑛,𝑖}} (ii) {{𝑥:𝑥 𝑖𝑠 𝑣𝑜𝑤𝑒𝑙},{𝑛,𝑡,𝑞,𝑢}} (iii) {{ },{𝑡,𝑞},{𝑠:𝑠 𝑖𝑠 𝑣𝑜𝑤𝑒𝑙}} (iv) {{𝑎,𝑒,𝑖,𝑜,𝑢},∅,{𝑡,𝑛,𝑞}} (v) {{𝑖,𝑢,𝑎},{𝑒,𝑡,𝑛},{∅},{𝑞,𝑜}} (vi) {∅,𝑆}",
+            "options": [
+                "(ii), (iii) &amp; (vi)",
+                "(iii), (iv) &amp; (v)",
+                "(ii), (iii) &amp; (v)",
+                "(i), (iii) &amp; (v)"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "If A = {x: x is a multiple of 7}, B = {x:x is a multiple of 5} and C = {x:x is a multiple of 35}, then which one of the following is a null set?",
+            "options": [
+                "(𝐴−𝐵) −𝐶",
+                "(𝐴 ∩𝐵) −𝐶",
+                "(A- B)∪C",
+                "(A∩B) ∩C"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Le7t 𝐴 = {1,2,3,4,5}. A map 𝑓 from 𝐴 to 𝐴 is defined as0 𝑓 (1) = 2,𝑓(2) = 3,𝑓(3) = 3 is_____.",
+            "options": [
+                "One-one only",
+                "Not a functio n",
+                "Many- one",
+                "bijective"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Le7t 𝐴 = {1,2,3,4,5}. A map 𝑓 from 𝐴 to 𝐴 is defined as 𝑓(1) = 1,𝑓(1) = 3,𝑓1 (2) = 2,𝑓(3) = 3,𝑓(4) = 3 and 𝑓(5) = 3 is_____.",
+            "options": [
+                "One-one only",
+                "Onto only",
+                "Many- one",
+                "Not a function"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Le7t X = {1,2,3,4}. Determine which of the relation on X is a function from X 2in to X. f = {(2,3), (1,4), (2,1), (3,2), (4,4)}, g = {(3,1), (4,2), (1,1)}, h = {(2,1), (3,4), (1,4), (2,1), (4,4)}.",
+            "options": [
+                "f",
+                "g",
+                "h",
+                "f and g"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "If 𝐴7 = {1,2,3}, 𝐵 = {4,6,9} and 𝑅 is a relation from 𝐴 to 𝐵 defined by ‘𝑥 3 𝑖 𝑠 𝑠𝑚𝑎𝑙𝑙𝑒𝑟 𝑡ℎ𝑎𝑛 𝑦′. The range of 𝑅 is ______.",
+            "options": [
+                "{1,2,3}",
+                "{4,6,9}",
+                "{1,2,3,4, 6,9}",
+                "{1,4,6,9 }"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In 7a get to gather function, everybody handshakes with everybody else. Th4e total number of handshakes is 105. The number of the person in hall is________",
+            "options": [
+                "12",
+                "11",
+                "15",
+                "18"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Wh7ich of the following function 𝑓:ℤ → ℤ are not injective? 6 (i) 5x−3 (ii) x2 +4. (iii) x3 −3x2 +7 (iv) x4 +3x−1 (v) x4 −x2 +4",
+            "options": [
+                "(ii) &amp; (iv)",
+                "(ii), (iii)&amp; (v)",
+                "(ii), (iii) &amp; (iv)",
+                "(ii) &amp; (iv)"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Let7 f:ℤ →ℤdefined asf(x) = 4x−3 is____. 7",
+            "options": [
+                "One-one only",
+                "Onto only",
+                "Many- one",
+                "bijective"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Let7 f:ℕ→ ℕdefined asf(x)= |x| is _____. 8",
+            "options": [
+                "One-one only",
+                "Onto only",
+                "Many- one",
+                "bijective"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Le8t f,g,h:R→R be defined by f(x)= x,g(x)=2x,h(x)=3xthen find 0 the composition of the function [ f  ( g  h ) ] ( x ) at x = -1.",
+            "options": [
+                "0",
+                "6",
+                "-6",
+                "2"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "If s8et P consists of 4 elements and set Q consists of 5 elements, then how ma1n y injective functions can we define from P to Q?",
+            "options": [
+                "144",
+                "120",
+                "20",
+                "16"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "A f8unction 𝑓:ℝ → ℝ defined as 𝑓(𝑥) = 3𝑥 +5 is _____. 2",
+            "options": [
+                "One-one only",
+                "Many- one only",
+                "Onto only",
+                "Bijectiv e"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Ho8w many distinct permutations of the letters in the word ‘ELEMENTS’ are3 t here?",
+            "options": [
+                "8!",
+                "8! 3!",
+                "8!−3!",
+                "8! 3"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Fiv8e boys and five girls are to be seated in a row then how many ways John and4 Mary Must be seated together?",
+            "options": [
+                "5!×6!",
+                "5!×5!",
+                "8!×18",
+                "2×9!"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Ho8w many distinct even numbers can be formed from digits 3, 5, 7, 8 wit5h out repetition?",
+            "options": [
+                "3",
+                "16",
+                "12",
+                "13"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Ho8w many distinct permutations can be formed from a word ‘BANANA’ wi6th all vowels together?",
+            "options": [
+                "6!",
+                "6! 3!",
+                "3!∙3!",
+                "4! 2!"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "A 8box contains 8 blue balls and 6 red balls. Find the number of ways two bal7l s can be drawn from the box if they must be different color.",
+            "options": [
+                "8",
+                "6",
+                "14",
+                "48"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Fin8d 𝑛 if 𝑃(𝑛,4) = 42 𝑃(𝑛,2). 8",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Fin8d the number of ways 3 elements a, b, c, can be assigned to 3 cells, so exa9c tly 1 cell is empty.",
+            "options": [
+                "3",
+                "6",
+                "9",
+                "18"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Ho9w many 4 letter words can be formed of a word ‘SOCIOLOGICAL’ as all0 l etters are different.",
+            "options": [
+                "4!",
+                "P(7,4)",
+                "P(12,4)",
+                "P(10,4)"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In 9how many ways letter ‘ORGANISE’ can be arranged in such a way that all1 v owels always come together?",
+            "options": [
+                "8!",
+                "8! 3!",
+                "5!+4!",
+                "5!∙4!"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Th9e number of three English letter words, having at least one consonant, bu2t not having two consecutive consonants, is",
+            "options": [
+                "2205",
+                "3780",
+                "2730",
+                "3360"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In 9how many ways can three examinations be scheduled within a five days per3i od so that no two examinations are scheduled on the same day?",
+            "options": [
+                "15",
+                "50",
+                "20",
+                "60"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Wh9at would be the number of permutations of letters a, b, c, d, e, f, g taken all4 t ogether if neither ‘cab’ nor ‘fed’ pattern appear?",
+            "options": [
+                "4500",
+                "4800",
+                "4806",
+                "4808"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "In 9how many ways can you take 3 cards with at least 2 aces out of well stu5f fed 52 cards?",
+            "options": [
+                "48",
+                "132",
+                "288",
+                "292"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Th9ere are 12 points in a plane of which 5 are colinear then the what is the 6 number of triangles that can be formed with vertices at these points are _____.",
+            "options": [
+                "210",
+                "35",
+                "70",
+                "105"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In 9a course, a professor gives five grades {A, B, C, D, F}. What is the mi7n imum number of students required so that four of them are guaranteed to get same grade?",
+            "options": [
+                "15",
+                "16",
+                "14",
+                "12"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "If 79 colors are used to paint 50 bicycles then at least how many bicycles wi8ll be of same color?",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "At9 least how many people among 200000 people are born at same day? (In a y9e ar)",
+            "options": [
+                "547",
+                "548",
+                "549",
+                "550"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Six1 friends discover that they have total 2161 Rs with them on trip then on0e or more of them must have at least _____ Rs? 0",
+            "options": [
+                "360",
+                "361",
+                "362",
+                "365"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "P, Q, R, S and T sit on five chairs facing north. R will sit only on the leftmost chair, and Q will not sit anywhere to the left of P. In how many ways can they be seated?",
+            "options": [
+                "12",
+                "18",
+                "30",
+                "6"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In a course, a professor gives five grades {A, B, C, D, F}. What is the minimum number of students required so that four of them are guaranteed to get the same grade?",
+            "options": [
+                "10",
+                "12",
+                "14",
+                "16"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "Th1e declarative sentences to which it is possible to assign one and only one of 3the two possible truth values are called _________. 4",
+            "options": [
+                "conjuncti ons",
+                "disjunct ions",
+                "stateme nts",
+                "connecti ves"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Wh1ich of the following is not a statement? 3 5",
+            "options": [
+                "&quot;Canada is a country.&quot;",
+                "&quot;Mosco w is the capital of Spain.&quot;",
+                "&quot;This stateme nt is true.&quot;",
+                "&quot;Toront o is an old city.&quot;"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "If t1ruth value of statement P is T, then the truth value of ¬P is _______ 3 6",
+            "options": [
+                "T",
+                "F",
+                "T or F",
+                "T and F"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Th1e statement (~𝑝) → (~𝑞) is logically equivalent to which of the sta3tements below? 7 i) (𝑝 → 𝑞) ii) 𝑞 → 𝑝 iii) (~𝑞)∨𝑝 iv) (~𝑝)∨𝑞",
+            "options": [
+                "I only",
+                "II only",
+                "II and III only",
+                "II and IV only"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "If t1ruth values of statement P is true and Q is false, then the truth value of 3P∧Q (conjunction of P and Q) is ________. 8",
+            "options": [
+                "T",
+                "F",
+                "T or F",
+                "T and F"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "If t1ruth values of statement P is true and Q is false, then the truth value of 3P∨Q (disjunction of P and Q) is ________. 9",
+            "options": [
+                "T",
+                "F",
+                "T or F",
+                "T and F"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "If t1ruth value of statement P is T and statement Q is F then the truth value of 4(P∨Q)∧P is ________. 0",
+            "options": [
+                "T",
+                "F",
+                "T or F",
+                "T and F"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Co1nsider the statements P: mark is rich. and Q: Mark if happy. Then the sym4bolic form of the statement &quot;Mark is poor but happy&quot; is _______. 1",
+            "options": [
+                "P∧Q",
+                "˥P∧Q",
+                "˥P∨Q",
+                "P∨Q"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "A 1statement P is equivalent to _______. 4 3",
+            "options": [
+                "˥˥P",
+                "P∧P",
+                "P∨P",
+                "ALL OF ABOVE"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "If P1:product is good. and Q:service is good. then the symbolic form of &quot;ei4ther product is good or service is good but not both.&quot; is _______. 4",
+            "options": [
+                "( P∨Q) ∧ ˥ ( P∧Q)",
+                "( P∧Q) ∧ ˥ ( P∧Q)",
+                "( P∧Q) ∨ ˥ ( P∧Q)",
+                "( P∧Q) ∨ ˥ ( P∨ Q)"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Wh1ich of the following is not a well-formed formula? 4 5",
+            "options": [
+                "(P→(P∨ Q))",
+                "((¬Q∧P )∧Q)",
+                "((¬P→ Q)→(Q →P)))",
+                "((¬Q∨P) ∧Q)"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "If 1p →q is false then determine the truth value of (  ( p  q ) ) → q 4 6",
+            "options": [
+                "True",
+                "False",
+                "True or False",
+                "True and False"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "p i1s proposition “Indian army moves back”, q is proposition “Chinese army mo4ves back”, r is proposition “There is no war” Then what is the con7 trapositive of the statement “If Indian army moves back and Chinese army moves back, then there is no war”",
+            "options": [
+                "~𝑟 → (~𝑝 → ~𝑞)",
+                "𝑟 → (𝑝 ∧𝑞)",
+                "∼ (𝑝 ∧𝑞) → ~𝑟",
+                "~𝑟 → ~(𝑝 ∧𝑞)"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Le1t p : it is raining outside. &amp;q : I have an umbrella. &amp;r : it is sunny. &amp; s: I4 have sunglasses. &amp;t : I will go for a walk. Th8e n the symbolic form of the following statement would be: &quot;if it is raining outside and I do not have an umbrella or if it is sunny and I have sunglasses , then I will go for a walk .&quot;",
+            "options": [
+                "(𝑝∨ ~𝑞)∧ (𝑟∨𝑠) → ~𝑡",
+                "(𝑝 ∧~𝑞) ∧ (𝑟∨𝑠) → ~𝑡",
+                "(𝑝 → 𝑞)∧ (~𝑟 → ~𝑠) → 𝑡",
+                "(𝑝∧ ~𝑞)∨ (𝑟∧𝑠) → 𝑡"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "W ha1t is the proposition form of “If the parcel is not properly addressed or is",
+            "options": [
+                "((~𝑝 ⋁𝑞) → ~𝑟) ⋀( (~𝑞 ⋀𝑠) → 𝑝)",
+                "((~𝑝⋁𝑞) → ~𝑟) ≡ ((~𝑞 ⋀𝑠) → 𝑝)",
+                "((𝑝 ⋁𝑞 ) → ~𝑟) ≡ (( ~𝑞 ⋀𝑠) → 𝑝)",
+                "(( ~𝑝 ⋁𝑞) → ~𝑟) ↔ ( (~𝑞 ⋀𝑠) → 𝑝)"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Co1nsider the following expressions: 5i) False 0 ii) Q iii) True iv) 𝑝∨𝑞 v) ~𝑞 ∨𝑝 The number of expressing given above that are logically implied by 𝑝∧ (𝑝 → 𝑞) is _______",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "(𝑷1∨𝑸)∧(𝑷 → 𝑹)∧(𝑸 → 𝑺) is equivalent to 5 1",
+            "options": [
+                "𝑆∧𝑅",
+                "𝑆 → 𝑅",
+                "𝑆∨𝑅",
+                "None of these"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "If p1 = a number from{8,9,10,11,12} q =5 not a composite number r =2 a square number s = a prime number then what is the value of ~((𝒑 → ~𝒒)∧(~𝒓∨~𝒔))",
+            "options": [
+                "8,9,10, 11, 12",
+                "8,9,10",
+                "11,12",
+                "11"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Th1e compound statement “if you won the race, then you did not run faster tha5n others” is equivalent to 3 I) If you won the race, then you ran faster than others II) If you faster than others, then you won the race. III) If you did not win the race, then you did not run faster than others. IV) If you run faster than others, then you did not win the race.",
+            "options": [
+                "II and III only",
+                "IV only",
+                "II and IV only",
+                "I an d III only"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "~(1𝑝∧(~𝑞)) ≡ ______ 5 4",
+            "options": [
+                "~𝑝∧ ~𝑞",
+                "~𝑝∧𝑞",
+                "~𝑝∨𝑞",
+                "~𝑝∨ ~𝑞"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "Th1e statement (~𝑝) → (~𝑞) is logically equivalent to which of the sta5tements below? 5 iv) (𝑝 → 𝑞) v) 𝑞 → 𝑝 vi) (~𝑞)∨𝑝 vii) (~𝒑)∨𝒒",
+            "options": [
+                "I only",
+                "II only",
+                "II and III only",
+                "II and IV only"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "∼ (𝑝∧𝑞) → (∼ 𝑝∨(∼ 𝑝∨𝑞)) ≡ ______ 5 7",
+            "options": [
+                "Tautolog y",
+                "Contra diction",
+                "Contin gency",
+                "∼ 𝑝∨𝑞"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "Wh at is logically equivalent to the following statement: “If I toss a coin then I will get head.”",
+            "options": [
+                "If i get head then I toss a coin.",
+                "If i toss a coin then I will get tail.",
+                "I do not toss a coin only if I will get tail",
+                "I will get tail only if I do not toss a coin"
+            ],
+            "ans": 3,
+            "unit": "3"
+        }
+    ],
+    "T2": [
+        {
+            "q": "“T1he product of two negative real numbers is not negative.” Is given by? 9 5",
+            "options": [
+                "∃x ∀y ((x &lt; 0) ∧ (y &lt; 0) → (xy&gt; 0))",
+                "∃x ∃y ((x &lt; 0) ∧ (y &lt; 0) ∧ (xy&gt; 0))",
+                "∀x ∃y",
+                ""
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "If T1(x) denotes is a trigonometric function. P(x9) denotes x is a periodic function and C(6x ) denotes x is a continuous function then the statement “it is not the case that some trigonometric function are not periodic” can be 1logically represent as I) ~∃𝑥(𝑇(𝑋)∨~𝑃(𝑋)) II) ~∃𝑥(~𝑇(𝑋)∧~𝑃(𝑋)) III) ~∃𝑥(𝑇(𝑋)∧~𝑃(𝑋)) IV) ~∃𝑥(𝑇(𝑋)∧𝑃(𝑋))",
+            "options": [
+                "I only",
+                "III only",
+                "II only",
+                ""
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Wh1at is the logical translation of the following statement? “N9one of my friends are perfect” 7 I) ∃𝑥(𝑓(𝑥)∧~𝑝(𝑥)) II) ~∃𝑥(𝑓(𝑥)∧𝑝(𝑥)) III) ∃𝑥(~𝑓(𝑥)∧𝑝(𝑥)) IV) ∃𝑥(~𝑓(𝑥)∧~𝑝(𝑥))",
+            "options": [
+                "II only",
+                "II and III only",
+                "III only",
+                "I and IV only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Th1e correct formula for the sentence, “no9t all rainy day are cold” is 8 I) ∀𝑑(𝑅𝑎𝑖𝑛𝑦(𝑑)∧~𝑐𝑜𝑙𝑑(𝑑)) II) ∀𝑑(~𝑅𝑎𝑖𝑛𝑦(𝑑) → 𝑐𝑜𝑙𝑑(𝑑)) III) ∃𝑑(~𝑅𝑎𝑖𝑛𝑦(𝑑) → 𝑐𝑜𝑙𝑑(𝑑)) IV) ∃𝑑(𝑅𝑎𝑖𝑛𝑦(𝑑)∧~𝑐𝑜𝑙𝑑(𝑑))",
+            "options": [
+                "II and III only",
+                "II only",
+                "IV only",
+                "I only"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "Ne1gation of the proposition ∃𝑥𝐻(𝑥) is 9I) ∃𝑥~𝐻(𝑥) 9 II) ∀𝑥~𝐻(𝑥) III) ∀𝑥𝐻(𝑥) IV) ~𝑥𝐻(𝑥)",
+            "options": [
+                "I only",
+                "III only",
+                "II only",
+                "IV only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "If 𝐴2 = {1,2,3,4} and 𝑥 ∈ 𝐴 then which of the following is true? 1) 0∃𝑥 (𝑥2 = 5) 2) 0∀ 𝑥 (𝑥2 &gt; 5) 3) ∀𝑥 (𝑥2is odd) 4) ∀𝑥 (𝑥2 +𝑥 is even)",
+            "options": [
+                "1)",
+                "2)",
+                "3)",
+                "4)"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Us2e quantifiers and predicates with more than one variable to express, “T0here is a pupil in this lecture who has taken at least one course in Di3sc rete Maths.” I) ∃x∃yP (x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures. II) ∃x∃yP (x, y), where P (x, y) is “x has taken y,” the domain for x consists of all Discrete Maths lectures, and the domain for y consists of all pupil in this class III) ∀x∀yP (x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures IV) ∃x∀yP(x, y), where P (x, y) is “x has taken y,” the domain for x consists of all pupil in this class, and the domain for y consists of all Discrete Maths lectures",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "IV only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Fin2d a counterexample of the statement ∀𝑥0∀𝑦(𝑥𝑦 &gt; 𝑦), when it is false. where the domain for all variables consist of 4a ll integers. I) X = -1,y = 24 II) X = -5, y = 7 III) Both X = -1,y = 24 and X = -5, y = 7 IV) Does not have any counter example.",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "IV only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Th2e negation of the statement: “All math majors are male” 0I) It is not the case that all math majors are male 5 II) There exists at least one math major who is female (not male). III) Every math majors are male. IV) Every male are math majors.",
+            "options": [
+                "I and II only",
+                "III and IV only",
+                "II only",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Le2t T(x,y) mean that students x likes dish y, where the domain for x con0sists of all students at your school and the domain for y consist of all dis6h es. express ~𝑇(𝐴𝑚𝑖𝑡,𝑆𝑜𝑢𝑡ℎ 𝑖𝑛𝑑𝑖𝑎𝑛) by a simple English sentence. I) All the students does not like south Indian dishes. II) Amit does not like south Indian people. III) Amit does not like south Indian dishes. IV) Amit does not like some dishes.",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "IV only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "“P2arul is out for a trip or it is not sno0wing” and “It is snowing or Raju is pla7y ing chess” then which argument is valid for these primes?",
+            "options": [
+                "Parul is out for trip",
+                "Raju is playing chess",
+                "Parul is out for a trip and Raju is playing chess",
+                "Parul is out for a trip or Raju is playingc hess"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "Wh2at would be the conclusion to the following premises in the argument? If i0t rains, Erik will be sick. Eri8k was not sick. I) It did not rain. II) If Erick is sick, it rains III) Erick is sick and it rains IV) Erick is sick or it rains.",
+            "options": [
+                "I and II only",
+                "III and IV only",
+                "III only",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Th2e CNF of (~𝑝 → 𝑞)∧(𝑝 → 𝑞) is, 0I) (~𝑝∧𝑞)∧(𝑝 → 𝑞) 9 II) (~𝑝∨𝑞)∧(𝑝 → 𝑞) III) (𝑝∨𝑞)∧(~𝑝∨𝑞) IV) (𝑝∧𝑞)∨(~𝑝∧𝑞)",
+            "options": [
+                "I only",
+                "IV only",
+                "II only",
+                "III only"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Th2e recurrence T(n) = 2T(n-1) + n , n≥2 and T(1)=1 evaluates to 4 2",
+            "options": [
+                "2𝑛 −𝑛",
+                "2𝑛+1 −𝑛 −2",
+                "2𝑛 +𝑛",
+                "2𝑛+1 − 2𝑛−2"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "So2lution to recurrence relation T(n)= T(n-1)+2, is given by where n&gt;0 and T(04)=5 4",
+            "options": [
+                "T(n)=2n- 5",
+                "T(n)=n -5",
+                "T(n)= 2n+5",
+                "T(n)=n- 3"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "If t2he degree of a Recurrence Relation is ___, then it is called a linear Re4currence Relation? 5",
+            "options": [
+                "One",
+                "Zero",
+                "Infinite",
+                "Two"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "If R2 (n) = _ and it is of order n, the equation is a linear homogeneous dif4ference equation? 6",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "Infinite"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Wh2at is the order of the equation𝑎 −𝑎 = 𝑎 −𝑎 𝑡+20 𝑡 𝑡−19 𝑡+18 4 7",
+            "options": [
+                "39",
+                "17",
+                "19",
+                "21"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "If R2 (n) ≠ 0, then the equation is a ____ difference equation? 4 8",
+            "options": [
+                "Bilinear Homoge neous",
+                "Linear Homog eneous",
+                "Bilinea r nonho mogene ous",
+                "Linear nonhom ogeneou s"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Wh2at is the order of the equation 𝑎 4 −8𝑎 +5𝑎 = 7𝑟 +2𝑟 ? 𝑟+2 𝑟+1 𝑟 9",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Th2e solution to the recurrence relation 𝑎 = 𝑎 +2𝑛, with initial term 𝑛 𝑛−1 5 𝑎 = 2 are _________ 00",
+            "options": [
+                "4n+7",
+                "2+𝑛 +𝑛2",
+                "3𝑛2",
+                "5(n+1)/ 2"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Fin2d the value of 𝑎 for the recurrence relation 𝑎 = 2𝑎 + 4 𝑛 𝑛−1 5 3,𝑤𝑖𝑡ℎ 𝑎 = 6 1 0",
+            "options": [
+                "320",
+                "221",
+                "141",
+                "65"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "To2 determine the unique solution of the recurrence relationa =2a for n n−1 5 n1, we require how many initial conditions? 3",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "To determine the unique solution of the recurrence relation a =4a for n n−1 n  1 , we require how many initial conditions?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Th e solution of the recurrence relation a =6a −9a with initial n n−1 n−2 conditions a =1 and a = 6 is 0 1",
+            "options": [
+                "( n + 1 ) 3 n",
+                "( n + 2 ) 3 n",
+                "(n+3)3n",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "De2termine the value of 𝑎 for the recurrence relation 𝑎 = 17𝑎 + 2 𝑛 𝑛−1 5 30𝑛 𝑤𝑖𝑡ℎ 𝑎 = 3. 4 0",
+            "options": [
+                "4387",
+                "5484",
+                "238",
+                "1437"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Su2ppose 𝑓 is defined recursively by 𝑓 = 2𝑓 +3 with 𝑓 = 9 then the 𝑛 𝑛+1 𝑛 1 val5ue of 𝑓 is, 5 5",
+            "options": [
+                "185",
+                "195",
+                "198",
+                "None of these"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Th e linear homogeneous recurrence relation corresponding to the characteristic roots 2,2,−1.",
+            "options": [
+                "a m+3 −4a m+2 +5a m+1 −2a m = 0",
+                "a m+3 −3a m+2 +4a m = 0",
+                "a m+3 −5a m+2 +8a m+1 −4a m = 0",
+                "a m+3 −3a m+2 +2a m+1 = 0"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Le2t 𝑎 = 2𝑎 −𝑎 +4 with 𝑎 = 2,𝑎 = 5. 𝑎 =___. 𝑛 𝑛−1 𝑛−2 0 1 25 5 6",
+            "options": [
+                "125",
+                "1250",
+                "1255",
+                "1277"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Th2e binary relation {(1,1),(2,1),(2,2),(2,3),(2,4),(3,1),(3,2),(3,3)} on 9 the set {1,2,3,4} is _____. 6",
+            "options": [
+                "reflective , symmetri c and transitive",
+                "irreflex ive, symmet ric and transiti ve",
+                "no reflexiv e, no irreflex ive, no transiti ve",
+                "irreflexi ve and antisym metric"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Co2nsider the relation: 𝑅’(𝑥,𝑦) if and only if 𝑥,𝑦 &gt; 0 over the set of non- zer9o rational numbers, then 𝑅’ is _____. 7",
+            "options": [
+                "not equivalen ce relation",
+                "an equival ence relation",
+                "transiti ve and asymm etry relation",
+                "reflexiv e and antisym metric relation"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Wh2at is the Cartesian product of set 𝐴 and set 𝐵, if the set 𝐴 = {1,2} and set9 𝐵 = {𝑎,𝑏}? 8",
+            "options": [
+                "{(1,a), (1,b), (2,a), (b,b)}",
+                "{(1,1), (2,2), (a,a), (b,b)}",
+                "{(1,a), (2,a), (1,b), (2,b)}",
+                "{(1,1), (a,a), (2,a), (1,b)}"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Th2etransitive closure of the relation 𝑅 9= {(0,1),(1,2),(2,2),(3,4),(5,3),(5,4)} where 𝐴 = {0,1,2,3,4,5} is 9 ______.",
+            "options": [
+                "{(0,1), (0,2), (1,2), (2,2), (3,4), (5,3), (5,4)}",
+                "(0,0), (4,4), (5,5), (1,1), (2,2), (3,3)}",
+                "{(0,1), (1,2), (2,2), (3,4)}",
+                "{(0,1), (5,3), (5,4), (1,1), (2,2)}"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Th3e transitive closure of a relation 𝑅 = {(𝑎,𝑏),(𝑐,𝑏)},where 𝐴 = {𝑎,𝑏,𝑐} is, 0 0",
+            "options": [
+                "{(a,b),(c, b),(a,a)}",
+                "{(a,b),( c,b),(a, a),(b,b) }",
+                "{(a,b),( c,b)}",
+                "{(a,b),(b ,c)}"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Fo3r two distinct sets, 𝐴 and 𝐵, having cardinalities 𝑚 and 𝑛 respectively, the0 maximum cardinality of a relation 𝑅 from 𝐴 to 𝐵 is? 1",
+            "options": [
+                "𝑚+𝑛",
+                "𝑚𝑛",
+                "𝑚𝑛",
+                "None of the above"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "𝑅 =3 {(2,4),(2,6),(3,6),(3,9)} domain of 𝑅 is______. 0 2",
+            "options": [
+                "{2, 3}",
+                "{4, 6, 9}",
+                "{2, 3, 4, 6, 9}",
+                "None of the above"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3} and 𝑅 = {(1,1),(1,2),(2,3)}. Which of the following is 0 true? 3",
+            "options": [
+                "R is reflexive",
+                "R is symmet ric",
+                "R is transiti ve",
+                "None of the above"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝑅 be a relation on the set 𝑁 be defined by {(𝑥,𝑦)/𝑥,𝑦 ∈ 𝑁,2𝑥 +𝑦 = 410}. Then 𝑅 is 4",
+            "options": [
+                "Reflexive",
+                "Symme tric",
+                "Transiti ve",
+                "None of these"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3} and 0 𝑅 = {(1,1),(1,2),(2,1),(2,2),(3,3)}. Which of the following is true? 5",
+            "options": [
+                "R is reflexive and symmetri c but not transitive",
+                "R is reflexiv e and transiti ve but not symmet ric",
+                "R is symmet ric and transiti ve but not reflexiv e",
+                "R is reflexiv e, symmet ric and transitiv e"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Wh3ich of the following is an equivalence relation? 0 6",
+            "options": [
+                "{(1,2),(2, 3),(3,4)}",
+                "{(1,1),( 2,2),(3, 3)}",
+                "{(1,2),( 2,1),(3, 4)}",
+                "{(1,2),(2 ,3),(3,2) }"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Wh3ich of below are compatible relations but not equivalence relations: 0 I7. ∀𝑥,𝑦 ∈ ℤ,𝑥𝑅𝑦 iff 𝑥 ≡ 𝑦(𝑚𝑜𝑑 𝑚) where 𝑚 ∈ ℕ. II. ∀𝑥,𝑦 ∈ ℤ,𝑥𝑅𝑦 iff 𝑥 &gt; 𝑦. III. Blood relation in family set = {father, mother, elder son, younger son, elder daughter, younger daughter}. IV. ∀𝑎,𝑏,𝑐,𝑑 ∈ ℤ, (𝑎,𝑏)𝑅(𝑐,𝑑) iff 𝑎2 +𝑐 = 𝑑 +𝑏2. V. ∀ 𝐴,𝐵,𝐶 ⊆ ℝ,𝐴 is relation with 𝐵 iff 𝐴∩𝐵 ≠ ∅.",
+            "options": [
+                "Any one",
+                "Any two",
+                "Any three",
+                "Any four"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Ho3w many ordered pairs are there in the smallest equivalence relation on a 0 set with 8 elements? 8",
+            "options": [
+                "102",
+                "108",
+                "32",
+                "8"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Wh3ich of the following is not an antisymmetric relation? 0 9",
+            "options": [
+                "{(1,2),(2, 3),(3,4)}",
+                "{(1,1),( 2,2),(3, 3)}",
+                "{(1,2),( 2,1),(3, 4)}",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "“F3rom set of all straight lines in 2D plane, lines are in relation iff they are no1t parallel to each other’’ is, 0 I. Reflexive II. Irreflexive III. Symmetric IV. Anti symmetric V. Transitive",
+            "options": [
+                "Any one",
+                "Any two",
+                "Any three",
+                "Any four"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝑅 be the relation in the set 𝑵given by 𝑅 = {(𝑎,𝑏) ∶ 𝑎 = 𝑏 − 2,𝑏 &gt; 6}1. Choose the correct answer. 2",
+            "options": [
+                "(2,4) ∈R",
+                "(3,8)∈ R",
+                "(6,8)∈ R",
+                "(8,7)∈R"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3,4} and R be a relation on A defined by (𝑎,𝑏) ∈ 𝑅 if 𝑎+ 𝑏 is o1dd. Which of the following is true about 𝑅? 3",
+            "options": [
+                "R is reflexive",
+                "R is symmet ric",
+                "R is transiti ve",
+                "R is an equivale nce relation"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t R be the relation in the set {1,2,3,4} given by 𝑅 = 1 {(1,2),(2,2),(1,1),(4,4),(1,3),(3,3),(3,2)}. Choose the correct 4 answer.",
+            "options": [
+                "R is reflexive and symmetri c but not transitive .",
+                "R is reflexiv e and transiti ve but not symmet ric",
+                "R is symmet ric and transiti ve but not reflexiv e.",
+                "R is an equivale nce relation"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "A relation𝑅 is defined on the set of integers 𝑍 as: 𝑚𝑅𝑛 ⟺ |𝑚−𝑛| ≤ 3. Which of the following statement is true for 𝑅?",
+            "options": [
+                "Reflexive and Transitiv e",
+                "Only Symme tric",
+                "Only Transiti ve",
+                "Reflexiv e and Symmet ric"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le t 𝑅 be a relation on the set 𝑁 be defined by {(𝑥,𝑦)/𝑥,𝑦 ∈ 𝑁,𝑥+𝑦 = 25}. Then 𝑅 is",
+            "options": [
+                "Reflexive",
+                "Symme tric",
+                "Transiti ve",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3}. Then number of relations containing (1,2) and (1,3) wh1ich are reflexive and symmetric but not transitive is 5",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3}. Then number of equivalence relations containing (1,2) is 1______. 6",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝐴 = {1,2,3}. Then the number of relations containing (1,2) and (2,3) wh1ich are reflexive and transitive but not symmetric is _____. 7",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 2,
+            "unit": "6"
+        },
+        {
+            "q": "Th3e number of equivalence relation in the set {1,2,3} containing (1,2) 1 and (2,1) is 8",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝑹 be a relation on the set 𝑵 of natural numbers defined by 𝒏𝑹𝒎 if 𝒏 div1ides 𝒎. Then 𝑹 is 9",
+            "options": [
+                "Reflexive and symmetri c",
+                "Transiti ve and symmet ric",
+                "Equival ence",
+                "Reflexiv e, transitive but not symmetri c"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Th3e maximum number of equivalence relations on the set 𝑨 = {𝟏,𝟐,𝟑} are 2 0",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t us define a relation 𝑅 in 𝑅 as 𝑎𝑅𝑏 if 𝑎 ≥ 𝑏. Then 𝑅 is 2 1",
+            "options": [
+                "an equivalen ce relation",
+                "reflexiv e, transiti ve but not symmet ric",
+                "symmet ric, transiti ve but not reflexiv e",
+                "neither transitiv e nor reflexiv e but symmet ric"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Th3e relation 𝑅 is defined on the set of natural numbers as {(𝑎,𝑏) ∶ 𝑎 = 2𝑏 2 }. Then, 𝑅−1 is given by 2",
+            "options": [
+                "{(2, 1), (4, 2), (6, 3),….}",
+                "{(1, 2), (2, 4), (3, 6), ……..}",
+                "𝑅−1is not defiend",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Wh3at type of relation is ‘less than’ in the set of real numbers? 2 3",
+            "options": [
+                "only symmetri c",
+                "only transiti ve",
+                "only reflexiv e",
+                "equivale nce"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝑅 be an equivalence relation on a finite set 𝐴 having 𝑛 elements. Then the2 number of ordered pairs in 𝑅 is _____. 4",
+            "options": [
+                "less than 𝑛",
+                "greater than or equal to 𝑛",
+                "Less than or equal to 𝑛",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Wh3ich one of the following relations on 𝑅 is an equivalence relation? 2 5",
+            "options": [
+                "a𝑅 b 1 ⇔|a|=|b|",
+                "a𝑅 b⇔ 2 a ≥ b",
+                "a𝑅 b⇔ 3 𝑎 divid es 𝑏",
+                "a𝑅 b⇔a 3 &lt;b"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Le3t 𝑷 = {(𝒙,𝒚):𝒙𝟐 +𝒚𝟐 = 𝟏,𝒙,𝒚 ∈ 𝑹}. Then, 𝑷 is 2 6",
+            "options": [
+                "Reflexive",
+                "Symme tric",
+                "Transiti ve",
+                "Anti- symmet ric"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "If 𝐴3 = {1,2,3}, 𝐵 = {4,6,9} and 𝑅 is a relation from 𝐴 to 𝐵 defined by ‘𝑥 2 𝑖𝑠 𝑠𝑚𝑎𝑙𝑙𝑒𝑟 𝑡ℎ𝑎𝑛 𝑦′. The range of 𝑅 is ______. 7",
+            "options": [
+                "{4,6,9}",
+                "{1,2,3}",
+                "{1,4,6, 9}",
+                "{1}"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Th3e range of the relation 𝑅 = {(𝑥,𝑥2) | x is a prime number less than 13} is 2 8",
+            "options": [
+                "{2,3,5,7}",
+                "{2,3,5, 7,11}",
+                "{4,9,25 ,49,121 }",
+                "{1,4,9,2 5,49,12 1}"
+            ],
+            "ans": 0,
+            "unit": "6"
+        }
+    ],
+    "T3": [
+        {
+            "q": "Le3t a set S = {2, 4, 8, 16, 32} and ≤ be the partial order defined by a≤b if a d7ivides b. Number of edges in the Hasse diagram of S ____ 5",
+            "options": [
+                "5",
+                "6",
+                "3",
+                "4"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Th3e less-than relation, &lt;, on a set of real numbers is ______ 7 6",
+            "options": [
+                "Not a partial ordering because it is not reflexive",
+                "A partial orderin g since it is antisym metric and reflexiv e",
+                "A partial orderin g since it is symmet ric and reflexiv e",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "__8___ is not a binary operation on the set of natural numbers. 4",
+            "options": [
+                "addition",
+                "produ ct",
+                "differ ence",
+                "none"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "8 __6_ __ is not a binary operation on ℤ.",
+            "options": [
+                "+",
+                "-",
+                "*",
+                "/"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Fo8r any set S if a*b=b*a, ∀a,b∈S then * is said to be _____ on S. 7",
+            "options": [
+                "closed",
+                "associ ative",
+                "distrib utive",
+                "comm utative"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "8 If a8* (b*c) =(a*b) *c ∀a,b,c∈S then * is said to be _____ on S.",
+            "options": [
+                "closed",
+                "comm utativ e",
+                "associ ative",
+                "distrib utive"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Fo8r any set S there exist b∈S such that a*b=e for some a∈S then b is cal9l ed which element of a? Where, e is an identity element on S.",
+            "options": [
+                "an inverse",
+                "an identit y",
+                "a unit",
+                "a proper"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Le9t G={1, -1,i,-i} is group under multiplication then how many elements are0 self-invertible in G?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Wh5at is the identity element in the group 𝐺 = {2,4,6,8} under mu9ltiplication modulo 10? 1",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "6"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Le9t G= {1, -1, i,-i} is group under multiplication then the inverse of i is __2_ __.",
+            "options": [
+                "1",
+                "-1",
+                "i",
+                "-i"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Wh5ich of the following is/are Monoid but not Group? 9 S3r . No. Sets Binary Operation 1) ℤ 𝑎 ∗𝑏 = 𝑎⋅𝑏 2) ℕ 𝑎 ∗𝑏 = 𝑎𝑏 3) ℕ 𝑎∗𝑏 = 𝑙𝑐𝑚{𝑎,𝑏} 4) ℤ 𝑎∗𝑏 = 𝑎 + 𝑏 𝑛 𝑛 5) {1,−1,𝑖,−𝑖} 𝑎 ∗𝑏 = 𝑎⋅𝑏",
+            "options": [
+                "Any one",
+                "Any two",
+                "Any three",
+                "Any four"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Le9t G=(ℤ6, +6) is an Abelian group then the inverse element of 4 is __4_ __.",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "How many elements are self-invertible in ( ℤ ,+ ) ? 10 10",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Th5is is an abelian group {−3𝑛:𝑛 ∈ 𝑍} under? (I)9. Division (II) Subtraction (III) Addition (IV) Multiplication 5",
+            "options": [
+                "ONLY I",
+                "ONL Y II",
+                "ONL Y III",
+                "ONLY IV"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Th9e number of elements in the symmetric group S is _____. 3 6",
+            "options": [
+                "4",
+                "6",
+                "24",
+                "9"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "Ho9w many elements are self-invertible in 𝑆 (the set of all permutations 3 on7 t hree symbols 1, 2 &amp; 3)?",
+            "options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "Le9t S3= {I, (1 2), (1 3), (2 3), (1 2 3), (1 3 2)} be a group with res8p ect to composition of function. The inverse of (1 2 3) is _____.",
+            "options": [
+                "(1 2)",
+                "(2 3)",
+                "(1 3 2)",
+                "(1 2 3)"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Wh5ich of the following is group under multiplication? 9 9",
+            "options": [
+                "Q",
+                "Q-{0}",
+                "Q-{1}",
+                "Q- {0,1}"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Le6t A = {a,b}. The composition table of A is defined as 0 0 * a b a b b b a a Then the algebraic system (A,*) is ___________.",
+            "options": [
+                "Groupoi d",
+                "Semig roup",
+                "Mono id",
+                "Group"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Le6t (𝑍,∗) be a group with the binary operation 𝑎∗𝑏 = 𝑎+𝑏 +1, ∀ 𝑎0,𝑏 ∈ 𝑍 then inverse of a is 1",
+            "options": [
+                "−𝑎−4",
+                "−𝑎 −2",
+                "−𝑎 −1",
+                "−𝑎 +1"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Co6nsider the binary operation * defined on a set of ordered pairs of real nu0mbers as (a,b)*(c,d) = (ad+bc,bd). Moreover it is Associative, then (1,32 )*(3,4)*(3,5) is equal to",
+            "options": [
+                "(59,30)",
+                "(110,10 5)",
+                "(40,74 )",
+                "(74,40 )"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "𝑎 𝑏 Let G be the set of the form 𝐺 = {[ ]/𝑎𝑑 −𝑐𝑏 ≠ 0 &amp; 𝑎,𝑏,𝑐,𝑑 ∈ 0 𝑐 𝑑 𝑅}4is a group under matrix multiplication, then what is the identity element for the given set?",
+            "options": [
+                "1 0 [ ] 0 1",
+                "0 0 [ ] 0 1",
+                "1 1 [ ] 1 2",
+                "1 0 [ ] 0 −1"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Th6e set of all positive rational number forms an abeliangroup under the 0 𝑎𝑏 composition defined by a * b = , then what is the inverse element of 5 3 this group?",
+            "options": [
+                "3 𝑎𝑏",
+                "𝑎 𝑏",
+                "𝑎 9",
+                "9 𝑎"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "L et 6S (the set of all permutations on three symbols 1, 2&amp; 3) is a finitenon- 3",
+            "options": [
+                "𝑓 ,𝐼 2",
+                "𝑓 ,𝑓 2 3",
+                "𝐼 ,𝐼",
+                "𝐼,𝑓 2"
+            ],
+            "ans": 2,
+            "unit": "8"
+        }
+    ],
+    "T4": [
+        {
+            "q": "How many edges are in a graph K ? 99",
+            "options": [
+                "100",
+                "101",
+                "4950",
+                "4851"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the degree of vertex d in graph",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "4"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "De gree of any vertex in a simple graph with n- vertices is at the most___________.",
+            "options": [
+                "n",
+                "n-1",
+                "2n-1",
+                "3n"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Ma ximum number of edges in any simple graph is___________",
+            "options": [
+                "𝒏(𝒏−𝟏) 𝟐",
+                "2n",
+                "𝒏(𝒏−𝟏) 𝟑",
+                "𝒏(𝒏+𝟏) 𝟐"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Su m in-degrees of each vertices of G = ________",
+            "options": [
+                "12",
+                "11",
+                "10",
+                "8"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "is known as ______ graph.",
+            "options": [
+                "Comple te graph",
+                "Direct ed compl ete graph",
+                "Whee l graph",
+                "tree"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "A graph in which degree of each vertex is same is known as_________ .",
+            "options": [
+                "Comple te graph",
+                "Direct ed compl ete graph",
+                "Whee l graph",
+                "Regula r graph"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Ho w many edges in a complete bipartite graph K ? m,n",
+            "options": [
+                "m",
+                "n",
+                "mn",
+                "m+n"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "A complete Bipartite graph K is regular if and only if ___ m,n",
+            "options": [
+                "m=n",
+                "m&gt;n",
+                "m&lt;n",
+                "m=2n"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Th e maximum number of edges in bipartite graph containing 11 vertices is?",
+            "options": [
+                "18",
+                "24",
+                "30",
+                "55"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "A star graph is denoted as______",
+            "options": [
+                "K 1",
+                "K 1,n",
+                "K n",
+                "C n"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Co nsider the graph given below: The two distinct sets of vertices, which make the graph bipartite are:",
+            "options": [
+                "(a, d, f);(b, c, e, g, h)",
+                "(a, g, h);(b, c, e, f)",
+                "(a, d, f, g);(b, c, e, h)",
+                "(a, f, g);(b, c, d, e, h)"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Th e maximum number of edges in a bipartite graph on 12 vertices is _________.",
+            "options": [
+                "32",
+                "36",
+                "11",
+                "20"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Wh ich of the following graphs is(are) planar?",
+            "options": [
+                "Only A",
+                "A &amp; C only",
+                "A &amp; B only",
+                "A, B &amp; C only"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Wh ich of the following statements is TRUE about the greedy graph coloring algorithm? (I) It always finds the maximum number of colors needed to color a graph. (II) It assigns colors to vertices in a random order. (III) It assigns colors to vertices one at a time, always choosing the smallestavailable color for each vertex.",
+            "options": [
+                "Only I",
+                "Only II",
+                "Only III",
+                "All of the above"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the minimum number of colors needed using the Greedy Coloring Algorithm if the states are considered in the following order:PA, NJ, DE, NY, CT, MA, RI, NH, VT, ME?",
+            "options": [
+                "5",
+                "6",
+                "3",
+                "4"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the minimum number of colors needed using the Greedy Coloring Algorithm with the vertices in alphabetical order.",
+            "options": [
+                "5",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "A company needs to assign 3 workers (A, B, C) to 3 jobs (D, E, F). Find the minimum total cost, using the Hungarian method.",
+            "options": [
+                "21",
+                "22",
+                "23",
+                "17"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "In the context of backtracking for graph coloring, what does &quot;backtracking&quot; refer to?",
+            "options": [
+                "Moving to the next vertex without assignin g a color.",
+                "Rever sing a previo us color assign ment to explor e a differ ent path",
+                "Termi nating the algori thm when a soluti on is found.",
+                "Assign ing a color rando mly to a vertex."
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the main goal of vertex coloring in a graph?",
+            "options": [
+                "Assign the same color to all vertices",
+                "Assig n differ ent color to all the vertic es",
+                "Assign colors so that no two adjacen t vertices share the same color",
+                "Assign colors to edges instead of vertice s"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the minimum number of colors required to color a graph called?",
+            "options": [
+                "Chroma tic index",
+                "Chro matic numb er",
+                "Color depth",
+                "Degree of the graph"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at happens when a color assignment leads to a conflict in backtracking?",
+            "options": [
+                "The algorith m stops",
+                "The graph is delete d",
+                "The algorith m backtra cks to try a differen t color",
+                "The vertex is skipped"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Wh ich of the following problems can be solved using backtracking?",
+            "options": [
+                "Vertex coloring",
+                "Sortin g",
+                "Binary search",
+                "Matrix multipli cation"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "If t hree employees (𝑖) are assigned jobs (𝑗) in such a way that takes minimum cost by Hungarian maximum matching algorithm then which job should assigned to 1st employee and how much it cost respectively? 20 10 40 [10 20 50] 50 30 20",
+            "options": [
+                "1st, 20",
+                "1st, 10",
+                "2nd, 10",
+                "2nd, 20"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "If t hree employees (𝑖) are assigned jobs (𝑗) in such a way that takes minimum cost by Hungarian maximum matching algorithm then which job should assigned to 2nd employee and how much it cost respectively? 20 10 40 [10 20 50] 50 30 20",
+            "options": [
+                "1st, 20",
+                "1st, 10",
+                "2nd, 10",
+                "2nd, 20"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "If t hree employees (𝑖) are assigned jobs (𝑗) in such a way that takes minimum cost by Hungarian maximum matching algorithm then which job should assigned to 3rd employee and how much it cost respectively? 20 10 40 [10 20 50] 50 30 20",
+            "options": [
+                "1st, 20",
+                "1st, 10",
+                "2nd, 10",
+                "3rd, 20"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Th e maximum number of edges in a bipartite graph on 18 vertices is",
+            "options": [
+                "27",
+                "45",
+                "32",
+                "81"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "Wh at is the maximum number of vertices in a binary tree with 15 levels?",
+            "options": [
+                "65535",
+                "65632",
+                "63285",
+                "65015"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Th e maximum number of nodes on level 6 of a binary tree are",
+            "options": [
+                "107",
+                "117",
+                "63",
+                "64"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Th e maximum number of nodes on level 9 of a binary tree.",
+            "options": [
+                "513",
+                "512",
+                "1023",
+                "1024"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Th e height of a tree is the length of the longest root -to -leaf path in it. The maximum and minimum number of nodes in a binary tree of height 5 are _____.",
+            "options": [
+                "64 and 5",
+                "32 and 6",
+                "31 and 5",
+                "63 and 6"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Ho w many vertices are possible at level 4 in Binary tree of height 5 and in Binary tree of height 5 respectively? 1) 31, 63 2) 3, 6 3) 11, 33 4) 17, 15 5) 16, 63",
+            "options": [
+                "Any one",
+                "Any two",
+                "Any three",
+                "Any four"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Wh at would be the center of the given tree?",
+            "options": [
+                "d &amp; h",
+                "c &amp; k",
+                "g, b, c",
+                "c &amp; h"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "Wh at is the centre of a given tree",
+            "options": [
+                "3",
+                "4",
+                "7",
+                "4 and 7"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Wh at does Maximum flow problem involve?",
+            "options": [
+                "finding a flow between source and sink that is maximu m",
+                "findin g a flow betwe en sourc e and sink that is mini mum",
+                "finding the shortest path betwee n source and sink",
+                "computi ng a minimu m spannin g tree"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "Wh at is the source?",
+            "options": [
+                "Vertex with no incomin g edges",
+                "Verte x with no leavin g edges",
+                "Centre vertex",
+                "Vertex with the least weight"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "In a flow network, if the capacities are: 𝑠 → 𝑎 (6),𝑠 → 𝑏 (4),𝑎 → 𝑏 (3),𝑎 → 𝑡 (5),𝑏 → 𝑡 (2). What is the maximum flow from 𝑠 to 𝑡? Use Ford Fulkerson Algorithm.",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Fin d the maximum flow through the network shown below.Use Ford Fulkerson Algorithm.",
+            "options": [
+                "20",
+                "23",
+                "25",
+                "27"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Fin d the maximum flow through the network shown below.Use Ford Fulkerson Algorithm.",
+            "options": [
+                "10",
+                "12",
+                "8",
+                "11"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "In a flow network, the source has two outgoing edges with capacities 8 and 6. Both lead to intermediate nodes, which then connect to the sink with capacities 7 and 5 respectively. What is the maximum possible flow from source to sink?Use Ford Fulkerson Algorithm.",
+            "options": [
+                "14",
+                "15",
+                "12",
+                "11"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Wh at is the maximum number of vertices in a binary tree with 13 levels?",
+            "options": [
+                "16383",
+                "8192",
+                "16300",
+                "15382"
+            ],
+            "ans": 0,
+            "unit": "10"
+        }
+    ]
+}

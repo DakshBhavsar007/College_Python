@@ -1,0 +1,3915 @@
+{
+    "T1": [
+        {
+            "q": "Which of the following functions can be used to fill all null values in a data frame?",
+            "options": [
+                "fillna()",
+                "filled()",
+                "fillnull()",
+                "filler()"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which attribute of dropna() can be used to select the columns from which null values are to be considered for removing rows?",
+            "options": [
+                "thresh",
+                "how",
+                "subset",
+                "superset"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following pandas functions is used to generate cross tabulation?",
+            "options": [
+                "crosstabulation",
+                "cross_tabulation",
+                "cross_tab",
+                "crosstab"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following DataFrame attributes is used to return one or more specified row(s)?",
+            "options": [
+                "locate",
+                "location",
+                "loc",
+                "find"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following attributes can be used to show the number of rows and columns in a Pandas dataframe?",
+            "options": [
+                "size",
+                "info",
+                "describe",
+                "shape"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is not displayed by the Pandas DataFrame info function?",
+            "options": [
+                "column names",
+                "non-null count",
+                "data types",
+                "column average"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is not displayed by the Pandas DataFrame describe function?",
+            "options": [
+                "count",
+                "mean",
+                "correlation",
+                "std"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What does it indicate if the corr() function shows correlation as 1 between any two columns of the DataFrame?",
+            "options": [
+                "perfect correlation",
+                "good correlation",
+                "bad correlation",
+                "none of these"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is an example of qualitative data?",
+            "options": [
+                "mean",
+                "gender",
+                "median",
+                "mode"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is an example of quantitative data?",
+            "options": [
+                "eye colour",
+                "weight",
+                "skin colour",
+                "names"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What does DataFrame.dropna(how=&#39;all&#39;) do?",
+            "options": [
+                "drops those rows from the DataFrame which contain all null values",
+                "drops all rows from the DataFrame",
+                "drops even numbered rows from the DataFrame",
+                "drops odd numbered rows from the DataFrame"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "A data point that differs significantly from other observations is known as",
+            "options": [
+                "mean",
+                "median",
+                "mode",
+                "outlier"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "Which of following pandas functions can be used to display the specified number of rows from the beginning of the dataset?",
+            "options": [
+                "head()",
+                "tail()",
+                "begin()",
+                "end()"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of following pandas functions can be used to display the specified number of rows from the end of the dataset?",
+            "options": [
+                "head()",
+                "tail()",
+                "begin()",
+                "end()"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following represents each data sample as polyline connecting parallel lines where each parallel line represents an attribute of that data sample?",
+            "options": [
+                "parallel coordinates",
+                "parallelogram",
+                "straight lines",
+                "long lines"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What is the output of the code shown below? import pandas as pd import numpy as np df=pd.DataFrame([[0,1.0,2.0,np.nan,5],[2.0,0,1.0,5.0,np.nan],[5.0,0,1.0,np.nan,5.0]]) df.dropna() print(df.loc[1,3])",
+            "options": [
+                "0",
+                "5.0",
+                "1.0",
+                "2.0"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What is the output of the code shown below? import pandas as pd import numpy as np df=pd.DataFrame([[0,1,2,np.nan,5],[2,0,1,5,np.nan],[5,0,1,np.nan,5],[2,0,1,np.nan,np.nan]]) df=df.drop_duplicates(subset=[1,2]) df=df.drop_duplicates(subset=[4]) df.dropna(thresh=2,axis=1) print(df.shape)",
+            "options": [
+                "(5, 2)",
+                "(2, 3)",
+                "(2, 5)",
+                "(3, 2)"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What type of Error the following code produces? import pandas as pnd pnd.Series([1,2], index= [&#39;a&#39;,&#39;b&#39;,&#39;c&#39;])",
+            "options": [
+                "Syntax",
+                "Index",
+                "Key",
+                "Value"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "To remove multiple values from the Pandas dataframe and to keep only the first occurrence values, what will be the correct syntax?",
+            "options": [
+                "df.drop_duplicate()",
+                "df.drop()",
+                "df.drop_duplicates()",
+                "df.dropduplicates()"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "From a Pandas series ‘s’, if we need to extract indices (1,5,7,12) what will be the syntax used?",
+            "options": [
+                "s (1,5,7,12)",
+                "s ([1,5,7,12])",
+                "s.index([1,5,7,12])",
+                "s.index(1,5,7,12)"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What is the method used to calculate the mean of a numeric column in a DataFrame ?",
+            "options": [
+                "average()",
+                "calculate_mean()",
+                "get_mean()",
+                "mean()"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What is the output of the below code? import pandas as pd import numpy as np df=pd.DataFrame({&quot;a&quot;:[1,2,np.nan,3,4],&quot;b&quot;:[1,5,np.nan,2,1]}) df=df.drop_duplicates(subset=&quot;b&quot;) df.dropna() df.fillna(20,inplace=True) print(df.shape[0])",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What is the output of the below code? import pandas as pd import numpy as np df=pd.DataFrame([[1,2,3,4,5],[2,1,3,4,5],[np.nan,np.nan,np.nan,np.nan,np.nan]]) df.dropna(thresh=3,axis=1,inplace=True) print(df.shape[1])",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What is the output of the below code? import pandas as pd import numpy as np df=pd.DataFrame([[1,2,3,4,5],[2,1,3,4,5],[np.nan,np.nan,np.nan,np.nan,np.nan]]) df.drop(1,inplace=True) df=df.dropna() print(df.shape[0])",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd data = { &quot;Student&quot;: [&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;], &quot;Math&quot;: [78, 90, 67, 88, 90], &quot;Science&quot;: [85, 92, 70, 88, 85] } df = pd.DataFrame(data) result = df.sort_values(by=[&quot;Math&quot;,&quot;Science&quot;], ascending=[False,True]) print(result.head(1)[&quot;Student&quot;].values[0])",
+            "options": [
+                "A",
+                "B",
+                "D",
+                "E"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;B&quot;:[1,2], &quot;A&quot;:[3,4], &quot;C&quot;:[5,6] }) df2 = df.sort_index(axis=1) print(df2.columns[0])",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "NONE OF ABOVE"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Price&quot;:[100,200,150], &quot;Qty&quot;:[2,3,4] }) df[&quot;Total&quot;] = df.apply(lambda x: x[&quot;Price&quot;]*x[&quot;Qty&quot;], axis=1) print(df[&quot;Total&quot;].sum())",
+            "options": [
+                "1000",
+                "1100",
+                "1400",
+                "1300"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Marks&quot;:[45.7, 78.2, 90.9] }) df[&quot;Marks&quot;] = df[&quot;Marks&quot;].astype(int) print(df[&quot;Marks&quot;].sum())",
+            "options": [
+                "213",
+                "214",
+                "215",
+                "216"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({&quot;A&quot;:[1,2]}) df2 = pd.DataFrame({&quot;B&quot;:[3,4]}) result = pd.concat([df1, df2], axis=0) print(result.shape)",
+            "options": [
+                "(2,2)",
+                "(4,2)",
+                "(4,1)",
+                "(2,1)"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({&quot;A&quot;:[1,2]}) df2 = pd.DataFrame({&quot;A&quot;:[3,4]}) result = pd.concat([df1,df2], ignore_index=True) print(result.index[3])",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "ERROR"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({ &quot;ID&quot;:[1,2,3], &quot;Name&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;] }) df2 = pd.DataFrame({ &quot;ID&quot;:[2,3,4], &quot;Marks&quot;:[80,90,70] }) result = pd.merge(df1, df2, how=&quot;inner&quot;, on=&quot;ID&quot;) print(len(result))",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({ &quot;ID&quot;:[1,2,3], &quot;Name&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;] }) df2 = pd.DataFrame({ &quot;ID&quot;:[2], &quot;Marks&quot;:[80] }) result = pd.merge(df1, df2, how=&quot;left&quot;, on=&quot;ID&quot;) print(result[&quot;Marks&quot;].isnull().sum())",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Team&quot;:[&quot;X&quot;,&quot;Y&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;X&quot;], &quot;Runs&quot;:[50,60,70,80,90] }) result = df.groupby(&quot;Team&quot;)[&quot;Runs&quot;].mean() print(result[&quot;X&quot;])",
+            "options": [
+                "70",
+                "75",
+                "80",
+                "NONE OF ABOVE"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Dept&quot;:[&quot;IT&quot;,&quot;HR&quot;,&quot;IT&quot;,&quot;HR&quot;,&quot;IT&quot;,&quot;Finance&quot;] }) print(df.groupby(&quot;Dept&quot;).size()[&quot;IT&quot;])",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Category&quot;:[&quot;A&quot;,&quot;A&quot;,&quot;B&quot;,&quot;B&quot;], &quot;Value&quot;:[10,20,30,40] }) result = df.groupby(&quot;Category&quot;).agg({&quot;Value&quot;:[&quot;sum&quot;,&quot;max&quot;]}) print(result.loc[&quot;B&quot;,(&quot;Value&quot;,&quot;sum&quot;)])",
+            "options": [
+                "30",
+                "40",
+                "60",
+                "70"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Team&quot;:[&quot;X&quot;,&quot;X&quot;,&quot;Y&quot;,&quot;Y&quot;], &quot;Score&quot;:[10,20,30,40] }) result = df.groupby(&quot;Team&quot;).nth(1) print(result.loc[&quot;X&quot;])",
+            "options": [
+                "10",
+                "20",
+                "40",
+                "KeyError"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Age&quot;:[22,25,30,35,40], &quot;Salary&quot;:[30000,40000,50000,60000,70000] }) result = df[(df[&quot;Age&quot;]&gt;25) &amp; (df[&quot;Salary&quot;]&gt;=50000)] print(len(result))",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd import numpy as np df = pd.DataFrame({ &quot;A&quot;:[1,2,3], &quot;B&quot;:[4,5,6] }) result = df.apply(sum, axis=0) print(result[&quot;A&quot;])",
+            "options": [
+                "3",
+                "6",
+                "9",
+                "12"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Team&quot;:[&quot;A&quot;,&quot;A&quot;,&quot;B&quot;,&quot;B&quot;], &quot;Score&quot;:[10,20,30,40] }) result = df.groupby(&quot;Team&quot;).sample(1) print(len(result))",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Dept&quot;:[&quot;IT&quot;,&quot;HR&quot;,&quot;IT&quot;,&quot;Finance&quot;] }) groups = df.groupby(&quot;Dept&quot;).groups print(groups[&quot;IT&quot;])",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "NONE OF ABOVE"
+            ],
+            "ans": 3,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Name&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;E&quot;], &quot;Score&quot;:[90,90,85,90,85], &quot;Age&quot;:[20,22,21,19,23] }) result = df.sort_values(by=[&quot;Score&quot;,&quot;Age&quot;], ascending=[False,True]).reset_index(drop=True) print(result.loc[1, &quot;Name&quot;])",
+            "options": [
+                "A",
+                "B",
+                "D",
+                "C"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;C&quot;:[1,2], &quot;A&quot;:[3,4], &quot;B&quot;:[5,6] }) df = df.drop(&quot;B&quot;, axis=1) df2 = df.sort_index(axis=1) print(list(df2.columns))",
+            "options": [
+                "[&#39;C&#39;,&#39;A&#39;]",
+                "[&#39;A&#39;,&#39;C&#39;]",
+                "[&#39;B&#39;,&#39;C&#39;]",
+                "ERROR"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({&quot;A&quot;:[1,2,3,1,2]}) df2 = df.replace({1:100,2:200}) print(df2[&quot;A&quot;].sum())",
+            "options": [
+                "403",
+                "503",
+                "603",
+                "703"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? df1 = pd.DataFrame({&quot;A&quot;:[1,2]}, index=[0,1]) df2 = pd.DataFrame({&quot;A&quot;:[3,4]}, index=[1,2]) result = pd.concat([df1,df2]) print(result.loc[2][&quot;A&quot;])",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "ERROR"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({&quot;A&quot;:[1,2,3]}) df2 = pd.DataFrame({&quot;B&quot;:[4,5]}) result = pd.concat([df1,df2], axis=1) print(result.isnull().sum().sum())",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({&quot;ID&quot;:[1,2], &quot;Score&quot;:[80,90]}) df2 = pd.DataFrame({&quot;ID&quot;:[1,2], &quot;Score&quot;:[85,95]}) result = pd.merge(df1,df2,on=&quot;ID&quot;,suffixes=(&quot;_X&quot;,&quot;_Y&quot;)) print(result.loc[0,&quot;Score_Y&quot;])",
+            "options": [
+                "80",
+                "85",
+                "90",
+                "95"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df1 = pd.DataFrame({&quot;ID&quot;:[1,2,3]}) df2 = pd.DataFrame({&quot;ID&quot;:[2,3,4]}) result = pd.merge(df1,df2,on=&quot;ID&quot;,how=&quot;outer&quot;,indicator=True) print((result[&quot;_merge&quot;]==&quot;both&quot;).sum())",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "ERROR"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Dept&quot;:[&quot;IT&quot;,&quot;IT&quot;,&quot;HR&quot;], &quot;Salary&quot;:[100,200,300] }) result = df.groupby(&quot;Dept&quot;,as_index=False).sum() print(type(result))",
+            "options": [
+                "Series",
+                "dict",
+                "DataFrame",
+                "list"
+            ],
+            "ans": 2,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Cat&quot;:[&quot;A&quot;,&quot;A&quot;,&quot;B&quot;,&quot;B&quot;], &quot;Val&quot;:[5,15,10,20] }) result = df.groupby(&quot;Cat&quot;).agg({&quot;Val&quot;:[&quot;min&quot;,&quot;max&quot;,&quot;mean&quot;]}) print(result.loc[&quot;A&quot;,(&quot;Val&quot;,&quot;mean&quot;)])",
+            "options": [
+                "5.0",
+                "10.0",
+                "15.0",
+                "20.0"
+            ],
+            "ans": 1,
+            "unit": "1"
+        },
+        {
+            "q": "What will be the output of following code? import pandas as pd df = pd.DataFrame({ &quot;Dept&quot;:[&quot;IT&quot;,&quot;IT&quot;,&quot;HR&quot;], &quot;City&quot;:[&quot;A&quot;,&quot;A&quot;,&quot;B&quot;] }) result = df.groupby(&quot;Dept&quot;).nunique() print(result.loc[&quot;IT&quot;,&quot;City&quot;])",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "ans": 0,
+            "unit": "1"
+        },
+        {
+            "q": "Which of the following is best suitable chart to show data correlation?",
+            "options": [
+                "Histogram",
+                "Bar",
+                "Pie",
+                "Scatter"
+            ],
+            "ans": 3,
+            "unit": "2"
+        },
+        {
+            "q": "What type of data is best suited for box plots?",
+            "options": [
+                "Categorical data",
+                "Binary data",
+                "Continuous numerical data",
+                "Time-series data"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "In a box plot, the bottom line of the box represents which quartile?",
+            "options": [
+                "First quartile",
+                "Second quartile",
+                "Third quartile",
+                "Fourth quartile"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In a box plot, the top line of the box represents which quartile?",
+            "options": [
+                "First quartile",
+                "Second quartile",
+                "Third quartile",
+                "Fourth quartile"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What is a heatmap used for?",
+            "options": [
+                "To visualize categorical data",
+                "To visualize numerical data in a grid-like format",
+                "To fit a regression line to the data",
+                "To perform clustering on the data"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter in the sns.heatmap() function is used to show numerical values in heatmap?",
+            "options": [
+                "annot",
+                "annotate",
+                "percent",
+                "show"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "What is the purpose of the cbar parameter in the sns.heatmap() function?",
+            "options": [
+                "To adjust the transparency of the colorbar",
+                "To adjust the size of the colorbar",
+                "To add a colorbar to the heatmap",
+                "To adjust the color scale of the heatmap"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following types of graphs is not supported by NetworkX?",
+            "options": [
+                "Directed graphs",
+                "Undirected graphs",
+                "Hypergraphs",
+                "None of the above"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following methods is used to add nodes to a graph in NetworkX?",
+            "options": [
+                "graph.add_node()",
+                "graph.add_nodes()",
+                "graph.nodes()",
+                "graph.node()"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter in sns.heatmap() displays numeric values inside each cell?",
+            "options": [
+                "cmap",
+                "annot",
+                "cbar",
+                "linewidths"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "If linewidths=2 and linecolor=&#39;black&#39; are set in heatmap, what happens?",
+            "options": [
+                "Data values increase",
+                "Cell borders become thick black lines",
+                "Heatmap becomes darker",
+                "Colorbar disappears"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter removes the color bar in heatmap?",
+            "options": [
+                "annot=False",
+                "cbar=False",
+                "vmax=0",
+                "linewidths=0"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In sns.boxplot(), what does hue parameter do?",
+            "options": [
+                "Changes box width",
+                "Groups boxplots by category",
+                "Changes y-axis",
+                "Removes outliers"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter controls color in sns.boxplot()?",
+            "options": [
+                "cmap",
+                "color",
+                "annot",
+                "linewidths"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In sns.scatterplot(), style parameter controls what?",
+            "options": [
+                "Marker color",
+                "Marker shape",
+                "Marker size",
+                "Axis label"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter sets marker size in sns.scatterplot()?",
+            "options": [
+                "size",
+                "markers",
+                "s",
+                "linewidth"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What is the purpose of vmin and vmax in heatmap?",
+            "options": [
+                "Filter data",
+                "Fix color scaling range",
+                "Remove negative values",
+                "Change axis labels"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which barmode creates grouped bars in px.bar()?",
+            "options": [
+                "orientation",
+                "text_auto",
+                "group",
+                "color"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which barmode is used for stacked bars in px.bar()?",
+            "options": [
+                "group",
+                "relative",
+                "stack",
+                "overlay"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which barmode is used for diverging bars px.bar()?",
+            "options": [
+                "stack",
+                "group",
+                "relative",
+                "none"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "What does pattern_shape parameter do in px.bar()?",
+            "options": [
+                "Changes bar height",
+                "Adds pattern based on category",
+                "Adds tooltip",
+                "Changes axis"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "orientation=&#39;h&#39; in px.bar() creates what?",
+            "options": [
+                "Vertical bars",
+                "Horizontal bars",
+                "3D bars",
+                "Stacked bars"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which function creates a 3D scatter plot?",
+            "options": [
+                "px.scatter()",
+                "px.scatter_matrix()",
+                "px.scatter_3d()",
+                "px.line()"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter controls bubble size in px.scatter()?",
+            "options": [
+                "size",
+                "width",
+                "symbol",
+                "markers"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "symbol parameter in scatter plot controls what in px.scatter()?",
+            "options": [
+                "Marker color",
+                "Marker size",
+                "Marker shape",
+                "Axis range"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "Which function creates scatter matrix?",
+            "options": [
+                "px.scatter()",
+                "px.scatter_3d()",
+                "px.scatter_matrix()",
+                "px.histogram()"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "facet_col in scatter plot is used for what in px.scatter()?",
+            "options": [
+                "Change marker",
+                "Create multiple subplots",
+                "Add legend",
+                "Change axis"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter shows markers in line chart?",
+            "options": [
+                "hover_data",
+                "markers=True",
+                "text_auto",
+                "color"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "How to plot multiple lines in px.line()?",
+            "options": [
+                "Use color parameter",
+                "Use list in SIZE parameter",
+                "Use symbol parameter",
+                "Use orientation"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "color_discrete_sequence is used for what IN px.line()?",
+            "options": [
+                "Change axis",
+                "Set custom line colors",
+                "Remove legend",
+                "Set marker size"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter controls number of bins in px.histogram()?",
+            "options": [
+                "nbins",
+                "histfunc",
+                "color",
+                "width"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "histfunc=&#39;sum&#39; in histogram does what in px.histogram()?",
+            "options": [
+                "Count frequency",
+                "Calculate sum per bin",
+                "Remove bins",
+                "Change color"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which method shows percent and label in pie chart?",
+            "options": [
+                "update_layout()",
+                "update_traces(textinfo=&#39;percent+l abel&#39;)",
+                "text_auto=True",
+                "color_discrete_map"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which heatmap parameter controls color palette?",
+            "options": [
+                "annot",
+                "cmap",
+                "cbar",
+                "vmin"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Setting annot=False in heatmap will:",
+            "options": [
+                "Hide values",
+                "Hide color",
+                "Hide grid",
+                "Hide axis"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In sns.boxplot(), x parameter usually represents:",
+            "options": [
+                "Numeric value",
+                "Category variable",
+                "Color map",
+                "Marker size"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which seaborn function creates scatter plot?",
+            "options": [
+                "sns.boxplot()",
+                "sns.heatmap()",
+                "sns.scatterplot()",
+                "px.scatter()"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "In px.bar(), color parameter is used to:",
+            "options": [
+                "Change bar height",
+                "Group bars by category",
+                "Change axis",
+                "Change orientation"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "px.bar() width parameter controls:",
+            "options": [
+                "Bar width",
+                "Figure width",
+                "Axis width",
+                "Legend width"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "In px.scatter(), symbol parameter is used to:",
+            "options": [
+                "Change color",
+                "Change marker shape",
+                "Change size",
+                "Change axis"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which function creates stacked histogram?",
+            "options": [
+                "px.histogram()",
+                "px.bar()",
+                "px.line()",
+                "px.pie()"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In px.histogram(), color parameter does what?",
+            "options": [
+                "Groups data by category",
+                "Changes bin size",
+                "Removes bins",
+                "Adds line"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which function creates simple line chart?",
+            "options": [
+                "px.line()",
+                "px.bar()",
+                "px.scatter()",
+                "px.histogram()"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "markers=True in px.line() will:",
+            "options": [
+                "Add markers on data points",
+                "Remove line",
+                "Change color",
+                "Hide legend"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter sets custom colors in px.pie()?",
+            "options": [
+                "color_discrete_sequence",
+                "text_auto",
+                "hover_data",
+                "pattern_shape"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In px.pie(), values parameter represents:",
+            "options": [
+                "Category labels",
+                "Numeric values",
+                "Color sequence",
+                "Legend title"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "scatter_matrix is used to:",
+            "options": [
+                "Create 3D plot",
+                "Compare multiple numeric variables",
+                "Create histogram",
+                "Create pie chart"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which plotly function supports 3D plotting?",
+            "options": [
+                "px.scatter()",
+                "px.scatter_3d()",
+                "px.line()",
+                "px.bar()"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter adds extra information on hover?",
+            "options": [
+                "hover_data",
+                "text_auto",
+                "pattern_shape",
+                "orientation"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "text_auto=True does what?",
+            "options": [
+                "Adds automatic value labels",
+                "Changes color",
+                "Changes size",
+                "Removes legend"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which parameter in px.scatter() creates subplots by row?",
+            "options": [
+                "facet_row",
+                "facet_col",
+                "symbol",
+                "size"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which seaborn function supports hue parameter?",
+            "options": [
+                "sns.scatterplot()",
+                "sns.heatmap()",
+                "Both",
+                "None"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In heatmap, linewidths controls:",
+            "options": [
+                "Color intensity",
+                "Cell border thickness",
+                "Axis title",
+                "Legend"
+            ],
+            "ans": 1,
+            "unit": "2"
+        },
+        {
+            "q": "Which plot type shows proportion of total?",
+            "options": [
+                "Bar",
+                "Line",
+                "Pie",
+                "Scatter"
+            ],
+            "ans": 2,
+            "unit": "2"
+        },
+        {
+            "q": "px.scatter_matrix() requires which parameter?",
+            "options": [
+                "dimensions",
+                "color_discrete_map",
+                "nbins",
+                "barmode"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "In px.bar(), text parameter is used for:",
+            "options": [
+                "Manual label display",
+                "Color control",
+                "Size control",
+                "Axis control"
+            ],
+            "ans": 0,
+            "unit": "2"
+        },
+        {
+            "q": "Which of the following pandas functions is used to convert categorical data into numeric data?",
+            "options": [
+                "get_dummies()",
+                "numeric()",
+                "get_categorical()",
+                "get_dumps()"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "How do you handle missing or corrupted data in a dataset?",
+            "options": [
+                "Drop missing rows or columns",
+                "Replace missing values with mean/median/mode",
+                "Assign a unique category to missing values",
+                "All of these"
+            ],
+            "ans": 3,
+            "unit": "3"
+        },
+        {
+            "q": "What is Scikit-learn?",
+            "options": [
+                "A machine learning library in Python",
+                "A data visualization library in Python",
+                "A natural language processing library in Python",
+                "A web development framework in Python"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "Which of the following is an example of a regression algorithm in Scikit-learn?",
+            "options": [
+                "K-means clustering",
+                "Decision tree",
+                "Linear regression",
+                "Support vector machines (SVM)"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "How would you access the column &quot;symboling” from the dataframe df?",
+            "options": [
+                "df[&quot;symboling&quot;]",
+                "df==&quot;symboling&quot;",
+                "df[:&quot;symboling&quot;]",
+                "df[{&quot;symboling&quot;}]"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What is the correct symbol for missing data?",
+            "options": [
+                "na",
+                "nan",
+                "none",
+                "non"
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "Why do we convert values of Categorical Variables into numerical values?",
+            "options": [
+                "Most statistical models cannot take in objects or strings as inputs",
+                "To save memory",
+                "To save time",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What is the main difference between regression and classification in supervised learning?",
+            "options": [
+                "Regression predicts continuous outcomes, while classification predicts categorical outcomes",
+                "Regression predicts categorical outcomes, while classification predicts continuous outcomes",
+                "Regression uses labeled data, while classification uses unlabeled data",
+                "Regression is unsupervised, while classification is supervised"
+            ],
+            "ans": 0,
+            "unit": "3"
+        },
+        {
+            "q": "What evaluation metric is commonly used for regression tasks?",
+            "options": [
+                "Accuracy",
+                "Precision",
+                "Mean Squared Error (MSE)",
+                "Recall"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "What type of target variable is typically used in a regression problem?",
+            "options": [
+                "Discrete",
+                "Categorical",
+                "Continuous",
+                "Binary"
+            ],
+            "ans": 2,
+            "unit": "3"
+        },
+        {
+            "q": "What is feature selection in supervised learning?",
+            "options": [
+                "It is the process of creating new features from existing ones.",
+                "It is the process of removing irrelevant or redundant features from the dataset.",
+                "It is the process of selecting the target variable for prediction.",
+                "It is the process of transforming categorical features into numerical features."
+            ],
+            "ans": 1,
+            "unit": "3"
+        },
+        {
+            "q": "What is feature transformation in machine learning?",
+            "options": [
+                "It is the process of creating new features from existing ones.",
+                "It is the process of removing irrelevant or redundant features from the dataset.",
+                "It is the process of selecting the target variable for prediction.",
+                "It is the process of transforming categorical features into numerical features."
+            ],
+            "ans": 3,
+            "unit": "3"
+        }
+    ],
+    "T2": [
+        {
+            "q": "From where you can import LinearRegression?",
+            "options": [
+                "sklearn.metrics",
+                "sklearn.linearmodel",
+                "sklearn.linear_model",
+                "sklearn. model_selection"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "From where you can import train_test_split?",
+            "options": [
+                "sklearn.metrics",
+                "sklearn.linearmodel",
+                "sklearn.linear_model",
+                "sklearn. model_selection"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the predict() method in sklearn?",
+            "options": [
+                "To train a model using a given dataset",
+                "To make predictions using a trained model",
+                "To evaluate the performance of a model",
+                "To split the data in train and test data"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the fit() method in sklearn?",
+            "options": [
+                "To train a model using a given dataset",
+                "To evaluate the performance of a model",
+                "To create a plot of predicted values",
+                "All of these"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "If we pass x and y to a function train_test_split(), we will get output in which order?",
+            "options": [
+                "x_train, y_train, x_test, y_test",
+                "x_train, x_test, y_train, y_test",
+                "x_train, y_test, x_test, y_train",
+                "y_train, y_test, x_train, x_test"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "Consider the following lines of code, what is the name of the column that contains the target values: from sklearn.linear_model import LinearRegression lm=LinearRegression() X = df[[&#39;highway-mpg&#39;]] Y = df[&#39;price&#39;] lm.fit(X, Y) Yhat=lm.predict(X)",
+            "options": [
+                "price",
+                "highway-mpg",
+                "Both A and B",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "If X is a dataframe with 100 rows and 5 columns, and y is the target with 100 samples, and assuming all the relevant libraries and data have been imported, and the following line of code has been executed: LR = LinearRegression() LR.fit(X, y) yhat = LR.predict(X) How many samples does yhat contain?",
+            "options": [
+                "50",
+                "500",
+                "100",
+                "5"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "What will be the size of training data if data is split like below? train_test_split(x,y,test_size=0.25,random_state=2)",
+            "options": [
+                "0.75",
+                "0.25",
+                "0.8",
+                "0.2"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Consider the following code snippet that implements linear regression in Python, what will be printed as the output of the code snippet? import numpy as np from sklearn.linear_model import LinearRegression # Training data X_train = np.array([[1], [2], [3], [4]]) y_train = np.array([2, 4, 6, 8]) # Test data X_test = np.array([[5]]) # Linear regression model model = LinearRegression( ) model.fit(X_train, y_train) predicted_value = model.predict(X_test) print(predicted_value)",
+            "options": [
+                "10",
+                "[10.]",
+                "5",
+                "[5.]"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "If the data contains 100 rows and 2 columns and if test_size=0.2 then how many rows will go into training and how many will undergo in testing?",
+            "options": [
+                "80,20",
+                "70,30",
+                "50,60",
+                "30,70"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Consider the following lines of code having 200 non-null data in both x and y. what is the output of following code : import pandas as pd import numpy as np dataset=pd.read_csv(&quot;advertising.csv&quot;) x=dataset[[&quot;TV&quot;,&quot;Radio&quot;,&quot;Newspaper&quot;]] y=dataset[&quot;Sales&quot;] print(x.shape)",
+            "options": [
+                "(200,3)",
+                "(200,)",
+                "(200,1)",
+                "(160,3)"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "Consider the following lines of code having 300 non-null data in both x and y. what is the output of following code : import pandas as pd import numpy as np dataset=pd.read_csv(&quot;Book1.csv&quot;) x=dataset[[&quot;cgpa&quot;]] y=dataset[&quot;package&quot;] from sklearn.model_selection import train_test_split x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=1) print(x_train.shape)",
+            "options": [
+                "(240,3)",
+                "(240,)",
+                "(240,1)",
+                "(60,)"
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "If a dataframe with 400 rows and 5 columns, from the following code how many number of rows will go for x_test? from sklearn.model_selection import train_test_split x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=1)",
+            "options": [
+                "80",
+                "100",
+                "10",
+                "200"
+            ],
+            "ans": 0,
+            "unit": "4"
+        },
+        {
+            "q": "In scikit-learn&#39;s linear regression, what is the purpose of the &quot;coef_&quot; attribute?",
+            "options": [
+                "It returns the intercept of the linear regression model.",
+                "It provides the coefficients of the features in the linear regression model.",
+                "It predicts the target variable values for new input data.",
+                "It computes the mean squared error (MSE) of the model."
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What is the purpose of the LinearRegression() function in scikit-learn?",
+            "options": [
+                "To perform classification tasks",
+                "To fit a linear model to the data",
+                "To preprocess text data",
+                "To plot scatter plots"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "In linear regression, what does the coefficient of determination (R-squared) measure?",
+            "options": [
+                "The strength of the relationship between independent and dependent variables",
+                "The slope of the regression line",
+                "The accuracy of the model predictions",
+                "The variance explained by the regression model"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "When should you use linear regression for modeling data?",
+            "options": [
+                "When the relationship between variables is nonlinear",
+                "When the dataset contains categorical variables",
+                "When the dependent variable is binary",
+                "When there is a linear relationship between independent and dependent variables"
+            ],
+            "ans": 3,
+            "unit": "4"
+        },
+        {
+            "q": "What does the coefficient of the independent variable (slope) in a simple linear regression model represent?",
+            "options": [
+                "The y-intercept of the regression line.",
+                "The change in the dependent variable for a unit change in the independent variable.",
+                "The standard deviation of the residuals.",
+                "The correlation between independent and dependent variables"
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "In polynomial regression, what does the degree of the polynomial represent?",
+            "options": [
+                "The number of independent variables in the model.",
+                "The order of the polynomial curve fitted to the data.",
+                "The correlation between independent and dependent variables",
+                "The y-intercept of the regression curve."
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "What distinguishes polynomial regression from linear regression?",
+            "options": [
+                "Polynomial regression can handle categorical variables.",
+                "Polynomial regression only works with two variables.",
+                "Polynomial regression fits a curve to the data instead of a straight line.",
+                "Polynomial regression always has a higher R-squared value than linear regression."
+            ],
+            "ans": 2,
+            "unit": "4"
+        },
+        {
+            "q": "When would you choose polynomial regression over linear regression?",
+            "options": [
+                "When there is a linear relationship between variables.",
+                "When the data points exhibit a non-linear pattern.",
+                "When dealing with categorical variables.",
+                "When the dataset contains missing values."
+            ],
+            "ans": 1,
+            "unit": "4"
+        },
+        {
+            "q": "iW) Uhsaet edaocehs mkNoNde slt taon pd rfeodri?ct power output for wind speeds of 5, 10, 15, and 20 m/s, and print the predic(cid:415)ons.",
+            "options": [
+                "K-Neural Networks",
+                "K-Means Neighbours",
+                "k Nearest Neighbours",
+                "K-Cluster Neighbours"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "In the context of kNN, what does ‘distance’ refer to?",
+            "options": [
+                "Geographical distance",
+                "Difference in attribute values",
+                "Time difference",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What is the main advantage of kNN?",
+            "options": [
+                "No assumptions about data",
+                "Makes assumptions about data",
+                "Prone to overfitting",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the main disadvantage of kNN?",
+            "options": [
+                "No assumptions about data",
+                "Sensitive to irrelevant features and the scale of the data",
+                "Not prone to overfitting",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What does kNN use to make decisions?",
+            "options": [
+                "Splitting criteria like entropy or gini index",
+                "Distance measures like Euclidean or Manhattan",
+                "Similarity measures like cosine similarity",
+                "None of these"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What does the following code snippet represent? from sklearn.neighbors import KNeighborsClassifier knn = KNeighborsClassifier(n_neighbors=5)",
+            "options": [
+                "Training a decision tree classifier",
+                "Initializing a kNN classifier",
+                "Implementing logistic regression",
+                "Initializing a random forest classifier"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What does the following code snippet accomplish? from sklearn.model_selection import train_test_split from sklearn.neighbors import KNeighborsClassifier X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.3, random_state=42) knn = KNeighborsClassifier(n_neighbors=5) knn.fit(X_train, y_train) predicted_labels = knn.predict(X_test)",
+            "options": [
+                "Initializes a kNN classifier with 5 neighbors and trains it on the entire dataset",
+                "Splits the dataset into training and testing sets, initializes a kNN classifier with 5 neighbors, and trains it on the training set",
+                "Trains a decision tree classifier with Gini index as the criterion",
+                "Initializes a logistic regression classifier and evaluates its performance on the test set"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What class from scikit-learn is used to create a KNN classifier?",
+            "options": [
+                "KNeighborsRegressor()",
+                "KNeighborsClassifier()",
+                "knn_classify()",
+                "nearest_neighbors()"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What metric is used by default in KNeighborsClassifier() to calculate distance between data points?",
+            "options": [
+                "Manhattan distance",
+                "Chebyshev distance",
+                "Euclidean distance",
+                "Jaccard similarity"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "What is the primary task of the k-Nearest Neighbors algorithm?",
+            "options": [
+                "Classification",
+                "Regression",
+                "Clustering",
+                "Dimensionality reduction"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "In kNN, the value of k represents:",
+            "options": [
+                "The number of features in the dataset",
+                "The number of clusters in the dataset",
+                "The number of nearest neighbors to consider",
+                "The number of classes in the dataset"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "What does the &quot;fit&quot; method in scikit-learn&#39;s KNeighborsClassifier class do?",
+            "options": [
+                "Trains the model",
+                "Evaluates the model",
+                "Preprocesses the data",
+                "Visualizes the data"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which parameter of the KNeighborsClassifier determines the number of neighbors to consider?",
+            "options": [
+                "neighbors",
+                "k_value",
+                "k_neighbors",
+                "n_neighbors"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following scenarios is an example where K-Nearest Neighbors (KNN) algorithm is not suitable?",
+            "options": [
+                "Image classification with high- resolution images.",
+                "Fraud detection in credit card transactions.",
+                "Sentiment analysis of text data.",
+                "Speech recognition for voice commands."
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the primary criterion for a decision tree using entropy?",
+            "options": [
+                "Information Gain",
+                "Gini Index",
+                "Chi-Square",
+                "Reduction in Variance"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is entropy in the context of a decision tree?",
+            "options": [
+                "A measure of impurity or disorder",
+                "A measure of similarity",
+                "A measure of distance",
+                "A measure of impurity or disorder"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "What does a decision tree do?",
+            "options": [
+                "It makes decisions",
+                "It predicts continuous outcomes",
+                "It classifies data into different classes",
+                "None of these"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "What is the disadvantage of a decision tree?",
+            "options": [
+                "Prone to overfitting",
+                "Prone to underfitting",
+                "Not sensitive to outliers",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What does a decision tree use to make decisions?",
+            "options": [
+                "Splitting criteria like entropy or gini index",
+                "Distance measures like Euclidean or Manhattan",
+                "Similarity measures like cosine similarity",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the primary task of the Decision Tree algorithm?",
+            "options": [
+                "Classification",
+                "Regression",
+                "Clustering",
+                "Dimensionality reduction"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following measures is used to quantify the randomness in a decision tree?",
+            "options": [
+                "Variance",
+                "Entropy",
+                "Standard Deviation",
+                "Mean Absolute Error"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What is the purpose of the following code snippet? from sklearn.tree import DecisionTreeClassifier dt_classifier = DecisionTreeClassifier(criterion=&#39;entropy&#39;)",
+            "options": [
+                "Initializing a decision tree classifier with Gini index",
+                "Initializing a kNN classifier with Euclidean distance",
+                "Initializing a decision tree classifier with entropy as the criterion",
+                "Initializing a logistic regression classifier"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "How is accuracy calculated in the context of a confusion matrix?",
+            "options": [
+                "(True Positives + True Negatives) / Total Predictions",
+                "True Positives / (True Positives + False Positives)",
+                "(True Positives + True Negatives) / Total Actual Positives",
+                "True Negatives / (True Negatives + False Negatives)"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which metric from the confusion matrix reflects the proportion of correctly classified negative instances?",
+            "options": [
+                "Accuracy",
+                "Sensitivity",
+                "Specificity",
+                "Error Rate"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Which metric from the confusion matrix focuses on the ability of the model to correctly identify positive instances?",
+            "options": [
+                "Accuracy",
+                "Sensitivity",
+                "Specificity",
+                "Error Rate"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "How is specificity calculated in the context of a confusion matrix?",
+            "options": [
+                "True Negatives / (True Negatives + False Positives)",
+                "True Positives / (True Positives + False Negatives)",
+                "(True Positives + True Negatives) / Total Actual Positives",
+                "(True Positives + True Negatives) / Total Predictions"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "How is the error rate calculated from a confusion matrix?",
+            "options": [
+                "True Negatives / (True Negatives + False Positives)",
+                "(True Positives + True Negatives) / Total Actual Positives",
+                "True Positives / (True Positives + False Negatives)",
+                "(False Positives + False Negatives) / Total Predictions"
+            ],
+            "ans": 3,
+            "unit": "5"
+        },
+        {
+            "q": "Which metric from the confusion matrix focuses on the ability of the model to correctly identify negative instances?",
+            "options": [
+                "Accuracy",
+                "Sensitivity",
+                "Specificity",
+                "Error Rate"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "How is specificity calculated in the context of a confusion matrix?",
+            "options": [
+                "True Negatives / (True Negatives + False Positives)",
+                "True Positives / (True Positives + False Negatives)",
+                "(True Positives + True Negatives) / Total Actual Positives",
+                "(True Positives + True Negatives) / Total Predictions"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What is the purpose of the following code snippet? from sklearn.metrics import confusion_matrix conf_matrix = confusion_matrix(true_labels, predicted_labels)",
+            "options": [
+                "Evaluating the confusion matrix",
+                "Training a decision tree classifier",
+                "Implementing kNN algorithm",
+                "Tuning hyperparameters for a random forest classifier"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What does the following code snippet accomplish? print( conf_matrix[0, 0] / (conf_matrix[0, 0] + conf_matrix[0, 1]))",
+            "options": [
+                "Calculating the sensitivity of the classifier",
+                "Calculating the specificity of the classifier",
+                "Evaluating the F1 score",
+                "Printing the accuracy score of the model"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "What is the purpose of the following code snippet? from sklearn.tree import DecisionTreeClassifier from sklearn.metrics import confusion_matrix dt_classifier = DecisionTreeClassifier(criterion=&#39;entropy&#39;) dt_classifier.fit(X_train, y_train) predicted_labels = dt_classifier.predict(X_test) conf_matrix = confusion_matrix(y_test, predicted_labels)",
+            "options": [
+                "Initializes a decision tree classifier with entropy as the criterion and evaluates its performance using a confusion matrix",
+                "Initializes a kNN classifier with 3 neighbors and evaluates its performance using a confusion matrix",
+                "Initializes a logistic regression classifier and evaluates its performance using a confusion matrix",
+                "Trains a random forest classifier and evaluates its performance using a confusion matrix"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following best describes the RandomForestClassifier algorithm?",
+            "options": [
+                "A single decision tree model",
+                "An ensemble learning method that combines multiple decision trees",
+                "A clustering algorithm",
+                "A neural network model"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "The primary goal of RandomForestClassifier is to:",
+            "options": [
+                "Predict continuous values",
+                "Classify data into different categories",
+                "Reduce dataset size",
+                "Perform dimensionality reduction"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "RandomForestClassifier reduces overfitting by:",
+            "options": [
+                "Using a single deep tree",
+                "Combining predictions of multiple trees",
+                "Removing training data",
+                "Increasing bias"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In RandomForestClassifier, each decision tree is trained on:",
+            "options": [
+                "The entire dataset without variation",
+                "A bootstrap sample of the dataset",
+                "Only the test dataset",
+                "Only selected class labels"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "The final prediction in RandomForestClassifier is determined using:",
+            "options": [
+                "Average of tree outputs",
+                "Majority voting",
+                "Gradient descent",
+                "Distance calculation"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which parameter controls the number of trees in RandomForestClassifier?",
+            "options": [
+                "max_depth",
+                "n_estimators",
+                "criterion",
+                "random_state"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which module in Scikit-learn contains RandomForestClassifier?",
+            "options": [
+                "sklearn.tree",
+                "sklearn.metrics",
+                "sklearn.ensemble",
+                "sklearn.preprocessing"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "What does RandomForestClassifier(n_estimators=100) do?",
+            "options": [
+                "Trains the model immediately",
+                "Initializes a Random Forest classifier with 100 trees",
+                "Splits the dataset",
+                "Evaluates accuracy"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "The fit() method in RandomForestClassifier is used to:",
+            "options": [
+                "Predict class labels",
+                "Train the model on training data",
+                "Calculate confusion matrix",
+                "Normalize data"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Error Rate when FP=10 and FN=5 (Total=100)?",
+            "options": [
+                "15%",
+                "20%",
+                "10%",
+                "25%"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "If False Positives increase, which metric decreases?",
+            "options": [
+                "Specificity",
+                "Sensitivity",
+                "Recall",
+                "True Positives"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "Metric measuring correctly predicted positive cases?",
+            "options": [
+                "Specificity",
+                "Sensitivity",
+                "Error Rate",
+                "Accuracy"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Metric measuring correctly predicted negative cases?",
+            "options": [
+                "Accuracy",
+                "Sensitivity",
+                "Specificity",
+                "Recall"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Increasing number of trees generally:",
+            "options": [
+                "Increases instability",
+                "Improves prediction stability",
+                "Reduces training data",
+                "Eliminates bias completely"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Most common evaluation tool for RandomForestClassifier performance?",
+            "options": [
+                "Confusion Matrix",
+                "PCA",
+                "Gradient Descent",
+                "Correlation Matrix"
+            ],
+            "ans": 0,
+            "unit": "5"
+        },
+        {
+            "q": "What does the term SVM stand for in Machine Learning?",
+            "options": [
+                "Statistical Vector Machine",
+                "Support Vector Machine",
+                "Supervised Variable Model",
+                "Structured Vector Method"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Support Vector Machine is primarily used for which type of problems?",
+            "options": [
+                "Sorting problems",
+                "Clustering only",
+                "Classification and regression problems",
+                "Data visualization"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "The main objective of a Support Vector Machine classifier is to:",
+            "options": [
+                "Minimize dataset size",
+                "Find the optimal decision boundary separating different classes",
+                "Increase bias",
+                "Remove outliers"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In SVM, the decision boundary that separates classes is known as:",
+            "options": [
+                "Margin",
+                "Support Line",
+                "Hyperplane",
+                "Separator Curve"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Support vectors in SVM are defined as:",
+            "options": [
+                "All data points in the dataset",
+                "Data points closest to the decision boundary",
+                "Randomly selected training samples",
+                "Only misclassified samples"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In Support Vector Machine, the parameter C is known as the Regularization Parameter and it controls:",
+            "options": [
+                "Number of classes in dataset",
+                "Trade-off between maximizing margin and minimizing classification errors",
+                "Size of dataset",
+                "Number of support vectors"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "If the value of C (Regularization Parameter) is set very high, the SVM model is more likely to:",
+            "options": [
+                "Underfit the data",
+                "Ignore misclassification errors",
+                "Overfit the training data by penalizing errors heavily",
+                "Increase the margin significantly"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "If the value of C (Regularization Parameter) is set very low, the SVM model is more likely to:",
+            "options": [
+                "Overfit the data",
+                "Underfit the data by allowing more classification errors",
+                "Eliminate support vectors",
+                "Increase variance"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which Scikit-learn class is commonly used to implement Support Vector Machine classification?",
+            "options": [
+                "SVR",
+                "SVC",
+                "DecisionTreeClassifier",
+                "LogisticRegression"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "The predict() method in SVC is used to:",
+            "options": [
+                "Train the model",
+                "Tune hyperparameters",
+                "Predict class labels for new data",
+                "Normalize the dataset"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Support Vector Machine is considered a supervised learning algorithm because:",
+            "options": [
+                "It works without labeled data",
+                "It requires labeled training data",
+                "It performs clustering automatically",
+                "It does not require training data"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "One key advantage of Support Vector Machine is that it:",
+            "options": [
+                "Works only with small datasets",
+                "Performs well in high-dimensional spaces",
+                "Does not require parameter tuning",
+                "Always guarantees 100% accuracy"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "In SVM, misclassification of training samples is controlled by which parameter?",
+            "options": [
+                "Margin",
+                "C (Regularization Parameter)",
+                "Hyperplane",
+                "Support vector count"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "One major advantage of Support Vector Machine over many other classifiers is that it:",
+            "options": [
+                "Always guarantees zero error",
+                "Works efficiently in high- dimensional feature spaces",
+                "Requires very large datasets to function",
+                "Does not require model training"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following statements about Support Vector Machine is correct?",
+            "options": [
+                "SVM cannot handle high- dimensional data",
+                "SVM works only for binary classification",
+                "SVM aims to maximize the margin between classes",
+                "SVM does not require labeled data"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "In Support Vector Machine, which data points directly influence the position of the decision boundary?",
+            "options": [
+                "All training samples",
+                "Only correctly classified samples",
+                "Support vectors",
+                "Randomly selected samples"
+            ],
+            "ans": 2,
+            "unit": "5"
+        },
+        {
+            "q": "Consider the following code snippet: from sklearn.svm import SVC model = SVC(C=1.0) model.fit(X_train, y_train) What is the purpose of this code?",
+            "options": [
+                "To evaluate model accuracy",
+                "To train an SVM classification model",
+                "To split the dataset",
+                "To perform clustering"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Consider the following code snippet: from sklearn.ensemble import RandomForestClassifier rf = RandomForestClassifier(n_estimators=100) rf.fit(X_train, y_train) What is the role of n_estimators=100?",
+            "options": [
+                "Number of features",
+                "Number of trees in the forest",
+                "Number of training samples",
+                "Number of classes"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Consider the following code snippet: rf = RandomForestClassifier(random_state=42) rf.fit(X_train, y_train) What is the purpose of random_state=42?",
+            "options": [
+                "To increase model complexity",
+                "To ensure reproducible results",
+                "To reduce number of trees",
+                "To normalize dataset"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Consider the following code snippet: rf.fit(X_train, y_train) y_pred = rf.predict(X_test) What is the purpose of the predict() method?",
+            "options": [
+                "To train the model again",
+                "To generate predicted class labels",
+                "To calculate training loss",
+                "To remove overfitting"
+            ],
+            "ans": 1,
+            "unit": "5"
+        },
+        {
+            "q": "Which of the following is the correct syntax for training a Keras model?",
+            "options": [
+                "model.train(X_train, y_train, epochs=10, batch_size=32)",
+                "model.fit(X_train, y_train, epochs=10, batch_size=32)",
+                "model.train_on_data(X_train, y_train, epochs=10, batch_size=32)",
+                "model.fit_data(X_train, y_train, epochs=10, batch_size=32)"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following is a way to prevent overfitting in a Keras model?",
+            "options": [
+                "Adding more layers",
+                "Increasing the learning rate",
+                "Decreasing the batch size",
+                "Adding dropout layers"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "Which of the following Keras layers can be used for image classification tasks?",
+            "options": [
+                "Conv2D",
+                "LSTM",
+                "Dense",
+                "Dropout"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "What is the primary purpose of a Convolutional Neural Network (CNN)?",
+            "options": [
+                "Object detection",
+                "Image classification",
+                "Text generation",
+                "Reinforcement learning"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which layer type is typically used to extract local features in a CNN?",
+            "options": [
+                "Convolutional layer",
+                "Pooling layer",
+                "Fully connected layer",
+                "Activation layer"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Which activation function is commonly used in the convolutional layers of a CNN?",
+            "options": [
+                "ReLU (Rectified Linear Unit)",
+                "Sigmoid",
+                "Tanh (Hyperbolic Tangent)",
+                "Softmax"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "What is the purpose of the stride parameter in a convolutional layer?",
+            "options": [
+                "To control the step size of the convolution operation",
+                "To determine the size of the receptive field",
+                "To adjust the learning rate during training",
+                "None of the above"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "Which layer type is used to reduce the spatial dimensions in a CNN?",
+            "options": [
+                "Convolutional layer",
+                "Pooling layer",
+                "Fully connected layer",
+                "Activation layer"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which layer type is responsible for applying non-linear transformations to the feature maps in a CNN?",
+            "options": [
+                "Convolutional layer",
+                "Pooling layer",
+                "Fully connected layer",
+                "Activation layer"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "If I put a dropout parameter of 0.2, how many nodes will I lose?",
+            "options": [
+                "20% of them",
+                "2% of them",
+                "20% of the untrained ones",
+                "2% of the untrained ones"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "If 0.05 dropout is used on a 300-node layer, how many nodes will be inactive during training?",
+            "options": [
+                "15",
+                "285",
+                "25",
+                "5"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "If my data is sized 150×150, and I use Pooling of size 2×2, what size will the resulting image be?",
+            "options": [
+                "300×300",
+                "148x148",
+                "149x149",
+                "75x75"
+            ],
+            "ans": 3,
+            "unit": "6"
+        },
+        {
+            "q": "If my Image is sized 150×150, and I pass a 3×3 Convolution over it, what size is the resulting image?",
+            "options": [
+                "148x148",
+                "150x150",
+                "153x153",
+                "450x450"
+            ],
+            "ans": 0,
+            "unit": "6"
+        },
+        {
+            "q": "When exploring the graphs, the loss levelled out at about .75 after 2 epochs, but the accuracy climbed close to 1.0 after 15 epochs. What’s the significance of this?",
+            "options": [
+                "There was no point training after 2 epochs, as we overfit to the validation data",
+                "There was no point training after 2 epochs, as we overfit to the training data",
+                "A bigger training set would give us better validation accuracy",
+                "A bigger validation set would give us better training accuracy"
+            ],
+            "ans": 1,
+            "unit": "6"
+        },
+        {
+            "q": "Which is the correct line of code for adding Dropout of 20% of neurons using TensorFlow",
+            "options": [
+                "tf.keras.layers.Dropout(20)",
+                "tf.keras.layers.DropoutNeurons(20 )",
+                "tf.keras.layers.Dropout(0.2)",
+                "tf.keras.layers.DropoutNeurons(0. 2)"
+            ],
+            "ans": 2,
+            "unit": "6"
+        }
+    ],
+    "T3": [
+        {
+            "q": "Which of the following libraries is used to parse data received from Open Weather Map API?",
+            "options": [
+                "api",
+                "request",
+                "requests",
+                "json"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What method in Beautiful Soup is used to find the first occurrence of a particular HTML element?",
+            "options": [
+                "find_parent()",
+                "find()",
+                "select()",
+                "get_text()"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What method in Beautiful Soup is used to find the ALL occurrence of a particular HTML element?",
+            "options": [
+                "find_parent()",
+                "find_all()",
+                "select()",
+                "get_text()"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "how does one get the first header 1 tag after creating a soup object?",
+            "options": [
+                "soup.h1",
+                "soup.header1",
+                "soup.h1[0]",
+                "soup.h1[1]"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following finds all link tags?",
+            "options": [
+                "all_links = soup.find(&#39;a&#39;)",
+                "all_links = soup.findall(&#39;a&#39;)",
+                "all_links = soup.findall(&#39;link&#39;)",
+                "all_links = soup.find_all(&#39;a&#39;)"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which format is constructed by nesting python dictionaries and lists as needed.",
+            "options": [
+                "JSON",
+                "HTTP",
+                "HTML",
+                "XML"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "which function formats the Beautiful Soup parsed data, so that there each tag is on its own separate line with indentation.",
+            "options": [
+                "prettify()",
+                "beutify()",
+                "dump()",
+                "dumpS()"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the function of json library is used to print a json file with required indent?",
+            "options": [
+                "dummy()",
+                "dumps()",
+                "dummys()",
+                "dump()"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which of the following libraries is used to get response using api key from Open Weather Map api?",
+            "options": [
+                "api",
+                "requests",
+                "json",
+                "socket"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "How can you extract the text content of an HTML element using BeautifulSoup?",
+            "options": [
+                "get_text()",
+                "get_content",
+                "text_content",
+                "extract_text()"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What will be output of following code? from bs4 import BeautifulSoup html_doc = &quot;&quot;&quot; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt; &lt;title&gt;An example of HTML page&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h2&gt;This is an example HTML page&lt;/h2&gt; &lt;p&gt; This is Python Tutorial for Beautiful Soup&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.google.com/html/HTML-tutorials.php&quot;&gt;Learn HTML&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.google.com/css/CSS-tutorials.php&quot;&gt;Learn CSS&lt;/a&gt;&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; &quot;&quot;&quot; soup = BeautifulSoup(html_doc, &#39;html.parser&#39;) print(soup.find(&#39;p&#39;).find(&#39;a&#39;)[&#39;href&#39;])",
+            "options": [
+                "&lt;a href=&quot;https://www.google.com/ht ml/HTML-tutorials.php&quot;&gt;Learn HTML&lt;/a&gt;",
+                "https://www.google.com/html/HT ML-tutorials.php",
+                "&lt;p&gt;This is Python Tutorial for Beautiful Soup&lt;/p&gt;",
+                "Error"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "What will be output of following code? from bs4 import BeautifulSoup html_doc = &quot;&quot;&quot; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;&gt; &lt;title&gt;An example of HTML page&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h2&gt;This is an example HTML page&lt;/h2&gt; &lt;p&gt; This is Python Tutorial for Beautiful Soup&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.google.com/html/HTML-tutorials.php&quot;&gt;Learn HTML&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.google.com/css/CSS-tutorials.php&quot;&gt;Learn CSS&lt;/a&gt;&lt;/p&gt; &lt;/body&gt; &lt;/html&gt; &quot;&quot;&quot; soup = BeautifulSoup(html_doc, &#39;html.parser&#39;) print(soup.find(&#39;body&#39;).find_all(&#39;p&#39;)[1].get_text())",
+            "options": [
+                "Learn CSS",
+                "This is Python Tutorial for Beautiful Soup",
+                "Learn HTML",
+                "Error"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "When scraping a website, you come across the following error: &quot;HTTP Error 403: Forbidden&quot;. Which of the following could be the cause of this error?",
+            "options": [
+                "The website has implemented measures to block web scraping activities",
+                "The website&#39;s server is temporarily down",
+                "The website&#39;s HTML structure has changed, causing the scraping script to fail",
+                "None of these"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "How can you extract the value of the href attribute from a link (&lt;a&gt; tag) using Beautiful Soup?",
+            "options": [
+                "link.Collect [&#39;href&#39;]",
+                "link.get(&#39;href&#39;)",
+                "link.href",
+                "link[&#39;href&#39;]"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Find the correct syntax code from following codes.",
+            "options": [
+                "import bs4 import requests url = &#39;https://indianexpress.com/&#39; source = requests.get(url).text soup = bs4.BeautifulSoup(source,&#39;html.pa rser&#39;) print(soup.prettify())",
+                "import bs4 import requests url = &#39;https://indianexpress.com/&#39; source = requests.get(url).text soup = BeautifulSoup(source,&#39;html.parser&#39; ) print(soup.prettify())",
+                "import requests url = &#39;https://indianexpress.com/&#39; source = requests.get(url).text soup = bs4.BeautifulSoup(source,&#39;html.pa rser&#39;) print(soup.prettify())",
+                "import bs4 import requests url = &#39;https://indianexpress.com/&#39; source = requests(url).text soup = bs4.BeautifulSoup(soup,&#39;html.pars er&#39;) print(soup.prettify())"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which function is used to send a GET request in Python?",
+            "options": [
+                "requests.post()",
+                "requests.get()",
+                "requests.send()",
+                "requests.fetch()"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What does HTTP status code 404 represent?",
+            "options": [
+                "Not Found",
+                "OK",
+                "Unauthorized",
+                "Server Error"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "Which status code indicates successful request?",
+            "options": [
+                "500",
+                "200",
+                "403",
+                "401"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the default response format of most REST APIs?",
+            "options": [
+                "XML",
+                "CSV",
+                "JSON",
+                "HTML"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which method converts API response into Python dictionary?",
+            "options": [
+                "response.text()",
+                "response.content()",
+                "response.data()",
+                "response.json()"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which function converts Python object into JSON string?",
+            "options": [
+                "json.dumps()",
+                "json.loads()",
+                "json.parse()",
+                "json.read()"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What is pagination used for in APIs?",
+            "options": [
+                "Encrypt data",
+                "Authenticate user",
+                "Divide large data into pages",
+                "Delete records"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which parameter is commonly used for pagination?",
+            "options": [
+                "token",
+                "header",
+                "page",
+                "limit"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "HTTP headers are mainly used to:",
+            "options": [
+                "Send additional information",
+                "Store database",
+                "Delete records",
+                "Increase speed"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "What operation is generally performed by the following code? requests.put(url, json={&quot;name&quot;:&quot;B&quot;})",
+            "options": [
+                "Create Resource",
+                "Update Resource",
+                "Delete Resource",
+                "Read Resource"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Which function is used to send data to an API?",
+            "options": [
+                "requests.get()",
+                "requests.delete()",
+                "requests.post()",
+                "requests.read()"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "Which HTTP method is used to update existing resources?",
+            "options": [
+                "GET",
+                "POST",
+                "DELETE",
+                "PUT"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which header is commonly used for API authentication?",
+            "options": [
+                "Content-Type",
+                "Authorization",
+                "Host",
+                "Server"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "Token-based authentication requires sending token in:",
+            "options": [
+                "Body",
+                "URL",
+                "Header",
+                "Cookie only"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What is rate limiting?",
+            "options": [
+                "Unlimited requests",
+                "Encrypting JSON",
+                "Removing pagination",
+                "Limiting number of API requests"
+            ],
+            "ans": 3,
+            "unit": "7"
+        },
+        {
+            "q": "Which status code indicates too many requests?",
+            "options": [
+                "429",
+                "200",
+                "404",
+                "500"
+            ],
+            "ans": 0,
+            "unit": "7"
+        },
+        {
+            "q": "REST APIs mainly use which protocol?",
+            "options": [
+                "FTP",
+                "HTTP",
+                "SMTP",
+                "TCP"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the output type of the following code? response = requests.get(url) print(type(response.json()))",
+            "options": [
+                "str",
+                "dict",
+                "list",
+                "Response"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "What is the type of variable y? import json x = {&quot;a&quot;:10} y = json.dumps(x)",
+            "options": [
+                "dict",
+                "str",
+                "list",
+                "int"
+            ],
+            "ans": 1,
+            "unit": "7"
+        },
+        {
+            "q": "In the following request, where is the token sent? headers = {&quot;Authoriza(cid:415)on&quot;: &quot;Bearer abc123&quot;} requests.get(url, headers=headers)",
+            "options": [
+                "URL",
+                "Body",
+                "HTTP Header",
+                "Query Parameter"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What does &#39;page=2&#39; represent in the request below? requests.get(&quot;https://api.example.com/data?page=2&quot;)",
+            "options": [
+                "Header",
+                "Token",
+                "Query Parameter",
+                "Status Code"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What will happen if the key does not exist? data = response.json() print(data[&quot;name&quot;])",
+            "options": [
+                "TypeError",
+                "ValueError",
+                "KeyError",
+                "IndexError"
+            ],
+            "ans": 2,
+            "unit": "7"
+        },
+        {
+            "q": "What is Django used for?",
+            "options": [
+                "Machine learning",
+                "Game development",
+                "Web development",
+                "Data analysis"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What is Django in python?",
+            "options": [
+                "A framework",
+                "A library",
+                "A function",
+                "A script"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is the default database used in Django?",
+            "options": [
+                "Oracle",
+                "SQLite",
+                "PostgreSQL",
+                "MySQL"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "What is Django&#39;s template language used for?",
+            "options": [
+                "Data validation",
+                "URL routing",
+                "Dynamic HTML generation",
+                "Object-Relational Mapping"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What is Django&#39;s admin app used for?",
+            "options": [
+                "Generating dynamic HTML",
+                "Handling user authentication",
+                "Serving static files",
+                "Providing an interface for managing application data"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "How do you run database migrations in Django?",
+            "options": [
+                "python manage.py migrate",
+                "python migrate manage.py",
+                "django migrate",
+                "django manage.py migrate"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;urls.py&quot; file in Django?",
+            "options": [
+                "To store the project&#39;s URL configurations",
+                "To store project-level settings",
+                "To store app-level settings",
+                "To store the project&#39;s static files"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "How do you make a Django model available for use in the admin interface?",
+            "options": [
+                "By registering the model in the &quot;admin.py&quot; file of the app",
+                "By registering the model in the &quot;settings.py&quot; file of the project",
+                "By registering the model in the &quot;models.py&quot; file of the app",
+                "By registering the model in the &quot;urls.py&quot; file of the project"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;views.py&quot; file in Django?",
+            "options": [
+                "To store the project&#39;s URL configurations",
+                "To store the project&#39;s models",
+                "To store the project&#39;s static files",
+                "To store the project&#39;s views"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;forms.py&quot; file in Django?",
+            "options": [
+                "To store the project&#39;s models",
+                "To store the project&#39;s views",
+                "To store the project&#39;s forms",
+                "To store the project&#39;s URL configurations"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;settings.py&quot; file in Django?",
+            "options": [
+                "To store app-level settings",
+                "To store project-level settings",
+                "To store the project&#39;s URL configurations",
+                "To store the project&#39;s static files"
+            ],
+            "ans": 1,
+            "unit": "8"
+        },
+        {
+            "q": "How do you run the development server in Django?",
+            "options": [
+                "python manage.py runserver",
+                "python runserver manage.py",
+                "django runserver",
+                "django manage.py runserver"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;migrations&quot; folder in Django?",
+            "options": [
+                "To store the project&#39;s views",
+                "To store the project&#39;s models",
+                "To store the project&#39;s static files",
+                "To store the project&#39;s database migrations"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What is the purpose of the &quot;__init__.py&quot; file in Django?",
+            "options": [
+                "To store the app&#39;s models",
+                "To store the app&#39;s views",
+                "To initialize the app",
+                "To store the app&#39;s forms"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What are the features available in Django web framework?",
+            "options": [
+                "Form handling",
+                "Templating",
+                "Admin Interface (CRUD)",
+                "All of the listed"
+            ],
+            "ans": 3,
+            "unit": "8"
+        },
+        {
+            "q": "What does {{ name }} mean in Django Templates?",
+            "options": [
+                "{{ name }} will be the output.",
+                "It will be displayed as name in HTML.",
+                "The name will be replaced with values of Python variable.",
+                "None of the above"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "Which of the following is used If you need to deploy your project over WSGI?",
+            "options": [
+                "wsgi.py",
+                "manage.py",
+                "models.py",
+                "settings.py"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Which Django template tag is used to loop through a list of items?",
+            "options": [
+                "{% for item in items %}",
+                "{% loop items %}",
+                "{% iterate items %}",
+                "{% list items %}"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "In which language is Django written?",
+            "options": [
+                "PYTHON",
+                "PHP",
+                "JAVA",
+                "C++"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "Which Django command is used to create a new Django project?",
+            "options": [
+                "StartProject",
+                "createproject",
+                "startproject",
+                "newproject"
+            ],
+            "ans": 2,
+            "unit": "8"
+        },
+        {
+            "q": "What is the primary purpose of the makemigrations command in Django?",
+            "options": [
+                "To apply migrations to the database",
+                "To execute SQL queries for creating database tables",
+                "To create a superuser for the Django admin site",
+                "To run unit tests for your Django app"
+            ],
+            "ans": 0,
+            "unit": "8"
+        },
+        {
+            "q": "In Django, what is the primary purpose of the TEMPLATES_DIRS setting?",
+            "options": [
+                "It defines the location(s) where Django looks for templates.",
+                "It lists all installed apps in the project.",
+                "It defines the URL patterns for a Django project.",
+                "It configures the project&#39;s settings."
+            ],
+            "ans": 0,
+            "unit": "8"
+        }
+    ],
+    "T4": [
+        {
+            "q": "What is Django&#39;s forms module used for?",
+            "options": [
+                "URL routing",
+                "Data validation and form generation",
+                "Dynamic HTML generation",
+                "Object-Relational Mapping"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "What does CSRF stand for?",
+            "options": [
+                "Cross-Site Request Fraud",
+                "Cross-Site Request Forgery",
+                "Cross-Site Request Firewall",
+                "Cross-Site Response Forgery"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How does Django protect against CSRF (Cross-Site Request Forgery) attacks?",
+            "options": [
+                "By using a secret key",
+                "By using SSL/TLS",
+                "By using a unique token for each request",
+                "By using a fixed path"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "How does Django handle user authentication?",
+            "options": [
+                "Through the use of a custom authentication backend",
+                "By providing a built-in authentication system",
+                "By relying on an external authentication service",
+                "By using the Django ORM"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How to Ensure that you have installed Django successfully?",
+            "options": [
+                "python -m django",
+                "python -m",
+                "python django",
+                "python -m Django"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which function is used to redirect users to a different URL in Django?",
+            "options": [
+                "send_redirect",
+                "redirect",
+                "go_to",
+                "forward"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "What is the purpose of the authenticate function in Django?",
+            "options": [
+                "It creates a new user.",
+                "It checks if a user is authenticated.",
+                "It logs a user in.",
+                "It logs a user out."
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "In Django Template Language, how can you check if a user is authenticated?",
+            "options": [
+                "user_logged_in",
+                "is_authenticated",
+                "check_authentication",
+                "is_logged_in"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which Django form is commonly used for user registration and account creation?",
+            "options": [
+                "UserForm",
+                "RegisterForm",
+                "UserCreationForm",
+                "SignupForm"
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which Django form is typically used for user login and authentication?",
+            "options": [
+                "UserLoginForm",
+                "AuthenticationForm",
+                "UserLoginForm",
+                "AuthForm"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How do you typically check for a unique username during user registration (sign-up) in Django?",
+            "options": [
+                "Use the is_unique method on the username field.",
+                "Add a custom validation function to the username field.",
+                "Django automatically enforces unique usernames by default.",
+                "Use the unique attribute in the form field definition."
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "In Django, which function is responsible for verifying a user&#39;s credentials during the login process?",
+            "options": [
+                "authenticate",
+                "create_user",
+                "user_login",
+                "validate_user"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What does the `logout` function do in Django&#39;s authentication system?",
+            "options": [
+                "Logs a user in",
+                "Checks if a user is authenticated",
+                "Prevents Cross-Site Request Forgery (CSRF) attacks",
+                "Logs a user out"
+            ],
+            "ans": 3,
+            "unit": "9"
+        },
+        {
+            "q": "What is the primary function of the `login` function in Django&#39;s authentication system during the login process?",
+            "options": [
+                "It generates a new session ID.",
+                "It logs the user out.",
+                "It logs the user in.",
+                "It retrieves the user&#39;s profile information."
+            ],
+            "ans": 2,
+            "unit": "9"
+        },
+        {
+            "q": "Which HTTP request method is commonly used for submitting form data in Django?",
+            "options": [
+                "DELETE",
+                "POST",
+                "PUT",
+                "CONNECT"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "What is the primary purpose of Django&#39;s ORM (Object-Relational Mapping) in a web application built using the Django framework?",
+            "options": [
+                "To define and interact with the database schema using Python code",
+                "To handle HTTP requests and responses",
+                "To handle asynchronous tasks in the background",
+                "To manage user authentication and authorization"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Find the error in the following Django URL pattern configuration: from django.urls import path from . import views urlpatterns = [ path(&#39;about/&#39;, views.about_view, name=&#39;about-page&#39;), path(&#39;contact/&#39;, views.contact_view, name=&#39;contact-page&#39;), path(&#39;products/&lt;int:product_id&gt;/&#39;, views.product_detail, name=&#39;product-detail&#39;), path(&#39;categories/&lt;str:category&gt;/&#39;, views.category_view, name=&#39;category-page&#39;), path(&#39;search/&lt;str:keyword&gt;/&#39;, views.search_view, name=&#39;search-page&#39;), path(&#39;about/&#39;, views.contact_view, name=&#39;contact-page&#39;), path(&#39;cart/&lt;int:cart_id&gt;/&#39;, views.cart_view, name=&#39;cart-page&#39;), path(&#39;checkout/&lt;int:order_id&gt;/&#39;, views.checkout_view, name=&#39;checkout-page&#39;), ]",
+            "options": [
+                "The path(&#39;about/&#39;, views.contact_view, name=&#39;contact-page&#39;) line is missing the leading forward slash (/) in the URL pattern",
+                "The path(&#39;about/&#39;, views.contact_view, name=&#39;contact-page&#39;) line is duplicated.",
+                "The path(&#39;search/&lt;str:keyword&gt;/&#39;, views.search_view, name=&#39;search- page&#39;) line should use &lt;slug:keyword&gt; instead of &lt;str:keyword&gt;",
+                "The path(&#39;cart/&lt;int:cart_id&gt;/&#39;, views.cart_view, name=&#39;cart- page&#39;) line should use &lt;str:cart_id&gt; instead of &lt;int:cart_id&gt;"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "By default, which HTTP method is protected by Django&#39;s CSRF protection?",
+            "options": [
+                "PUT",
+                "POST",
+                "DELETE",
+                "GET"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "Which Django template tag is used for including the content of another template within a template file?",
+            "options": [
+                "{% extend %}",
+                "{% include %}",
+                "{% block %}",
+                "{% including %}"
+            ],
+            "ans": 1,
+            "unit": "9"
+        },
+        {
+            "q": "How do you run database migrations in Django in a terminal?",
+            "options": [
+                "python manage.py migrate",
+                "python migrate manage.py",
+                "django migrate",
+                "Django-admin migrate"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "Which file is kind of your project local django-admin for interacting with your project via command line?",
+            "options": [
+                "manage.py",
+                "admin.py",
+                "urls.py",
+                "models.py"
+            ],
+            "ans": 0,
+            "unit": "9"
+        },
+        {
+            "q": "What is the main purpose of a serializer in Django REST Framework?",
+            "options": [
+                "Create database tables",
+                "Convert complex data to JSON",
+                "Render HTML",
+                "Manage URLs"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which class is used to automatically create serializer from model?",
+            "options": [
+                "forms.ModelForm",
+                "serializers.ModelSerializer",
+                "models.Serializer",
+                "django.Form"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What does serializer.is_valid() perform?",
+            "options": [
+                "Saves data",
+                "Deletes data",
+                "Validates incoming data",
+                "Renders template"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which method is used to save validated serializer data?",
+            "options": [
+                "serializer.commit()",
+                "serializer.push()",
+                "serializer.save()",
+                "serializer.store()"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Where are model and fields defined in ModelSerializer?",
+            "options": [
+                "ViewSet",
+                "class Meta",
+                "Meta class",
+                "Router"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "What is ViewSet in DRF?",
+            "options": [
+                "HTML renderer",
+                "Class handling multiple CRUD operations",
+                "Database manager",
+                "URL mapper"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which class provides default CRUD operations?",
+            "options": [
+                "APIView",
+                "GenericView",
+                "ModelViewSet",
+                "SimpleView"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "What is the purpose of DefaultRouter?",
+            "options": [
+                "Create models",
+                "Automatically generate URL patterns",
+                "Validate serializer",
+                "Render HTML"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which method registers ViewSet with router?",
+            "options": [
+                "router.add()",
+                "router.link()",
+                "router.register()",
+                "router.connect()"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "APIView is used when:",
+            "options": [
+                "Auto CRUD required",
+                "Custom control over request handling",
+                "Only serializer needed",
+                "Only router required"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What does JWT stand for?",
+            "options": [
+                "Java Web Token",
+                "JSON Web Token",
+                "Joint Web Token",
+                "JavaScript Web Token"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "JWT consists of how many parts?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "The three parts of JWT are:",
+            "options": [
+                "Header Body Footer",
+                "Header Payload Signature",
+                "Token Key Hash",
+                "Header Key Signature"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "JWT token is generally sent in which header?",
+            "options": [
+                "Content-Type",
+                "Authorization",
+                "Host",
+                "Server"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Correct format of JWT in header is:",
+            "options": [
+                "Token &lt;token&gt;",
+                "Bearer &lt;token&gt;",
+                "JWT &lt;token&gt;",
+                "Auth &lt;token&gt;"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Role-based API restricts access based on:",
+            "options": [
+                "IP address",
+                "User role",
+                "Server type",
+                "Database"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which permission allows only authenticated users?",
+            "options": [
+                "AllowAny",
+                "IsAuthenticated",
+                "IsAdminUser",
+                "IsOwner"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which permission restricts access to admin users?",
+            "options": [
+                "IsAuthenticated",
+                "IsAdminUser",
+                "AllowAny",
+                "IsStaff"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Postman is used for:",
+            "options": [
+                "Database design",
+                "API testing",
+                "Model training",
+                "Template rendering"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which HTTP method is used to update resource in Postman?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT",
+                "HEAD"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which status code indicates successful creation?",
+            "options": [
+                "200",
+                "201",
+                "400",
+                "404"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which status code indicates unauthorized access?",
+            "options": [
+                "200",
+                "403",
+                "401",
+                "500"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "API versioning is used to:",
+            "options": [
+                "Increase speed",
+                "Maintain backward compatibility",
+                "Delete APIs",
+                "Secure APIs"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which is a best practice in API design?",
+            "options": [
+                "Use random URLs",
+                "Use proper HTTP methods",
+                "Avoid status codes",
+                "Ignore authentication"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which attribute makes serializer field read-only?",
+            "options": [
+                "write_only=True",
+                "read_only=True",
+                "required=False",
+                "editable=False"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which decorator defines custom action in ViewSet?",
+            "options": [
+                "@api_view",
+                "@router",
+                "@action",
+                "@permission"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which method is overridden for custom validation?",
+            "options": [
+                "check()",
+                "validate()",
+                "verify()",
+                "clean()"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "JWT token usually includes:",
+            "options": [
+                "Database ID",
+                "Expiration time",
+                "HTML content",
+                "Session ID"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Purpose of refresh token is:",
+            "options": [
+                "Delete token",
+                "Generate new access token",
+                "Change password",
+                "Create user"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Permission classes are defined in:",
+            "options": [
+                "Serializer",
+                "ViewSet",
+                "Router",
+                "Model"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "JWT authentication class is added in:",
+            "options": [
+                "models.py",
+                "settings.py",
+                "urls.py",
+                "forms.py"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which tab in Postman is used to add headers?",
+            "options": [
+                "Body",
+                "Headers",
+                "Tests",
+                "Params"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Delete request uses which method?",
+            "options": [
+                "GET",
+                "POST",
+                "DELETE",
+                "PATCH"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Router automatically generates which routes?",
+            "options": [
+                "Template routes",
+                "CRUD routes",
+                "Static routes",
+                "Admin routes"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which status code indicates bad request?",
+            "options": [
+                "200",
+                "201",
+                "400",
+                "404"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Why should APIs use plural nouns?",
+            "options": [
+                "Random naming",
+                "Represent collections",
+                "For styling",
+                "For database only"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Purpose of JWT signature is:",
+            "options": [
+                "Store data",
+                "Verify integrity",
+                "Render HTML",
+                "Route URL"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which serializer field is used for email validation?",
+            "options": [
+                "CharField",
+                "IntegerField",
+                "EmailField",
+                "TextField"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which component enforces role-based access?",
+            "options": [
+                "Router",
+                "Serializer",
+                "Permission classes",
+                "Template"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Which class is used to return API response?",
+            "options": [
+                "HttpResponse",
+                "Response",
+                "Render",
+                "Redirect"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Validated data is accessed using:",
+            "options": [
+                "serializer.data",
+                "serializer.json",
+                "serializer.validated_data",
+                "serializer.save"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "Why should APIs return proper status codes?",
+            "options": [
+                "Random output",
+                "Clear client communication",
+                "Increase database speed",
+                "Hide data"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "Which component verifies JWT token?",
+            "options": [
+                "Serializer",
+                "Router",
+                "Authentication class",
+                "Model"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "DRF mainly works on which architecture?",
+            "options": [
+                "MVC",
+                "MVT",
+                "MVP",
+                "Layered"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What will the following serializer do? class UserSerializer(serializers.ModelSerializer): class Meta: model = User fields = &#39;__all__&#39;",
+            "options": [
+                "Create HTML form",
+                "Serialize all fields of User model",
+                "Delete user data",
+                "Create router"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What happens if serializer.is_valid() returns False in the code? serializer = UserSerializer(data=request.data) serializer.is_valid()",
+            "options": [
+                "Data saved automatically",
+                "Server crashes",
+                "Validation errors occur",
+                "Model deleted"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "What does the following class provide? class UserViewSet(viewsets.ModelViewSet): queryset = User.objects.all() serializer_class = UserSerializer",
+            "options": [
+                "Automatic CRUD APIs",
+                "HTML pages only",
+                "Only database models",
+                "Only authentication"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "What will the following code do? router = DefaultRouter() router.register(r&#39;users&#39;, UserViewSet)",
+            "options": [
+                "Create serializer",
+                "Generate API URLs for UserViewSet",
+                "Delete routes",
+                "Create models"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What is the purpose of this decorator? @api_view([&#39;GET&#39;])",
+            "options": [
+                "Create router",
+                "Serialize data",
+                "Create database",
+                "Allow GET request for function- based API"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "What will this line return? return Response(serializer.data)",
+            "options": [
+                "HTML page",
+                "Database object",
+                "JSON response",
+                "URL redirect"
+            ],
+            "ans": 2,
+            "unit": "10"
+        },
+        {
+            "q": "What does this header indicate? Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+            "options": [
+                "Database token",
+                "JWT authentication token",
+                "Router key",
+                "Serializer key"
+            ],
+            "ans": 1,
+            "unit": "10"
+        },
+        {
+            "q": "What does the following code check? if request.user.is_authenticated:",
+            "options": [
+                "User authentication status",
+                "Database connection",
+                "Router configuration",
+                "Serializer validation"
+            ],
+            "ans": 0,
+            "unit": "10"
+        },
+        {
+            "q": "What does this permission class do? permission_classes = [IsAuthenticated]",
+            "options": [
+                "Allow anyone",
+                "Allow only admin",
+                "Disable authentication",
+                "Allow only logged-in users"
+            ],
+            "ans": 3,
+            "unit": "10"
+        },
+        {
+            "q": "What does this return? return Response({&#39;message&#39;:&#39;Success&#39;})",
+            "options": [
+                "JSON response message",
+                "Database record",
+                "Router URL",
+                "Serializer object"
+            ],
+            "ans": 0,
+            "unit": "10"
+        }
+    ]
+}
